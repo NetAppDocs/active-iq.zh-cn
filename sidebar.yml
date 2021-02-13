@@ -1,0 +1,128 @@
+---
+entries:
+- title: NetApp Active IQ 数字顾问
+  url: "/index.html"
+- title: 发行说明
+  entries:
+  - title: 新增功能
+    url: "/reference_new_activeiq.html"
+  - title: 已知限制
+    url: "/reference_limitations_activeiq.html"
+- title: 入门
+  entries:
+  - title: 快速入门
+    url: "/concept_getting_started_2.html"
+  - title: 了解 Active IQ 的功能
+    url: "/concept_understand_activeiq_features.html"
+  - title: Active IQ 的主要概念
+    url: "/concept_key_terms.html"
+  - title: 了解 AutoSupport
+    url: "/concept_autosupport.html"
+  - title: 登录到 Active IQ 数字顾问
+    url: "/task_login_activeiq.html"
+- title: 配置信息板
+  entries:
+  - title: 概述
+    url: "/concept_overview_dashboard.html"
+  - title: 向信息板添加监视列表
+    url: "/task_add_watchlist.html"
+- title: 分析健康属性
+  entries:
+  - title: 概述
+    url: "/concept_overview_wellness.html"
+  - title: 查看风险并手动采取更正操作
+    url: "/task_view_risk_and_take_action.html"
+  - title: 查看并确认风险
+    url: "/task_view_and_acknowledge_risks.html"
+  - title: 查看可使用 Active 自动缓解的风险 IQ Unified Manager 或 Ansible 攻略手册
+    url: "/task_view_risks_remediated_unified_manager.html"
+  - title: 订阅健康评估电子邮件
+    url: "/task_subscribe_to_wellness_review_email.html"
+  - title: 续订软件和硬件
+    url: "/task_renew_software_and_hardware.html"
+- title: 查看系统详细信息
+  entries:
+  - title: 查看清单详细信息
+    url: "/task_view_inventory_details.html"
+  - title: 查看集群和节点配置
+    url: "/task_view_cluster_and_node_configuration.html"
+  - title: 查看有价值的见解
+    url: "/task_view_valuable_insight_widget.html"
+  - title: 查看 Flex 订阅容量利用率
+    url: "/task_view_keystone_capacity_utilization.html"
+- title: 主动确定系统要求
+  entries:
+  - title: 概述
+    url: "/concept_overview_planning.html"
+  - title: 确定达到容量限制的系统
+    url: "/task_identify_capacity_system.html"
+  - title: 续订软件和硬件
+    url: "/task_renew_software_and_hardware.html"
+- title: 确定配置差异
+  entries:
+  - title: 概述
+    url: "/concept_overview_config_drift.html"
+  - title: 添加配置偏移模板
+    url: "/task_add_config_drift_template.html"
+  - title: 比较配置偏差模板
+    url: "/task_compare_config_drift_template.html"
+- title: 提高存储系统的效率和性能
+  entries:
+  - title: 分析容量和效率节省情况
+    url: "/task_analyze_storage_efficiency.html"
+  - title: 分析存储性能
+    url: "/task_view_performance_graphs.html"
+- title: 使用 FabricPool Advisor 监控非活动数据并对其进行分层
+  url: "/task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html"
+- title: 分析存储系统的运行状况
+  entries:
+  - title: 概述
+    url: "/concept_understand_health_check_assessment_dashboard.html"
+  - title: 开始使用运行状况检查评估信息板
+    url: "/concept_get_started_with_health_check_assessment_dashboard.html"
+  - title: 续订支持合同
+    url: "/task_renew_support_contracts_for_your_systems.html"
+- title: 确保您的存储系统为最新版本
+  entries:
+  - title: 升级存储系统的 ONTAP 版本
+    url: "/task_view_upgrade.html"
+  - title: 使用 Ansible 攻略手册更新 AFF 和 FAS 固件
+    entries:
+    - title: 下载 AFF 和 FAS 固件 Ansible Automation 软件包
+      url: "/task_update_AFF_FAS_firmware.html"
+    - title: 安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（有经验的用户）
+      url: "/task_install_execute_firmware_update_exp_user.html"
+    - title: 安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（入门级）
+      entries:
+      - title: 使用 Web 服务器托管固件文件
+        url: "/task_hosting_firmware_files_using_web_server.html"
+      - title: 使用清单文件
+        url: "/concept_working_with_inventory_file.html"
+      - title: 使用 NetApp Docker 映像执行 Ansible 攻略手册
+        url: "/task_execute_ansible_playbook_using_docker.html"
+      - title: 在不使用 Docker 的情况下执行 Ansible 攻略手册
+        url: "/task_execute_ansible_playbook_without_docker.html"
+      - title: 验证固件安装
+        url: "/task_validate_firmware_installation.html"
+      - title: 故障排除，反馈和支持
+        url: "/reference_ansible_troubleshoot_feedback_support.html"
+- title: 使用 API 集成数据
+  entries:
+  - title: 概述
+    url: "/concept_overview_API_service.html"
+  - title: 生成令牌以访问 API
+    url: "/task_generate_tokens_API_services.html"
+  - title: 查看 API 目录
+    url: "/task_view_API_catalog.html"
+- title: 生成报告
+  url: "/task_generate_reports.html"
+- title: 常见问题解答
+  entries:
+  - title: 存储效率
+    url: "/reference_SE_FAQ.html"
+  - title: 容量
+    url: "/reference_capacity_FAQs.html"
+- title: 获取更多信息
+  url: "/concept_get_more_information.html"
+- title: 通知
+  url: "/reference_legalnotices.html"

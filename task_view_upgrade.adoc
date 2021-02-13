@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_view_upgrade.html 
+keywords: upgrade, current version, benefits 
+summary: 提供有关如何查看和升级存储系统的信息。 
+---
+= 升级存储系统的 ONTAP 版本
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以查看存储系统的待定升级并升级到更高版本的 ONTAP 。
+
+您还可以查看当前的互操作性数据。它会根据 Active IQ OneCollect AutoSupport 数据进行填充。
+
+.步骤
+. 在信息板上的 * 升级 * 小工具中查看待定升级。
+. 单击 * 操作 * 的数量可查看待定升级。
+. 选择所需的升级选项。
+. 单击小工具上显示的系统数量以查看 * 升级顾问 * 选项卡。
++
+您也可以查看发行说明以查看有关此发行的详细信息。
+
+. 在 * 风险顾问 * 选项卡中查看风险列表及其严重性级别，升级后可缓解这些风险。
+. 单击 * 生成升级计划 * 以导航到 * 升级顾问 * 。
+

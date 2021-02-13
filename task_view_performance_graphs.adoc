@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: task_view_performance_graphs.html 
+keywords: performance, performance graph, graphs, activeiq, active iq digital advisor, performance charts, day, week, 1 month, 2 months, calendar, chart data, performance on node level, graph, node level 
+summary: 提供有关性能的信息。 
+---
+= 分析性能图
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+通过性能图，您可以分析存储设备的性能。您可以查看一个 ONTAP 集群或一个 ONTAP 集群的多个节点的详细性能图。它会显示运行 ONTAP 8.3.1 及更高版本的系统的集群节点。这些图形提供了历史性能数据，可用于了解性能趋势和模式分析。您可以从日历中选择一个日期，以查看一天，周，月和两个月的性能图。您可以选择多个节点以同时查看特定图形。
+
+您可以选择设置首选项，例如，您可以查看三个节点的一个图形或三个节点的两个图形。
+
+首次显示此图时，系统会预先选择一个 1 周选项卡，并以图形格式显示 1 周的数据，以便更容易了解大量数据及其不同系列数据之间的关系。例如，如果要重置日期范围，可以单击 1 个月选项卡并选择日历中的日期。
+
+您还可以选择放大性能图；此时将显示各个数据点。
+
+video::fWrHYX17xT8[youtube, width=848,height=480]
+.步骤
+. 在信息板上，单击 * 性能 * 。
++
+默认情况下，将显示集群性能。您可以单击 * 节点 * 选项卡查看 ONTAP 集群中单个节点的性能，单击 * 本地层 * 选项卡查看本地层的性能，或者单击 * 卷 * 选项卡查看卷的性能。
+
+. 在日历中选择 1 天， 1 周， 1 个月或 2 个月以图形格式查看性能数据。确认要执行此操作。
++
+例如，选择 2 个月选项卡可查看 2 个月的数据。这样，您可以根据性能要求查看一段时间内的特定数据。
+
+. 查看包含所需指标的性能图，包括：
+
+
+[cols="25,25,25,25"]
+|===
+| 适用于集群 | 节点 | 对于本地层 | 卷 
+
+
+| IOPS | CPU 利用率 - 峰值性能（余量） | 平均吞吐量 | IOPS 
+
+
+| 网络吞吐量 | 延迟 | 平均利用率 | 延迟 
+
+
+|  | IOPS |  |  
+
+
+|  | 协议 IOPS |  |  
+
+
+|  | 网络吞吐量 |  |  
+|===
+
+NOTE: 只有运行 ONTAP 9.2 及更高版本的系统才支持节点延迟性能图形。

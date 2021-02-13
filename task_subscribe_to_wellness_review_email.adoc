@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task_subscribe_to_wellness_review_email.html 
+keywords: wellness, wellness review subscription, 1 month, unsubscribe, edit, delete, share, subscriptions, supportedg expert, supportedge advisor, monthly, email, activeiq, active iq digital advisor, 
+summary:  
+---
+= 订阅健康评估电子邮件
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以订阅健康状况审核电子邮件，每月接收一封电子邮件，其中总结了健康状况，即将到期续订的系统以及客户群中需要升级 NetApp 产品的系统。您将收到一封健康状况审核电子邮件，以便查看每月摘要并对系统采取措施。此外，您还可以选择查看，编辑，共享和删除订阅。如果您决定不接收电子邮件，也可以随时取消订阅接收电子邮件。
+
+启用订阅后，您应在添加订阅时选择开始日期。每月电子邮件摘要提供了有关未完成的健康，续订，升级和运行状况检查操作的视图。您可以确认电子邮件地址，并将此电子邮件发送到指定的电子邮件地址。您还可以选择删除订阅。
+
+
+NOTE: 此功能仅可通过 NetApp SupportEdge Advisor 和 SupportEdge Expert 服务产品获得。
+
+.步骤
+. 在运行状况检查评估信息板上，单击 * 健康审查订阅 * 。
+. 单击 * 添加订阅 * 。
+. 在 * 添加新订阅 * 对话框的 * 为订阅命名 * ， * 选择类别 * ， * 搜索客户 * 和 * 电子邮件 * 字段中提供所需信息。
+. 单击 * 订阅 * 。
++
+成功订阅后，您将收到一条 * 已添加订阅 * 消息。
+
+

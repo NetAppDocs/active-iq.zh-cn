@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: task_view_valuable_insight_widget.html 
+keywords: valuable insight, support cases, storage efficiency savings, mitigated risks 
+summary: 提供有关有价值的 Insight 小工具的信息。 
+---
+= 查看有价值的见解
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+"* 有价值的 Insights * " 小工具可提供有关支持案例数量，待定软件升级，存储效率节省，已缓解风险等信息。此外，它还会主动列出 * 健康 * 属性中的风险通知。
+
+video::QPJY2TWnRxQ[youtube, width=848,height=480]
+.步骤
+. 在 * 清单 * 小工具中，单击 * 系统 * 以查看所有平台的系统信息，或者单击平台类型，然后单击 * 系统 * 以查看特定于该平台的系统。
+. 单击节点或集群可查看有关系统的详细信息。
++
+信息板上提供了 * 有价值的 Insights * 小工具。
+
+. 查看小工具中的信息，了解从支持合同中获得的业务和技术价值。
+

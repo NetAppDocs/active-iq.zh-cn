@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_add_config_drift_template.html 
+keywords: config deviation, drift, configuration, add template 
+summary: 提供有关添加配置偏移模板的信息。 
+---
+= 添加配置偏移模板
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您应添加一个模板来比较系统和集群配置，并近乎实时地检测配置差异。配置偏移模板是使用运行 AutoSupport 数据的系统添加的。
+
+.步骤
+. 从左窗格中，单击 * 配置驱动器 * 。
+. 单击 * 添加模板 * 。
+. 提供请求的值。
+. 单击 * 添加模板 * 。
+

@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task_view_API_catalog.html 
+keywords: API Catalog, APIs, integrate data, view catalog 
+summary: 提供有关 API 目录中可用 API 的信息。 
+---
+= 查看 API 目录
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+通过 API 目录，您可以浏览各个类别以及其中每个类别中的可用 API 。
+
+使用有效的访问令牌以及对所需字段的正确输入，您可以对 API 进行测试调用。
+
+.步骤
+. 从 * 快速链接 * 菜单中，单击 * API 服务 * 。
+. 单击 * API Catalog* 图标下的 * 浏览 * 。
++
+此时将显示 API 目录。
+
+. 在页面顶部，滑动切换至 " 试验 " 。
+. 从左侧导航栏展开类别并选择任何 API 以查看详细信息。
+. 展开 API 。
+. 单击右侧的 * 试用 * 按钮。
+. 提供所需的参数，然后单击 * 执行 * 以查看结果。
++
+您还可以查看 API 的 * 响应 * 部分，以更好地了解将返回的数据。您可以单击 * 示例值 * 以查看数据格式，也可以单击 * 型号 * 并单击脱字号展开各部分以查看每个元素的定义。
+
+
+
+通过将此切换滑至 * 代码 * 视图，您可以查看各种语言的代码示例。

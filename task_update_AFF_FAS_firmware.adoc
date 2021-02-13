@@ -1,0 +1,52 @@
+---
+sidebar: sidebar 
+permalink: task_update_AFF_FAS_firmware.html 
+keywords: update, AFF, FAS firmware, firmware 
+summary: 提供有关如何更新 AFF 和 FAS 固件的信息。 
+---
+= 下载 AFF 和 FAS 固件 Ansible Automation 软件包
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您应使用 Ansible 更新 AFF 和 FAS 固件，以缓解已识别的风险并使存储系统保持最新。
+
+
+
+== 开始之前
+
+在使用 Ansible 更新 AFF 和 FAS 固件之前，您应：
+
+* link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["在存储系统上安装和设置 Ansible"]
+* link:https://netapp.io/2019/09/17/coming-together-nicely/["在存储系统上安装带有集合的 Ansible 2.9"]
+* 将存储系统升级到 ONTAP 9.1 或更高版本
+* 使用管理员角色配置您的帐户
+
+
+.步骤
+. 单击信息板上的任何健康小工具或单击 * 查看所有操作 * 以查看所有操作和风险的列表。
+. 单击 * 固件升级 * 可查看所有固件升级风险。
+. 单击 * 更新 AFF 和 FAS 固件 * 以查看所有可用的 更新软件包或单击 image:update_ansible.png["更新 Ansible"] 在每个风险旁边更新特定于该风险的软件包。
+. 单击 * 下载 * 下载 zip 文件并更新存储系统。
++
+此 zip 文件包含以下内容：
+
++
+** Ansible 攻略手册—包含 Ansible 脚本的 YAML 文件，用于执行磁盘，磁盘架和服务处理器固件更新。
+** 清单—一个 YAML 文件，其中包含适用于固件更新的系统的详细信息。
+** 磁盘，磁盘架和服务处理器 /BMC 固件软件包分别命名为 * 全部 .zip ， * 全部磁盘架 _FW_zip * 和 * <SP/BMC>_< 版本号 >_FW_zip * 。
+
+
+
+
+
+NOTE: 不支持手动将集群和控制器添加到清单文件中。

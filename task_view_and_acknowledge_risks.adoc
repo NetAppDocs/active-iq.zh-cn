@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: task_view_and_acknowledge_risks.html 
+keywords: wellness, performance, efficiency, availability, capacity, security, protection, protect, acknowledge, unacknowledge, disregard 
+summary: 提供有关查看和分析存储系统运行状况以及确认风险的信息。 
+---
+= 查看并确认风险
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以通过查看与存储系统相关的操作和风险来分析其运行状况属性。您应查看更正操作并手动降低风险。
+
+.步骤
+. 单击信息板上的健康属性小工具或单击 * 查看所有操作 * 以查看所有操作和风险的列表。
+. 查看与健康属性关联的 * 操作 * 和 * 风险 * 。
+. 单击 * 操作 * 以查看与操作相关的风险，单击 * 风险 * 以查看所有风险，或者单击 * 受影响的系统 * 以查看需要关注的系统。
+. 单击风险以查看风险摘要。
+. 单击 * 确认 * 以确认风险。
++
+提供了详细的风险摘要信息以及为降低风险而应手动执行的更正操作。
+
+. 如果您目前不希望或无法缓解此风险，请提供字段的值，然后单击 * 确认 * 。
++
+此风险将添加到已确认的风险中。
+
+
+
+
+NOTE: 如果您不再需要确认风险，可以单击 * 未确认 * 并按照相同步骤忽略此风险。

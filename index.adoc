@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: index.html 
+summary: Active IQ 数字顾问文档。 
+---
+= Active IQ 数字顾问文档
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+Active IQ 数字顾问可通过基于云的门户和移动应用程序提供可操作的预测性分析和主动式支持，帮助您优化全球混合云中的数据基础架构。
+
+Active IQ 基于云的服务利用从 NetApp 庞大的客户群中汲取的社区智慧和同行比较，将这些洞察与 AutoSupport 遥测和 My AutoSupport 功能相结合，提供一套高级的无与伦比的分析服务。
+
+新版本的 Active IQ 称为 Active IQ 数字顾问，非常简单，您可以快速确定并采取下一个最佳措施来改善 NetApp 环境的运行状况。Active IQ 数字顾问经过改进和重新设计，可帮助您更有效地执行任务。我们正在逐步增强此版本，并希望您尝试这种新体验。您可以通过向我们提供反馈或报告问题 单击 image:support.png["支持"] （支持）图标。
+
+
+
+=== 访问 Active IQ Web 门户并下载移动应用
+
+* link:https://mysupport.netapp.com/myautosupport/home.html["Active IQ Web 门户"]
+* link:https://itunes.apple.com/us/app/my-autosupport/id1230542480?ls=1&mt=8["Active IQ 移动应用程序下载（ iOS ）"]
+* link:https://play.google.com/store/apps/details?id=com.netapp.myautosupport["Active IQ 移动应用程序下载（ Android ）"]
+
+
+
+NOTE: 您必须具有有效的 NetApp 支持站点凭据才能登录。如果您没有帐户，并且刚刚开始使用 NetApp 支持，请访问 - https://mysupport.netapp.com/info/web/ECMP1150550.html[""]
+
+Active IQ 将显示具有有效支持合同的系统。如果合同到期，则系统仍可在 90 天的宽限期内持续可见。此后，系统将无法在 Active IQ 中搜索或显示。
+
+
+
+=== 文档和支持
+
+* link:https://www.netapp.com/us/documentation/active-iq.aspx["文档资源"]
+* link:https://community.netapp.com/t5/Active-IQ-and-AutoSupport/ct-p/autosupport-and-my-autosupport#["用户社区"]
+* link:https://twitter.com/NetAppActiveIQ["在 Twitter 上关注我们"]
+

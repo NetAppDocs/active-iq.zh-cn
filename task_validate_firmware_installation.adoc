@@ -1,0 +1,112 @@
+---
+sidebar: sidebar 
+permalink: task_validate_firmware_installation.html 
+keywords: validate, firmware, firmware installation 
+summary: 提供有关如何验证固件安装的信息。 
+---
+= 验证固件安装
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+执行此攻略手册后，以集群管理员身份登录到集群。
+
+
+
+== 验证磁盘固件安装
+
+.步骤
+. 验证是否已安装驱动器固件：
++
+[listing]
+----
+::*> storage disk show -fields firmware-revision,model
+disk     firmware-revision model
+--------------- ----------------- ----------------
+1.11.0   NA01              X423_HCOBE900A10
+1.11.1   NA01              X423_HCOBE900A10
+1.11.2   NA01              X423_HCOBE900A10
+1.11.3   NA01              X423_HCOBE900A10
+1.11.4   NA01              X423_HCOBE900A10
+----
++
+有关此命令的详细信息，请参阅 ｛ link-for-underscores ｝ ｛ storage disk show ｝ 。
+
+. 验证是否已安装新的 NVMe Flash Cache 固件：
++
+[listing]
+----
+::*> system controller flash-cache show
+----
++
+有关此命令的详细信息，请参阅 ｛ link-for-underscores ｝ ｛ system controller flash-cache show ｝ 。
+
+
+
+
+
+== 验证磁盘架固件安装
+
+.步骤
+. 验证新磁盘架固件是否已更新：
++
+[listing]
+----
+::*> system node run -node * -command sysconfig -v
+----
++
+在输出中，验证每个磁盘架的固件是否已更新到所需级别。例如：
+
++
+[listing]
+----
+Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
+----
++
+有关此命令的详细信息，请参阅 ｛ link-for-underscores ｝ ｛ system node run ｝ 。
+
+. 验证是否已更新新的 ACP 固件：
++
+[listing]
+----
+::*> storage shelf acp module show -instance
+----
++
+有关此命令的详细信息，请参阅 ｛ link-for-underscores ｝ ｛ storage shelf ACP module show ｝ 。
+
+. 验证是否已配置所需的 ACP 模式：
++
+[listing]
+----
+::*> storage shelf acp show
+----
++
+有关此命令的详细信息，请参阅 ｛ link-for-underscores ｝ ｛ storage shelf acp show ｝ 。
+
+. 更改 ACP 模式（通道）：
++
+[listing]
+----
+::*> storage shelf acp configure -channel [in-band | out-of-band]
+----
++
+有关此命令的详细信息，请参阅 ｛ link-for-underscores ｝ ｛ storage shelf ACP configure] 。
+
+
+
+
+
+== 正在验证 SP/BMC 固件安装
+
+服务处理器 /BMC 固件更新的 Ansible 攻略手册已启用，并提供了一个选项，用于验证控制器上是否安装了最新的 SP/BMC 固件。验证完成后（更新最长可能需要两小时）， Ansible 攻略手册将通过连接到 SP/BMC 控制台来应用内部交换机固件更新。
+
+在 Ansible 攻略手册执行结束时，将通知 SP/BMC 固件和内部交换机固件安装的故障和成功信息。如果 SP/BMC 固件 / 内部交换机固件安装失败，请按照《 Ansible 攻略手册》中所述的步骤进行操作。

@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_wellness.html 
+keywords: overview, wellness, performance, configuration, renewal, risk, remediation 
+summary: 提供了有关健康状况的信息，可帮助您改进存储系统。 
+---
+= 了解健康状况
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+健康小工具可提供有关存储系统的详细信息。它提供了有关存储系统不同属性的信息，例如性能和效率，容量，配置设置，安全性，续订等。
+
+image:wellness_workflow.png["健康工作流"]
+
+您可以观看以下视频，了解健康属性的重要性：
+
+video::-lTF3oWZB1M[youtube, width=848,height=480]

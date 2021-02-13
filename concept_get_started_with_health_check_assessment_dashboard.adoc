@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: concept_get_started_with_health_check_assessment_dashboard.html 
+keywords: activeiq, health check, health, HCA, health check assessment dashboard, autosupport, autosupport adoption, recommended configuration, best practices, support, support and entitlements, support contract, contracts, active contracts, expired contracts, nearing-expiration, key recommendations, recommendations, active iq digital advisor, features, recommended software 
+summary: 提供有关信息板，运行状况得分，功能和小工具的信息。 
+---
+= 开始使用运行状况检查评估信息板
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+此信息板可通过以下小工具提供已安装客户群的概览：
+
+* * AutoSupport 采用率 * ：显示启用了 AutoSupport 的系统的数量和百分比。您还可以查看标记为已拒绝的系统， HTTPS 传输和 AutoSupport On Demand 。要查看运行状况检查得分以及有关客户群中系统的信息，请单击 * AutoSupport Adoption * 小工具。
+* * 建议配置 * ：根据 * 建议配置 * 小工具显示合规和不合规的系统。它可以帮助您采取措施，确保您的系统已针对 HA 对以及其他配置设置进行了妥善配置，以便在您的客户群中进行远程管理。您可以查看信息板上提供的分数，并根据按优先级顺序提供的关键建议采取措施。
+* * 建议软件 * ：显示所有软件和固件升级以及货币建议的综合列表。您可以查看已启用 AutoSupport 的系统，这些系统应至少为最新版本的软件或固件。
+* * 支持和授权 * ：显示 6 到 12 个月内已过期和即将到期的支持合同。它会显示支持平台，磁盘，磁盘架，授权合规性和待定到期。您可以查看信息板上提供的运行状况检查得分，并根据按优先级顺序提供的关键建议采取措施。
++
+要查看有关支持合同的详细信息，请单击 * 支持和授权 * 小工具。您也可以使用此小工具续订支持合同。
+
+* * 最佳实践 * ：通过评估存储系统的最佳实践属性来显示运行状况检查得分—性能和效率，可用性和保护，容量，配置和安全性。NetApp 最佳实践有助于保持系统运行状况，从而优化客户群的性能。
+

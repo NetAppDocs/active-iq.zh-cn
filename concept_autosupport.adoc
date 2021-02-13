@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: concept_autosupport.html 
+keywords: AutoSupport 
+summary: 简要介绍了 AutoSupport 。 
+---
+= AutoSupport
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+AutoSupport 是一种遥测机制，可主动监控系统的运行状况，并自动向 NetApp 发送配置，状态，性能和系统事件数据。
+
+NetApp 技术支持使用这些数据加快问题的诊断和解决速度， Active IQ 使用这些数据主动检测和避免潜在问题。它也可以发送给您的内部支持组织和支持合作伙伴。
+
+
+NOTE: AutoSupport 数据不包含任何用户数据。
+
+对于 ONTAP 系统，在首次配置存储系统时，默认情况下会启用 AutoSupport 。您应该 link:https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/GUID-91C43742-E563-442E-8161-17D5C5DA8C19.html["设置 AutoSupport"] 在 ONTAP 系统上，用于控制如何将 AutoSupport 信息发送给技术支持和您的内部支持组织。
+
+如果您不想启用 AutoSupport ，则可以使用 AutoSupport 上传功能手动上传 AutoSupport 数据，以接收有关存储生态系统的建议和见解。
+
+有关 AutoSupport 的详细信息，请参阅相应的文档：
+
+* link:https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/GUID-DF931E89-B833-4DED-83B5-A97F7EC97425.html["ONTAP （ FAS 和 AFF ）"]
+* link:https://docs.netapp.com/sgws-114/topic/com.netapp.doc.sg-primer/GUID-7D38684D-1CA1-41E7-BE68-A5F671F9C33F.html["StorageGRID"]
+* link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/E-Series_SANtricity_Software_Suite/How_to_enable_AutoSupport_on_E-Series_System_Manager["SANtricity （ E 系列和 EF 系列）"]
+* link:https://help.monitoring.solidfire.com/#01_User%20Guide/ActiveIQ/Getting%20Started/enable_active_iq_reporting.htm["Element （ NetApp HCI 和 SolidFire ）"]
+* link:https://www.netapp.com/pdf.html?item=/media/10438-tr-4444pdf.pdf["技术报告— ONTAP AutoSupport 和 AutoSupport On Demand"]
+* link:https://www.netapp.com/pdf.html?item=/media/10439-tr4688pdf.pdf["技术报告— NetApp 遥测数据的安全性和隐私"]
+

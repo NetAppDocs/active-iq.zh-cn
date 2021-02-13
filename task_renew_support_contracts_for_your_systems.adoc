@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_renew_support_contracts_for_your_systems.html 
+keywords: renew, renewals, support contracts, support & entitlements, active support contracts, 
+summary: 提供有关如何续订系统支持合同的信息。 
+---
+= 续订支持合同
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以在信息板上查看所有活动支持合同的得分和摘要。您可以根据按优先级顺序提供的关键建议采取措施。
+
+.步骤
+. 在运行状况检查评估信息板上，单击 * 支持和授权 * 小工具。
+. 如果您的任何系统支持合同已过期或即将到期，请单击 * 活动支持合同 * 小工具。
+. 选中复选框并单击 * 续订 * 以启动选定系统的续订过程。
+

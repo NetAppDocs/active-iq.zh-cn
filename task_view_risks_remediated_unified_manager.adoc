@@ -1,0 +1,50 @@
+---
+sidebar: sidebar 
+permalink: task_view_risks_remediated_unified_manager.html 
+keywords: risks, actions, remediation, corrective action, unified manager 
+summary: 提供信息以查看可使用 Unified Manager 自动修复的风险。 
+---
+= 查看可使用 Unified Manager 自动缓解的风险 或 Ansible 攻略手册
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以通过查看操作和风险来分析存储系统，并使用 Active IQ Unified Manager 或 Ansible 攻略手册来缓解这些操作和风险。
+
+video::XusFvXM7h-E[youtube, width=848,height=480]
+.步骤
+. 单击信息板上的 * 查看所有操作 * 。
+. 单击 * 操作 * 以查看与操作相关的风险，单击 * 风险 * 以查看所有风险，或者单击 * 受影响的系统 * 以查看需要关注的系统。
++
+如果可以使用 Active IQ Unified Manager 缓解此风险，请使用 image:spanner.png["扳手"] 图标将突出显示，如果可以使用 Ansible 攻略手册来缓解风险，请使用 image:update_ansible.png["更新 Ansible"] 图标将突出显示。
+
+
+
+[cols="50,50"]
+|===
+| 使用 Unified Manager 降低风险 | 使用 Ansible 攻略手册降低风险 
+
+
+ a| 
+. 单击 image:spanner.png["扳手"] 图标。
+. 单击 * 修复 * 以启动 Active IQ Unified Manager 。
+. 单击 * 安装 * 安装 Active IQ Unified Manager 9.7 或更高版本以使用 * 修复它 * 选项。
+. 单击 * 升级 * 以升级到 Active IQ Unified Manager 9.7 或更高版本以使用 * 修复它 * 选项。
+
+ a| 
+. 单击 image:update_ansible.png["更新 Ansible"] 图标。
+. 单击 * 下载 * 下载 AFF 和 FAS 固件 Ansible Automation 软件包。
+
+
+|===
+
+NOTE: 要使用 * 修复它 * 选项和 Ansible 攻略手册功能，需要签订 SupportEdge Advisor 或 SupportEdge Expert 合同。

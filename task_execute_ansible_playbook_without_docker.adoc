@@ -1,0 +1,66 @@
+---
+sidebar: sidebar 
+permalink: task_execute_ansible_playbook_without_docker.html 
+keywords: Ansible Playbook, Ansible, playbook, without docker 
+summary: 提供有关如何使用 Docker 映像执行 Ansible 攻略手册的信息。 
+---
+= 在不使用 NetApp Docker 映像的情况下执行 Ansible 攻略手册
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+.步骤
+. 安装 link:https://docs.python.org/3/using/windows.html["Python"] 和 link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"]。
+. 使用 * pip* 安装所需的 Python 软件包：
++
+[listing]
+----
+$ pip install netapp-lib requests paramiko
+ 
+Installing collected packages: netapp-lib, requests, paramiko
+Successfully installed netapp-lib-2020.3.12 requests-2.23.0  paramiko-2.7.2
+----
+. 使用 * 可变星系 * 命令安装 NetApp Ansible 资料集：
++
+[listing]
+----
+To install the collection only for the current user
+$ ansible-galaxy collection install netapp.ontap
+ 
+To do a more universal installation,
+$ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collections
+
+$ chmod -R +rw /usr/share/ansible/collections
+----
++
+有关 Ansible galxy 命令的详细信息，请参见 link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Ansible GALAXY 文档"] 有关 NetApp Ansible 资料集的详细信息，请参见 link:https://galaxy.ansible.com/netapp/ontap["NetApp Ansible Collection 页面"]。
+
+. 使用 * Ansible 攻略手册 * 命令执行 Ansible 攻略手册：
++
+[listing]
+----
+$ cd <downloaded_playbook_path>
+$ ansible-playbook na_ontap_pb_upgrade_firmware.yml
+ 
+Enter your ONTAP admin username: ****
+Enter the password for your ONTAP admin user: ****
+Enter the base URL to the firmware package (using HTTP is recommended): http://<web-server>/path/
+PLAY [ONTAP Firmware Upgrade] ****************************************************************
+----
++
+
+NOTE: 如果有一组集群使用不同的登录凭据，则必须在每个集群上运行 Ansible 攻略手册。不需要更改清单文件，因为 Ansible 攻略手册会跳过登录失败的集群。
+
+
+
+有关 * 安全攻略手册 * 命令的详细信息，请参见 link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible 攻略手册文档"] 要在检查模式（试运行）下执行 Ansible 攻略手册，请参见 link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible ：检查模式"]。
+
+执行攻略手册后，请参见 link:task_validate_firmware_installation.html["固件安装验证"] 用于执行后的说明。

@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_renew_software_and_hardware.html 
+keywords: renew, hardware, software 
+summary: 提供有关续订存储系统软件和硬件的信息。 
+---
+= 续订存储系统的软件和硬件
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以主动识别未来 6 个月内已过期或即将到期的软件和硬件，并发送硬件和软件续订请求。
+
+.步骤
+. 单击信息板上的 * 续订 * 小工具，或者单击 * 计划 * 小工具中的 * 续订 * 。
+. 选择要续订的系统，然后单击 * 续订 * 。
+. 或者，也可以提供其他注释。
+. 单击 * 发送 * 。
+

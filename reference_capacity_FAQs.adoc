@@ -1,0 +1,129 @@
+---
+sidebar: sidebar 
+permalink: reference_capacity_FAQs.html 
+keywords: Active IQ, capacity, snapshot copies, physical used space, logical used space, capacity forecast, efficiency, FAQs 
+summary: 回答有关容量的常见问题解答。 
+---
+= 常见问题解答
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+
+
+== Active IQ 数字顾问如何计算容量？
+
+Active IQ 数字顾问中的容量是为集群和节点计算的，不包括根副本和 Snapshot 副本
+
+|===
+| * 容量 * | * 通过添加每个聚合… * 计算得出 
+
+
+| 原始容量 | sysconfig -R 的所有物理磁盘（ MB/blks ） 
+
+
+| 可用容量 | "df -a " 的 KB （已分配） 
+
+
+| 已用容量（含预留） | 使用的是 "df -A " 
+
+
+| 可用容量 | 提供了 "df -a " 
+
+
+| 物理容量（实际） | "aggr-efficiency.xml" 的总物理使用量 
+
+
+| 逻辑容量（有效） | "aggr-efficiency.xml" 聚合中的卷，克隆和 Snapshot 副本使用的逻辑大小 
+|===
+* 对于本地层（包含 Snapshot 副本的聚合） *
+
+|===
+| * 容量 * | * 使用… * 计算得出 
+
+
+| 可用容量 | "df -a " 的 KB （已分配） 
+
+
+| 已用容量（含预留） | 使用的是 "df -A " 
+
+
+| 可用容量 | 提供了 "df -a " 
+
+
+| 物理容量（实际） | "aggr-efficiency.xml" 的总物理使用量 
+
+
+| 逻辑容量（有效） | "aggr-efficiency.xml" 聚合中的卷，克隆和 Snapshot 副本使用的逻辑大小 
+|===
+* 对于卷（具有 Snapshot 副本的卷） *
+
+|===
+
+
+| * 容量 * | * 使用… * 计算得出 
+
+
+| 卷容量 | "volume.xml" 的卷大小 
+
+
+| 已用容量（含预留） | "volume.xml" 的已用大小 
+
+
+| 可用容量 | "volume.xml" 的可用大小 
+
+
+| 物理容量（实际） | "VOL status -S " 的总物理使用量 
+
+
+| 逻辑容量（有效） | "volume.xml" 的逻辑已用大小 
+|===
+
+
+== 什么是物理容量（实际），逻辑容量（有效）和已用容量（有预留）？
+
+* * 已用物理块 / 已用物理容量（实际） *
++
+** 当前用于数据的空间量 （而不是保留供将来使用）
+** 包括聚合 Snapshot 副本使用的空间
+** 客户端实际占用或写入的空间
+
+
+* * 逻辑容量（有效）已用逻辑数据 *
++
+** 显示聚合中使用的逻辑大小
+** 聚合可包含卷，克隆和 Snapshot 副本。
+** 逻辑大小是根据物理使用量（实际写入）和聚合中节省的空间计算得出的。
+
+
+
+
+
+NOTE: 它不包括为将来使用而预留的空间。
+
+* * 已用 / 已用总数据容量（含预留） *
++
+** 聚合中卷，元数据或 Snapshot 副本已用或预留的所有空间之和
+
+
+
+
+
+NOTE: 它包括为文件或卷保证类型的卷预留的空间。除了预留之外，它还包括延迟释放， aggr 博客和元数据。在清除延迟的可用块之前，它会显示为已用空间。清除后，已用空间将减少。
+
+
+
+== 为什么每个卷的已用添加容量与节点级别的已用总容量不匹配？
+
+节点级别的已用容量包括卷，元数据和 Snapshot 副本预留的空间。它还包括为卷预留的空间，即文件或卷保证类型。因此，两者可能不匹配。
+
+
+
+== 容量显示在 Active IQ 数字顾问基数 2 还是基数 10 中？
+
+Active IQ 中显示的所有容量均为基数 2 （除以 1024 ），以 GiB/TiB 表示容量。ONTAP 存储和其他 NetApp 产品还会在 Base 2 中显示容量使用情况。
+
+对于 StorageGRID ，容量以基数 10 显示，容量单位以 TB 表示。

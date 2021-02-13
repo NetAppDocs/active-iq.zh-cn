@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task_generate_tokens_API_services.html 
+keywords: generate token, access token, refresh token, API services 
+summary: 提供有关如何生成令牌以访问 API 的信息。 
+---
+= 生成令牌以使用 API
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+注册 API 服务和生成令牌非常简单。
+
+.步骤
+. 从 * 快速链接 * 菜单中，单击 * API 服务 * 。
+. 单击 * 注册 * 。
+. 填写授权申请表并单击 * 提交 * 。
++
+激活是自动的，应即时激活。获得使用 Active IQ API 的授权后，您可以生成令牌，以便在进行编程 API 调用时使用。您也可以使用这些令牌在 API 目录中执行 " 试用 " 。通过编程方式获取令牌时，令牌始终以两组为一组：访问令牌和刷新令牌。要成功使用所有 API ，必须传递访问令牌（只有一个 API 除外 - 使用刷新令牌以编程方式获取一组新令牌）。
+
+. 在 Main API Services 页面上，单击 * 生成令牌 * 以查看和下载访问令牌并刷新令牌以调用 API 。
++
+通过此门户，您可以通过多种方式保存集中的一个或两个令牌。您可以将其复制到剪贴板，以文本文件的形式下载或以纯文本格式查看。
+
+
+
+
+NOTE: 您应下载并保存访问令牌和刷新令牌，以供日后使用。访问令牌在生成后一小时到期，刷新令牌在七天后到期。生成新的刷新令牌后，此 API 调用中使用的刷新令牌将失效。

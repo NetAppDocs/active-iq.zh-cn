@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_view_risk_and_take_action.html 
+keywords: wellness, performance, efficiency, availability, capacity, security, protection, protect, mitigate, rectify 
+summary: 提供信息，用于查看和分析存储系统的运行状况并降低风险。 
+---
+= 查看风险并手动采取更正操作
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以通过查看与存储系统相关的操作和风险来分析其运行状况属性。您应查看关联的更正操作并手动降低风险。
+
+.步骤
+. 单击信息板上的 * 健康 * 小工具或单击 * 查看所有操作 * 以查看所有操作和风险的列表。
+. 查看与健康属性关联的 * 操作 * 和 * 风险 * 。
+. 单击 * 操作 * 以查看与操作相关的风险，单击 * 风险 * 以查看所有风险，或者单击 * 受影响的系统 * 以查看需要关注的系统。
+. 单击风险名称可查看有关此风险的信息。
+. 单击关联的更正操作并按照信息解决风险。
+
+
+缓解风险的步骤对于所有健康属性都是相同的。您可以观看以下视频来监控和修复与安全相关的问题：
+
+video::ssXI-FAKMis[youtube, width=848,height=480]

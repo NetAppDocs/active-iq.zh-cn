@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_view_cluster_and_node_configuration.html 
+keywords: cluster, node, configuration 
+summary: 提供有关集群和节点配置的信息。 
+---
+= 查看集群和节点配置
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+通过 ClusterViewer ，您可以查看详细的物理和逻辑配置信息。详细信息显示在多个选项卡中的多个易于查看的表中，其中包括集群和节点配置摘要，本地层和卷信息，网络接口和端口信息，详细介绍磁盘和磁盘架信息的堆栈图以及一些缆线可视化。您还可以下载 SVG 格式的缆线可视化图形。
+
+video::FVbb2bbIY9E[youtube, width=848,height=480]
+.步骤
+. 在集群级别，单击 * 集群配置 * 小工具旁边的 * 查看详细信息 * 。
+. 单击 * 可视化 * 选项卡以查看集群的图形表示形式。
+

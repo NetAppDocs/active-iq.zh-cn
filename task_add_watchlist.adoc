@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: task_add_watchlist.html 
+keywords: dashboard, watchlist, add watchlist 
+summary: 提供向信息板添加监视列表的信息。 
+---
+= 向信息板添加监视列表
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以创建监视列表，以便快速轻松地访问 Active IQ 数字顾问中预先选择的系统。您应创建一个新的信息板以添加监视列表。
+
+.步骤
+. 单击 * + Add New Dashboard* 。
++
+您可以导入现有监视列表或创建监视列表。
+
+. 请为监视列表提供一个名称。
+. 选择 * 类别 * 或 * 序列号 * ，然后按照信息板中的步骤将系统添加到监视列表中。
++
+您最多可以在一个类别下添加 15 ， 000 个系统，并在一个序列号下添加 500 个系统。
+
+. 单击 * 下一步 * 。
+. 提供信息板的名称。
+. 选择要添加到信息板的小工具。
+. 您也可以将此信息板设置为默认信息板。
+. 单击 * 创建 * 将监视列表添加到信息板。
+

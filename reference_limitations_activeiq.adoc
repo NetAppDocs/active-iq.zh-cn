@@ -1,0 +1,68 @@
+---
+sidebar: sidebar 
+permalink: reference_limitations_activeiq.html 
+keywords: limitation, issues, not supported, drawbacks 
+summary: 提供有关此版本中限制的信息。 
+---
+= 已知限制
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+已知限制确定了本产品版本不支持的平台、设备或功能、或者这些平台、设备或功能无法与产品正确交互操作。仔细审查这些限制。
+
+
+
+=== Active IQ 经典款与 Active IQ 之间的功能差异 Digital Advisor
+
+由于使用率较低， Active IQ 经典版本中的以下功能计划不会添加到 Active IQ 数字顾问中（除非另有说明）：
+
+* 仅适用于在 7- 模式下运行的 Data ONTAP 存储系统 （在 7- 模式下运行的 Data ONTAP 存储系统即将结束 支持生命周期）
++
+** Upgrade Advisor —也会弃用集群模式 ONTAP <9.0
++
+请发送电子邮件至： ng-aiq-ticket@netapp.com ，以便为升级在 7- 模式下运行的 Data ONTAP 存储系统打开支持服务单。
+
+** 性能图表
+** 存储效率
+
+
+* 性能图表 （对于在 7- 模式下运行的 Data ONTAP 存储系统，请参见上文） （大多数功能已迁移到 Active IQ Digital Advisor ）
++
+** 节点余量置信因子
+** 节点磁盘吞吐量
+** 集群 CPU 利用率
+** 集群延迟
+** 集群磁盘吞吐量
+
+
+* 事件历史记录（ ONTAP 节点信息板）
+* Flash Advisor
+* Cloud Control 建议
+* AutoSupport 通知
+* AutoSupport 警报—某些功能将合并 健康行动和风险
+* Protection Advisor —其中一部分将在中提供 数据中心查看器
+* 支持担保计划的性能图表—支持此计划 由 AIQ Unified Manager 提供
+
+
+Active IQ 经典版本中的以下功能不久也将在 Active IQ 数字顾问中提供：
+
+* 健康行动历史记录和趋势
+* 通知
+* ClusterViewer 报告 PDF 和 Word 报告
+* 已计划容量和效率报告
+* 工作负载标记
+* 聚合利用率的峰值性能图
+* 下载 PNG/JPG 格式的性能报告
+* 新闻简报订阅
+* 容量预测
+

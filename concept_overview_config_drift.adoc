@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_config_drift.html 
+keywords: config drift, configuration deviation, add template, compare template 
+summary: 简要介绍了配置偏差功能 
+---
+= 了解配置偏差
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Config Drift 功能有助于主动识别系统上的配置差异。您可以根据需要将系统或集群配置与使用生成 AutoSupport 数据的系统创建的模板进行比较。
+
+未来版本中将添加更多基于社区智慧的模板和其他选项。
+
+您可以查看下图，了解用于确定配置差异并生成报告的工作流。
+
+image:config_drift.png["配置偏差工作流"]

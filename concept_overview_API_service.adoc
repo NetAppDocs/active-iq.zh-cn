@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_API_service.html 
+keywords: API services, access token, refresh token, API Catalog 
+summary: 简要介绍了 API 服务功能。 
+---
+= 了解 API 服务
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Active IQ API 服务使用自动化提高工作流的效率。API 服务内部包含 * API 目录 * ，该目录描述了 100 多个不同的 API 端点，这些端点分为 20 多个不同的服务区域。这些 API 作为 NetApp 客户提供给您，它们涵盖不同的关注领域，例如系统信息，存储效率，性能，运行状况和升级。
+
+API 是一种接口，可用于编写简单代码，以便通过编程方式联系 Active IQ 数字顾问并将数据返回到计算环境中。您可以通过编写代码的方式每天与 Active IQ 数字顾问联系，并将您感兴趣的领域的最新数据带回家。然后，您可以使用此数据填充您的票证系统或创建自己的信息板，网页或报告。Active IQ API 目录包含代码示例，并可用于在浏览器中试用 API 。
+
+利用 API 实现自动化是提高日常或每周任务效率和准确性的绝佳方式。它可以释放您的资源来执行更复杂的活动或自动执行新的工作流。例如，如果您的系统运行状况风险需要修复，则至少可以自动从 Active IQ 数字顾问中拉出这些项目并推送到您的票证系统。
+
+
+
+== API 目录
+
+通过页面顶部的切换，用户可以在两种模式之间切换以查看目录。代码视图侧重于所需的输入参数，返回数据的内容和格式以及代码示例，以帮助用户开始将代码放置到位。通过试验视图，用户可以使用从 API 服务主页面获取的生成令牌在浏览器中 " 试用 " API 。
+
+任一视图均允许用户使用左侧的导航窗格浏览可用项目。这些项目按服务人员的字母顺序进行组织。在给定服务中，您可以展开标题以显示各个 API 端点。单击服务标题或 API 端点将转到中间窗格中的目录部分。
+
+
+
+== 使用 API
+
+获得授权并生成令牌后，您可以利用令牌进行编程查询和检索数据。您还可以从 API 目录中测试 API ，以查看查询的直接工作原理以及返回的数据类型。在系统中构建代码框架之前，这是一种很好的方法，可确保您了解 API 的工作原理。
+
+video::GQskCeCrtQA[youtube, width=848,height=480]

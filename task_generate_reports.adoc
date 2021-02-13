@@ -1,0 +1,48 @@
+---
+sidebar: sidebar 
+permalink: task_generate_reports.html 
+keywords: reports, generate reports 
+summary: 提供生成报告的信息。 
+---
+= 生成报告
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以立即生成报告，也可以计划每周或每月生成报告。您可以为清单，健康和配置等领域生成报告（ ClusterViewer ）。
+
+.步骤
+. 从左窗格中，单击 * 报告 * 。
+. 单击 * 创建报告 * 以生成新报告。
++
+您可以立即生成报告，也可以计划每周或每月生成报告。
+
+
+
+[cols="50,50"]
+|===
+| 立即生成报告 | 计划每周生成报告 或按月计算 
+
+
+ a| 
+. 选择报告类型并为报告提供所请求的值。
+. 单击 * 提交 * 。
+
+ a| 
+. 单击 * 计划报告 * 选项卡。
+. 选择报告类型并为报告提供所请求的值。
+. 选择报告的频率。
+. 选择报告的开始日期和结束日期。
+. 单击 * 提交 * 。
+
+
+|===

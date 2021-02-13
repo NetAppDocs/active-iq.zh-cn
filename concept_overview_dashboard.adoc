@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_dashboard.html 
+keywords: overview, provision, dashboard, widget, watchlist 
+summary: 提供有关信息板，监视列表和小工具的信息。 
+---
+= 了解 Active IQ 信息板
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Active IQ 数字顾问信息板可显示有关存储系统整体状态的信息。它可以在监视列表级别显示有关系统运行状况，清单，规划，升级以及有价值的见解的详细信息。
+
+默认情况下，当您首次访问 Active IQ 数字顾问时，信息板中填充的信息将基于您的客户 ID 。然后，最多可以创建 50 个信息板，并向这些信息板添加监视列表。
+
+此外，您还应了解应用于卡的颜色，这些颜色表示风险的严重性和类型。
+
+video::ITgFFwjJfjA[youtube, width=848,height=480]

@@ -1,0 +1,82 @@
+---
+sidebar: sidebar 
+permalink: concept_working_with_inventory_file.html 
+keywords: inventory file, file format 
+summary: 提供有关使用清单文件的信息。 
+---
+= 使用清单文件
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+清单文件由符合固件更新条件的系统的集群管理 LIF 组成。它包含集群列表，其中包含磁盘和磁盘架固件文件名信息（如果适用）。
+
+对于服务处理器固件更新，清单文件中包含节点主机名和 SP/BMC IP 。
+
+
+
+== 清单文件格式
+
+以下是一个清单文件格式示例，其中包含磁盘和磁盘架固件更新：
+
+[listing]
+----
+clusters:
+  - clustername: <cluster management LIF-1>
+    disk_fw_file: all.zip
+    shelf_fw_file: all_shelf_fw.zip
+
+  - clustername: <cluster management LIF-2>
+    disk_fw_file: all.zip
+    sp_nodes:
+    - hostname: <node hostname 1>
+      sp_fw_file: SP_FW_308-03990_11.5.zip
+      sp_fw_type: bmc
+      sp_fw_ver: '11.5'
+      sp_ip: <BMC IP>
+    - hostname: <node hostname 2>
+      sp_fw_file: SP_FW_308-03991_5.8.zip
+      sp_fw_type: sp
+      sp_fw_ver: '5.8'
+      sp_ip: <SP IP>
+----
+在此示例中，磁盘架和磁盘固件更新均适用于 cluster-1 ，而磁盘和 SP/BMC 固件更新适用于 cluster-2 。
+
+
+
+== 从清单文件中删除集群
+
+如果您不想在特定集群上应用固件更新，可以从清单文件中删除此集群。
+
+例如，如果您不想在 cluster-2 上应用磁盘固件更新，则可以使用以下命令将其从清单文件中删除：
+
+[listing]
+----
+clusters:
+  - clustername: <cluster management LIF-1>
+    disk_fw_file: all.zip
+    shelf_fw_file: all_shelf_fw.zip
+----
+您可以看到 cluster-2 的所有数据都已删除。
+
+如果您只想在 cluster-1 上应用磁盘固件更新，而不希望应用磁盘架固件更新，则可以使用以下命令执行此操作：
+
+[listing]
+----
+clusters:
+  - clustername: <cluster management LIF-1>
+    disk_fw_file: all.zip
+----
+您可以看到 _shelf_FW_file_key 和值已从 cluster-1 中删除。
+
+
+NOTE: 不支持手动添加集群或控制器。

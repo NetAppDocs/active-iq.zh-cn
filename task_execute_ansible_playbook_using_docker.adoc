@@ -1,0 +1,81 @@
+---
+sidebar: sidebar 
+permalink: task_execute_ansible_playbook_using_docker.html 
+keywords: Ansible Playbook, Ansible, Playbook, docker 
+summary: 提供有关如何使用 Docker 映像执行 Ansible 攻略手册的信息。 
+---
+= 使用 NetApp Docker 映像执行 Ansible 攻略手册
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+在执行 Ansible 攻略手册之前，请确保已提取 * NetApp Ansible _* 。 * zip * 文件，并且包含磁盘或磁盘架固件文件的 Web 服务器已准备就绪。
+
+
+
+== 开始之前
+
+在使用 NetApp Docker 执行 Ansible 攻略手册之前，您应：
+
+* link:task_update_AFF_FAS_firmware.html["下载 AFF 和 FAS 固件 Ansible Automation 软件包"]
+* link:task_hosting_firmware_files_using_web_server.html["使用 Web 服务器托管固件文件"]
+* link:concept_work_with_inventory_file.html["使用清单文件"]
+* 确保已安装 NetApp Docker 。
+
+
+.步骤
+. link:https://docs.docker.com/get-started/["设置 Docker"]。
+. 执行以下命令，从 DockerHub 中提取 NetApp Docker 映像：
++
+[listing]
+----
+$ docker pull schmots1/netapp-ansible
+
+Using default tag: latest
+latest: Pulling from schmots1/netapp-ansible
+docker.io/schmots1/netapp-ansible:lates
+----
++
+有关 Docker Pull 命令的详细信息，请参见 link:https://docs.docker.com/engine/reference/commandline/pull/["Docker Pull 文档"]。
+
+. 将 Docker 映像作为容器运行并登录到容器以执行 Ansible 攻略手册。
+. 复制包含提取的 Ansible 攻略手册和清单文件的文件夹路径，例如 * 已下载 _playbook_path* 。要成功执行， Ansible 攻略手册和清单文件应位于同一文件夹中。
+. 将文件夹作为卷挂载到 Docker 容器上。例如，要挂载文件夹 * 容器路径 * ，应执行以下命令：
++
+[listing]
+----
+$ docker run -v <downloaded_playbook_path>:/<container_path> -it schmots1/netapp-ansible:latest /bin/bash
+----
++
+此时，此容器将启动，控制台将位于此容器的 bash shell 中。有关 Docker Run 命令的详细信息，请参见 link:https://docs.docker.com/engine/reference/run/["Docker 运行文档"]。
+
+. 使用 * 可逆攻略手册 * 命令在容器中执行可逆攻略手册：
++
+[listing]
+----
+$ cd <container_path>
+$ ansible-playbook na_ontap_pb_upgrade_firmware.yml
+ 
+Enter your ONTAP admin username: ****
+Enter the password for your ONTAP admin user: ****
+Enter the base URL to the firmware package (using HTTP is recommended): http://<web-server>/path/
+PLAY [ONTAP Firmware Upgrade] ****************************************************************
+----
++
+
+NOTE: 如果有一组集群使用不同的登录凭据，则必须在每个集群上运行 Ansible 攻略手册。不需要更改清单文件，因为 Ansible 攻略手册会跳过登录失败的集群。
+
+
+
+有关 * 安全攻略手册 * 命令的详细信息，请参见 link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible 攻略手册文档"] 要在检查模式（试运行）下执行 Ansible 攻略手册，请参见 link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible ：检查模式"]。
+
+执行 Ansible 攻略手册后，请参见 link:task_validate_firmware_installation.html["固件安装验证"] 用于执行后的说明。
