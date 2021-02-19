@@ -4,7 +4,7 @@ permalink: reference_SE_FAQ.html
 keywords: Active IQ, storage efficiency, FAQs, storage efficiency 
 summary: 回答有关存储效率的常见问题解答。 
 ---
-= 常见问题解答
+= 存储效率常见问题解答
 :hardbreaks:
 :nofooter: 
 :icons: font

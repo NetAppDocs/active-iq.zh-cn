@@ -4,7 +4,7 @@ permalink: reference_capacity_FAQs.html
 keywords: Active IQ, capacity, snapshot copies, physical used space, logical used space, capacity forecast, efficiency, FAQs 
 summary: 回答有关容量的常见问题解答。 
 ---
-= 常见问题解答
+= 容量常见问题解答
 :hardbreaks:
 :nofooter: 
 :icons: font

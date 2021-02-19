@@ -149,7 +149,6 @@
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">单击 * 添加模板 * 。</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">提供请求的值。</block>
   <block id="a64d517222f4032f6011bf2a7ba82600" category="summary">回答有关存储效率的常见问题解答。</block>
-  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="doc">常见问题解答</block>
   <block id="9b39bbd876d3d5afcafe2847c17dd5cd" category="section-title">如何在 Active IQ 数字顾问中访问存储效率？</block>
   <block id="dab2edf9eaac3950e92c281ce358af01" category="inline-link">Active IQ 数字顾问</block>
   <block id="51b7461ab2221ad6ebc347199d080996" category="list-text">打开的主页 <block ref="73cab01bc3ab60831e45f34cd3a02915" category="inline-link-rx"></block>。</block>
@@ -329,7 +328,6 @@
   <block id="7e4e265e9120fa2dfd6ce41588f5706a" category="list-text">如果存储系统的存储效率比率低于平均存储效率比率，请单击 * 联系我们 * ，告知我们您的存储系统配置。</block>
   <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">提供有关此版本中新增功能的信息。</block>
   <block id="800e31baacf1dc07c572c5aed9b7c407" category="doc">Active IQ 数字顾问中的新增功能</block>
-  <block id="aafa1a2f9babf778e8b5cd1a910c7b43" category="paragraph">Active IQ 通常会每月推出一个新版本，为您提供新功能和增强功能。</block>
   <block id="39b6eb402b8871cdc35121d26ca117cb" category="section-title">2021 年 2 月 10 日</block>
   <block id="03041e77791b46597451cb59f807f539" category="paragraph">此更新包括以下新增功能，增强功能和变更：</block>
   <block id="392d70ca39f31f10bd637936769788df" category="section-title">StorageGRID</block>
@@ -343,11 +341,9 @@
   <block id="b1022932a0a6c2bc62b19907e4e14bea" category="list-text">* 续订： * 对于许可证合同已过期或在未来 6 个月即将到期的任何 StorageGRID 系统，您将收到通知。您可以选择一个或多个系统向 NetApp 支持团队提出续订请求。</block>
   <block id="c4e80074735e6ff2daec051071dbc429" category="list-text">* 网格信息板： * 网格信息板提供选定网格的运行状况，规划和配置详细信息。</block>
   <block id="b71490eeea3abb6f9a0c159a3418dd5e" category="list-text">* 配置小工具： * 提供小工具中选定 StorageGRID 的基本详细信息，例如网格名称，主机名，序列号，型号，操作系统版本，客户名称，发货位置和联系详细信息。</block>
-  <block id="def901b6a84a8da67e60bcf496a3a825" category="list-text">* 网格查看器： * 在 * 配置 * 小工具中，您可以单击 * 网格查看器 * 链接来详细查看网格配置。</block>
   <block id="8952273932d18fb81102eabf38cabbd1" category="list-text">* 站点详细信息： * 此选项卡提供了每个站点可用的网格摘要和存储节点。</block>
   <block id="666d5831344c81a6bb17a82cba51d507" category="list-text">* 网格摘要： * 包含基本信息，例如许可证类型，许可证容量，已安装节点数，支持条款（终止许可证合同的日期），主管理节点和主管理节点的主站点。此选项卡还提供站点名称以及在相应站点下标记的存储节点数。在此版本中，您可以单击可用于查看相应站点存储节点的超链接来查看节点名称列表。</block>
   <block id="d2f225914092c41360983fad88f32684" category="list-text">* 容量详细信息选项卡： * 提供为网格配置的网格级别和站点容量详细信息。容量详细信息，例如 " 已安装存储容量 " ， " 可用存储容量 " ， " 已用总存储容量 " 以及 " 数据和元数据已用容量 " 。这些详细信息可在网格级别和站点级别查看。</block>
-  <block id="e65494dac0fb5682379482fb078f4ed8" category="list-text">* 网格查看器（配置详细信息）下载方式： * 您可以单击 * 网格查看器 * 屏幕中的 * 下载 * 按钮下载选定 StorageGRID 的站点详细信息和容量详细信息。</block>
   <block id="67cd8350911a2c5c4d5ea70ff9f7a77e" category="section-title">FabricPool 顾问</block>
   <block id="caa65c337fc466e00adcb16a53fa8b87" category="paragraph">" 层数据 " 按钮已添加到 FabricPool 信息板中，可用于使用 NetApp ® Cloud Manager 将数据分层到低成本对象存储层。</block>
   <block id="5c1cbbba646e78bf69e01be8602cbe41" category="section-title">云就绪工作负载</block>
@@ -742,7 +738,6 @@
   <block id="babc6382b2fc83a689d76a9aff74a96b" category="summary">提供有关使用 FabricPool Advisor 对非活动数据分层的信息。</block>
   <block id="67b399315af1fd51d7b669851330bf0a" category="doc">使用 FabricPool Advisor 监控非活动数据并对其进行分层</block>
   <block id="ce8d6a782fcd6d935be2872ca00a46dd" category="paragraph">您可以通过监控冷数据或非活动数据并将其分层到低成本的对象存储层来减少存储占用空间和相关成本。</block>
-  <block id="3260a88f9ee1ae368b4546c326a8828d" category="paragraph">FabricPool 信息板可显示未启用非活动数据报告（ IDR ）的非活动本地层（聚合）数据，非活动卷数据，分层数据和数据的详细信息。此信息可在客户，站点，组，监视列表，集群和节点级别获得。</block>
   <block id="36afa058c74d288178950c27927bdb38" category="inline-link">了解 Cloud Tiering</block>
   <block id="7d7cb4566140787987242b5a4c062540" category="paragraph">如果卷中的非活动数据超过 60% ，您可以使用 NetApp ® Cloud Manager 对数据进行分层。有关云分层的详细信息，请参见 <block ref="c3ebe7f502aadde64f1a50d413c5e2b0" category="inline-link-rx"></block>。</block>
   <block id="24bf571d5709340dad85419bfcd0d5f0" category="list-text">从左侧导航窗格中选择 * FabricPool * 。</block>
@@ -872,4 +867,11 @@
   <block id="a1b05e5e4731c54cc4502e1e9ef461db" category="sidebar">查看 API 目录</block>
   <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">常见问题解答</block>
   <block id="d254861f20bb59d58db872722e57ba9c" category="sidebar">通知</block>
+  <block id="814f8bccd8aac6da990e8e928df84070" category="doc">存储效率常见问题解答</block>
+  <block id="74f76d1c2d2305520a0c63bdfa4d1828" category="paragraph">以下是新增功能和增强功能。</block>
+  <block id="a22fe4c7486ab7ffb8d4bc05dcab6336" category="list-text">* 网格查看器： * 在 * 配置 * 小工具中，您可以单击 * 网格查看器 * 链接来详细查看网格配置。在 * 配置 * 小工具中，您可以单击 * 网格查看器 * 屏幕中的 * 下载 * 按钮来下载选定 StorageGRID 的站点详细信息和容量详细信息。</block>
+  <block id="2db9dc2d9d8da93e4d7475eaa1790dce" category="paragraph">Active IQ 数字顾问中的 FabricPool 信息板可显示非活动本地层（聚合）数据，非活动卷数据，分层数据以及未启用非活动数据报告（ IDR ）的数据的详细信息。此信息可在客户，站点，组，监视列表，集群和节点级别获得。</block>
+  <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link">FabricPool 最佳实践</block>
+  <block id="3099044efaa5a1ef100aa4cec7e2f189" category="paragraph">要了解有关 FabricPool 的更多信息，请参见 <block ref="d18918d12837aea2df2f7b9b24f83e29" category="inline-link-rx"></block>。</block>
+  <block id="ebe7bb5a5b6b2a5b97e6a3a52f2d3ed6" category="doc">容量常见问题解答</block>
 </blocks>
