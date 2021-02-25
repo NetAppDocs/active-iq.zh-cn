@@ -270,9 +270,6 @@
   <block id="07bccdf47af12c51bb370278a660f033" category="doc">比较配置偏差模板</block>
   <block id="5a8fec4938d8693af6506cce2afba55d" category="paragraph">您可以比较系统和集群配置，并近乎实时地检测配置差异。</block>
   <block id="3d768fbe606a71f8b806879ad00eba22" category="list-text">选择一个现有模板或单击 * 添加模板 * 以添加新模板。</block>
-  <block id="7d8296c8acc57f787026952a7c0baebb" category="list-text">可选：单击 * 编辑 * 以编辑模板，或者单击 * 删除 * 以删除模板。</block>
-  <block id="d464057a3226065c59119ffb0d3ce9bc" category="list-text">在 * 比较模板 * 部分中，提供要比较的模板值。</block>
-  <block id="65f62c36a190340d3f7ee13a127b6ab4" category="list-text">单击 * 生成报告 * 。</block>
   <block id="da46c99001fe56b84201c7d1c1bb16f1" category="paragraph">系统将发送一封电子邮件，其中详细说明了选定系统之间的配置差异。</block>
   <block id="6d18f9cdd03d3a175d54504f01f0c78b" category="summary">提供有关此版本中限制的信息。</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">已知限制</block>
@@ -874,4 +871,12 @@
   <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link">FabricPool 最佳实践</block>
   <block id="3099044efaa5a1ef100aa4cec7e2f189" category="paragraph">要了解有关 FabricPool 的更多信息，请参见 <block ref="d18918d12837aea2df2f7b9b24f83e29" category="inline-link-rx"></block>。</block>
   <block id="ebe7bb5a5b6b2a5b97e6a3a52f2d3ed6" category="doc">容量常见问题解答</block>
+  <block id="d2f9c6e3559cfd668d1e78b444103c0a" category="list-text">可选：单击 * 编辑 * 以编辑模板。</block>
+  <block id="0f4b62d6f9a595aef4041b063db627c2" category="list-text">生成配置偏差报告</block>
+  <block id="d998ded6956eac23bfe161c9afe0ea0e" category="list-text">选择一个类别并为报告提供所请求的值。</block>
+  <block id="3fc3e2eabeba0d4fc1cd1cd29feb8f53" category="section-title">2021 年 2 月 24 日</block>
+  <block id="774bd29c6c04ea222762ebe419b8682f" category="list-text">能够在创建模板期间编辑属性。</block>
+  <block id="bd98aae9d6874e5b22af9007ec29d40c" category="list-text">对 AutoSupport 部分进行分组。</block>
+  <block id="13f08ae5228a12616541f564ea38a102" category="list-text">在客户，站点，组，监视列表，集群， 和主机名。 <block ref="5778a3b24980082649fb0239cf4a1aee" category="inline-link-macro-rx"></block>。</block>
+  <block id="3a38eeff0f77465a7a5489b58303e64b" category="paragraph">您可以生成或计划容量和效率报告，以查看有关系统的容量和存储效率节省的详细信息。</block>
 </blocks>
