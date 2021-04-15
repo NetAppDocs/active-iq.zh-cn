@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: task_manage_watchlists.html 
+keywords: dashboard, watchlist, add watchlist 
+summary: 提供用于管理监视列表的信息。 
+---
+= 管理监视列表
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以查看不同监视列表的信息板，编辑现有监视列表的详细信息以及删除监视列表。
+
+.步骤
+. 从左窗格中，单击 * 监视列表 * 。
++
+此时将显示 * 管理监视列表 * 屏幕。
+
+. 单击监视列表的名称可查看监视列表的信息板详细信息。
+. 单击 * 编辑 * 以更新监视列表的详细信息。
+. 单击 * 删除 * 以删除监视列表。
+

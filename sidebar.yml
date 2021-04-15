@@ -20,12 +20,14 @@ entries:
     url: "/concept_autosupport.html"
   - title: 登录到 Active IQ 数字顾问
     url: "/task_login_activeiq.html"
-- title: 配置信息板
+- title: 配置监视列表
   entries:
   - title: 概述
     url: "/concept_overview_dashboard.html"
-  - title: 向信息板添加监视列表
+  - title: 创建监视列表
     url: "/task_add_watchlist.html"
+  - title: 管理监视列表
+    url: "/task_manage_watchlists.html"
 - title: 分析健康属性
   entries:
   - title: 概述
@@ -112,7 +114,7 @@ entries:
     url: "/concept_overview_API_service.html"
   - title: 生成令牌以访问 API
     url: "/task_generate_tokens_API_services.html"
-  - title: 查看 API 目录
+  - title: 使用 API 目录执行 API
     url: "/task_view_API_catalog.html"
 - title: 生成报告
   url: "/task_generate_reports.html"

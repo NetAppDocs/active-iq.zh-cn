@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="27c0c1bb0cadc9e37385f3ef549226cb" category="summary">提供有关信息板，监视列表和小工具的信息。</block>
-  <block id="73680bd5e7daf074039263bc67049d48" category="doc">了解 Active IQ 信息板</block>
-  <block id="78167aa6827ebe540f88268ec7e0fb56" category="paragraph">Active IQ 数字顾问信息板可显示有关存储系统整体状态的信息。它可以在监视列表级别显示有关系统运行状况，清单，规划，升级以及有价值的见解的详细信息。</block>
-  <block id="e33174c50b667aa57a3254c286ea2abc" category="paragraph">默认情况下，当您首次访问 Active IQ 数字顾问时，信息板中填充的信息将基于您的客户 ID 。然后，最多可以创建 50 个信息板，并向这些信息板添加监视列表。</block>
   <block id="dece35eb22b3654f47ea7b34c8d28b05" category="paragraph">此外，您还应了解应用于卡的颜色，这些颜色表示风险的严重性和类型。</block>
   <block id="f48a84db276a73cbf07dc419e82ec5ec" category="summary">提供有关 Active IQ 数字顾问中使用的关键术语的信息。</block>
   <block id="aecb526721c5811e8b940ed95c7e8b18" category="doc">关键概念</block>
-  <block id="4545f224294e05130286f7b9a61dc8e7" category="paragraph">在开始使用 Active IQ 数字顾问时，请务必了解 Active IQ 信息板中可能会显示的一些基本术语。</block>
-  <block id="19c13220f2b0b746b0e26c77b7d98e4b" category="list-text">* 信息板： * 提供存储系统的整体状态。</block>
   <block id="d92bf3a3e254ba5152f5693f2c3551e3" category="list-text">* 监视列表： * 可让您灵活地访问 Active IQ 数字顾问中已选择的系统。您可以使用监视列表从一个或多个客户添加系统。</block>
   <block id="b6f36a5587ee48036508da1d84d1b299" category="list-text">* 小工具： * 在信息板上显示小应用程序，可快速提供系统状态摘要。</block>
   <block id="609ab9f49962ff004a5b2c4dd4ad0a3d" category="list-text">* 风险： * 显示系统列表及其相应的问题。其严重性级别不同：</block>
@@ -453,17 +448,8 @@
   <block id="dc805bf9b905c9a6974558611f5c99b3" category="list-text">单击 <block ref="348c59707f27a8ca5472dc7d66de9883" category="inline-link-rx"></block> 访问 Active IQ 数字顾问。</block>
   <block id="1bb03b210e480674a2a9700b06bb8d83" category="paragraph">Active IQ 数字顾问会显示具有有效支持合同的系统。如果合同到期，则会提供 90 天的宽限期，在此宽限期内，系统仍然可见。此后，系统将无法在 Active IQ 数字顾问中搜索或显示。</block>
   <block id="1dce4feb01121addbdaf71931c469035" category="list-text">请提供您的用户名和密码，然后单击 * 登录 * 。</block>
-  <block id="a2fdad3072a6fd972e924ba7fe77c8f9" category="cell">如果您是首次登录，则可以</block>
-  <block id="ec57e9a5f3e0904dd6a3673e48f2493d" category="cell">如果您已选择主页，请执行以下操作</block>
-  <block id="90268b6b78c729789ae2fafdf54532bb" category="list-text">选择默认主页。下次登录时，系统会将您定向到选定的主页。</block>
-  <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">单击 * 保存 * 。</block>
-  <block id="68ca08d03574366a293e014c2c32a3ba" category="list-text">单击 * Active IQ 数字顾问 * 以查看 Active IQ 数字顾问信息板。</block>
-  <block id="5c023312feb8619e6547b2a45d4b88f0" category="cell">此时将显示选定主页的信息板。</block>
   <block id="ef8a4ebca6f4cc3e64a7ad289ebd3eb6" category="summary">提供有关信息板，监视列表，功能和小工具的信息。</block>
   <block id="0661b006f375f8cf574047a84d3831c9" category="doc">了解 Active IQ 的功能</block>
-  <block id="0b9c5053f5f7af896e28aea7cdf086c8" category="paragraph">Active IQ 数字顾问信息板可显示有关存储系统整体状态的信息。它可以在监视列表级别显示有关系统运行状况，清单，规划，升级以及有价值的见解的详细信息。您还可以查看信息板的健康评分。健康评分可根据高风险数量和已过期合同，为客户提供其客户群的综合分数。</block>
-  <block id="6c1330edaa8bf90ba2b701ca8854a970" category="paragraph">在 Active IQ 数字顾问信息板中，您可以：</block>
-  <block id="91b78d60b9b044697fb98ed6f109adca" category="list-text">查看多个信息板，可操作且有用的信息概览视图</block>
   <block id="9c469876265a6bb1e8b9865685bdea76" category="list-text">深入了解存储系统面临的所有风险 以及降低风险的操作</block>
   <block id="07fbf7c29b885315f5a499828e5d2912" category="list-text">升级存储系统</block>
   <block id="7c19de9daa4abc4fd87b688f29ba6e89" category="list-text">查看运行 ONTAP 9.1 及更高版本的存储系统的存储效率比率，已用逻辑空间，已用物理空间以及节省的总数据</block>
@@ -508,18 +494,8 @@
   <block id="ac73a7625c762ca863d294bc61f64a16" category="list-text">在 * 风险顾问 * 选项卡中查看风险列表及其严重性级别，升级后可缓解这些风险。</block>
   <block id="281921503952801e23be5489728f4728" category="list-text">单击 * 生成升级计划 * 以导航到 * 升级顾问 * 。</block>
   <block id="f39b53c109ef22724fc3808f3709808c" category="summary">提供向信息板添加监视列表的信息。</block>
-  <block id="69bd20df15a5c186a5016a0eb05b6309" category="doc">向信息板添加监视列表</block>
-  <block id="9fe22c18ef6c9e7a88ba1cd5c0bac5d6" category="paragraph">您可以创建监视列表，以便快速轻松地访问 Active IQ 数字顾问中预先选择的系统。您应创建一个新的信息板以添加监视列表。</block>
-  <block id="13d8ca9908cf5e3b917011db8ebfcca9" category="list-text">单击 * + Add New Dashboard* 。</block>
-  <block id="ef599ae2d5d8bfed2fa29d8fdeebaa57" category="paragraph">您可以导入现有监视列表或创建监视列表。</block>
   <block id="6e6456ff615835fa78db50bf4c134885" category="list-text">请为监视列表提供一个名称。</block>
-  <block id="5e85adda9ce055098135e71c3488e28b" category="list-text">选择 * 类别 * 或 * 序列号 * ，然后按照信息板中的步骤将系统添加到监视列表中。</block>
   <block id="d757f95a394959d080114b15fde1d52e" category="paragraph">您最多可以在一个类别下添加 15 ， 000 个系统，并在一个序列号下添加 500 个系统。</block>
-  <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">单击 * 下一步 * 。</block>
-  <block id="e02e224c7f19dd2265d5c8775f0a7005" category="list-text">提供信息板的名称。</block>
-  <block id="d5a8446592177a844b1c91e11bc5a199" category="list-text">选择要添加到信息板的小工具。</block>
-  <block id="049f432ee055a1220638eca68931318a" category="list-text">您也可以将此信息板设置为默认信息板。</block>
-  <block id="f9face64daa9a31c656e543c8b8f3607" category="list-text">单击 * 创建 * 将监视列表添加到信息板。</block>
   <block id="df2d4059ef2614c57676ddbb81080026" category="summary">提供有关 Active IQ 的详细信息。</block>
   <block id="bf07f432276ee2fe7e55f9ea12c2ba5a" category="doc">获取更多信息</block>
   <block id="3334f093f94c914eeabb709448d36d67" category="paragraph">您可以通过各种资源获得帮助并查找更多信息。</block>
@@ -590,7 +566,6 @@
   <block id="47f493a6c23d2ddd793ed86e819b1806" category="inline-link">Active IQ 移动应用程序下载（ Android ）</block>
   <block id="56632b7c3ba14678d71d38b8ddb74a55" category="list-text"><block ref="56632b7c3ba14678d71d38b8ddb74a55" category="inline-link-rx"></block></block>
   <block id="c0b845337206fddc21c43b9e55f6422b" category="admonition">您必须具有有效的 NetApp 支持站点凭据才能登录。如果您没有帐户，并且刚刚开始使用 NetApp 支持，请访问 -<block ref="31f51fec93e3106aee6fa68eccedad2c" category="inline-link-rx"></block></block>
-  <block id="e4a855439b46510605436d7341b6829c" category="paragraph">Active IQ 将显示具有有效支持合同的系统。如果合同到期，则系统仍可在 90 天的宽限期内持续可见。此后，系统将无法在 Active IQ 中搜索或显示。</block>
   <block id="10553ef0acd01c6c0f2ca035327a4bd7" category="section-title">文档和支持</block>
   <block id="58c15ba96d80da0192badb983c10279d" category="inline-link">文档资源</block>
   <block id="35452e2dd037c7071e2a283924a8c985" category="list-text"><block ref="35452e2dd037c7071e2a283924a8c985" category="inline-link-rx"></block></block>
@@ -713,10 +688,8 @@
   <block id="6aacc84d89dc86cac8838dbdb3de2def" category="doc">了解规划</block>
   <block id="ab0938c0a634e7b9a0c32175dab66cbf" category="paragraph">"* 规划 * " 小工具可帮助客户确定容量超过 90% 或接近 90% 的容量要求，并确定未来 6 个月内已过期或即将到期的软件和硬件。您可以发送请求以增加存储系统的容量并续订硬件和软件。</block>
   <block id="bd006ceeb17633ee0556ac28eaf949f6" category="summary">提供有关 API 目录中可用 API 的信息。</block>
-  <block id="65c00110aaa4d16ae11f4dc6336733d3" category="doc">查看 API 目录</block>
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">通过 API 目录，您可以浏览各个类别以及其中每个类别中的可用 API 。</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">使用有效的访问令牌以及对所需字段的正确输入，您可以对 API 进行测试调用。</block>
-  <block id="870ac82ba2e118f135d9ae1fdd1610a8" category="list-text">单击 * API Catalog* 图标下的 * 浏览 * 。</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">此时将显示 API 目录。</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">在页面顶部，滑动切换至 " 试验 " 。</block>
   <block id="835a43b0478137c574edbef583d126a1" category="list-text">从左侧导航栏展开类别并选择任何 API 以查看详细信息。</block>
@@ -837,9 +810,7 @@
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">快速入门</block>
   <block id="0a68dc74d82b0caf2bae22d33594834f" category="sidebar">Active IQ 的主要概念</block>
   <block id="e179ba0b158b2a7f9047aea26b6a2227" category="sidebar">了解 AutoSupport</block>
-  <block id="05f56632a59fecaa63e81a9928178fab" category="sidebar">配置信息板</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概述</block>
-  <block id="9f28b9edf29fff0e9e9d2b36ebe05bee" category="sidebar">向信息板添加监视列表</block>
   <block id="a847a249ea34e3557fd4b0faa9b1a58c" category="sidebar">查看可使用 Active 自动缓解的风险 IQ Unified Manager 或 Ansible 攻略手册</block>
   <block id="e5c576a815351e15ac0b32011a7cd066" category="sidebar">续订软件和硬件</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="sidebar">查看系统详细信息</block>
@@ -861,7 +832,6 @@
   <block id="624bf3c50fda6cdcdab599281e893dee" category="sidebar">故障排除，反馈和支持</block>
   <block id="94248bdab6eca12666593501ea5684f7" category="sidebar">使用 API 集成数据</block>
   <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">生成令牌以访问 API</block>
-  <block id="a1b05e5e4731c54cc4502e1e9ef461db" category="sidebar">查看 API 目录</block>
   <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">常见问题解答</block>
   <block id="d254861f20bb59d58db872722e57ba9c" category="sidebar">通知</block>
   <block id="814f8bccd8aac6da990e8e928df84070" category="doc">存储效率常见问题解答</block>
@@ -879,4 +849,39 @@
   <block id="bd98aae9d6874e5b22af9007ec29d40c" category="list-text">对 AutoSupport 部分进行分组。</block>
   <block id="13f08ae5228a12616541f564ea38a102" category="list-text">在客户，站点，组，监视列表，集群， 和主机名。 <block ref="5778a3b24980082649fb0239cf4a1aee" category="inline-link-macro-rx"></block>。</block>
   <block id="3a38eeff0f77465a7a5489b58303e64b" category="paragraph">您可以生成或计划容量和效率报告，以查看有关系统的容量和存储效率节省的详细信息。</block>
+  <block id="d3e5b7c94097697f92f75fe7c9a676ee" category="doc">了解监视列表</block>
+  <block id="11ede7bd0ace739f3b91781a9ab554d5" category="paragraph">监视列表用于快速轻松地访问 Active IQ 数字顾问中预先选择的系统。如果您经常查看某个客户或一组系统，我们建议您创建监视列表。您最多可以创建 50 个监视列表，每个监视列表最多可以包含 15 ， 000 个系统（按类别）或 500 个系统（按序列号）。</block>
+  <block id="84f698fa2ff5c75d0cfb42c5093b40e1" category="paragraph">首次访问 Active IQ 数字顾问时，您可以创建监视列表，也可以搜索客户名称，站点名称，组名称， StorageGRID ，主机名， 集群，序列号或系统 ID 。</block>
+  <block id="e88ec3f6fa36ea31fdc1642a2265daee" category="paragraph">开始使用 Active IQ 数字顾问时，请务必了解 Active IQ 数字顾问中的一些基本术语。</block>
+  <block id="1b9960bdf058ded004770c875045fbe3" category="list-text">* 信息板： * 提供监视列表中系统的整体状态。</block>
+  <block id="7e4e0b857c6e143cfb082c8bb0ab61cd" category="section-title">编辑监视列表可能需要 60 分钟才能反映在中 Active IQ 数字顾问</block>
+  <block id="ae68b6ce5c029662d6b5aaeadce82376" category="paragraph">编辑监视列表不会立即更新 Active IQ 数字顾问中的信息。这些更改可能需要长达 60 分钟才能在 Active IQ 数字顾问中反映出来。</block>
+  <block id="2bdc4897dd362e50492e84b2adbd474b" category="section-title">计划报告时，系统会显示一个空白报告</block>
+  <block id="6eeadd9a025ffd894de9d068b4e77d24" category="paragraph">只有 SupportEdge Advisor 或 SupportEdge Expert 支持合同才提供计划的报告。如果您的系统不受 SupportEdge Advisor 或 SupportEdge Expert 支持合同的约束，则在计划报告时可能会收到空白报告。</block>
+  <block id="b7fd11efbe4b08f9789db43e656aae94" category="section-title">2021 年 4 月 7 日</block>
+  <block id="e057979f7791f37ec4a8704baa00923d" category="section-title">监视列表</block>
+  <block id="3cc267fba4c83695b9464316876b7f84" category="paragraph">首次访问 Active IQ 数字顾问时，您现在应创建监视列表，而不是信息板。您还可以查看不同监视列表的信息板，编辑现有监视列表的详细信息以及删除监视列表。</block>
+  <block id="5d44c7cc6a90a9fcb8dbd1a194e216bf" category="summary">提供用于管理监视列表的信息。</block>
+  <block id="6e963896d19c6e8365735dbf8e7f8cba" category="doc">管理监视列表</block>
+  <block id="aa3fb4a2f751f4c503a02c5e91433d10" category="paragraph">您可以查看不同监视列表的信息板，编辑现有监视列表的详细信息以及删除监视列表。</block>
+  <block id="ec42a36485bf0b7690ac95ac39ea08f3" category="list-text">从左窗格中，单击 * 监视列表 * 。</block>
+  <block id="ba76cc75fba1482c23f5d61fcf99fc47" category="paragraph">此时将显示 * 管理监视列表 * 屏幕。</block>
+  <block id="c533a451e2ebd63cf7629e613a0e5483" category="list-text">单击监视列表的名称可查看监视列表的信息板详细信息。</block>
+  <block id="170bb6f16db0d4bbf5962cd0bdb83cdc" category="list-text">单击 * 编辑 * 以更新监视列表的详细信息。</block>
+  <block id="71c11d072ed3800acd07298b9da0447f" category="list-text">单击 * 删除 * 以删除监视列表。</block>
+  <block id="60f840b3ee58d04f9e443013fa9e3b28" category="paragraph">您可以使用 Active IQ 数字顾问在监视列表级别查看存储系统的整体状态，有关系统运行状况的详细信息，清单，规划，升级以及有价值的见解。</block>
+  <block id="503f32635f00a2f9e7855f2515e0b2a6" category="paragraph">以下是 Active IQ 数字顾问的一些功能：</block>
+  <block id="ac1dcbd86bac3c8e0c5adb11006ef7d3" category="list-text">查看多个监视列表，以及可操作且有用的信息概览视图</block>
+  <block id="19a1aa0085c346ac0453f3463cfe5ae0" category="doc">创建监视列表</block>
+  <block id="a6b5018db137b1873575388bb66fd696" category="paragraph">您可以创建监视列表来快速轻松地访问一组系统。您可以根据类别或位置组合这组系统。</block>
+  <block id="da2d66a259f4a63d3108ebfd2b3e72c3" category="list-text">从左窗格中，单击 * 监视列表 *</block>
+  <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">单击 * 创建监视列表 * 。</block>
+  <block id="d92f20aa0037ca0433951e4c3075ac1e" category="list-text">提供要添加到监视列表的系统的详细信息。</block>
+  <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">此时将显示监视列表信息板。</block>
+  <block id="53341d80880065f372d7d0360c8dae07" category="paragraph">Active IQ 将显示具有有效支持合同的系统。如果合同到期，则系统仍可在 30 天的宽限期内持续可见。此后，系统将无法在 Active IQ 中搜索或显示。</block>
+  <block id="99690ba41792c97440fb7507094c827d" category="doc">使用 API 目录执行 API</block>
+  <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link">* 浏览 *</block>
+  <block id="6b0cf1c3391c27f7ed23a37a7f08e23b" category="list-text">单击 <block ref="fde164deb6e8e46d9dfc690af8d1059d" category="inline-link-rx"></block> 在 * API Catalog* 图标下。</block>
+  <block id="82ee712943040cce957254912d97aba0" category="list-text">选择任何 API</block>
+  <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">配置监视列表</block>
 </blocks>

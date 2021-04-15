@@ -4,7 +4,7 @@ permalink: task_view_API_catalog.html
 keywords: API Catalog, APIs, integrate data, view catalog 
 summary: 提供有关 API 目录中可用 API 的信息。 
 ---
-= 查看 API 目录
+= 使用 API 目录执行 API
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -24,10 +24,11 @@ summary: 提供有关 API 目录中可用 API 的信息。
 
 .步骤
 . 从 * 快速链接 * 菜单中，单击 * API 服务 * 。
-. 单击 * API Catalog* 图标下的 * 浏览 * 。
+. 单击 link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["* 浏览 *"] 在 * API Catalog* 图标下。
 +
 此时将显示 API 目录。
 
+. 选择任何 API
 . 在页面顶部，滑动切换至 " 试验 " 。
 . 从左侧导航栏展开类别并选择任何 API 以查看详细信息。
 . 展开 API 。
