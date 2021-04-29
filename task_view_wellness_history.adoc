@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_view_wellness_history.html 
+keywords: wellness history, risks, wellness, view all actions, risk history, 
+summary: 提供有关系统风险以及如何查看健康历史记录的信息。 
+---
+= 查看健康历史记录
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以查看过去三个月发生的系统风险，以便了解这些风险是如何加班的。
+
+这些风险分为四类： * 未解决 * ， * 新增 * ， * 已解决 * 和 * 已确认 * 。它们以不同的颜色表示。这些风险的摘要通过 * 风险历史记录 * 图来表示。
+
+.步骤
+. 在信息板上的 * 健康 * 窗格中，单击 * 查看所有操作 * 。
+. 单击 * 健康历史记录 * 。
+. 在 * 风险历史记录 * 图中，单击要查看其风险历史记录的类别。
++
+将鼠标悬停在彩色条上时，它们将显示每个类别中的风险数量信息。单击相应的风险类别后，此信息将显示在 * 风险信息 * 表中。
+
++
+您还可以下载 Excel 表格中的风险摘要。
+
+

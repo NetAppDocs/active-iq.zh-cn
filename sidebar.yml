@@ -34,20 +34,26 @@ entries:
     url: "/concept_overview_wellness.html"
   - title: 查看风险并手动采取更正操作
     url: "/task_view_risk_and_take_action.html"
+  - title: 增强防范黑客和勒索软件攻击的能力
+    url: "/task_increase_protection_against_hackers_and_Ransomware_attacks.html"
   - title: 查看并确认风险
     url: "/task_view_and_acknowledge_risks.html"
+  - title: 查看健康历史记录
+    url: "/task_view_wellness_history.html"
   - title: 查看可使用 Active 自动缓解的风险 IQ Unified Manager 或 Ansible 攻略手册
     url: "/task_view_risks_remediated_unified_manager.html"
+  - title: 避免停机和可能的数据丢失
+    url: "/task_avoid_the_downtime_and_possible_data_loss.html"
   - title: 订阅健康评估电子邮件
     url: "/task_subscribe_to_wellness_review_email.html"
   - title: 续订软件和硬件
     url: "/task_renew_software_and_hardware.html"
+  - title: 分析集群和节点的运行状况
+    url: "/task_analyze_wellness_clusters_and_nodes.html"
 - title: 查看系统详细信息
   entries:
   - title: 查看清单详细信息
     url: "/task_view_inventory_details.html"
-  - title: 查看集群和节点配置
-    url: "/task_view_cluster_and_node_configuration.html"
   - title: 查看有价值的见解
     url: "/task_view_valuable_insight_widget.html"
   - title: 查看 Flex 订阅容量利用率
@@ -58,6 +64,8 @@ entries:
     url: "/concept_overview_planning.html"
   - title: 确定达到容量限制的系统
     url: "/task_identify_capacity_system.html"
+  - title: 避免卷填满以防止中断
+    url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
   - title: 续订软件和硬件
     url: "/task_renew_software_and_hardware.html"
 - title: 确定配置差异

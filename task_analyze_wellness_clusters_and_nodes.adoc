@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_analyze_wellness_clusters_and_nodes.html 
+keywords: cluster, node, clusterviewer, configuration 
+summary: 提供有关 ClusterViewer 的信息。 
+---
+= 分析集群和节点的运行状况
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以使用 ClusterViewer 分析集群和节点的运行状况， ClusterViewer 是一个一站式源，可提供有关集群和节点的物理和逻辑配置的信息。
+
+ClusterViewer 可提供节点堆栈图，存储使用情况和效率，硬件容量余量等信息，帮助您做出明智的决策，以提高集群和节点的运行状况。
+
+您可以查看电缆，堆栈和 RAID 磁盘级别节点物理配置的可视化视图或图形表示形式。您还可以下载 SVG 格式的可视化对象。
+
+video::FVbb2bbIY9E[youtube, width=848,height=480]
+.步骤
+. 在 * 清单 * 小工具中，选择所需的集群或节点（主机）。
+. 在集群或节点级别，单击 * 配置 * 小工具旁边的 * 集群查看器 * 。
+. 单击 * 可视化 * 选项卡以查看集群的图形表示形式。
+

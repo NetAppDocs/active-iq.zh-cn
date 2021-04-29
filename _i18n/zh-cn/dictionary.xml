@@ -269,36 +269,9 @@
   <block id="6d18f9cdd03d3a175d54504f01f0c78b" category="summary">提供有关此版本中限制的信息。</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">已知限制</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="paragraph">已知限制确定了本产品版本不支持的平台、设备或功能、或者这些平台、设备或功能无法与产品正确交互操作。仔细审查这些限制。</block>
-  <block id="6315df34135f83f8bd38f252e5012288" category="section-title">Active IQ 经典款与 Active IQ 之间的功能差异 Digital Advisor</block>
-  <block id="059908ae0b615ccc12f93adca2a6dd57" category="paragraph">由于使用率较低， Active IQ 经典版本中的以下功能计划不会添加到 Active IQ 数字顾问中（除非另有说明）：</block>
   <block id="6f4abdbff187f79e2ea1ac06a9e104b5" category="list-text">仅适用于在 7- 模式下运行的 Data ONTAP 存储系统 （在 7- 模式下运行的 Data ONTAP 存储系统即将结束 支持生命周期）</block>
-  <block id="2f3600b8642da44226cce3357c6ba15a" category="list-text">Upgrade Advisor —也会弃用集群模式 ONTAP &lt;9.0</block>
-  <block id="f5fbf1348dacb5e520c9f17c39c87a99" category="paragraph">请发送电子邮件至： ng-aiq-ticket@netapp.com ，以便为升级在 7- 模式下运行的 Data ONTAP 存储系统打开支持服务单。</block>
   <block id="e10f6958064ae5f36e8b132d4142e626" category="list-text">性能图表</block>
   <block id="fd18465573ec21a6218982055981f6b1" category="list-text">存储效率</block>
-  <block id="169214c4bc318d8cb7bfa9c60c740fdc" category="list-text">性能图表 （对于在 7- 模式下运行的 Data ONTAP 存储系统，请参见上文） （大多数功能已迁移到 Active IQ Digital Advisor ）</block>
-  <block id="65e49d1352d774be7c0f9f8db02d90f0" category="list-text">节点余量置信因子</block>
-  <block id="2d26dad694259619a234794fcd859521" category="list-text">节点磁盘吞吐量</block>
-  <block id="b4d57e755c028f878ec190be67d62005" category="list-text">集群 CPU 利用率</block>
-  <block id="f15b2a145968d9e130858102928e1068" category="list-text">集群延迟</block>
-  <block id="7780dd3d8fecff89f9a924c2c90dce22" category="list-text">集群磁盘吞吐量</block>
-  <block id="479d0b95ae43ca5a43f361b7f9150933" category="list-text">事件历史记录（ ONTAP 节点信息板）</block>
-  <block id="7c0088adbd5cd0c1f2321663cf46b296" category="list-text">Flash Advisor</block>
-  <block id="9a683e149c1deb950afaff3e4efa12fb" category="list-text">Cloud Control 建议</block>
-  <block id="5f88c256601fa45b15dc0ab361ce4109" category="list-text">AutoSupport 通知</block>
-  <block id="63501c84fe340703004931de2bbe952b" category="list-text">AutoSupport 警报—某些功能将合并 健康行动和风险</block>
-  <block id="111faa798eb5471b6260d66ce28c9df6" category="list-text">Protection Advisor —其中一部分将在中提供 数据中心查看器</block>
-  <block id="012bcdee67dd86dfb084ce7966afc303" category="list-text">支持担保计划的性能图表—支持此计划 由 AIQ Unified Manager 提供</block>
-  <block id="a40ff6e00410a9c5594b180a085ec471" category="paragraph">Active IQ 经典版本中的以下功能不久也将在 Active IQ 数字顾问中提供：</block>
-  <block id="d5d89080b19a333a6d3e4fd90019311f" category="list-text">健康行动历史记录和趋势</block>
-  <block id="a274f4d4670213a9045ce258c6c56b80" category="list-text">通知</block>
-  <block id="519f5d961d9a43a3aa84ef51bdb50b31" category="list-text">ClusterViewer 报告 PDF 和 Word 报告</block>
-  <block id="398aa57ec260bdebadf8d26b2e588869" category="list-text">已计划容量和效率报告</block>
-  <block id="cd4ef961255320407f22a2c9683cfd1d" category="list-text">工作负载标记</block>
-  <block id="290a42aaa3bc1b163e9535327f777064" category="list-text">聚合利用率的峰值性能图</block>
-  <block id="22573c5ed7dff2920168b92bdebaae0c" category="list-text">下载 PNG/JPG 格式的性能报告</block>
-  <block id="03c43da15f95ef34c8e5c2f86736b7d9" category="list-text">新闻简报订阅</block>
-  <block id="acc29a7b7f23045f357b49f3a37a34bf" category="list-text">容量预测</block>
   <block id="98fb6b15dbf8f4dbd1391e6345a22114" category="summary">提供有关有价值的 Insight 小工具的信息。</block>
   <block id="972d710da4877c6c96be5f36ff410fe3" category="doc">查看有价值的见解</block>
   <block id="b874a602a040f316e2805e898c0a9584" category="paragraph">"* 有价值的 Insights * " 小工具可提供有关支持案例数量，待定软件升级，存储效率节省，已缓解风险等信息。此外，它还会主动列出 * 健康 * 属性中的风险通知。</block>
@@ -547,10 +520,6 @@
   <block id="0ec4134b90582cc935ee8837f4b79494" category="section-title">正在验证 SP/BMC 固件安装</block>
   <block id="3caae258f0b7b1933ce92f0c03955521" category="paragraph">服务处理器 /BMC 固件更新的 Ansible 攻略手册已启用，并提供了一个选项，用于验证控制器上是否安装了最新的 SP/BMC 固件。验证完成后（更新最长可能需要两小时）， Ansible 攻略手册将通过连接到 SP/BMC 控制台来应用内部交换机固件更新。</block>
   <block id="b80d891d0b3572cb38b140778c2439e6" category="paragraph">在 Ansible 攻略手册执行结束时，将通知 SP/BMC 固件和内部交换机固件安装的故障和成功信息。如果 SP/BMC 固件 / 内部交换机固件安装失败，请按照《 Ansible 攻略手册》中所述的步骤进行操作。</block>
-  <block id="7c9a9a571569c3e7ab7141616d4e3e85" category="summary">提供有关集群和节点配置的信息。</block>
-  <block id="507af3deb49f14e290b5de78c11e5f7e" category="doc">查看集群和节点配置</block>
-  <block id="337387c5dde36a4950705bd8bf777d8d" category="paragraph">通过 ClusterViewer ，您可以查看详细的物理和逻辑配置信息。详细信息显示在多个选项卡中的多个易于查看的表中，其中包括集群和节点配置摘要，本地层和卷信息，网络接口和端口信息，详细介绍磁盘和磁盘架信息的堆栈图以及一些缆线可视化。您还可以下载 SVG 格式的缆线可视化图形。</block>
-  <block id="8d78149f6b5c9d80921f21884ff5beb2" category="list-text">在集群级别，单击 * 集群配置 * 小工具旁边的 * 查看详细信息 * 。</block>
   <block id="6551f219e2490db3bc60a0ba2bac261d" category="list-text">单击 * 可视化 * 选项卡以查看集群的图形表示形式。</block>
   <block id="6963e434c6c702352323115759d00c82" category="summary">Active IQ 数字顾问文档。</block>
   <block id="25ee4245ff35e15ec0a6dda5f6cd1765" category="doc">Active IQ 数字顾问文档</block>
@@ -710,7 +679,6 @@
   <block id="ce8d6a782fcd6d935be2872ca00a46dd" category="paragraph">您可以通过监控冷数据或非活动数据并将其分层到低成本的对象存储层来减少存储占用空间和相关成本。</block>
   <block id="36afa058c74d288178950c27927bdb38" category="inline-link">了解 Cloud Tiering</block>
   <block id="7d7cb4566140787987242b5a4c062540" category="paragraph">如果卷中的非活动数据超过 60% ，您可以使用 NetApp ® Cloud Manager 对数据进行分层。有关云分层的详细信息，请参见 <block ref="c3ebe7f502aadde64f1a50d413c5e2b0" category="inline-link-rx"></block>。</block>
-  <block id="24bf571d5709340dad85419bfcd0d5f0" category="list-text">从左侧导航窗格中选择 * FabricPool * 。</block>
   <block id="ba825ed19de4ba2cc70be46eb78689f1" category="list-text">单击 * 分层数据 * 以使用 Cloud Manager 对数据进行分层。</block>
   <block id="3be360a5cb329666d65e17b5ecd32b3c" category="summary">提供有关使用清单文件的信息。</block>
   <block id="69e0d4a3abb68d55b51aa1e3824395d1" category="doc">使用清单文件</block>
@@ -837,7 +805,6 @@
   <block id="814f8bccd8aac6da990e8e928df84070" category="doc">存储效率常见问题解答</block>
   <block id="74f76d1c2d2305520a0c63bdfa4d1828" category="paragraph">以下是新增功能和增强功能。</block>
   <block id="a22fe4c7486ab7ffb8d4bc05dcab6336" category="list-text">* 网格查看器： * 在 * 配置 * 小工具中，您可以单击 * 网格查看器 * 链接来详细查看网格配置。在 * 配置 * 小工具中，您可以单击 * 网格查看器 * 屏幕中的 * 下载 * 按钮来下载选定 StorageGRID 的站点详细信息和容量详细信息。</block>
-  <block id="2db9dc2d9d8da93e4d7475eaa1790dce" category="paragraph">Active IQ 数字顾问中的 FabricPool 信息板可显示非活动本地层（聚合）数据，非活动卷数据，分层数据以及未启用非活动数据报告（ IDR ）的数据的详细信息。此信息可在客户，站点，组，监视列表，集群和节点级别获得。</block>
   <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link">FabricPool 最佳实践</block>
   <block id="3099044efaa5a1ef100aa4cec7e2f189" category="paragraph">要了解有关 FabricPool 的更多信息，请参见 <block ref="d18918d12837aea2df2f7b9b24f83e29" category="inline-link-rx"></block>。</block>
   <block id="ebe7bb5a5b6b2a5b97e6a3a52f2d3ed6" category="doc">容量常见问题解答</block>
@@ -884,4 +851,59 @@
   <block id="6b0cf1c3391c27f7ed23a37a7f08e23b" category="list-text">单击 <block ref="fde164deb6e8e46d9dfc690af8d1059d" category="inline-link-rx"></block> 在 * API Catalog* 图标下。</block>
   <block id="82ee712943040cce957254912d97aba0" category="list-text">选择任何 API</block>
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">配置监视列表</block>
+  <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">提供有关如何增强防范黑客和勒索软件攻击的信息。</block>
+  <block id="994d62a653fe8361ea4d612235399fb3" category="doc">增强防范黑客和勒索软件攻击的能力</block>
+  <block id="bef8b69e84a51a70faac213b302a7f71" category="paragraph">登录到 Active IQ 数字顾问并注意到 * 安全性 * 小工具上的红色标志时，您可以采取措施来修复严重风险。</block>
+  <block id="c93512b030d1e761994897b23c1eaf91" category="list-text">登录到 Active IQ 数字顾问</block>
+  <block id="7e162ffb353d70736734c44d1b072c5d" category="inline-image-macro">安全小工具</block>
+  <block id="396d80b68a9be86eb7692692eebfcadf" category="list-text">单击 * 安全性 * 小工具中的 * 操作 * 。<block ref="7c16f1a74ee42ef6ef9b200c0afea62b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c17e33981c0b062b393672808567a4ab" category="paragraph">对于影响较大的安全风险，请按照建议的操作升级操作系统。</block>
+  <block id="75b13b2a3ff2cb52d35b06fcc7348713" category="inline-image-macro">Corrective Action 列</block>
+  <block id="d13ac08a85c268be8e12fb2c5fc6a61f" category="list-text">单击 * 唯一风险 * 选项卡，然后单击 * 更正操作 * 列中的链接。<block ref="b8e4538a50e97a4603efab53e7672864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ac7de22f816f2710cfe2e83f6abc78bf" category="inline-image-macro">修复选项卡</block>
+  <block id="159d95fb8858b00a76199e1c9300be15" category="paragraph">此风险已在 ONTAP 9.7P8 及更高版本中修复。<block ref="4975e5a0a99336b95db3342c05516170" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="15464f88e743b55370c522e3e45b18a4" category="list-text">最重要的步骤是在 Active IQ 数字顾问的 * 升级顾问 * 中规划操作系统升级。</block>
+  <block id="30c68d7c9821acafb85ce89d3dd5cf9e" category="paragraph">存在以下限制：</block>
+  <block id="2a6091be36acbf3db3bd34443d143abf" category="list-text">Upgrade Advisor 不支持 9.0 之前的集群模式 ONTAP 的升级计划。</block>
+  <block id="f0cf1727349620562c13360528ab8936" category="section-title">2021 年 4 月 29 日</block>
+  <block id="cd7b4050bdc517374876fa8cc2fc9631" category="list-text">下面介绍了如何保护您的系统免受黑客和勒索软件攻击。 <block ref="5d0d02d916acc8170e9496212f9f098d" category="inline-link-macro-rx"></block>。</block>
+  <block id="b2742e9fcf5e18c84979ae25e147d480" category="list-text">您可以避免停机和可能的数据丢失。 <block ref="d89d6ee1bb6c538f985e1c356031942c" category="inline-link-macro-rx"></block>。</block>
+  <block id="ceb8404d75df4cd36057918b2a3c3975" category="list-text">了解如何避免卷填满以防止中断。 <block ref="fabdf753888b88e4e56a3a1d46f402d9" category="inline-link-macro-rx"></block>。</block>
+  <block id="81a8efa642a6a389343d5ea66b3628e4" category="summary">提供有关系统风险以及如何查看健康历史记录的信息。</block>
+  <block id="aedc21ab40ffa5085f7e9bc68e9ec4b8" category="doc">查看健康历史记录</block>
+  <block id="74d76c2b05d8452b29d401847b93bccc" category="paragraph">您可以查看过去三个月发生的系统风险，以便了解这些风险是如何加班的。</block>
+  <block id="683c34920d11092541e7486d67c4de2d" category="paragraph">这些风险分为四类： * 未解决 * ， * 新增 * ， * 已解决 * 和 * 已确认 * 。它们以不同的颜色表示。这些风险的摘要通过 * 风险历史记录 * 图来表示。</block>
+  <block id="c31d5a309fdc7a8394fd5eac13c0d06a" category="list-text">在信息板上的 * 健康 * 窗格中，单击 * 查看所有操作 * 。</block>
+  <block id="d5eb5666e73a1145b1e29132fcbd61e7" category="list-text">单击 * 健康历史记录 * 。</block>
+  <block id="a0131598041c59b5aec9b6bdcb8a9431" category="list-text">在 * 风险历史记录 * 图中，单击要查看其风险历史记录的类别。</block>
+  <block id="5e1ec40828b897d199a44619b575caa9" category="paragraph">将鼠标悬停在彩色条上时，它们将显示每个类别中的风险数量信息。单击相应的风险类别后，此信息将显示在 * 风险信息 * 表中。</block>
+  <block id="37c39a7ebbd06bad10e2b0f330cec68b" category="paragraph">您还可以下载 Excel 表格中的风险摘要。</block>
+  <block id="79e6bb72bf3b27322743b85d46e7028f" category="summary">提供有关如何避免停机和可能的数据丢失的信息。</block>
+  <block id="aab3d4ecb2113aebbbf0fc0f4e0bd569" category="doc">避免停机和可能的数据丢失</block>
+  <block id="8da37e3c470ea9e09b868f74f857a58a" category="paragraph">登录到 Active IQ 数字顾问并注意到 * 可用性和保护 * 小工具上的红色标志时，您可以采取措施来修复严重风险。如果不修复固件，这些驱动器很容易在打开电源后的一定时间内无法运行。解决此问题可以避免停机和可能的数据丢失。</block>
+  <block id="b6f0789e4854da3dde8f55d00cee757f" category="list-text">登录到 Active IQ 数字顾问。</block>
+  <block id="a9d1a3c661cd780de1547f8874ba7fa9" category="inline-image-macro">可用性和放大器；保护小工具</block>
+  <block id="4b5886406c71d9a6478bc858959901d2" category="list-text">单击 * 可用性和保护 * 小工具中的 * 操作 * 。<block ref="5a8b574aaf1c16ebb902595925228ace" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4e91f704233072d4cd24a403d5175cfc" category="paragraph">对于高影响安全风险，请按照建议的操作更新磁盘固件。</block>
+  <block id="36ae45e0f51d582bd7ecffce242361dd" category="list-text">单击 * 风险名称 * 链接以查看风险摘要。<block ref="961d5eee8f3900b106dbb0a2777f7ace" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="57b854162d6caadf0053934ab77436cd" category="inline-image-macro">更正操作</block>
+  <block id="194764f556fc1cef4cadf0744c5dc483" category="list-text">单击 * 唯一风险 * 选项卡，然后单击 * 更正操作 * 列中的链接。<block ref="40b4aae1cc80ba37a700a5a58756afdd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="baceeff257420910d075f17bbf8cb985" category="paragraph">Active IQ 数字顾问会生成自定义的 Ansible 脚本或攻略手册，以更新所需的磁盘固件，包括磁盘固件文件。</block>
+  <block id="0a6792a12eae97ba02fc8390bfc77b8c" category="inline-image-macro">AFF 和 FAS 固件</block>
+  <block id="03ad1b597ecef769f82b062d6ca40935" category="list-text">单击 * 可 Ansible "A"* 图标以生成并下载脚本。<block ref="de1b9e535c23b0fc7148d0cda53eb930" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6d70d8473310213564444d3b9fe477dd" category="summary">提供有关如何避免卷填满以防止中断的信息。</block>
+  <block id="a80aea1c7f0129b13ea55e329311ec63" category="doc">避免卷填满以防止中断</block>
+  <block id="d1bd15862f9b11e10337ce20fe325868" category="paragraph">登录到 Active IQ 数字顾问并注意到 * 配置 * 小工具上的红色标志。单击小工具后，您会看到卷已满 98% 发生原因，这可能会导致中断。修复此问题描述可以避免卷填满，从而使其变为只读状态，从而导致访问它的应用程序崩溃并出现故障。</block>
+  <block id="ce18cbcf742aed8e35c658e5625fc984" category="inline-image-macro">配置小工具</block>
+  <block id="60436722270a4533c09cb8939f672895" category="list-text">单击 * 配置 * 小工具中的 * 操作 * 。<block ref="6aa7a8b05df22247419ddcea980afa15" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eae8b28f90d4f0bef1cf3c21d4b34b89" category="list-text">单击 * 唯一风险 * 选项卡。单击 * 更正操作 * 链接后，您可以更改警告阈值或为卷分配更多空间。<block ref="bae9c6e4d72077c1f8c2b8eef31cbb4e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="59e957aaf5b367ba9d97d9e73c32e02a" category="paragraph">Active IQ FabricPool 中的 数字顾问信息板可显示非活动本地层（聚合）数据，非活动卷数据，分层数据以及未启用非活动数据报告（ IDR ）的数据的详细信息。此信息可在客户，站点，组，监视列表，集群和节点级别获得。</block>
+  <block id="cd01c74549cdfc52159ec7a8329c2c3f" category="list-text">从左侧导航窗格中选择 * FabricPool Advisor* 。</block>
+  <block id="2ddb7471f4505c6b0aa8e3464634debc" category="summary">提供有关 ClusterViewer 的信息。</block>
+  <block id="6e6b112d636d5497f59ccca67738fac3" category="doc">分析集群和节点的运行状况</block>
+  <block id="964f0ca73e7ebb063af3a2240b8483fb" category="paragraph">您可以使用 ClusterViewer 分析集群和节点的运行状况， ClusterViewer 是一个一站式源，可提供有关集群和节点的物理和逻辑配置的信息。</block>
+  <block id="6db3885477641d8e5ca59335970bf0b0" category="paragraph">ClusterViewer 可提供节点堆栈图，存储使用情况和效率，硬件容量余量等信息，帮助您做出明智的决策，以提高集群和节点的运行状况。</block>
+  <block id="acc7732ef13d215f323b715a75c23913" category="paragraph">您可以查看电缆，堆栈和 RAID 磁盘级别节点物理配置的可视化视图或图形表示形式。您还可以下载 SVG 格式的可视化对象。</block>
+  <block id="2d57c025a86cbb3c18376b2e6594182b" category="list-text">在 * 清单 * 小工具中，选择所需的集群或节点（主机）。</block>
+  <block id="05f9cea794823bcfe9edd186fcb424a3" category="list-text">在集群或节点级别，单击 * 配置 * 小工具旁边的 * 集群查看器 * 。</block>
 </blocks>

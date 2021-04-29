@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: task_increase_protection_against_hackers_and_Ransomware_attacks.html 
+keywords: protection, hackers, ransomware, ransomware attacks, attack 
+summary: 提供有关如何增强防范黑客和勒索软件攻击的信息。 
+---
+= 增强防范黑客和勒索软件攻击的能力
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+登录到 Active IQ 数字顾问并注意到 * 安全性 * 小工具上的红色标志时，您可以采取措施来修复严重风险。
+
+.步骤
+. 登录到 Active IQ 数字顾问
+. 单击 * 安全性 * 小工具中的 * 操作 * 。image:Security_Image 1 Ransomware attacks.png["安全小工具"]
++
+对于影响较大的安全风险，请按照建议的操作升级操作系统。
+
+. 单击 * 唯一风险 * 选项卡，然后单击 * 更正操作 * 列中的链接。image:Corrective Action_Image 2 Ransomware attacks.png["Corrective Action 列"]
++
+此风险已在 ONTAP 9.7P8 及更高版本中修复。image:Remediations_Image 3 Ransomware attacks.png["修复选项卡"]
+
+. 最重要的步骤是在 Active IQ 数字顾问的 * 升级顾问 * 中规划操作系统升级。
+

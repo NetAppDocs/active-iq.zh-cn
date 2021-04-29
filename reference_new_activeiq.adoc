@@ -22,6 +22,17 @@ summary: 提供有关此版本中新增功能的信息。
 
 
 
+== 2021 年 4 月 29 日
+
+此更新包括以下新增功能，增强功能和变更：
+
+* 下面介绍了如何保护您的系统免受黑客和勒索软件攻击。 link:task_increase_protection_against_hackers_and_Ransomware_attacks.html["了解如何操作"]。
+* 您可以避免停机和可能的数据丢失。 link:task_avoid_the_downtime_and_possible_data_loss.html["了解如何操作"]。
+* 了解如何避免卷填满以防止中断。 link:task_avoid_a_volume_filling_up_to_prevent_an_outage.html["了解如何操作"]。
+
+
+
+
 == 2021 年 4 月 7 日
 
 此更新包括以下新增功能，增强功能和变更：
