@@ -22,7 +22,7 @@ summary: 提供有关 NetApp Keystone Flex 订阅的容量利用率的信息。
 
 此小工具可为您的帐户提供已用容量摘要。您可以查看已提交容量的容量利用率图表，快照将四舍五入为过去五分钟。超过已提交容量（突发容量）的利用率以红色标记。
 
-您可以查看 * Keystone - 容量利用率 * 信息板，该信息板可分析小工具中的数据，并以图形方式表示所有已订阅存储的容量和使用情况的利用率趋势 link:https://docs.netapp.com/us-en/keystone/nkfsosm_terms_and_conditions_for_the_service_tiers.html["服务层"]与您的 NetApp Keystone Flex 订阅帐户关联的，例如高级，极速和标准。
+您可以查看 * Keystone - 容量利用率 * 信息板，该信息板可分析小工具中的数据，并以图形方式表示所有已订阅存储的容量和使用情况的利用率趋势 link:https://docs.netapp.com/us-en/keystone/nkfsosm_performance.html["服务层"]与您的 NetApp Keystone Flex 订阅帐户关联的，例如高级，极速和标准。
 
 您可以查看 link:https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Flex 订阅服务容量"] 以及信息板上为块，文件服务或对象存储订阅的每个服务的使用情况。容量利用率以具有三个中心环的同心圆表示：内环显示已提交容量，中间环表示突发容量，外环表示已消耗容量。选定时间范围内某个特定日期和时间的已用容量由蓝线图指示。
 

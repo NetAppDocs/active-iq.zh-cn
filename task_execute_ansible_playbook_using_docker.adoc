@@ -28,7 +28,7 @@ summary: 提供有关如何使用 Docker 映像执行 Ansible 攻略手册的信
 
 * link:task_update_AFF_FAS_firmware.html["下载 AFF 和 FAS 固件 Ansible Automation 软件包"]
 * link:task_hosting_firmware_files_using_web_server.html["使用 Web 服务器托管固件文件"]
-* link:concept_work_with_inventory_file.html["使用清单文件"]
+* link:concept_working_with_inventory_file.html["使用清单文件"]
 * 确保已安装 NetApp Docker 。
 
 

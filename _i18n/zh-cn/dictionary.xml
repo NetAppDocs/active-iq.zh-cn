@@ -35,10 +35,7 @@
   <block id="92a113ae9f19ea88db4e78b8c397339e" category="list-text">* 清单小工具： * 显示您拥有的系统总数汇总。这包括支持 Active IQ 的产品和不支持 的产品。</block>
   <block id="70997d9cb46f1884262203c0386ee9ba" category="list-text">* 生成报告： * 生成选定监视列表的报告，并通过电子邮件将报告发送给最多 5 个收件人。</block>
   <block id="4f34ff28c8e6e0459e7e8b7c218ea60a" category="list-text">* 规划小工具： * 显示有关需要续订的容量添加，软件和硬件的信息。</block>
-  <block id="b7f298fc5c292633761ef20507a2a5d2" category="list-text">* 容量增加： * 提供有关在 1 ， 3 和 6 个月内容量超过 90% 或容量接近 90% 的系统的信息。</block>
   <block id="e18b8ec7fb12e95cc04b3da1a4cc2884" category="list-text">* 续订： * 提供有关未来 6 个月内已过期或即将到期的软件和硬件的信息。您可以在 * 健康 * 和 * 计划 * 小工具中找到此选项。</block>
-  <block id="72d15f8bef2e590ee40d38cdd8191a34" category="list-text">* 升级小工具： * 提供了可用的升级数量。它还会显示当前的互操作性详细信息。</block>
-  <block id="cb8edd6d6bc4a8421371ed07943b7313" category="list-text">* 当前互操作性： * 显示基于 Active IQ OneCollect AutoSupport 的主机兼容性信息。</block>
   <block id="fcc5fdc856cbb2876c3c6a828548290b" category="list-text">* 存储效率： * 表示 AFF 系统，非 AFF 系统或这两者的 Snapshot 备份的存储系统存储效率比率和节省量。</block>
   <block id="b397fac92f5d136f7fe3fb94680c6e6f" category="list-text">* 性能图： * 用于通过查看性能数据的图形格式来分析存储设备的性能。您可以查看选定节点的 ONTAP 集群的详细性能图。</block>
   <block id="c6a6fbd3c93831286955b654f3a43c2d" category="list-text">* 有价值的 Insights 小工具： * 提供有关支持案例数量，待定软件升级，存储效率节省，已缓解风险等信息。此外，它还会主动列出 Wellness 属性中的风险通知。</block>
@@ -47,9 +44,6 @@
   <block id="c0ef71dd93aa7914acc09312aa7cc5a6" category="list-text">* 云就绪工作负载： * 提供有关存储系统中可用的不同工作负载类型的信息，并确定云就绪的工作负载。将工作负载迁移到云可节省成本并提供云灾难恢复。您可以移动 Oracle ， SAP ， SAP Hana ，文件共享， SQL 和 SharePoint 上运行的工作负载和卷。NetApp ® Cloud Volumes 可提供极致性能和高级数据管理功能，即使您在云中使用要求最苛刻的应用程序，也能帮助您将工作负载和卷迁移到云。有关使用 NetApp ® Cloud Volumes 的详细信息，请参见 <block ref="be04c0866e8894226d734193a7aae968" category="inline-link-rx"></block> 文档。</block>
   <block id="60765e03124dbe237199057ad89d6f43" category="list-text">* 快速链接： * 提供了可使用 Active IQ 数字顾问启动的应用程序列表。</block>
   <block id="f654044e5e00be527fe6c0a171c4744e" category="list-text">通过 * 集群查看器： * ，您可以查看详细的物理和逻辑配置信息。详细信息显示在多个选项卡中的多个易于查看的表中，其中包括集群和节点配置摘要，本地层和卷信息，网络接口和端口信息，详细介绍磁盘和磁盘架信息的堆栈图以及一些缆线可视化。您还可以下载 SVG 格式的缆线可视化图形。</block>
-  <block id="101d3d54b915cabbff7174ff43873a02" category="inline-link">NetApp Active IQ OneCollect</block>
-  <block id="025cc4cad49a39f9b7afc503028f32c7" category="list-text">* 数据中心视图： * 提供跨堆栈信息和洞察力，有助于进行故障排除，升级评估，解决方案验证和迁移。通过从收集和上传数据，可以启用此视图 使用的客户环境 <block ref="de3bfd6424e8cf8a96201442db5528c3" category="inline-link-rx"></block>。</block>
-  <block id="6f6c5d7212482b5bf7795df18112435f" category="list-text">* 互操作性顾问： * 用于使用 NetApp Active IQ OneCollect 工具收集的数据检查主机的兼容性。它通过自动使用互操作性表工具（ Interoperability Matrix Tool ， IMT ）进行检查并为主机操作系统，驱动程序和固件提供升级建议来提供支持信息。</block>
   <block id="c3ee6b10a82ee8a739a196c0f92e9cc7" category="list-text">* API 服务： * 允许您提取感兴趣的数据并将其直接集成到公司的工作流中。</block>
   <block id="cf6603053c3facd929d0e865e9f65807" category="list-text">* AutoSupport 上传： * 用于分析 ONTAP 和 E 系列系统中的缺陷或问题。缺陷或问题由支持站点人员手动审核和修复。</block>
   <block id="87b3d4ff312f3761998135fad1e654e6" category="list-text">* 搜索： * 允许您根据客户名称，序列号，集群，站点名称，组名称，主机名等不同类别搜索系统。</block>
@@ -106,7 +100,6 @@
   <block id="4d604dd8f008145471dc845683399189" category="cell">清单</block>
   <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">仅在集群模式 Data ONTAP 上受支持</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">升级</block>
-  <block id="67a915151759ecc737f698391f7cfd08" category="cell">互操作性</block>
   <block id="b86035b7392c3148f643faee13caa61b" category="summary">法律信息</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
@@ -242,7 +235,6 @@
   <block id="cd52899f1679a9b2e3b756255e5c3676" category="inline-link-macro">使用 Web 服务器托管固件文件</block>
   <block id="4e934f63fd61cf954bde477d71345e3c" category="list-text"><block ref="4e934f63fd61cf954bde477d71345e3c" category="inline-link-macro-rx"></block></block>
   <block id="6b4dbbb245371383fcc0b1b43ca85958" category="inline-link-macro">使用清单文件</block>
-  <block id="8c6006ce74077e166aa4f3ed1cbdcff1" category="list-text"><block ref="8c6006ce74077e166aa4f3ed1cbdcff1" category="inline-link-macro-rx"></block></block>
   <block id="3570d1e60985f402f1d406b1bb17fabe" category="list-text">确保已安装 NetApp Docker 。</block>
   <block id="98b7373d39b238790c1ff24532e0131d" category="inline-link">设置 Docker</block>
   <block id="f895e909f4c93c66cfc4db5135b3a996" category="list-text"><block ref="3b2e905f6f93f4d6890d3aa9d597f16a" category="inline-link-rx"></block>。</block>
@@ -364,7 +356,6 @@
   <block id="07804c57460fb69b448ea03e4f7e4a5b" category="paragraph">性能图已得到增强，可用于评估存储系统的集群性能。您可以在同一屏幕上的节点选项卡和集群选项卡之间导航和切换。</block>
   <block id="f67b3b7c63db378874cf3c9f28add752" category="paragraph">存储效率小工具已进行了增强，可用于查看集群级别的存储效率比率和节省量。您可以在同一屏幕上的节点选项卡和集群选项卡之间导航和切换。</block>
   <block id="08f72fff0f0812bdbc9fc2474685218d" category="section-title">更新默认主页</block>
-  <block id="7bc51cf3a7db319ea090f7247cfd78ad" category="paragraph">现在，您可以提供反馈，并告知我们更新 Active IQ 默认主页屏幕的原因。</block>
   <block id="29fbfd86c80e15b164b8f105fd5ddd93" category="section-title">更新到清单小工具</block>
   <block id="a392fcca4182f7d6c6748c76a6e192ac" category="paragraph">清单小工具经过改进，可提供用户友好的日期格式，额外的列用于平台支持结束和版本支持结束，从而改善用户体验。</block>
   <block id="5a0f42f64fb533926accae7152c26173" category="section-title">2020 年 5 月 19 日</block>
@@ -458,7 +449,6 @@
   <block id="27f07c2b949826ab7f0303577b6655b5" category="summary">提供有关如何查看和升级存储系统的信息。</block>
   <block id="1d6e1053c3a5ac9c901ad8624d357a85" category="doc">升级存储系统的 ONTAP 版本</block>
   <block id="5c3e093c12585377957b31f6db043996" category="paragraph">您可以查看存储系统的待定升级并升级到更高版本的 ONTAP 。</block>
-  <block id="959fe8ae28ff7c1d0a2b75c4cea38856" category="paragraph">您还可以查看当前的互操作性数据。它会根据 Active IQ OneCollect AutoSupport 数据进行填充。</block>
   <block id="49786ca9e9171e0b112a14ef40054cea" category="list-text">在信息板上的 * 升级 * 小工具中查看待定升级。</block>
   <block id="38fafc5e9c9553727750b9510171bb41" category="list-text">单击 * 操作 * 的数量可查看待定升级。</block>
   <block id="5bd5fef463b4aadc5c62af290cab7b03" category="list-text">选择所需的升级选项。</block>
@@ -567,11 +557,8 @@
   <block id="8c03c9ae3355689c1b3ff915e6fd269e" category="admonition">只有运行 ONTAP 9.2 及更高版本的系统才支持节点延迟性能图形。</block>
   <block id="8830ebf30b3e1ad7b344461753f7d3dd" category="summary">提供有关增加系统容量的信息。</block>
   <block id="9438f616517805af3f4c395324944dff" category="doc">确定达到容量限制的系统</block>
-  <block id="5849426f6d3401bb9a9bbf6299c0db67" category="paragraph">主动识别容量超过 90% 或在 1 ， 3 和 6 个月内容量接近 90% 的系统，并发送增加存储系统容量的请求。</block>
   <block id="7f5131aab7fa520fc9551135afbbe9e3" category="list-text">在 * 计划 * 小工具中，单击 * 容量添加项 * 以查看容量超过 90% 或容量接近 90% 的系统。</block>
-  <block id="b55cd71c45f3440eba3ade664d20b3a3" category="paragraph">您可以查看在未来 1 ， 3 和 6 个月内容量超过 90% 或接近 90% 的系统数量。</block>
   <block id="050156d031ad136ed72a48cba4a7a4cf" category="list-text">选择一个卡以查看系统。</block>
-  <block id="48b26d52998bbc44087ae0cb0619675b" category="list-text">选择要增加容量的系统，然后单击 * 发送请求 * 。</block>
   <block id="f3a5f842bf6c3b73bcf58318a3511acf" category="list-text">或者，也可以提供其他注释。</block>
   <block id="2939fe6c5b77679da5984bbe596d4b9a" category="list-text">单击 * 发送 * 。</block>
   <block id="b073ca01338f5dd8d8a707598c797762" category="summary">提供有关跟踪存储系统效率的信息。</block>
@@ -638,7 +625,6 @@
   <block id="da9101f887a86e857415695969af0d54" category="paragraph">如果您订阅了 NetApp Keystone 灵活订阅服务，则可以查看 Active IQ 数字顾问信息板上的 Keystone 小工具。</block>
   <block id="46e8e14d9da7c0b23d6ea8f9d1012060" category="paragraph">此小工具可为您的帐户提供已用容量摘要。您可以查看已提交容量的容量利用率图表，快照将四舍五入为过去五分钟。超过已提交容量（突发容量）的利用率以红色标记。</block>
   <block id="6ba7120903e272ef8ff94c3d3cd58f57" category="inline-link">服务层</block>
-  <block id="e1722830f1a940c3d0266b5aa555ae86" category="paragraph">您可以查看 * Keystone - 容量利用率 * 信息板，该信息板可分析小工具中的数据，并以图形方式表示所有已订阅存储的容量和使用情况的利用率趋势 <block ref="12a58845238f14af3e85de9c2d96c97f" category="inline-link-rx"></block>与您的 NetApp Keystone Flex 订阅帐户关联的，例如高级，极速和标准。</block>
   <block id="e252513a2a6c279f863372807d4d590a" category="inline-link">Flex 订阅服务容量</block>
   <block id="7cca17b4c5b53075f1e873374ef5b32e" category="paragraph">您可以查看 <block ref="89a369e27820d8f4b4edc540b820bd22" category="inline-link-rx"></block> 以及信息板上为块，文件服务或对象存储订阅的每个服务的使用情况。容量利用率以具有三个中心环的同心圆表示：内环显示已提交容量，中间环表示突发容量，外环表示已消耗容量。选定时间范围内某个特定日期和时间的已用容量由蓝线图指示。</block>
   <block id="559ab0392555ba0574ee8aafcb0dd4b8" category="list-text">单击 * 查看详细信息 * 以在详细的 * Keystone - 容量利用率 * 信息板中查看利用率趋势。</block>
@@ -906,4 +892,18 @@
   <block id="acc7732ef13d215f323b715a75c23913" category="paragraph">您可以查看电缆，堆栈和 RAID 磁盘级别节点物理配置的可视化视图或图形表示形式。您还可以下载 SVG 格式的可视化对象。</block>
   <block id="2d57c025a86cbb3c18376b2e6594182b" category="list-text">在 * 清单 * 小工具中，选择所需的集群或节点（主机）。</block>
   <block id="05f9cea794823bcfe9edd186fcb424a3" category="list-text">在集群或节点级别，单击 * 配置 * 小工具旁边的 * 集群查看器 * 。</block>
+  <block id="f455a78311af3f0899cacd26d802aabd" category="list-text">* 容量增加： * 表示容量已超过或即将达到 90% 的系统以及容量已超过或接近 70% 的网格站点。您可以提出增加存储系统容量的请求。</block>
+  <block id="0ba25c7c72e05d6333389fdd4abc53fb" category="list-text">* 升级小工具： * 提供了可用的升级数量。</block>
+  <block id="27f8f6c7481c543f7ac1c0d9d320816e" category="list-text"><block ref="27f8f6c7481c543f7ac1c0d9d320816e" category="inline-link-macro-rx"></block></block>
+  <block id="3c8ecaee4178e4a25eef65be6cd5cad3" category="section-title">2021 年 5 月 20 日</block>
+  <block id="1efec69d62920635bf002f71b17c18dd" category="section-title">容量添加请求的 Drift 聊天</block>
+  <block id="af9ef30544afecf2392bfa5eb477b3c4" category="paragraph">要获得有关容量添加请求的实时帮助，请直接从信息板与销售人员聊天。 <block ref="de37e4b638bc7349ed07e06459c58df9" category="inline-link-macro-rx"></block>。</block>
+  <block id="7ae2dac2735821d57148c768b3f4759e" category="paragraph">现在，您可以提供反馈，并告知我们您更新 Active IQ 默认主页屏幕的原因。</block>
+  <block id="9112a7f041cc3afbe8bca565f29fc0a9" category="paragraph">主动识别达到容量限制的系统，并通过实时聊天发送请求以增加存储系统的容量。</block>
+  <block id="99a992296fff4706d4ef607ee5c43843" category="paragraph">您可以查看容量超过 90% 或在 1 ， 3 和 6 个月内容量超过 90% 的系统。与销售人员聊天，轻松提出容量添加请求并获得实时帮助。</block>
+  <block id="64130d6cdb0009d5982c553eaac6efd4" category="paragraph">您可以查看在未来 1 ， 3 和 6 个月内容量超过 90% 或容量超过 90% 的系统数量。</block>
+  <block id="60dc2e9f7ab275abe0ffe373abf95dae" category="list-text">选择要增加容量的系统，然后单击 * 联系销售人员 * 。</block>
+  <block id="a234330eca66f8c170189efebab23db1" category="list-text">验证您的联系详细信息。</block>
+  <block id="19f756ea7d458dddec483de6c8fb3ddc" category="list-text">将最多五个主机名复制并粘贴到聊天中，以提出容量添加请求。</block>
+  <block id="a40699645a064ce56bb66217612d0bbf" category="paragraph">您可以查看 * Keystone - 容量利用率 * 信息板，该信息板可分析小工具中的数据，并以图形方式表示所有已订阅存储的容量和使用情况的利用率趋势 <block ref="fc793db6d2c63268b4ab3d8ca0a9e15f" category="inline-link-rx"></block>与您的 NetApp Keystone Flex 订阅帐户关联的，例如高级，极速和标准。</block>
 </blocks>
