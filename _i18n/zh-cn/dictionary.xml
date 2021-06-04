@@ -695,7 +695,6 @@
   <block id="d159511cf27ee3a3fa24f2d31ff80434" category="list-text">单击 <block ref="9d1b0d427955d96d4edc169551c295d5" category="inline-image-macro-rx" type="image"></block> 图标。</block>
   <block id="e8999980f2d5f8e5a193a82965648f09" category="list-text">单击 * 下载 * 下载 AFF 和 FAS 固件 Ansible Automation 软件包。</block>
   <block id="f05b4b84106eafcc5aad0f438b841dff" category="admonition">要使用 * 修复它 * 选项和 Ansible 攻略手册功能，需要签订 SupportEdge Advisor 或 SupportEdge Expert 合同。</block>
-  <block id="dcd5a48ea7ba4b7ba7cf043b2aeb6638" category="summary">提供了有关健康状况的信息，可帮助您改进存储系统。</block>
   <block id="bda4a48b47a4d90e94b87697e6455bb9" category="doc">了解健康状况</block>
   <block id="e32d42b71acd84e4e8529d6a90c04f3f" category="paragraph">健康小工具可提供有关存储系统的详细信息。它提供了有关存储系统不同属性的信息，例如性能和效率，容量，配置设置，安全性，续订等。</block>
   <block id="fce1523be4b4cc1966774ce59fd20610" category="inline-image-macro">健康工作流</block>
@@ -906,4 +905,16 @@
   <block id="a234330eca66f8c170189efebab23db1" category="list-text">验证您的联系详细信息。</block>
   <block id="19f756ea7d458dddec483de6c8fb3ddc" category="list-text">将最多五个主机名复制并粘贴到聊天中，以提出容量添加请求。</block>
   <block id="a40699645a064ce56bb66217612d0bbf" category="paragraph">您可以查看 * Keystone - 容量利用率 * 信息板，该信息板可分析小工具中的数据，并以图形方式表示所有已订阅存储的容量和使用情况的利用率趋势 <block ref="fc793db6d2c63268b4ab3d8ca0a9e15f" category="inline-link-rx"></block>与您的 NetApp Keystone Flex 订阅帐户关联的，例如高级，极速和标准。</block>
+  <block id="834e689bebc0737b35009981790fcddc" category="summary">提供有关健康状况和风险类型的信息，有助于您改进存储系统。</block>
+  <block id="15d214cfadac5e15f2d227c604756873" category="paragraph">" 健康 " 小工具还提供了有关风险的信息，以及为降低每个健康属性的风险而应采取的措施。以下是风险类型以及每个风险的相关后果：</block>
+  <block id="8a26f5b6df6fd966e5e5f4be5ec0b4ba" category="cell">风险类型</block>
+  <block id="5aad20220e2659425b35295326ac2658" category="cell">结果</block>
+  <block id="278d01e5af56273bae1bb99a98b370cd" category="cell">严重</block>
+  <block id="68fa7bfff8ce78be9cbd246eb41afab3" category="cell">数据丢失，数据损坏，集群数据中断，个人安全问题描述或潜在的法律合规性问题描述。</block>
+  <block id="28037ae0dd486449990f163b8d634614" category="cell">短期丢失数据访问或长期丢失节点冗余。</block>
+  <block id="86bccbec674d694a44a874890a3a8185" category="cell">性能下降或节点冗余短期丢失。</block>
+  <block id="28d0edd045e05cf5af64e35ae0c4c6ef" category="cell">低</block>
+  <block id="b5e8505881a879de37f6dcea9188eabf" category="cell">低影响情形</block>
+  <block id="39d9903201320a83d45d3b36d512f051" category="cell">最佳实践</block>
+  <block id="3c1579e4105c256057f7f7b8f1c3f947" category="cell">与已记录的最佳实践的偏差</block>
 </blocks>

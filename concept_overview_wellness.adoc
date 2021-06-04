@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: concept_overview_wellness.html 
-keywords: overview, wellness, performance, configuration, renewal, risk, remediation 
-summary: 提供了有关健康状况的信息，可帮助您改进存储系统。 
+keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, renewal, risk, remediation 
+summary: 提供有关健康状况和风险类型的信息，有助于您改进存储系统。 
 ---
 = 了解健康状况
 :toc: macro
@@ -22,6 +22,27 @@ summary: 提供了有关健康状况的信息，可帮助您改进存储系统�
 
 image:wellness_workflow.png["健康工作流"]
 
+" 健康 " 小工具还提供了有关风险的信息，以及为降低每个健康属性的风险而应采取的措施。以下是风险类型以及每个风险的相关后果：
+
+[cols="25,75"]
+|===
+| 风险类型 | 结果 
+
+
+| 严重 | 数据丢失，数据损坏，集群数据中断，个人安全问题描述或潜在的法律合规性问题描述。 
+
+
+| 高 | 短期丢失数据访问或长期丢失节点冗余。 
+
+
+| 中等 | 性能下降或节点冗余短期丢失。 
+
+
+| 低 | 低影响情形 
+
+
+| 最佳实践 | 与已记录的最佳实践的偏差 
+|===
 您可以观看以下视频，了解健康属性的重要性：
 
 video::-lTF3oWZB1M[youtube, width=848,height=480]
