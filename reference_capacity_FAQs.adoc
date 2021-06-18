@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference_capacity_FAQs.html 
-keywords: Active IQ, capacity, snapshot copies, physical used space, logical used space, capacity forecast, efficiency, FAQs 
+keywords: Active IQ, frequently asked questions, capacity, snapshot copies, physical used space, logical used space, capacity forecast, efficiency, FAQ, FAQs 
 summary: 回答有关容量的常见问题解答。 
 ---
 = 容量常见问题解答

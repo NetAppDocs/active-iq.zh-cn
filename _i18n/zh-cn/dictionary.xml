@@ -41,13 +41,10 @@
   <block id="c6a6fbd3c93831286955b654f3a43c2d" category="list-text">* 有价值的 Insights 小工具： * 提供有关支持案例数量，待定软件升级，存储效率节省，已缓解风险等信息。此外，它还会主动列出 Wellness 属性中的风险通知。</block>
   <block id="d949398a0cd9559b70782bfb2f9ac159" category="list-text">使用 * AutoSupport ： * 可以查看 AutoSupport 实例的详细信息或详细信息。详细信息包括系统详细信息，可能出现此问题的原因以及建议的操作。</block>
   <block id="315474a8ef79b74899073fc979f12da4" category="inline-link">云管理器</block>
-  <block id="c0ef71dd93aa7914acc09312aa7cc5a6" category="list-text">* 云就绪工作负载： * 提供有关存储系统中可用的不同工作负载类型的信息，并确定云就绪的工作负载。将工作负载迁移到云可节省成本并提供云灾难恢复。您可以移动 Oracle ， SAP ， SAP Hana ，文件共享， SQL 和 SharePoint 上运行的工作负载和卷。NetApp ® Cloud Volumes 可提供极致性能和高级数据管理功能，即使您在云中使用要求最苛刻的应用程序，也能帮助您将工作负载和卷迁移到云。有关使用 NetApp ® Cloud Volumes 的详细信息，请参见 <block ref="be04c0866e8894226d734193a7aae968" category="inline-link-rx"></block> 文档。</block>
   <block id="60765e03124dbe237199057ad89d6f43" category="list-text">* 快速链接： * 提供了可使用 Active IQ 数字顾问启动的应用程序列表。</block>
-  <block id="f654044e5e00be527fe6c0a171c4744e" category="list-text">通过 * 集群查看器： * ，您可以查看详细的物理和逻辑配置信息。详细信息显示在多个选项卡中的多个易于查看的表中，其中包括集群和节点配置摘要，本地层和卷信息，网络接口和端口信息，详细介绍磁盘和磁盘架信息的堆栈图以及一些缆线可视化。您还可以下载 SVG 格式的缆线可视化图形。</block>
   <block id="c3ee6b10a82ee8a739a196c0f92e9cc7" category="list-text">* API 服务： * 允许您提取感兴趣的数据并将其直接集成到公司的工作流中。</block>
   <block id="cf6603053c3facd929d0e865e9f65807" category="list-text">* AutoSupport 上传： * 用于分析 ONTAP 和 E 系列系统中的缺陷或问题。缺陷或问题由支持站点人员手动审核和修复。</block>
   <block id="87b3d4ff312f3761998135fad1e654e6" category="list-text">* 搜索： * 允许您根据客户名称，序列号，集群，站点名称，组名称，主机名等不同类别搜索系统。</block>
-  <block id="6511d933f6c09201b521578ffed27fa0" category="list-text">* 客户： * 允许您查看和管理客户的客户群。客户信息板是 Active IQ 的中央门户。</block>
   <block id="18679057e5312924c976a6bd4b05d9ed" category="list-text">* 集群： * 提供了有关 ONTAP 集群的信息。信息板还整合了运行状况，容量，存储效率和性能方面的洞察信息。</block>
   <block id="ad2084b929b7ea214a5005875f3f854d" category="list-text">* 序列号： * 提供有关分配给客户的序列号的信息。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
@@ -289,7 +286,6 @@
   <block id="03041e77791b46597451cb59f807f539" category="paragraph">此更新包括以下新增功能，增强功能和变更：</block>
   <block id="392d70ca39f31f10bd637936769788df" category="section-title">StorageGRID</block>
   <block id="42bee64e260cf6b08834a028608fd5b9" category="paragraph">StorageGRID 信息板可使用下一代 API 框架启用。</block>
-  <block id="dbdde4b93fcdc75be3a204d5356e5ac2" category="paragraph">您可以使用 StorageGRID 信息板查看监视列表，客户和组，站点级别的信息。</block>
   <block id="28218bb56d995c803dfa66937720289f" category="paragraph">此版本提供以下功能：</block>
   <block id="7a02010f1fdbb3243b633245324dbadf" category="list-text">* 清单小工具： * 查看选定级别下可用的 StorageGRID 系统的清单。</block>
   <block id="b9928cfa30ad75fb5efb2c79cc8b812e" category="list-text">* 健康小工具： * 查看所有风险和操作，包括与 StorageGRID 相关的风险和操作（如果这些风险和操作根据可用系统的现有 ARS 规则适用）。</block>
@@ -446,9 +442,7 @@
   <block id="61daef84b21528e38c95c105f2e1c1ad" category="list-text">在运行状况检查评估信息板上，单击 * 支持和授权 * 小工具。</block>
   <block id="195a1e51a63db10df6d13350df648daf" category="list-text">如果您的任何系统支持合同已过期或即将到期，请单击 * 活动支持合同 * 小工具。</block>
   <block id="f166a7d8aa57a3dbeef11dc2e8abe7a8" category="list-text">选中复选框并单击 * 续订 * 以启动选定系统的续订过程。</block>
-  <block id="27f07c2b949826ab7f0303577b6655b5" category="summary">提供有关如何查看和升级存储系统的信息。</block>
   <block id="1d6e1053c3a5ac9c901ad8624d357a85" category="doc">升级存储系统的 ONTAP 版本</block>
-  <block id="5c3e093c12585377957b31f6db043996" category="paragraph">您可以查看存储系统的待定升级并升级到更高版本的 ONTAP 。</block>
   <block id="49786ca9e9171e0b112a14ef40054cea" category="list-text">在信息板上的 * 升级 * 小工具中查看待定升级。</block>
   <block id="38fafc5e9c9553727750b9510171bb41" category="list-text">单击 * 操作 * 的数量可查看待定升级。</block>
   <block id="5bd5fef463b4aadc5c62af290cab7b03" category="list-text">选择所需的升级选项。</block>
@@ -805,7 +799,6 @@
   <block id="11ede7bd0ace739f3b91781a9ab554d5" category="paragraph">监视列表用于快速轻松地访问 Active IQ 数字顾问中预先选择的系统。如果您经常查看某个客户或一组系统，我们建议您创建监视列表。您最多可以创建 50 个监视列表，每个监视列表最多可以包含 15 ， 000 个系统（按类别）或 500 个系统（按序列号）。</block>
   <block id="84f698fa2ff5c75d0cfb42c5093b40e1" category="paragraph">首次访问 Active IQ 数字顾问时，您可以创建监视列表，也可以搜索客户名称，站点名称，组名称， StorageGRID ，主机名， 集群，序列号或系统 ID 。</block>
   <block id="e88ec3f6fa36ea31fdc1642a2265daee" category="paragraph">开始使用 Active IQ 数字顾问时，请务必了解 Active IQ 数字顾问中的一些基本术语。</block>
-  <block id="1b9960bdf058ded004770c875045fbe3" category="list-text">* 信息板： * 提供监视列表中系统的整体状态。</block>
   <block id="7e4e0b857c6e143cfb082c8bb0ab61cd" category="section-title">编辑监视列表可能需要 60 分钟才能反映在中 Active IQ 数字顾问</block>
   <block id="ae68b6ce5c029662d6b5aaeadce82376" category="paragraph">编辑监视列表不会立即更新 Active IQ 数字顾问中的信息。这些更改可能需要长达 60 分钟才能在 Active IQ 数字顾问中反映出来。</block>
   <block id="2bdc4897dd362e50492e84b2adbd474b" category="section-title">计划报告时，系统会显示一个空白报告</block>
@@ -917,4 +910,24 @@
   <block id="b5e8505881a879de37f6dcea9188eabf" category="cell">低影响情形</block>
   <block id="39d9903201320a83d45d3b36d512f051" category="cell">最佳实践</block>
   <block id="3c1579e4105c256057f7f7b8f1c3f947" category="cell">与已记录的最佳实践的偏差</block>
+  <block id="f7aec255f127e937f979de1bed372a50" category="list-text">* 健康信息板： * 提供监视列表中系统的整体状态。</block>
+  <block id="7f866e98d50d2b5a636e0419f858c5db" category="list-text">* 云就绪工作负载： * 提供有关存储系统中可用的不同工作负载类型的信息，并确定云就绪的工作负载。将工作负载迁移到云可节省成本并提供云灾难恢复。您可以移动 Oracle ， SAP ， SAP Hana ，文件共享， SQL 和 SharePoint 上运行的工作负载和卷。NetApp ® Cloud Volumes 可提供极致性能和高级数据管理功能，即使您在云中使用要求最苛刻的应用程序，也能帮助您将工作负载和卷迁移到云。有关使用 NetApp ® Cloud Volumes 的详细信息，请参见 <block ref="be04c0866e8894226d734193a7aae968" category="inline-link-rx"></block> 文档。</block>
+  <block id="9739d4ffc25558588df6f57e8041f639" category="list-text">通过 * 集群查看器： * ，您可以查看详细的物理和逻辑配置信息。详细信息显示在多个选项卡中的多个易于查看的表中，其中包括集群和节点配置摘要，本地层和卷信息，网络接口和端口信息，详细介绍磁盘和磁盘架信息的堆栈图以及一些缆线可视化。您还可以下载 SVG 格式的电缆可视化图形。</block>
+  <block id="0a51f957e738efd6c9df7534834bede6" category="list-text">* 客户： * 允许您查看和管理客户的客户群。客户信息板是 Active IQ 的中央门户。</block>
+  <block id="499ac45a8abad3e414323681b6865993" category="section-title">2021 年 6 月 17 日</block>
+  <block id="726b79341207e0305865ddd07bd220e5" category="paragraph">现在，您可以为 Storage VM 中任何一天，一周或一个月的所有卷生成聚合卷性能报告。</block>
+  <block id="57f3de4c026e78c595235fda67e74088" category="section-title">健康状况审核电子邮件</block>
+  <block id="804abf6ff56cc508e60ea3b78aeebd9a" category="paragraph">改进了健康状况审核电子邮件，其中包含有关运行状况检查和升级操作中的支持和授权信息。</block>
+  <block id="11be918415b47960a3e622906e9b1142" category="list-text">用户界面已进行了增强，可为您提供信息的表视图。</block>
+  <block id="ac2b13c9e8ac3e212fb8de487c09ccf0" category="list-text">现在，您可以在 " 升级详细信息 " 屏幕中查看有关 ONTAP 版本停止支持的信息。</block>
+  <block id="b6679b1c6146963df7846e6abe20fb56" category="list-text">配置驱动器现在支持 200 多个 AutoSupport 部分，用于创建黄金模板以及生成客户，站点，组，监视列表，集群， 和主机。</block>
+  <block id="23c2940abe14c5f014c90d156a3d6aa7" category="list-text">通过配置偏移，您可以使用配置偏移报告有效负载中包含的 Ansible 攻略手册来缓解偏差。</block>
+  <block id="f0c585be3e148a88aca493209f19efe0" category="section-title">运行状况检查评估</block>
+  <block id="709097c77412d5597cf70b901f0b3daa" category="paragraph">此功能已得到增强，可将 Storage VM （ SVM ）与预定义的风险目录进行比较，以评估差距并建议相关的更正操作。</block>
+  <block id="987fe606ef6419240a7e3345ba0c565f" category="section-title">2021 年 6 月 9 日</block>
+  <block id="127323a89ba6c119956db62c18e991a8" category="paragraph">现在，您可以查看计算运行状况得分所依据的系统数量。此增强功能适用于运行状况检查评估信息板中的所有属性</block>
+  <block id="d7bc8a5613552d326ad02be20ff346df" category="paragraph">您可以使用 StorageGRID 信息板查看监视列表，客户，组和站点级别的信息。</block>
+  <block id="d22d74dd6e0a6c5cd64ecb61ba45759d" category="summary">提供有关查看和升级存储系统的 ONTAP 版本的信息。</block>
+  <block id="d6917a390639e0a267939dc55858c685" category="doc">通过生成升级计划来升级 ONTAP 版本</block>
+  <block id="46a187e39eefc3fd35138a494e565b49" category="paragraph">您可以通过生成升级计划来查看存储系统的待定升级并升级到更高版本的 ONTAP 。您还应在 * 风险顾问 * 选项卡中查看风险列表，此列表可通过升级缓解风险。</block>
 </blocks>

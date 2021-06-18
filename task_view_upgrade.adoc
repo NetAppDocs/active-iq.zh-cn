@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task_view_upgrade.html 
-keywords: upgrade, current version, benefits 
-summary: 提供有关如何查看和升级存储系统的信息。 
+keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
+summary: 提供有关查看和升级存储系统的 ONTAP 版本的信息。 
 ---
-= 升级存储系统的 ONTAP 版本
+= 通过生成升级计划来升级 ONTAP 版本
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -18,7 +18,7 @@ summary: 提供有关如何查看和升级存储系统的信息。
 
 
 [role="lead"]
-您可以查看存储系统的待定升级并升级到更高版本的 ONTAP 。
+您可以通过生成升级计划来查看存储系统的待定升级并升级到更高版本的 ONTAP 。您还应在 * 风险顾问 * 选项卡中查看风险列表，此列表可通过升级缓解风险。
 
 .步骤
 . 在信息板上的 * 升级 * 小工具中查看待定升级。
