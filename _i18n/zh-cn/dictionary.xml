@@ -217,8 +217,6 @@
   <block id="2a62fcf3dfdf1f3122aec1cad5dca21f" category="paragraph">要提供反馈或提出问题，请发送电子邮件至： mailto ： ng-activeiq-feedback@netapp.com [.下划线 ]#ng-activeiq-feedback@netapp.com #]</block>
   <block id="93ae395e2672dbc470bc375ec78e11e4" category="summary">简要介绍了配置偏差功能</block>
   <block id="039bebff198c8cd18e071d60368ea6a5" category="doc">了解配置偏差</block>
-  <block id="3f6b50bf0ef406f398fb3b38d1f412a4" category="paragraph">Config Drift 功能有助于主动识别系统上的配置差异。您可以根据需要将系统或集群配置与使用生成 AutoSupport 数据的系统创建的模板进行比较。</block>
-  <block id="a294c9edca88b119fce35b47db54d58f" category="paragraph">未来版本中将添加更多基于社区智慧的模板和其他选项。</block>
   <block id="c66fe758a8cf22beffdabb8f048395bc" category="paragraph">您可以查看下图，了解用于确定配置差异并生成报告的工作流。</block>
   <block id="ae388a363ae9fad14e8ddbb635cf11a9" category="inline-image-macro">配置偏差工作流</block>
   <block id="bd7c8ab041a2ad665bf462b1a7a3644f" category="paragraph"><block ref="bd7c8ab041a2ad665bf462b1a7a3644f" category="inline-image-macro-rx" type="image"></block></block>
@@ -290,7 +288,6 @@
   <block id="7a02010f1fdbb3243b633245324dbadf" category="list-text">* 清单小工具： * 查看选定级别下可用的 StorageGRID 系统的清单。</block>
   <block id="b9928cfa30ad75fb5efb2c79cc8b812e" category="list-text">* 健康小工具： * 查看所有风险和操作，包括与 StorageGRID 相关的风险和操作（如果这些风险和操作根据可用系统的现有 ARS 规则适用）。</block>
   <block id="5c9ed548c23a9e1a91cf1c652e779a1a" category="list-text">* 规划小工具： *</block>
-  <block id="970813caff1ceef36f2718067edf47b0" category="list-text">* 容量增加： * 对于超过现有容量 70% 阈值的任何网格站点，您将收到通知。如果容量阈值可能超过 70% ，您可以选择在未来 1 ， 3 和 6 个月为站点中的存储网格添加容量。</block>
   <block id="b1022932a0a6c2bc62b19907e4e14bea" category="list-text">* 续订： * 对于许可证合同已过期或在未来 6 个月即将到期的任何 StorageGRID 系统，您将收到通知。您可以选择一个或多个系统向 NetApp 支持团队提出续订请求。</block>
   <block id="c4e80074735e6ff2daec051071dbc429" category="list-text">* 网格信息板： * 网格信息板提供选定网格的运行状况，规划和配置详细信息。</block>
   <block id="b71490eeea3abb6f9a0c159a3418dd5e" category="list-text">* 配置小工具： * 提供小工具中选定 StorageGRID 的基本详细信息，例如网格名称，主机名，序列号，型号，操作系统版本，客户名称，发货位置和联系详细信息。</block>
@@ -298,7 +295,6 @@
   <block id="666d5831344c81a6bb17a82cba51d507" category="list-text">* 网格摘要： * 包含基本信息，例如许可证类型，许可证容量，已安装节点数，支持条款（终止许可证合同的日期），主管理节点和主管理节点的主站点。此选项卡还提供站点名称以及在相应站点下标记的存储节点数。在此版本中，您可以单击可用于查看相应站点存储节点的超链接来查看节点名称列表。</block>
   <block id="d2f225914092c41360983fad88f32684" category="list-text">* 容量详细信息选项卡： * 提供为网格配置的网格级别和站点容量详细信息。容量详细信息，例如 " 已安装存储容量 " ， " 可用存储容量 " ， " 已用总存储容量 " 以及 " 数据和元数据已用容量 " 。这些详细信息可在网格级别和站点级别查看。</block>
   <block id="67cd8350911a2c5c4d5ea70ff9f7a77e" category="section-title">FabricPool 顾问</block>
-  <block id="caa65c337fc466e00adcb16a53fa8b87" category="paragraph">" 层数据 " 按钮已添加到 FabricPool 信息板中，可用于使用 NetApp ® Cloud Manager 将数据分层到低成本对象存储层。</block>
   <block id="5c1cbbba646e78bf69e01be8602cbe41" category="section-title">云就绪工作负载</block>
   <block id="b07b6b80fae4b5c609f71c937ae1f913" category="paragraph">您可以查看存储系统中可用的不同类型的工作负载，并确定云就绪的工作负载。</block>
   <block id="e68cf4e683901ace045287e72cebd33c" category="section-title">2020 年 12 月 21 日</block>
@@ -750,7 +746,6 @@
   <block id="112380f3f709a44ef8f75f6d665ac2c9" category="list-text">安装 Python 和 Ansible ，然后使用 Pip 下载 Python 软件包：</block>
   <block id="03f27531419e8390d55e5ee184b373c7" category="list-text">安装 NetApp Ansible 资料集：</block>
   <block id="9b838c4ce633e917e74290b161349c3a" category="list-text">确保 Ansible 攻略手册和清单文件位于同一路径中，然后执行 Ansible 攻略手册。固件更新会在后台运行几小时。</block>
-  <block id="4ec6a95192d18718a540794417c8fa63" category="sidebar">NetApp Active IQ 数字顾问</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
@@ -922,12 +917,19 @@
   <block id="ac2b13c9e8ac3e212fb8de487c09ccf0" category="list-text">现在，您可以在 " 升级详细信息 " 屏幕中查看有关 ONTAP 版本停止支持的信息。</block>
   <block id="b6679b1c6146963df7846e6abe20fb56" category="list-text">配置驱动器现在支持 200 多个 AutoSupport 部分，用于创建黄金模板以及生成客户，站点，组，监视列表，集群， 和主机。</block>
   <block id="23c2940abe14c5f014c90d156a3d6aa7" category="list-text">通过配置偏移，您可以使用配置偏移报告有效负载中包含的 Ansible 攻略手册来缓解偏差。</block>
-  <block id="f0c585be3e148a88aca493209f19efe0" category="section-title">运行状况检查评估</block>
   <block id="709097c77412d5597cf70b901f0b3daa" category="paragraph">此功能已得到增强，可将 Storage VM （ SVM ）与预定义的风险目录进行比较，以评估差距并建议相关的更正操作。</block>
   <block id="987fe606ef6419240a7e3345ba0c565f" category="section-title">2021 年 6 月 9 日</block>
-  <block id="127323a89ba6c119956db62c18e991a8" category="paragraph">现在，您可以查看计算运行状况得分所依据的系统数量。此增强功能适用于运行状况检查评估信息板中的所有属性</block>
   <block id="d7bc8a5613552d326ad02be20ff346df" category="paragraph">您可以使用 StorageGRID 信息板查看监视列表，客户，组和站点级别的信息。</block>
   <block id="d22d74dd6e0a6c5cd64ecb61ba45759d" category="summary">提供有关查看和升级存储系统的 ONTAP 版本的信息。</block>
   <block id="d6917a390639e0a267939dc55858c685" category="doc">通过生成升级计划来升级 ONTAP 版本</block>
   <block id="46a187e39eefc3fd35138a494e565b49" category="paragraph">您可以通过生成升级计划来查看存储系统的待定升级并升级到更高版本的 ONTAP 。您还应在 * 风险顾问 * 选项卡中查看风险列表，此列表可通过升级缓解风险。</block>
+  <block id="1a4bd064e1cb8fcdad31574facf63def" category="paragraph">Config Drift 功能可通过将系统模板与 " 黄金 " 或基本系统模板进行比较来确定配置差异。您可以计划每周或每月的偏差报告，也可以按需生成这些报告。您可以使用配置偏差报告中提供的 Ansible 攻略手册来缓解某些偏差。</block>
+  <block id="00c936ae5068ea9685cb242934d6e619" category="paragraph">只有具有 Advisor 和专家支持合同的系统才可使用此功能。</block>
+  <block id="e5a357b5d9e14c026e56b048d8d30481" category="inline-link-macro">下载并查看配置变化报告</block>
+  <block id="3fe3e6cae45cdc7f363823f66ac8cff4" category="list-text"><block ref="9904fa624af53322bf0cb3a29f4aca11" category="inline-link-macro-rx"></block>。</block>
+  <block id="385c42157f7dfc3d457c05af35c0f3e3" category="list-text">运行 Ansible 攻略手册（包含在配置偏差报告中）以缓解偏差。</block>
+  <block id="15da020a2033d049fff6b4623c2fb97b" category="paragraph">现在，您可以查看计算运行状况得分所依据的系统数量。此增强功能适用于运行状况检查评估信息板中的所有属性</block>
+  <block id="5ad57484a0088c331d00073cc0508f63" category="list-text">* 容量增加： * 对于超过现有容量 70% 阈值的任何网格站点，您将收到通知。如果容量阈值可能超过 70% ，您可以选择在未来 1 ， 3 和 6 个月为站点中的 StorageGRID 添加容量。</block>
+  <block id="d891e937202bc371fc43c6ba5e8795c1" category="paragraph">" 层数据 " 按钮已添加到 FabricPool 信息板中，可用于使用 NetApp Cloud Manager 将数据分层到低成本对象存储层。</block>
+  <block id="9192201bd176d96426465ee8aaf19773" category="sidebar">Active IQ 数字顾问文档</block>
 </blocks>
