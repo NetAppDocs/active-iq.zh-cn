@@ -27,7 +27,7 @@ Active IQ 基于云的服务利用从 NetApp 庞大的客户群中汲取的社�
 
 
 
-NOTE: 您必须具有有效的 NetApp 支持站点凭据才能登录。如果您没有帐户，并且刚刚开始使用 NetApp 支持，请访问 - https://mysupport.netapp.com/info/web/ECMP1150550.html[""]
+NOTE: 您必须具有有效的 NetApp 支持站点凭据才能登录。如果您没有帐户，并且刚刚开始使用 NetApp 支持，请访问 - https://mysupport.netapp.com/info/web/ECMP1150550.html[]
 
 Active IQ 将显示具有有效支持合同的系统。如果合同到期，则系统仍可在 30 天的宽限期内持续可见。此后，系统将无法在 Active IQ 中搜索或显示。
 

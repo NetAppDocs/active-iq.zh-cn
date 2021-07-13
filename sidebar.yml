@@ -127,11 +127,7 @@ entries:
 - title: 生成报告
   url: "/task_generate_reports.html"
 - title: 常见问题解答
-  entries:
-  - title: 存储效率
-    url: "/reference_SE_FAQ.html"
-  - title: 容量
-    url: "/reference_capacity_FAQs.html"
+  url: reference_aiq_faq.html
 - title: 获取更多信息
   url: "/concept_get_more_information.html"
 - title: 通知

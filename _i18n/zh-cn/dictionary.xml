@@ -133,45 +133,32 @@
   <block id="610f90ca909a7ffba0cca7c8587ce0c7" category="list-text">从左窗格中，单击 * 配置驱动器 * 。</block>
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">单击 * 添加模板 * 。</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">提供请求的值。</block>
-  <block id="a64d517222f4032f6011bf2a7ba82600" category="summary">回答有关存储效率的常见问题解答。</block>
-  <block id="9b39bbd876d3d5afcafe2847c17dd5cd" category="section-title">如何在 Active IQ 数字顾问中访问存储效率？</block>
   <block id="dab2edf9eaac3950e92c281ce358af01" category="inline-link">Active IQ 数字顾问</block>
   <block id="51b7461ab2221ad6ebc347199d080996" category="list-text">打开的主页 <block ref="73cab01bc3ab60831e45f34cd3a02915" category="inline-link-rx"></block>。</block>
   <block id="1f7190b58ba77336a9e9c5d8010a216d" category="list-text">从右上角的搜索框中搜索客户，站点，组，集群或节点，以访问相应的信息板。</block>
   <block id="f30fbe64196609d84d8615d57fc452c4" category="list-text">单击左侧导航栏中的 * 存储效率 * 。</block>
   <block id="b9fc81c6a264c571164cb5ed34f3d618" category="admonition">使用监视列表创建的信息板不会显示在存储效率小工具中。</block>
-  <block id="71b712dd724dc566350e6d57e781acbb" category="section-title">Active IQ 数字顾问是否会显示所有 ONTAP 系统的比率？</block>
   <block id="544815dd73a9c77dedc2a33074a1135a" category="paragraph">Active IQ 将显示运行 ONTAP 9.1 及更高版本的系统的比率。</block>
-  <block id="803ba9b61eeb75bba33bf1e77b53ac8b" category="section-title">效率信息板上的 ‘无快照 ' 复选框是什么？</block>
-  <block id="2ceb0f497b938e645724afb6bd413d7d" category="paragraph">默认情况下， * Active IQ 效率信息板 * 会计算客户级别，站点级别，组级别，集群级别和节点级别的总体比率。总体比率包括以下存储效率技术的比率：</block>
   <block id="83f45cad5e6f535ff10e564a526baad0" category="list-text">重复数据删除</block>
   <block id="82af841589057aa8922b1ac3bb4a28a4" category="list-text">压缩</block>
   <block id="14c3c56ff2a98d1a9c47b63a917f67a3" category="list-text">数据缩减</block>
   <block id="999cc42b236c7aee1157ff02d6f1bcd5" category="list-text">克隆</block>
   <block id="9147e5e61a7b9260dec09f3a6eb3e5be" category="list-text">快照</block>
   <block id="659294da8b9c465e6bd99f135b247780" category="paragraph">如果选中 * 不使用 Snapshots* 复选框， Active IQ 数字顾问将在客户级别，站点级别，组级别，集群级别和节点级别计算效率比率（重复数据删除，数据压缩，数据缩减和克隆存储效率技术的比率）。</block>
-  <block id="20cd0f14fe8b87baef53f2f557083847" category="section-title">使用了哪些物理数据和逻辑数据？</block>
-  <block id="2e2152790d83fc567437846ea34659e0" category="list-text">* 已用物理块 / 已用物理数据 *</block>
   <block id="eccc5f12f48e88329c29d59f7fb7399f" category="list-text">当前用于数据的空间量 （而不是保留供将来使用）</block>
   <block id="c299ceefe4739c6609844682b86349c4" category="list-text">包括聚合 Snapshot 副本使用的空间</block>
   <block id="fa72b749302bf3b8957c8abf2acf2d82" category="list-text">客户端实际占用 / 写入的空间</block>
-  <block id="ef29f43524aced6e1720103efc116105" category="list-text">* 已用逻辑数据总量 *</block>
   <block id="522573efa17813e55f87c7cbae5c665d" category="list-text">显示聚合中使用的逻辑大小。</block>
   <block id="76961ec33cf185290a8b0dced033a18b" category="list-text">这包括聚合中的卷，克隆和快照。</block>
   <block id="43f302f7ba1d2f90ab1fb1a174f89e61" category="list-text">逻辑大小是根据物理使用量（实际写入）和聚合中节省的空间计算得出的。</block>
   <block id="770b033112d1f3ec483eae3f0376cba5" category="list-text">不包括为将来使用而预留的空间</block>
-  <block id="f6c1cd15289b8cfc712f9646c1bfd27a" category="section-title">以下哪些 AutoSupport 实例用于计算效率比率？</block>
   <block id="fbba86bedbedb826e4d49d6634e11a58" category="paragraph">可以使用最新的每周 AutoSupport 实例或用户触发的 实例执行计算，这些实例往往包含计算比率所需的大部分部分。</block>
-  <block id="3aa27cb99492ac56eda17e889e08082a" category="section-title">哪些卷或聚合不包括在效率计算中？</block>
   <block id="5ddf073dc88b1b1cb693f83408b50169" category="paragraph">计算效率比率时不考虑以下对象：</block>
   <block id="fee1bf4ad7d1f9d9f0b5840dbdfc417a" category="list-text">根聚合</block>
   <block id="174527e8830337d88ba77cf782633189" category="list-text">使卷脱机</block>
   <block id="872d1e8c2f7648403bbfc1b139c3b484" category="list-text">SVM 根 / 管理根卷</block>
   <block id="2e3f400b5c42bd491bb0b106dbc41434" category="list-text">MCC 配置卷</block>
-  <block id="fb74638a0ff203a567ae863e098b0afb" category="section-title">如何查看效率比率的趋势？</block>
   <block id="5a897b6a1d7a975aff02b4546b892b29" category="paragraph">目前，效率比率是根据最新的每周或用户触发的 AutoSupport 实例计算得出的。在未来版本中，可能会考虑效率趋势。</block>
-  <block id="7b7be7c7dbcd1c1d40598a7d9a1c625d" category="section-title">如何计算客户级别的比率和效率节省？</block>
-  <block id="06b41bb6c4c659897acf70dc466c6ccd" category="paragraph">客户级别的存储效率信息板可为 AFF 和非 AFF 系统提供含和不含 Snapshot 副本的效率比率，并在 * 运行 ONTAP 9.1 及更高版本的系统 * 的客户群中进行组合。以下计算所需的参数来自 ONTAP AutoSupport ：</block>
   <block id="5104ffb6ada9a72f38b9cfe6696d45ef" category="section-title">不使用 Snapshot 副本（按每个聚合先计算）：</block>
   <block id="aee8bfb2d0d5d3e3c92513c62e58c58e" category="cell">* 操作 *</block>
   <block id="fa556b827144248698e8b0105e5108b3" category="cell">* 公式 *</block>
@@ -183,38 +170,22 @@
   <block id="f567b2b8924d3eb6ec09c5dc410cbffc" category="cell">Sum [Aggr Logical Used without Snapshot Copies for all aggregates and for all nodes of a customer]/ Sum [Aggr physical used without Snapshot copies for all aggregates and for all nodes of a customer] ： 1.</block>
   <block id="202ef30b2f3a15d4c82c8b78c06fa753" category="section-title">使用 Snapshot 副本：</block>
   <block id="888f76b18cd7638b969e9ac5eebc981e" category="cell">具有 Snapshot 副本的客户逻辑大小</block>
-  <block id="fa04a8c580e3ab5e97adea178677e5a4" category="cell">总和 * 。所有聚合和客户所有节点的卷，克隆， Snapshot 副本使用的逻辑大小 *</block>
   <block id="ad553b325f74022f6cdb9816eef8e372" category="cell">与 Snapshot 副本结合使用的客户物理大小</block>
-  <block id="31a573605a902e8d1f881ed601d6c84b" category="cell">总和 * 。所有聚合和使用的总物理大小 客户的所有节点 ]*</block>
   <block id="ef57ca9e5d4bfb77cfc6e251d21a1763" category="cell">使用 Snapshot 副本的客户效率比率</block>
   <block id="94ac4db23e5bf0c5c79c132d9e499226" category="cell">包含 Snapshot 副本和克隆的客户逻辑大小 / 与 Snapshot 副本和克隆一起使用的客户物理大小： 1.</block>
   <block id="504e36e2268a4abc438382c6e58210df" category="section-title">效率功能表计算：</block>
   <block id="b12bcb5d643bed309360544737bf24d4" category="cell">客户已用物理空间</block>
-  <block id="990051afeb85ffd4be4ad05601c528ea" category="cell">* 聚合已用物理空间之和 * 表示全部 聚合客户的所有节点的和</block>
   <block id="625abfc517917229cf36b11cf3bdec00" category="cell">在不使用 Snapshot 副本的情况下使用的客户逻辑大小</block>
-  <block id="782fe1d3d292a98ad5c3bfc1eeddcb53" category="cell">卷，克隆， Snapshot 副本使用的逻辑大小之和—客户所有节点的所有聚合的 Snapshot 副本使用的逻辑大小 *</block>
   <block id="35861b17dd609cc6e380a872314d8539" category="cell">Snapshot 副本使用的客户逻辑大小</block>
-  <block id="8cb66e4bbfd9a53dbf9ba38627452e98" category="cell">客户所有节点的所有聚合中的卷，克隆， Snapshot 副本使用的逻辑大小之和 *</block>
   <block id="32fe127357a619e7e7f62af1d2f3819c" category="cell">节省的总空间</block>
   <block id="39769b329c3be86894154b7e697acdb4" category="cell">已用总逻辑空间—已用总物理空间</block>
   <block id="755336e4aa89a7752f104b5a608365fc" category="cell">重复数据删除节省的空间</block>
-  <block id="88297e229ea9ffee5c030249b247e7ee" category="cell">通过卷重复数据删除节省的空间与节省的空间之和 通过对所有聚合的每个聚合进行实时零模式检测 * 客户的节点</block>
   <block id="8a78a23b30fd79b77d26a6d6c4c6c250" category="cell">数据压缩节省量</block>
-  <block id="758a9fca7156b30d8a5912c4ab84c30c" category="cell">每个聚合的 * 卷压缩节省的空间 * 之和 客户的所有节点</block>
   <block id="08d4c45c5e7b197f80414c4bc9c995db" category="cell">数据缩减节省量（适用于 ONTAP 9.1 ）</block>
-  <block id="df823292cb6066efda919e14492e68ce" category="cell">每个聚合的聚合数据缩减 * 节省的空间之和 客户的所有节点</block>
   <block id="8041e90b5e40701b98194ae34ade011e" category="cell">数据缩减节省量（适用于 ONTAP 9.2 及更高版本）</block>
-  <block id="0accf9128bb0d0ee627f09914484664e" category="cell">每个聚合数据缩减 * 节省的空间之和 客户的所有节点的聚合</block>
   <block id="57b49fee86d691b1f71efb03f0ec9eb6" category="cell">FlexClone 节省量</block>
-  <block id="10e8054f38365781356f8aebb7d0e8be" category="cell">* （ FlexClone 卷使用的逻辑大小 - 物理 已调整 FlexClone 卷使用的大小） * 客户的节点</block>
   <block id="9eb91200dfeecc085364dc670f2b9143" category="cell">Snapshot 副本备份节省量</block>
-  <block id="12aa132bf8f4b8b66f119828c577130e" category="cell">* （ Snapshot 副本使用的逻辑大小 - 物理 Snapshot 副本使用的大小） * 客户的节点</block>
-  <block id="f7bff3ed78aff9965adf712c997b2bef" category="section-title">为什么添加所有单独的效率节省量不会与存储效率节省的总数据形成比？</block>
-  <block id="490cde9d22d973d579bea3d37b92db6d" category="paragraph">卷和本地层（聚合）的 * 存储效率仪表板 * 显示了效率节省量。您不能添加卷节省量和聚合节省量，因为它们都发生在不同的存储对象上。</block>
-  <block id="d1343503e46bd8b720a1a49e987d0099" category="section-title">在升级到 ONTAP 之前，为何报告的存储效率较高或不正确？</block>
   <block id="cc1aa2ce993d9bbdac08a80d2c73290b" category="paragraph">如果节点中存在数据保护卷，则由于 ONTAP 中的一个错误，存储效率会显示得更高。已在 ONTAP 9.3P11 中修复此问题。如果从 9.3P11 之前的 ONTAP 版本升级以及节点中存在数据保护卷，则存储效率将报告正确或较低的值。</block>
-  <block id="0a1bcade4e3742a8609b0efc539e7501" category="section-title">如何提供反馈或询问与存储效率相关的其他问题？</block>
-  <block id="2a62fcf3dfdf1f3122aec1cad5dca21f" category="paragraph">要提供反馈或提出问题，请发送电子邮件至： mailto ： ng-activeiq-feedback@netapp.com [.下划线 ]#ng-activeiq-feedback@netapp.com #]</block>
   <block id="93ae395e2672dbc470bc375ec78e11e4" category="summary">简要介绍了配置偏差功能</block>
   <block id="039bebff198c8cd18e071d60368ea6a5" category="doc">了解配置偏差</block>
   <block id="c66fe758a8cf22beffdabb8f048395bc" category="paragraph">您可以查看下图，了解用于确定配置差异并生成报告的工作流。</block>
@@ -690,9 +661,6 @@
   <block id="fce1523be4b4cc1966774ce59fd20610" category="inline-image-macro">健康工作流</block>
   <block id="32a4a6962e2e1ab900312c2d4eefa0de" category="paragraph"><block ref="32a4a6962e2e1ab900312c2d4eefa0de" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6fe43a0bc5267b501dd5c7825c17e1be" category="paragraph">您可以观看以下视频，了解健康属性的重要性：</block>
-  <block id="dc7e15274ef89f58aacc5a9586b633fe" category="summary">回答有关容量的常见问题解答。</block>
-  <block id="d935e86346aa5ca30c714f3c7faa482c" category="section-title">Active IQ 数字顾问如何计算容量？</block>
-  <block id="ec376b8f46f910b9819054183e14372f" category="paragraph">Active IQ 数字顾问中的容量是为集群和节点计算的，不包括根副本和 Snapshot 副本</block>
   <block id="97b94c75518b90d30aeab5f6ccdd903e" category="cell">* 容量 *</block>
   <block id="2c132960410953edab40f07fdeedf275" category="cell">* 通过添加每个聚合… * 计算得出</block>
   <block id="e09dc7945acb6ec6caf41c962f679916" category="cell">原始容量</block>
@@ -717,20 +685,12 @@
   <block id="b33d54bb708c74cc416bf123ae545639" category="cell">"volume.xml" 的可用大小</block>
   <block id="e8033cbde923aa19e823cc81296cb836" category="cell">"VOL status -S " 的总物理使用量</block>
   <block id="fdb37ac8fa68749263ace18445e10547" category="cell">"volume.xml" 的逻辑已用大小</block>
-  <block id="9670a7001fe0759eb513b60075a7ec6e" category="section-title">什么是物理容量（实际），逻辑容量（有效）和已用容量（有预留）？</block>
-  <block id="e7a53bcc83a0c788afbe6e8b3c8d3cb0" category="list-text">* 已用物理块 / 已用物理容量（实际） *</block>
   <block id="9f949105f5563a86c9335097398679a2" category="list-text">客户端实际占用或写入的空间</block>
-  <block id="bef1cdfff57bb62d75f134cedd004814" category="list-text">* 逻辑容量（有效）已用逻辑数据 *</block>
   <block id="2f5b8aad51a721e7769a29a26b16a760" category="list-text">显示聚合中使用的逻辑大小</block>
   <block id="e02b370212cb3372e44be273e3f9dd04" category="list-text">聚合可包含卷，克隆和 Snapshot 副本。</block>
   <block id="c1430459f384e529728a1369a5ad1347" category="admonition">它不包括为将来使用而预留的空间。</block>
-  <block id="466473fcbf70d4d5770c74dcba710d48" category="list-text">* 已用 / 已用总数据容量（含预留） *</block>
   <block id="f220560d0803053aa622dc91a4c63fc2" category="list-text">聚合中卷，元数据或 Snapshot 副本已用或预留的所有空间之和</block>
   <block id="004016a613c0ec93cc34b1dd36fd4bfc" category="admonition">它包括为文件或卷保证类型的卷预留的空间。除了预留之外，它还包括延迟释放， aggr 博客和元数据。在清除延迟的可用块之前，它会显示为已用空间。清除后，已用空间将减少。</block>
-  <block id="3075953c8ef43302a8ac8313dc19844d" category="section-title">为什么每个卷的已用添加容量与节点级别的已用总容量不匹配？</block>
-  <block id="51928213bce5e5e20652d64283463569" category="paragraph">节点级别的已用容量包括卷，元数据和 Snapshot 副本预留的空间。它还包括为卷预留的空间，即文件或卷保证类型。因此，两者可能不匹配。</block>
-  <block id="27eeb4f5c20cd665700867a732167260" category="section-title">容量显示在 Active IQ 数字顾问基数 2 还是基数 10 中？</block>
-  <block id="16139f30f709089fb2a2a07c0e3a22a1" category="paragraph">Active IQ 中显示的所有容量均为基数 2 （除以 1024 ），以 GiB/TiB 表示容量。ONTAP 存储和其他 NetApp 产品还会在 Base 2 中显示容量使用情况。</block>
   <block id="5144b142028342a902f17914b7d8eeb1" category="paragraph">对于 StorageGRID ，容量以基数 10 显示，容量单位以 TB 表示。</block>
   <block id="fea651c80f853524fd5c34e4ec0610f8" category="summary">提供有关如何使用 Ansible 攻略手册安装和执行固件更新的信息。</block>
   <block id="c8cc6f58456eb3a7923573bb5d9a8b03" category="doc">安装并执行 AFF 和 FAS 固件 Ansible 自动化软件包 （有经验的用户）</block>
@@ -776,12 +736,10 @@
   <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">生成令牌以访问 API</block>
   <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">常见问题解答</block>
   <block id="d254861f20bb59d58db872722e57ba9c" category="sidebar">通知</block>
-  <block id="814f8bccd8aac6da990e8e928df84070" category="doc">存储效率常见问题解答</block>
   <block id="74f76d1c2d2305520a0c63bdfa4d1828" category="paragraph">以下是新增功能和增强功能。</block>
   <block id="a22fe4c7486ab7ffb8d4bc05dcab6336" category="list-text">* 网格查看器： * 在 * 配置 * 小工具中，您可以单击 * 网格查看器 * 链接来详细查看网格配置。在 * 配置 * 小工具中，您可以单击 * 网格查看器 * 屏幕中的 * 下载 * 按钮来下载选定 StorageGRID 的站点详细信息和容量详细信息。</block>
   <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link">FabricPool 最佳实践</block>
   <block id="3099044efaa5a1ef100aa4cec7e2f189" category="paragraph">要了解有关 FabricPool 的更多信息，请参见 <block ref="d18918d12837aea2df2f7b9b24f83e29" category="inline-link-rx"></block>。</block>
-  <block id="ebe7bb5a5b6b2a5b97e6a3a52f2d3ed6" category="doc">容量常见问题解答</block>
   <block id="d2f9c6e3559cfd668d1e78b444103c0a" category="list-text">可选：单击 * 编辑 * 以编辑模板。</block>
   <block id="0f4b62d6f9a595aef4041b063db627c2" category="list-text">生成配置偏差报告</block>
   <block id="d998ded6956eac23bfe161c9afe0ea0e" category="list-text">选择一个类别并为报告提供所请求的值。</block>
@@ -932,4 +890,69 @@
   <block id="5ad57484a0088c331d00073cc0508f63" category="list-text">* 容量增加： * 对于超过现有容量 70% 阈值的任何网格站点，您将收到通知。如果容量阈值可能超过 70% ，您可以选择在未来 1 ， 3 和 6 个月为站点中的 StorageGRID 添加容量。</block>
   <block id="d891e937202bc371fc43c6ba5e8795c1" category="paragraph">" 层数据 " 按钮已添加到 FabricPool 信息板中，可用于使用 NetApp Cloud Manager 将数据分层到低成本对象存储层。</block>
   <block id="9192201bd176d96426465ee8aaf19773" category="sidebar">Active IQ 数字顾问文档</block>
+  <block id="37adb256aff16968048142b85e04d7cc" category="list-text">* 系统固件： * 用于查看有关随 ONTAP 的每个主要版本和修补版本一起提供的系统固件的信息。</block>
+  <block id="a9fc8b0c7515ed8f092626e8b6dfe6ae" category="section-title">2021 年 7 月 12 日</block>
+  <block id="5d74c31f1e66f6dedf097f9a9ae5f31d" category="section-title">系统固件</block>
+  <block id="18f3c6e410315e65fda0ade6fb1eb520" category="paragraph">现在，您可以查看有关 ONTAP 主要版本和修补版本随附的系统固件的信息。您可以从 " 快速链接 " 菜单访问此功能。</block>
+  <block id="2e6276e69ded861b20ecfa19303091d4" category="section-title">运行状况检查信息板</block>
+  <block id="26db7511cb508f017d3895c34683014b" category="list-text">运行状况检查信息板已进行了改进，其中包含一个蓝色横幅，通知用户在计算运行状况得分时不会考虑 SupportEdge Advisor 和 SupportEdge Expert 不支持的系统。</block>
+  <block id="a097fce76ab040d673bff883e300bb1b" category="list-text">" 建议配置 " 小工具已进行了改进，可对 Storage VM （ SVM ）的失败检查进行深入分析，并可让您针对每个风险采取建议的更正操作。</block>
+  <block id="03f3109a0c0bb83b15258634e3f61278" category="list-text">现在，对于配置了不同硬件型号的集群中的所有节点，建议的目标 ONTAP 版本都相同。所有节点均支持此目标版本。</block>
+  <block id="d3c1f787ff63a25609fa946fe06088e0" category="list-text">现在，您可以通过购买 PVR 来延长控制器，磁盘和磁盘架的 EOS 时间线。购买 PVR 后，您可以在支持结束小工具中查看 PVR 日期和扩展详细信息。PVR 详细信息也会在 EOSL 报告中提供。</block>
+  <block id="11654a7c9bfe622e8f0c2bd5fa18720b" category="paragraph">您可以在详细清单页面上查看硬件，软件和不可退回磁盘的支持合同结束日期。</block>
+  <block id="fc6d3ceb7c84059ca7f2eb808bff5479" category="section-title">支持服务升级</block>
+  <block id="afd7e04c0a9b982d69f8dafe88b0c37f" category="list-text">用户界面经过改进，可显示您在 Active IQ 中订阅的特定支持服务。</block>
+  <block id="d3a9727234af152105cdd13aca8cdb44" category="list-text">现在，您可以从系统信息板提出升级支持服务订阅的请求，以访问更多功能。</block>
+  <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想快速了解问题解答，此常见问题解答会很有帮助。</block>
+  <block id="96dcda009a89f5728838eaae68633cbf" category="doc">Active IQ 常见问题解答</block>
+  <block id="1733ab713f46f3f8c18b694cf0e0f2c2" category="paragraph">以下问题解答了您经常询问的有关 Active IQ 的问题。</block>
+  <block id="7691783e728154cfd247db3c648a5bec" category="paragraph">* 什么是非技术服务单？ *</block>
+  <block id="fd75489624aa71b06ede6f9e50df5b79" category="paragraph">无法查看清单中的系统，合同期限日期不正确等非技术问题均归类为非技术服务单。</block>
+  <block id="6f6fae25c4cfb0620b7126c4acb04bf0" category="paragraph">* 何时需要创建非技术服务单？ *</block>
+  <block id="a129491cd9d78f1af21efbf72dbcb166" category="paragraph">在以下情况下，应创建一个非技术服务单：</block>
+  <block id="83f77ac81e7b9adec1ae7943c11aef16" category="list-text">无法访问某些功能</block>
+  <block id="9f289da80756bc405e29b49d51ac81d8" category="list-text">清单中缺少系统</block>
+  <block id="7f03ee6a26eada8c343d4876fe635184" category="list-text">从安装库停用系统</block>
+  <block id="e8298308fc4d536ad5a50bc21152434f" category="list-text">合同期限日期不正确或缺失</block>
+  <block id="6fece82477cde8bae9bdb844907c3dc2" category="list-text">支持服务不正确</block>
+  <block id="3af6a00e0adb666105fa519430ffd788" category="paragraph">* 如何创建非技术支持服务单？ *</block>
+  <block id="85009e822479a8fa21551fa97aad6551" category="list-text">单击 <block ref="ee2c8057dc5018da669c93cf5a6627fa" category="inline-link-macro-rx"></block> 在 NetApp 支持站点上打开 " 非技术反馈工具 " 。</block>
+  <block id="b881d2001fba3b1062cec6417c32bb74" category="list-text">从 * 反馈类别 * 下拉列表中选择相应的类别。</block>
+  <block id="12330277a5f9a61a6bc1beddec10eeff" category="list-text">输入所需的详细信息并在 " 注释 " 框中提供追加信息。</block>
+  <block id="014b609750aa0ccedbb6b4212fb3f2df" category="paragraph">此时将创建一个案例，并提供一个案例编号供您参考。</block>
+  <block id="1ded387253a93d29755ab2ca1074fbd1" category="paragraph">* 如何提供与 Active IQ 相关的反馈或询问其他问题？ *</block>
+  <block id="ac028435b37412dea24f9b1040cc0dc4" category="paragraph">要提供反馈或提出问题，请发送电子邮件至： mailto ： ng-activeiq-feedback@netapp.com [.下划线 ]#ng-activeiq-feedback@netapp.com #]</block>
+  <block id="01068fe2a9465b605eb4727d6748f0b0" category="paragraph">* 如何在 Active IQ 数字顾问中访问存储效率？ *</block>
+  <block id="1a056f8c1beedb684724e6b0601b069c" category="paragraph">* Active IQ 数字顾问是否显示所有 ONTAP 系统的比率？ *</block>
+  <block id="43208ae3669e6064ac8131ae950695db" category="paragraph">* 效率信息板上的 ‘无快照 ' 复选框是什么？ *</block>
+  <block id="677a526a7915d620261f7e6e60e75fac" category="paragraph">默认情况下， Active IQ 效率信息板会计算客户级别，站点级别，组级别，集群级别和节点级别的总体比率。总体比率包括以下存储效率技术的比率：</block>
+  <block id="4607346b33eee4e6a2891bed9f7bd75f" category="paragraph">* 使用的是物理数据和逻辑数据？ *</block>
+  <block id="fa23175e7bcd622e3124ac47ad2ac225" category="list-text">已用物理块 / 已用物理数据</block>
+  <block id="de71714b6d790e6f2a901c6c63045604" category="list-text">已用总逻辑数据</block>
+  <block id="49c331c7fa45c3fcea9db4e6d895aaf5" category="paragraph">* 哪些 AutoSupport 实例用于计算效率比率？ *</block>
+  <block id="77b1b6d5c5c968f271dcbd4564de5557" category="paragraph">* 哪些卷或聚合不包括在效率计算中？ *</block>
+  <block id="bf1367a73102c14a530a9d3b4b8d7e32" category="paragraph">* 如何查看效率比率的趋势？ *</block>
+  <block id="31ad53a8969261984454352088ceee13" category="paragraph">* 如何计算客户级别的比率和效率节省？ *</block>
+  <block id="8b07e9c9dfe78ebf6417b7e46aa9a8cb" category="paragraph">客户级别的存储效率信息板可为 AFF 和非 AFF 系统提供无论是否具有 Snapshot 副本的效率比率，并在客户客户客户群中对运行 ONTAP 9.1 及更高版本的系统进行组合。以下计算所需的参数来自 ONTAP AutoSupport ：</block>
+  <block id="5e172371942a821fe719bb9927e028ac" category="cell">总和 [ 所有聚合和客户所有节点的卷，克隆， Snapshot 副本使用的逻辑大小 ]</block>
+  <block id="caac557a2f6913ad1dc30764cebdcb51" category="cell">总和（所有聚合和客户的所有节点使用的总物理大小）</block>
+  <block id="d27940afaa3670698836aa97aaaf5284" category="cell">聚合为客户的所有聚合和所有节点使用的物理空间之和</block>
+  <block id="cac9b390967d1a57de89a94a58768553" category="cell">卷，克隆， Snapshot 副本使用的逻辑大小之和—客户所有节点的所有聚合的 Snapshot 副本使用的逻辑大小</block>
+  <block id="f4c53520bd67a034cfda9f5ab6850807" category="cell">客户所有节点的所有聚合中的卷，克隆， Snapshot 副本使用的逻辑大小之和</block>
+  <block id="6d5145b44af8f83cad3a06be23c01bf0" category="cell">通过卷重复数据删除节省的空间总和 + 通过对客户所有节点的每个聚合执行实时零模式检测节省的空间</block>
+  <block id="a2669e6da9e376c46aca3cf4e89b013a" category="cell">客户所有节点的每个聚合的卷压缩节省的空间之和</block>
+  <block id="af9b35e9306bf26cb8e0020d360bd317" category="cell">客户所有节点的每个聚合的聚合缩减所节省的空间之和</block>
+  <block id="f993bf4d6ca0d3b79d12f8965352feb2" category="cell">客户所有节点的每个聚合的聚合数据缩减节省的空间之和</block>
+  <block id="0399cea9f76ca035b776ca55a99908ef" category="cell">客户所有节点的每个聚合的总和（ FlexClone 卷使用的逻辑大小 - FlexClone 卷使用的物理大小）</block>
+  <block id="1f5c59c0f85bb3e3a1746576ff27a1f2" category="cell">客户所有节点的所有聚合的总和（ Snapshot 副本使用的逻辑大小 - Snapshot 副本使用的物理大小）</block>
+  <block id="f6d08cceacd60dbc06c4e68a2ce51a1d" category="paragraph">* 为什么添加所有单独的效率节省量不会与存储效率节省的总数据形成比？ *</block>
+  <block id="8a028433114d8c1b4462b443e6a61ff2" category="paragraph">卷和本地层（聚合）的存储效率信息板中显示了效率节省。您不能添加卷节省量和聚合节省量，因为它们都发生在不同的存储对象上。</block>
+  <block id="5fc0bed0c4e94cabaa1690a7b1cc57bc" category="paragraph">* 为什么在升级到 ONTAP 之前报告的存储效率较高或不正确？ *</block>
+  <block id="3b30da6e59750752fba75398273933ea" category="paragraph">* 如何在 Active IQ 数字顾问中计算容量？ * Active IQ 数字顾问中的容量是为集群和节点计算的，不包括根副本和 Snapshot 副本</block>
+  <block id="64e47ccdb67c7b45896bb9a787a2786d" category="paragraph">* 物理容量（实际），逻辑容量（有效）和已用容量（预留）是多少？ *</block>
+  <block id="1448ed2e9691c778e30c89c96cf71c8f" category="list-text">已用物理块 / 已用物理容量（实际）</block>
+  <block id="9132eec7c7956d6b79d64f13ce5ce15e" category="list-text">已用逻辑容量（有效）逻辑数据</block>
+  <block id="acf8af6ea046a9190f032ee604a25ac1" category="list-text">已用 / 已用总数据容量（含预留）</block>
+  <block id="62b464a696f86c90363b4594cfca87f4" category="paragraph">* 为什么每个卷的已添加已用容量与节点级别的已用总容量不匹配？ * 节点级别的已用容量包括卷，元数据和 Snapshot 副本预留的空间。它还包括为卷预留的空间，即文件或卷保证类型。因此，两者可能不匹配。</block>
+  <block id="a11869b5899e26048c9ed041f11ec9bf" category="paragraph">* 容量是否显示在 Active IQ 数字顾问基础 2 或基础 10 中？ * Active IQ 中显示的所有容量均为基础 2 （除以 1024 ），并以 GiB/TiB 表示容量。ONTAP 存储和其他 NetApp 产品还会在 Base 2 中显示容量使用情况。</block>
 </blocks>
