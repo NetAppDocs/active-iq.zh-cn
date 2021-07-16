@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference_aiq_faq.html 
-keywords: faq, frequently asked questions 
+keywords: faq, frequently asked questions, nontechnical case 
 summary: 如果您只是想快速了解问题解答，此常见问题解答会很有帮助。 
 ---
 = Active IQ 常见问题解答
@@ -20,13 +20,13 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 [role="lead"]
 以下问题解答了您经常询问的有关 Active IQ 的问题。
 
-* 什么是非技术服务单？ *
+* 什么是非技术案例？ *
 
-无法查看清单中的系统，合同期限日期不正确等非技术问题均归类为非技术服务单。
+无法查看清单中的系统，合同期限日期不正确等非技术问题均归类为非技术问题。
 
-* 何时需要创建非技术服务单？ *
+* 何时需要创建非技术案例？ *
 
-在以下情况下，应创建一个非技术服务单：
+应针对以下情况创建非技术案例：
 
 * 无法访问某些功能
 * 清单中缺少系统
@@ -35,7 +35,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 * 支持服务不正确
 
 
-* 如何创建非技术支持服务单？ *
+* 如何创建非技术案例？ *
 
 . 单击 link:https://mysupport.netapp.com/site/help["此处"] 在 NetApp 支持站点上打开 " 非技术反馈工具 " 。
 . 从 * 反馈类别 * 下拉列表中选择相应的类别。

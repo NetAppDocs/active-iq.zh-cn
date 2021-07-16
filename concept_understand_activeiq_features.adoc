@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept_understand_activeiq_features.html 
-keywords: activeiq, active iq digital advisor, features, 
+keywords: activeiq, active iq digital advisor, features, upgrade, support offering 
 summary: 提供有关信息板，监视列表，功能和小工具的信息。 
 ---
 = 了解 Active IQ 的功能
@@ -40,3 +40,6 @@ summary: 提供有关信息板，监视列表，功能和小工具的信息。
 * 检查主机的兼容性，并提供主机操作系统，驱动程序和固件的升级建议
 * 准确了解您希望在中找到的内容 更智能，更快速
 
+
+
+NOTE: 您可以从系统信息板上的 * 配置 * 小工具升级支持服务，以深入了解您的客户群并获得个性化支持。
