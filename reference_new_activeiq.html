@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head class="at-element-marker">
+  <title>Active IQ 数字顾问中的新增功能</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Active IQ 数字顾问中的新增功能" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/zh-cn/active-iq/reference_new_activeiq.html" />
+	<meta property="og:description" content="提供有关此版本中新增功能的信息。" />
+  <meta property="og:image" content="https://docs.netapp.com/zh-cn/active-iq/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/>
+  
+  <meta name="description" content="提供有关此版本中新增功能的信息。">
+  <meta name="keywords" content=" what's new, features, new">
+  
+  
+
+  <!-- Icons -->
+  <link rel="icon" href="/zh-cn/active-iq/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed -->
+  
+
+  <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+  <!-- Elastic Search -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
+
+  <!-- Controls AsciiDoctor Admonition Blocks -->
+  <link rel="stylesheet" type="text/css" href="/zh-cn/active-iq/css/font-awesome.min.css">
+
+  <!-- Controls the shadow effect for search dropdown menu -->
+  <link rel="stylesheet" href="/zh-cn/active-iq/css/boxshadowproperties.css">
+
+  <!-- NetApp CSS controls the technical content -->
+  <link rel="stylesheet" type="text/css" href="/zh-cn/active-iq/css/netapp.css">
+
+  <!-- WWW CSS Content -->
+  <link rel="stylesheet" type="text/css" href="/zh-cn/active-iq/css/www-luci-dotcom.min.css">
+  <link rel="stylesheet" type="text/css" href="/zh-cn/active-iq/css/www-netapp-dotcom.css">
+  <link rel="stylesheet" href="/zh-cn/active-iq/css/www-netapp-library-critical.min.css" media="all" >
+  <link rel="stylesheet" href="/zh-cn/active-iq/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="/zh-cn/active-iq/css/www-netapp-library-global-header-footer.min.css">
+
+  <!-- NetApp IE Customizations -->
+  <link rel="stylesheet" href='/zh-cn/active-iq/css/na-utility.css' type='text/css'>
+  <link rel="stylesheet" href='/zh-cn/active-iq/css/na-sidebar.css' type='text/css'>
+  <link rel='stylesheet' href='/zh-cn/active-iq/css/clouddocs.css' type='text/css'>
+  <link rel='stylesheet' href='/zh-cn/active-iq/css/na-pagenav.css' type='text/css'>
+
+  
+
+  
+  <link rel='stylesheet' href='/zh-cn/active-iq/css/na-feature.css' type='text/css'>
+  
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+  
+    <script src='/zh-cn/active-iq/js/na-search.js'></script>
+  
+
+  
+  <script src='/zh-cn/active-iq/js/na-pagenav.js'></script>
+  
+
+  <link rel='stylesheet' href='/zh-cn/active-iq/css/prism.css' type='text/css'>
+  <link rel='stylesheet' href='/zh-cn/active-iq/css/prism-netapp.css' type='text/css'>
+
+
+  <script src='/zh-cn/active-iq/js/na-utility.js'></script>
+  <script src='/zh-cn/active-iq/js/clouddocs.js'></script>
+  <script>
+  if (document.location.hostname === "docs.netapp.com") {
+    var head = document.getElementsByTagName('head')[0];
+    var adobe = document.createElement("script");
+    adobe.type = "text/javascript";
+    adobe.src = "//assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js";
+    head.appendChild(adobe);
+  }
+  </script>
+  <script src='/zh-cn/active-iq/js/jquery.navgoco.min.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src='/zh-cn/active-iq/js/toc.js'></script>
+  <script src='/zh-cn/active-iq/js/customscripts.js'></script>
+
+  <script>
+      $(document).ready(function() {
+          
+          var collapseOnInit = true;
+          
+
+          var navSettings = {
+              "caretHtml": '',
+              "accordion": collapseOnInit,
+              "openClass": 'active', // open
+              "save": false, // leave false or nav highlighting doesn't work right
+              "cookie": {
+                  "name": 'navgoco',
+                  "expires": false,
+                  "path": '/'
+              },
+              "slide": {
+                  "duration": 400,
+                  "easing": 'swing'
+              }
+          };
+
+          // Initialize navgoco with default options
+          $("#mysidebar").navgoco(navSettings);
+          
+
+          $("#collapseAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', false);
+          });
+
+          $("#expandAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', true);
+          });
+
+      });
+
+  </script>
+  <script>
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+  </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
+  <script>
+  if (document.location.hostname === "docs.netapp.com") {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-81697994-3');
+  }
+  </script>
+</head>
+
+
+  <body class role="document">
+    <div id="page" class="n-off-canvas-menu">
+      <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
+      <div class="n-off-canvas-menu__content-wrap">
+        <header class="site-header" id="banner">
+  <!-- Start top_hat -->
+  <div class="n-top-hat">
+    <div class="n-container">
+      <div class="n-top-hat__cross-property-nav">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/products-a-z/" class="n-top-hat__link">产品和解决方案</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/support-and-training/netapp-university/" class="n-top-hat__link">支持和培训</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://cloud.netapp.com" class="n-top-hat__link">云中心</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://community.netapp.com/" class="n-top-hat__link">社区</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://blog.netapp.com/" class="n-top-hat__link">日志</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://customers.netapp.com/en/" class="n-top-hat__link">客户案例</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">联系人</a>
+          </li>
+        </ul>
+      </div>
+      <div class="n-top-hat__utils">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">联系人</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End top_hat -->
+
+  <!-- Start property bar -->
+  <style>
+    .n-property-navigation-bar__menus--desktop-experience .n-menu--mega__default-content__heading span {
+    color: #34B0FF;
+    }
+  </style>
+  <div class="n-property-bar " data-ntap-ui="sticky-nav">
+    <div class="n-property-bar__inner-wrap">
+      <div class="n-property-bar__menu-toggle">
+        <a href="#" class="n-property-bar__menu-toggle-link">
+          <span class="n-property-bar__menu-toggle-text">Menu</span>
+          <svg class="n-icon-bars n-property-bar__menu-toggle-icon" aria-labelledby="title">
+            <title>bars</title>
+            <use xlink:href="/zh-cn/active-iq/common/svg/sprite.svg#bars"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="n-property-bar__property-mark ">
+        <a href="https://www.netapp.com" class="n-property-bar__property-link">
+          <div class="n-property-bar__logo">
+            <svg class="n-icon-netapp-mark n-icon-netapp-mark n-property-bar__netapp-mark-icon" aria-labelledby="title">
+              <title>netapp-mark</title>
+              <use xlink:href="/zh-cn/active-iq/common/svg/sprite.svg#netapp-mark"></use>
+            </svg>
+            <svg class="n-icon-netapp-logo n-property-bar__logo-svg" aria-labelledby="title">
+              <title>netapp-logo</title>
+              <use xlink:href="/zh-cn/active-iq/common/svg/sprite.svg#netapp-logo"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      
+      <div class="search-property-bar">
+        <div id="search-demo-container" class="searchbox n-property-bar__search">
+          <div id="react-search" data-type="widget" data-placeholder="搜索文档" data-no-results-found="未找到与 {query} 匹配的结果。" data-did-you-mean="搜索 {suggestion}。" data-no-results-found-did-you-mean="未找到与 {query} 匹配的结果。您是否要搜索 {suggestion}?" data-results-found="找到 {hitCount} 个结果"  ></div>
+          <button class="n-property-bar__search-toggle-button" type="button">
+            <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
+              <title>search</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/active-iq/common/svg/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="n-property-bar__toolbar"><div id="ie-i18n-tooltip" class="luci-tooltip luci-tooltip--left-bottom">
+      <div class="luci-tooltip__trigger" aria-describedby="luci-tooltip-1">
+        <svg class="luci-icon" aria-hidden="true">
+          <use xlink:href="/zh-cn/active-iq/common/svg/sprite.svg#circle-info">
+          </use>
+        </svg>
+      </div>
+      <div class="luci-tooltip__content" role="tooltip" id="luci-tooltip-1">
+        <div class="luci-tooltip__content-inner">
+          <div id="nmt-disclaimer" class="luci-tooltip__text"> NetApp正在利用行业领先的神经机器翻译工具为您提供此内容。 </div>
+        </div>
+      </div>
+    </div><!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
+      <div id="ie-i18n-menu">
+      <span class="ie-i18n-lang">简体中文</span>
+        <button class="ie-i18n-icon-container" type="button">
+          <svg class="n-globe__icon" aria-labelledby="title">
+            <title>globe</title>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/active-iq/common/svg/sprite.svg#globe"></use>
+          </svg>
+        </button>
+      </div>
+      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
+        <div class="n-language-selector-menu">
+          <div class="n-language-selector-menu__header">
+            <span class="n-language-selector-menu__title">选择您的语言</span>
+          </div>
+          <ul class="n-menu__list">
+            <li class="n-menu__list-column">
+              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/zh-cn/active-iq" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/us-en/active-iq" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/ja-jp/active-iq" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
+                </li></ul>
+            </li>
+          </ul>
+          <div class="menu__footer">
+            <p>当前语言: 简体中文
+            </p>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Language Selector -->
+
+    <div class="n-property-bar__cta"></div>
+  </div>
+  <script>
+    $(function(){
+        var currentLocalization = $('html').attr('lang');
+
+        var localizationsDictionary = {
+            "en-CA" : "https://www.netapp.com/search/index.aspx?for_cr=canada&",
+            "en-IN" : "https://www.netapp.com/search/index.aspx?for_cr=india&",
+            "nl-NL" : "https://www.netapp.com/search/index.aspx?for_cr=netherlands&",
+            "ru-RU" : "https://www.netapp.com/search/index.aspx?for_cr=russia&",
+            "sv-SE" : "https://www.netapp.com/search/index.aspx?for_cr=sweden&",
+            "it-IT" : "https://www.netapp.com/search/index.aspx?for_cr=italy&",
+            "he-IL" : "https://www.netapp.com/search/index.aspx?for_cr=israel&",
+            "ko-KR" : "https://www.netapp.com/search/index.aspx?for_cr=korea&",
+            "zh-TW" : "https://www.netapp.com/search/index.aspx?for_cr=taiwan&",
+            "en-GB" : "https://www.netapp.com/search/index.aspx?for_cr=unitedkingdom&",
+            "en-SG" : "https://www.netapp.com/search/index.aspx?for_cr=asean&",
+            "en-AU" : "https://www.netapp.com/search/index.aspx?for_cr=australia&",
+            "pt-BR" : "https://www.netapp.com/search/index.aspx?for_cr=brasil&",
+            "de-CH" : "https://www.netapp.com/search/index.aspx?for_cr=switzerland&",
+            "es-MX" : "https://www.netapp.com/search/index.aspx?for_cr=mexico&"
+        };
+
+        if($('html').hasClass('ntap-whitelisted') && localizationsDictionary.hasOwnProperty(currentLocalization)) {
+            $('.n-property-bar__property-link').attr('href', '/');
+        }
+    });
+  </script>
+  <!-- End property bar -->
+</header>
+
+        <div class="ie-utility">
+  <div class="ie-menu">
+    <div class="n-breadcrumb">
+      <ul class="n-breadcrumb__list">
+        <li class="n-breadcrumb__list-item">
+          <a href="https://www.netapp.com">主页</a>
+        </li>
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com">文档</a>
+        </li>
+        
+
+        <li class="n-breadcrumb__list-item">
+          <a href="/zh-cn/active-iq/">Active&nbsp;IQ&nbsp;Digital&nbsp;Advisor</a>
+        </li>
+        <li class="n-breadcrumb__list-item">
+          Active IQ 数字顾问中的新增功能
+        </li>
+      </ul>
+    </div>
+
+    <div style="clear: both"></div><!-- Main needs to have height -->
+  </div>
+</div>
+
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+  <!-- Sidebar Column -->
+  
+  <div class="col-md-3" >
+      <div class="n-pdf-header">
+  <a id="toggleButtonPdf" class="n-pdf-button" type="button">PDF<span>
+    </span>
+  </a>
+</div>
+<ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><div class="n-pdf-section">
+      <span class="n-pdf-section-title">站点</span>
+    </div>
+    <li>
+      <a target="_blank" href="/zh-cn/active-iq/pdfs/fullsite-sidebar/Active_IQ_数字顾问文档.pdf" >
+        <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>
+        Active IQ 数字顾问文档
+      </a>
+    </li>
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              小节
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/zh-cn/active-iq/pdfs/sidebar/发行说明.pdf" >
+            <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>
+            发行说明
+          </a>
+        </li>
+        <span>
+          
+    <div class="n-pdf-section">
+  <span class="n-pdf-section-title">此页面</span>
+</div>
+
+<li class="active">
+  <a target="_blank" href="/zh-cn/active-iq/pdfs/pages/reference_new_activeiq.pdf" >
+    <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>
+    Active IQ 数字顾问中的新增功能
+  </a>
+</li>
+
+
+  
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              小节
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/zh-cn/active-iq/pdfs/sidebar/入门.pdf" >
+            <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>
+            入门
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              小节
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/zh-cn/active-iq/pdfs/sidebar/配置监视列表.pdf" >
+            <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>
+            配置监视列表
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              小节
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/zh-cn/active-iq/pdfs/sidebar/分析健康属性.pdf" >
+            <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>
+            分析健康属性
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              小节
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/zh-cn/active-iq/pdfs/sidebar/查看系统详细信息.pdf" >
+            <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>
+            查看系统详细信息
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              小节
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/zh-cn/active-iq/pdfs/sidebar/主动确定系统要求.pdf" >
+            <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>
+            主动确定系统要求
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              小节
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/zh-cn/active-iq/pdfs/sidebar/确定配置差异.pdf" >
+            <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>
+            确定配置差异
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              小节
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/zh-cn/active-iq/pdfs/sidebar/提高存储系统的效率和性能.pdf" >
+            <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>
+            提高存储系统的效率和性能
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              小节
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/zh-cn/active-iq/pdfs/sidebar/分析存储系统的运行状况.pdf" >
+            <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>
+            分析存储系统的运行状况
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              小节
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/zh-cn/active-iq/pdfs/sidebar/确保您的存储系统为最新版本.pdf" >
+            <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>
+            确保您的存储系统为最新版本
+          </a>
+        </li>
+        <span>
+          
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/zh-cn/active-iq/pdfs/sidebar/使用_Ansible_攻略手册更新_AFF_和_FAS_固件.pdf" >
+            <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>
+            使用 Ansible 攻略手册更新 AFF 和 FAS 固件
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/zh-cn/active-iq/pdfs/sidebar/安装并执行_AFF_和_FAS_固件_Ansible_Automation_软件包_入门级_.pdf" >
+            <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>
+            安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（入门级）
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              小节
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/zh-cn/active-iq/pdfs/sidebar/使用_API_集成数据.pdf" >
+            <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>
+            使用 API 集成数据
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+<script>
+  $("#toggleContainerPdf li.active").parents('li').toggle('display');
+  $("#toggleContainerPdf li.active").parents('span.subfolders').toggle('display');
+  $("#toggleButtonPdf").click(function () {
+    $("#toggleContainerPdf").toggle('display');
+  });
+</script><ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="index.html">
+        Active IQ 数字顾问文档
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 发行说明</div>
+      </a>
+      <ul><li class="  active "><a class="na-navbar-padding" href="reference_new_activeiq.html">
+        新增功能
+      </a></li><li class=" "><a class="na-navbar-padding" href="reference_limitations_activeiq.html">
+        已知限制
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 入门</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_getting_started_2.html">
+        快速入门
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_understand_activeiq_features.html">
+        了解 Active IQ 的功能
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_key_terms.html">
+        Active IQ 的主要概念
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_autosupport.html">
+        了解 AutoSupport
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_login_activeiq.html">
+        登录到 Active IQ 数字顾问
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 配置监视列表</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_overview_dashboard.html">
+        概述
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_add_watchlist.html">
+        创建监视列表
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_manage_watchlists.html">
+        管理监视列表
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 分析健康属性</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_overview_wellness.html">
+        概述
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_risk_and_take_action.html">
+        查看风险并手动采取更正操作
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_increase_protection_against_hackers_and_Ransomware_attacks.html">
+        增强防范黑客和勒索软件攻击的能力
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_and_acknowledge_risks.html">
+        查看并确认风险
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_wellness_history.html">
+        查看健康历史记录
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_risks_remediated_unified_manager.html">
+        查看可使用 Active 自动缓解的风险 IQ Unified Manager 或 Ansible 攻略手册
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_avoid_the_downtime_and_possible_data_loss.html">
+        避免停机和可能的数据丢失
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_subscribe_to_wellness_review_email.html">
+        订阅健康评估电子邮件
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_renew_software_and_hardware.html">
+        续订软件和硬件
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_analyze_wellness_clusters_and_nodes.html">
+        分析集群和节点的运行状况
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 查看系统详细信息</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_view_inventory_details.html">
+        查看清单详细信息
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_valuable_insight_widget.html">
+        查看有价值的见解
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_keystone_capacity_utilization.html">
+        查看 Flex 订阅容量利用率
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 主动确定系统要求</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_overview_planning.html">
+        概述
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_identify_capacity_system.html">
+        确定达到容量限制的系统
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_avoid_a_volume_filling_up_to_prevent_an_outage.html">
+        避免卷填满以防止中断
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_renew_software_and_hardware.html">
+        续订软件和硬件
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 确定配置差异</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_overview_config_drift.html">
+        概述
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_add_config_drift_template.html">
+        添加配置偏移模板
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_compare_config_drift_template.html">
+        比较配置偏差模板
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 提高存储系统的效率和性能</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_analyze_storage_efficiency.html">
+        分析容量和效率节省情况
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_performance_graphs.html">
+        分析存储性能
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html">
+        使用 FabricPool Advisor 监控非活动数据并对其进行分层
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 分析存储系统的运行状况</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_understand_health_check_assessment_dashboard.html">
+        概述
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_get_started_with_health_check_assessment_dashboard.html">
+        开始使用运行状况检查评估信息板
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_renew_support_contracts_for_your_systems.html">
+        续订支持合同
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 确保您的存储系统为最新版本</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_view_upgrade.html">
+        升级存储系统的 ONTAP 版本
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 使用 Ansible 攻略手册更新 AFF 和 FAS 固件</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_update_AFF_FAS_firmware.html">
+        下载 AFF 和 FAS 固件 Ansible Automation 软件包
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_install_execute_firmware_update_exp_user.html">
+        安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（有经验的用户）
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（入门级）</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_hosting_firmware_files_using_web_server.html">
+        使用 Web 服务器托管固件文件
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_working_with_inventory_file.html">
+        使用清单文件
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_execute_ansible_playbook_using_docker.html">
+        使用 NetApp Docker 映像执行 Ansible 攻略手册
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_execute_ansible_playbook_without_docker.html">
+        在不使用 Docker 的情况下执行 Ansible 攻略手册
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_validate_firmware_installation.html">
+        验证固件安装
+      </a></li><li class=" "><a class="na-navbar-padding" href="reference_ansible_troubleshoot_feedback_support.html">
+        故障排除，反馈和支持
+      </a></li></ul></li></ul></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 使用 API 集成数据</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_overview_API_service.html">
+        概述
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_generate_tokens_API_services.html">
+        生成令牌以访问 API
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_API_catalog.html">
+        使用 API 目录执行 API
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="task_generate_reports.html">
+        生成报告
+      </a></li><li class=" "><a class="na-navbar-padding" href="reference_aiq_faq.html">
+        常见问题解答
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_get_more_information.html">
+        获取更多信息
+      </a></li><li class=" "><a class="na-navbar-padding" href="reference_legalnotices.html">
+        法律声明
+      </a></li></ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+  </div>
+  
+
+  <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
+    <!-- Begin of page container -->
+    <article class="page-content">
+      
+
+
+
+<div class="n-doc__component-detail-heading-wrap">
+  <h1 class="n-doc__component-detail-heading">Active IQ 数字顾问中的新增功能</h1>
+</div>
+
+
+<p class="page-details">
+  
+    
+    <time datetime="2021-07-23 10:29:30 +0000">07/23/2021</time>
+    
+  
+
+<span>提供者
+  <a target="_blank" href="https://github.com/netapp-soumikd">
+    <img  class="avatar avatar-small"
+          alt="netapp-soumikd"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/64966556?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+</span>
+
+
+  <span>
+    <a target="_blank" href="/zh-cn/active-iq/pdfs/pages/reference_new_activeiq.pdf" role="button">
+      <img src="/zh-cn/active-iq/images/pdf.png" width="20" height="20"/>下载此页面的 PDF</a>
+  </span>
+
+
+</p>
+
+
+<div id="toc" class="toc">
+<div id="toctitle">目录</div>
+<ul class="sectlevel1">
+<li><a href="#2021-年-7-月-12-日">2021 年 7 月 12 日</a></li>
+<li><a href="#2021-年-6-月-25-日">2021 年 6 月 25 日</a></li>
+<li><a href="#2021-年-6-月-17-日">2021 年 6 月 17 日</a></li>
+<li><a href="#2021-年-6-月-9-日">2021 年 6 月 9 日</a></li>
+<li><a href="#2021-年-5-月-20-日">2021 年 5 月 20 日</a></li>
+<li><a href="#2021-年-4-月-29-日">2021 年 4 月 29 日</a></li>
+<li><a href="#2021-年-4-月-7-日">2021 年 4 月 7 日</a></li>
+<li><a href="#2021-年-2-月-24-日">2021 年 2 月 24 日</a></li>
+<li><a href="#2021-年-2-月-10-日">2021 年 2 月 10 日</a></li>
+<li><a href="#2020-年-12-月-21-日">2020 年 12 月 21 日</a></li>
+<li><a href="#2020-年-11-月-12-日">2020 年 11 月 12 日</a></li>
+<li><a href="#2020-年-10-月-15-日">2020 年 10 月 15 日</a></li>
+<li><a href="#2020-年-9-月-30-日">2020 年 9 月 30 日</a></li>
+<li><a href="#2020-年-8-月-18-日">2020 年 8 月 18 日</a></li>
+<li><a href="#2020-年-7-月-17-日">2020 年 7 月 17 日</a></li>
+<li><a href="#2020-年-6-月-19-日">2020 年 6 月 19 日</a></li>
+<li><a href="#2020-年-5-月-19-日">2020 年 5 月 19 日</a></li>
+<li><a href="#2020-年-4-月-2-日">2020 年 4 月 2 日</a></li>
+<li><a href="#2020-年-3-月-19-日">2020 年 3 月 19 日</a></li>
+<li><a href="#2020-年-2-月-29-日">2020 年 2 月 29 日</a></li>
+</ul>
+</div>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>NetApp Active IQ 数字顾问中引入了以下功能和增强功能：</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-7-月-12-日">2021 年 7 月 12 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="系统固件">系统固件</h3>
+<div class="paragraph">
+<p>现在，您可以查看有关 ONTAP 主要版本和修补版本随附的系统固件的信息。您可以从 " 快速链接 " 菜单访问此功能。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="运行状况检查信息板">运行状况检查信息板</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>运行状况检查信息板已进行了改进，其中包含一个蓝色横幅，通知用户在计算运行状况得分时不会考虑 SupportEdge Advisor 和 SupportEdge Expert 不支持的系统。</p>
+</li>
+<li>
+<p>" 建议配置 " 小工具已进行了改进，可对 Storage VM （ SVM ）的失败检查进行深入分析，并可让您针对每个风险采取建议的更正操作。</p>
+</li>
+<li>
+<p>现在，对于配置了不同硬件型号的集群中的所有节点，建议的目标 ONTAP 版本都相同。所有节点均支持此目标版本。</p>
+</li>
+<li>
+<p>现在，您可以通过购买 PVR 来延长控制器，磁盘和磁盘架的 EOS 时间线。购买 PVR 后，您可以在支持结束小工具中查看 PVR 日期和扩展详细信息。PVR 详细信息也会在 EOSL 报告中提供。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="清单">清单</h3>
+<div class="paragraph">
+<p>您可以在详细清单页面上查看硬件，软件和不可退回磁盘的支持合同结束日期。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="支持服务升级">支持服务升级</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>用户界面经过改进，可显示您在 Active IQ 中订阅的特定支持服务。</p>
+</li>
+<li>
+<p>现在，您可以从系统信息板提出升级支持服务订阅的请求，以访问更多功能。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-6-月-25-日">2021 年 6 月 25 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="flex-订阅小工具">Flex 订阅小工具</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>如果您选择让 ONTAP 收集器获取有关容量使用情况的数据，则可以在共享和磁盘选项卡中查看文件共享和磁盘的详细信息。您可以通过确定即将提交容量的存储空间来节省存储空间。</p>
+</li>
+<li>
+<p>容量使用情况显示在 Keystone - 容量利用率信息板上，用于计费，现在基于逻辑容量。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-6-月-17-日">2021 年 6 月 17 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="报告">报告</h3>
+<div class="paragraph">
+<p>现在，您可以为 Storage VM 中任何一天，一周或一个月的所有卷生成聚合卷性能报告。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康状况审核电子邮件">健康状况审核电子邮件</h3>
+<div class="paragraph">
+<p>改进了健康状况审核电子邮件，其中包含有关运行状况检查和升级操作中的支持和授权信息。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="升级工作流">升级工作流</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>用户界面已进行了增强，可为您提供信息的表视图。</p>
+</li>
+<li>
+<p>现在，您可以在 " 升级详细信息 " 屏幕中查看有关 ONTAP 版本停止支持的信息。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="配置变化">配置变化</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>配置驱动器现在支持 200 多个 AutoSupport 部分，用于创建黄金模板以及生成客户，站点，组，监视列表，集群， 和主机。</p>
+</li>
+<li>
+<p>通过配置偏移，您可以使用配置偏移报告有效负载中包含的 Ansible 攻略手册来缓解偏差。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="运行状况检查评估信息板">运行状况检查评估信息板</h3>
+<div class="paragraph">
+<p>此功能已得到增强，可将 Storage VM （ SVM ）与预定义的风险目录进行比较，以评估差距并建议相关的更正操作。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-6-月-9-日">2021 年 6 月 9 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="运行状况检查评估信息板-2">运行状况检查评估信息板</h3>
+<div class="paragraph">
+<p>现在，您可以查看计算运行状况得分所依据的系统数量。此增强功能适用于运行状况检查评估信息板中的所有属性</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-5-月-20-日">2021 年 5 月 20 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="容量添加请求的-drift-聊天">容量添加请求的 Drift 聊天</h3>
+<div class="paragraph">
+<p>要获得有关容量添加请求的实时帮助，请直接从信息板与销售人员聊天。 <a href="task_identify_capacity_system.html">"了解如何操作"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-4-月-29-日">2021 年 4 月 29 日</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>下面介绍了如何保护您的系统免受黑客和勒索软件攻击。 <a href="task_increase_protection_against_hackers_and_Ransomware_attacks.html">"了解如何操作"</a>。</p>
+</li>
+<li>
+<p>您可以避免停机和可能的数据丢失。 <a href="task_avoid_the_downtime_and_possible_data_loss.html">"了解如何操作"</a>。</p>
+</li>
+<li>
+<p>了解如何避免卷填满以防止中断。 <a href="task_avoid_a_volume_filling_up_to_prevent_an_outage.html">"了解如何操作"</a>。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-4-月-7-日">2021 年 4 月 7 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="监视列表">监视列表</h3>
+<div class="paragraph">
+<p>首次访问 Active IQ 数字顾问时，您现在应创建监视列表，而不是信息板。您还可以查看不同监视列表的信息板，编辑现有监视列表的详细信息以及删除监视列表。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-2-月-24-日">2021 年 2 月 24 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="配置变化-2">配置变化</h3>
+<div class="paragraph">
+<p>此版本提供以下功能：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>能够在创建模板期间编辑属性。</p>
+</li>
+<li>
+<p>对 AutoSupport 部分进行分组。</p>
+</li>
+<li>
+<p>在客户，站点，组，监视列表，集群， 和主机名。 <a href="task_compare_config_drift_template.html">"了解如何操作"</a>。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="报告-2">报告</h3>
+<div class="paragraph">
+<p>您可以生成或计划容量和效率报告，以查看有关系统的容量和存储效率节省的详细信息。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-2-月-10-日">2021 年 2 月 10 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid">StorageGRID</h3>
+<div class="paragraph">
+<p>StorageGRID 信息板可使用下一代 API 框架启用。</p>
+</div>
+<div class="paragraph">
+<p>您可以使用 StorageGRID 信息板查看监视列表，客户，组和站点级别的信息。</p>
+</div>
+<div class="paragraph">
+<p>此版本提供以下功能：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>* 清单小工具： * 查看选定级别下可用的 StorageGRID 系统的清单。</p>
+</li>
+<li>
+<p>* 健康小工具： * 查看所有风险和操作，包括与 StorageGRID 相关的风险和操作（如果这些风险和操作根据可用系统的现有 ARS 规则适用）。</p>
+</li>
+<li>
+<p>* 规划小工具： *</p>
+<div class="ulist">
+<ul>
+<li>
+<p>* 容量增加： * 对于超过现有容量 70% 阈值的任何网格站点，您将收到通知。如果容量阈值可能超过 70% ，您可以选择在未来 1 ， 3 和 6 个月为站点中的 StorageGRID 添加容量。</p>
+</li>
+<li>
+<p>* 续订： * 对于许可证合同已过期或在未来 6 个月即将到期的任何 StorageGRID 系统，您将收到通知。您可以选择一个或多个系统向 NetApp 支持团队提出续订请求。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>* 网格信息板： * 网格信息板提供选定网格的运行状况，规划和配置详细信息。</p>
+</li>
+<li>
+<p>* 配置小工具： * 提供小工具中选定 StorageGRID 的基本详细信息，例如网格名称，主机名，序列号，型号，操作系统版本，客户名称，发货位置和联系详细信息。</p>
+</li>
+<li>
+<p>* 网格查看器： * 在 * 配置 * 小工具中，您可以单击 * 网格查看器 * 链接来详细查看网格配置。在 * 配置 * 小工具中，您可以单击 * 网格查看器 * 屏幕中的 * 下载 * 按钮来下载选定 StorageGRID 的站点详细信息和容量详细信息。</p>
+</li>
+<li>
+<p>* 站点详细信息： * 此选项卡提供了每个站点可用的网格摘要和存储节点。</p>
+</li>
+<li>
+<p>* 网格摘要： * 包含基本信息，例如许可证类型，许可证容量，已安装节点数，支持条款（终止许可证合同的日期），主管理节点和主管理节点的主站点。此选项卡还提供站点名称以及在相应站点下标记的存储节点数。在此版本中，您可以单击可用于查看相应站点存储节点的超链接来查看节点名称列表。</p>
+</li>
+<li>
+<p>* 容量详细信息选项卡： * 提供为网格配置的网格级别和站点容量详细信息。容量详细信息，例如 " 已安装存储容量 " ， " 可用存储容量 " ， " 已用总存储容量 " 以及 " 数据和元数据已用容量 " 。这些详细信息可在网格级别和站点级别查看。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="fabricpool-顾问">FabricPool 顾问</h3>
+<div class="paragraph">
+<p>" 层数据 " 按钮已添加到 FabricPool 信息板中，可用于使用 NetApp Cloud Manager 将数据分层到低成本对象存储层。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="云就绪工作负载">云就绪工作负载</h3>
+<div class="paragraph">
+<p>您可以查看存储系统中可用的不同类型的工作负载，并确定云就绪的工作负载。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-12-月-21-日">2020 年 12 月 21 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="运行状况检查评估信息板-3">运行状况检查评估信息板</h3>
+<div class="paragraph">
+<p>信息板中添加了以下小工具：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>推荐软件：此小工具提供了所有软件和固件升级以及货币建议的综合列表。</p>
+</li>
+<li>
+<p>信号丢失：此小工具提供有关系统的分数和信息，这些系统由于某种原因已停止发送 AutoSupport 数据。它可提供有关在 7 天内是否未从主机名收到任何 AutoSupport 数据的信息。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-11-月-12-日">2020 年 11 月 12 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="使用-api-集成数据">使用 API 集成数据</h3>
+<div class="paragraph">
+<p>您可以使用 Active IQ API 提取感兴趣的数据并将其直接集成到公司的工作流中。 <a href="concept_overview_API_service.html">"了解更多信息。"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康升级小工具">健康—升级小工具</h3>
+<div class="paragraph">
+<p>通过增强的 Risk Advisor 和 Upgrade Advisor 选项卡，您可以查看所有系统风险，并帮助您规划升级以降低所有风险。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="运行状况检查评估信息板-4">运行状况检查评估信息板</h3>
+<div class="paragraph">
+<p>" 建议配置 " 小工具已添加到信息板中，它可提供有关远程管理风险，备用驱动器和故障驱动器风险以及 HA 对风险所监控的系统数量的摘要。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="fabricpool-顾问-2">FabricPool 顾问</h3>
+<div class="paragraph">
+<p>您可以通过监控集群来减少存储占用空间和相关成本，这些集群分为四类：非活动本地层（聚合）数据，非活动卷数据，分层数据以及未启用 IDR 的集群。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="以简体中文和日语进行本地化">以简体中文和日语进行本地化</h3>
+<div class="paragraph">
+<p>Active IQ 数字顾问目前提供三种语言版本—中文，英文和日语。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="报告-3">报告</h3>
+<div class="paragraph">
+<p>您可以生成或计划 ClusterViewer 报告，以查看有关系统的物理和逻辑配置的详细信息。 <a href="task_generate_reports.html">"了解如何操作"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-10-月-15-日">2020 年 10 月 15 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="运行状况检查评估信息板-5">运行状况检查评估信息板</h3>
+<div class="paragraph">
+<p>Active IQ 运行状况检查评估（ HCA ）信息板可对您的整体环境进行时间点审核。根据运行状况检查得分，您可以根据建议的 NetApp 最佳实践调整存储系统，以便于进行长期规划并改善客户群的运行状况。 <a href="concept_understand_health_check_assessment_dashboard.html">"了解更多信息。"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="配置变化-3">配置变化</h3>
+<div class="paragraph">
+<p>通过此功能，您可以近乎实时地比较系统和集群配置以及检测配置差异。 <a href="task_add_config_drift_template.html">"了解如何添加配置偏移模板"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="autosupport">AutoSupport</h3>
+<div class="paragraph">
+<p>您可以查看 AutoSupport 数据并查看详细信息。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康审查订阅">健康审查订阅</h3>
+<div class="paragraph">
+<p>您可以订阅接收每月电子邮件通知，其中汇总了系统的运行状况，这些系统即将续订日期，并且需要对客户群中的 NetApp 产品进行升级。 <a href="task_subscribe_to_wellness_review_email.html">"立即订阅"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="报告-4">报告</h3>
+<div class="paragraph">
+<p>您可以使用报告功能立即生成报告，也可以计划每周或每月生成报告。 <a href="task_generate_reports.html">"了解如何操作"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="手动-autosupport-上传">手动 AutoSupport 上传</h3>
+<div class="paragraph">
+<p>手动 AutoSupport 上传功能已得到增强，可改善用户体验。另外还提供了一列，用于添加有关上传状态的注释。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="flex-订阅小工具-2">Flex 订阅小工具</h3>
+<div class="paragraph">
+<p>您可以监控 NetApp Keystone 灵活订阅服务的已提交，已用和突发存储容量。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-9-月-30-日">2020 年 9 月 30 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="使用-ansible-攻略手册的-aff-和-fas-固件">使用 Ansible 攻略手册的 AFF 和 FAS 固件</h3>
+<div class="paragraph">
+<p>文档经过了改进，包括有关下载，安装和执行 AFF 和 FAS 固件 Ansible 自动化软件包的信息。</p>
+</div>
+<div class="paragraph">
+<p><a href="task_update_AFF_FAS_firmware.html">"了解如何使用 Ansible 更新 AFF 和 FAS 固件 攻略手册"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-8-月-18-日">2020 年 8 月 18 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="性能">性能</h3>
+<div class="paragraph">
+<p>性能图已得到增强，可用于评估卷的性能。您可以在同一屏幕上的节点选项卡，集群选项卡，本地层选项卡和卷选项卡之间导航和切换。 <a href="task_view_performance_graphs.html">"了解如何操作"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="使用-ansible-攻略手册的-aff-和-fas-固件-2">使用 Ansible 攻略手册的 AFF 和 FAS 固件</h3>
+<div class="paragraph">
+<p>AFF 和 FAS 固件屏幕已进行了增强，可提供更好的用户体验。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-7-月-17-日">2020 年 7 月 17 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="性能-2">性能</h3>
+<div class="paragraph">
+<p>性能图已得到增强，可用于评估本地层的性能。您可以在同一屏幕上的节点选项卡，集群选项卡和本地层选项卡之间导航和切换。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康">健康</h3>
+<div class="paragraph">
+<p>我们增强了健康属性，可以查看所有受影响的系统，而无需深入了解操作和风险。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-6-月-19-日">2020 年 6 月 19 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="生成清单报告">生成清单报告</h3>
+<div class="paragraph">
+<p>现在，您可以生成选定监视列表的报告，并将报告通过电子邮件发送给最多 5 个收件人。 <a href="task_view_inventory_details.html">"了解如何操作"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="性能-3">性能</h3>
+<div class="paragraph">
+<p>性能图已得到增强，可用于评估存储系统的集群性能。您可以在同一屏幕上的节点选项卡和集群选项卡之间导航和切换。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="存储效率">存储效率</h3>
+<div class="paragraph">
+<p>存储效率小工具已进行了增强，可用于查看集群级别的存储效率比率和节省量。您可以在同一屏幕上的节点选项卡和集群选项卡之间导航和切换。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="更新默认主页">更新默认主页</h3>
+<div class="paragraph">
+<p>现在，您可以提供反馈，并告知我们您更新 Active IQ 默认主页屏幕的原因。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="更新到清单小工具">更新到清单小工具</h3>
+<div class="paragraph">
+<p>清单小工具经过改进，可提供用户友好的日期格式，额外的列用于平台支持结束和版本支持结束，从而改善用户体验。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-5-月-19-日">2020 年 5 月 19 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="设置默认主页">设置默认主页</h3>
+<div class="paragraph">
+<p>现在，您可以设置 Active IQ 的默认主页屏幕。您可以将其设置为 Active IQ 数字顾问或 Active IQ 经典。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="存储效率-2">存储效率</h3>
+<div class="paragraph">
+<p>无论是否为 AFF 系统，非 AFF 系统或这两者提供 Snapshot 备份，您都可以查看存储系统的存储效率比率和节省量。您可以在节点级别查看存储效率信息。 <a href="task_analyze_storage_efficiency.html">"了解如何操作"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="性能-4">性能</h3>
+<div class="paragraph">
+<p>通过性能图，您可以评估存储设备在不同重要方面的性能。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="使用-ansible-攻略手册升级-aff-和-fas-固件">使用 Ansible 攻略手册升级 AFF 和 FAS 固件</h3>
+<div class="paragraph">
+<p>在存储系统上使用 Ansible 更新 AFF 和 FAS 固件，以缓解已识别的风险并使存储系统保持最新。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="禁用健康评分功能">禁用健康评分功能</h3>
+<div class="paragraph">
+<p>健康评分功能将暂时禁用，以改进评分算法并简化整体体验。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-4-月-2-日">2020 年 4 月 2 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="入职概述视频">入职概述视频</h3>
+<div class="paragraph">
+<p>入职视频可帮助用户快速熟悉 Active IQ 数字顾问的选项和功能。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康评分">健康评分</h3>
+<div class="paragraph">
+<p>健康评分可根据高风险数量和已过期合同，为客户提供其客户群的综合分数。得分可以是 " 好 " ， " 平均 " 或 " 差 " 。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="风险摘要">风险摘要</h3>
+<div class="paragraph">
+<p>风险摘要提供了有关风险，风险影响和更正操作的详细信息。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="支持确认和忽略风险">支持确认和忽略风险</h3>
+<div class="paragraph">
+<p>如果您希望缓解风险或无法缓解风险，可选择确认风险。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-3-月-19-日">2020 年 3 月 19 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="升级工作流-2">升级工作流</h3>
+<div class="paragraph">
+<p>您可以使用升级工作流查看目标 ONTAP 版本中提供的升级建议和新功能摘要。 <a href="task_view_upgrade.html">"了解如何操作"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="有价值的见解">有价值的见解</h3>
+<div class="paragraph">
+<p>您可以查看通过 Active IQ 获得的权益摘要以及您的支持合同。对于选定系统，价值报告整合了过去一年的优势。 <a href="task_view_valuable_insight_widget.html">"立即查看"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="深入了解详细信息">深入了解详细信息</h3>
+<div class="paragraph">
+<p>提供更深入的信息，这是深入挖掘数据并根据需要立即深入了解聚合信息的构成的有力方式。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="增加容量">增加容量</h3>
+<div class="paragraph">
+<p>您可以主动识别已超过容量或容量接近 90% 的系统，并发送增加容量的请求。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-2-月-29-日">2020 年 2 月 29 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="增强的用户界面">增强的用户界面</h3>
+<div class="paragraph">
+<p>最新的 Active IQ 数字顾问信息板可提供个性化体验。它可以通过直观的方式在不同的信息板，小工具和屏幕上顺畅无缝地导航。它提供一体化体验。它可以传达比较结果，关系和趋势。它提供的洞察力有助于您根据不同信息板提供的数据检测和验证重要关系和有意义的差异。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="可自定义的信息板">可自定义的信息板</h3>
+<div class="paragraph">
+<p>通过在一个或多个页面或屏幕上提供有关数据的关键洞察和分析，帮助您一目了然地监控系统。您还可以创建多达 10 个信息板并做出有效的业务决策。</p>
+</div>
+<div class="paragraph">
+<p><a href="concept_overview_dashboard.html">"了解更多信息。"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="使用-active-iq-unified-manager-缓解风险">使用 Active IQ Unified Manager 缓解风险</h3>
+<div class="paragraph">
+<p>您可以使用 Active IQ Unified Manager 查看风险并进行更正。 <a href="task_view_risks_remediated_unified_manager.html">"了解如何操作"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康-2">健康</h3>
+<div class="paragraph">
+<p>提供有关存储系统状态的详细信息，这些信息可分类为以下 6 个小工具：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>性能和效率</p>
+</li>
+<li>
+<p>可用性和保护</p>
+</li>
+<li>
+<p>容量</p>
+</li>
+<li>
+<p>配置</p>
+</li>
+<li>
+<p>安全性</p>
+</li>
+<li>
+<p>续订</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>请参见 <a href="concept_overview_wellness.html">"分析健康属性"</a> 有关详细信息：</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="更智能更快速的搜索">更智能，更快速的搜索</h3>
+<div class="paragraph">
+<p>用于使用单系统视图搜索参数，例如序列号，系统 ID ，主机名，站点名称，组名称和集群名称。您还可以搜索系统组，此外，您还可以按客户名称，站点名称或系统组名称进行搜索。</p>
+</div>
+</div>
+</div>
+</div>
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+  <div class="page-nav-toolbar">
+    <div class="page-nav-contribute"  >
+      <div class="page-nav-contribute-title">提供</div>
+      <a target="_blank" href="https://github.com/NetAppDocs/active-iq/blob/main/reference_new_activeiq.adoc" class="btn btn-default githubEditButton" role="button"><img src="/zh-cn/active-iq/images/github.png" class="github-icon" />在 GitHub 上编辑</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/active-iq/issues/new?body=Page%3A%20[Active IQ 数字顾问中的新增功能](https://docs.netapp.com/zh-cn/active-iq/reference_new_activeiq.html)" class="btn btn-default githubEditButton" role="button"><img src="/zh-cn/active-iq/images/github.png" class="github-icon" />请求文档变更</a>
+      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >提供者指南</a>
+    </div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">在此页面上</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  <div style="clear: both"></div><!-- Main needs to have height -->
+</div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+      <div class="n-footer__bottom-left">
+
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+            <a href="https://www.netapp.com/us/legal/copyright.aspx">© 2021 NetApp, Inc.</a>
+            </li>
+
+</ul>
+</div>
+<div class="n-footer__social-links">
+<ul class="n-footer__social-link-list">
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-blog" href="https://blog.netapp.com" target="_blank" title="blog" alt="blog">
+<span class="n-footer__social-link-text">blog</span>
+<svg class="n-icon-blog n-footer__social-link-icon" aria-labelledby="title">
+  <title>blog@</title>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/active-iq/common/svg/sprite.svg#blog"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-community" href="https://community.netapp.com/" target="_blank" title="community" alt="community">
+<span class="n-footer__social-link-text">community</span>
+<svg class="n-icon-community n-footer__social-link-icon" aria-labelledby="title">
+<title>community@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/active-iq/common/svg/sprite.svg#comments"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-twitter" href="https://twitter.com/netapp" target="_blank" title="twitter" alt="twitter">
+<span class="n-footer__social-link-text">twitter</span>
+<svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
+<title>twitter@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/active-iq/common/svg/sprite.svg#twitter"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-facebook" href="https://www.facebook.com/NetApp" target="_blank" title="facebook" alt="facebook">
+<span class="n-footer__social-link-text">facebook</span>
+<svg class="n-icon-facebook n-footer__social-link-icon" aria-labelledby="title">
+<title>facebook@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/active-iq/common/svg/sprite.svg#facebook"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-linkedin" href="https://www.linkedin.com/company/netapp" target="_blank" title="linkedin" alt="linkedin">
+<span class="n-footer__social-link-text">linkedin</span>
+<svg class="n-icon-linkedin n-footer__social-link-icon" aria-labelledby="title">
+<title>linkedin@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/active-iq/common/svg/sprite.svg#linkedin"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-youtube" href="https://www.youtube.com/user/NetAppTV" target="_blank" title="youtube" alt="youtube">
+<span class="n-footer__social-link-text">youtube</span>
+<svg class="n-icon-youtube n-footer__social-link-icon" aria-labelledby="title">
+<title>youtube@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/active-iq/common/svg/sprite.svg#youtube"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-slideshare" href="https://www.slideshare.net/NetApp" target="_blank" title="slideshare" alt="slideshare">
+<span class="n-footer__social-link-text">slideshare</span>
+<svg class="n-icon-slideshare n-footer__social-link-icon" aria-labelledby="title">
+<title>slideshare@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/active-iq/common/svg/sprite.svg#slideshare"></use>
+</svg>
+
+</a>
+</li>
+</ul>
+</div>
+
+</div>
+<div class="n-footer__bottom-right">
+  <p class="n-footer__fine-print">想就我们的网站提供反馈?<a target="_self" href="javascript:netapp_mailto()" class="n-footer__copyright">请告诉我们</a>
+  <a href="https://docs.netapp.com/zh-cn/announcements/" class="n-footer__copyright">通知</a>
+  </p>
+</div>
+</div>
+</div>
+</footer>
+
+      </div>
+
+      <!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/zh-cn/active-iq/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/zh-cn/active-iq/js/prism.js'></script>
+      <script type="text/javascript" src='/zh-cn/active-iq/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/zh-cn/active-iq/js/www-ntap.js'></script>
+    <script src='/zh-cn/active-iq/js/tabbed-blocks.js'></script>
+  </body>
+
+  
+</html>
