@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_view_keystone_capacity_utilization.html 
-keywords: keystone, capacity utilization, service tiers 
+keywords: keystone, capacity utilization, service tiers, flex subscription, keystone flex subscription, shares, disks 
 summary: 提供有关 NetApp Keystone Flex 订阅的容量利用率的信息。 
 ---
 = 使用 NetApp Keystone Flex 订阅查看容量利用率
@@ -18,15 +18,22 @@ summary: 提供有关 NetApp Keystone Flex 订阅的容量利用率的信息。
 
 
 [role="lead"]
-如果您订阅了 NetApp Keystone 灵活订阅服务，则可以查看 Active IQ 数字顾问信息板上的 Keystone 小工具。
+如果您订阅了 Keystone Flex 订阅服务，则可以查看 Active IQ 数字顾问信息板上的 Flex 订阅小工具。
 
-此小工具可为您的帐户提供已用容量摘要。您可以查看已提交容量的容量利用率图表，快照将四舍五入为过去五分钟。超过已提交容量（突发容量）的利用率以红色标记。
+Flex 订阅小工具可为您的帐户提供容量使用情况摘要。它包含与逻辑容量相关的容量利用率图表，快照将四舍五入为过去五分钟。超过已提交容量（突发容量）的利用率以红色标记。
 
 您可以查看 * Keystone - 容量利用率 * 信息板，该信息板可分析小工具中的数据，并以图形方式表示所有已订阅存储的容量和使用情况的利用率趋势 link:https://docs.netapp.com/us-en/keystone/nkfsosm_performance.html["服务层"]与您的 NetApp Keystone Flex 订阅帐户关联的，例如高级，极速和标准。
 
-您可以查看 link:https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Flex 订阅服务容量"] 以及信息板上为块，文件服务或对象存储订阅的每个服务的使用情况。容量利用率以具有三个中心环的同心圆表示：内环显示已提交容量，中间环表示突发容量，外环表示已消耗容量。选定时间范围内某个特定日期和时间的已用容量由蓝线图指示。
+您可以查看 link:https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Flex 订阅服务容量"] 以及信息板上为块，文件服务或对象存储订阅的每个服务的使用情况。
+
+
+NOTE: 作为 Active IQ 用户，您可以在 ONTAP 收集器和 AutoSupport 之间进行选择，以获取有关容量使用情况的数据。
 
 .步骤
 . 单击 * 查看详细信息 * 以在详细的 * Keystone - 容量利用率 * 信息板中查看利用率趋势。
 . 选择 30 天， 7 天或 1 天以查看最近的平均使用量趋势。
+. 或者，如果您选择使用 ONTAP 收集器获取容量使用情况数据，则可以单击信息板上的各个选项卡查看有关文件共享和磁盘的更多详细信息。
++
+单击 * 共享 * 或 * 磁盘 * 以确定接近已提交容量的文件共享或磁盘，并做出明智的决策以节省存储容量。
+
 

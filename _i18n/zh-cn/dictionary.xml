@@ -252,7 +252,6 @@
   <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">提供有关此版本中新增功能的信息。</block>
   <block id="800e31baacf1dc07c572c5aed9b7c407" category="doc">Active IQ 数字顾问中的新增功能</block>
   <block id="39b6eb402b8871cdc35121d26ca117cb" category="section-title">2021 年 2 月 10 日</block>
-  <block id="03041e77791b46597451cb59f807f539" category="paragraph">此更新包括以下新增功能，增强功能和变更：</block>
   <block id="392d70ca39f31f10bd637936769788df" category="section-title">StorageGRID</block>
   <block id="42bee64e260cf6b08834a028608fd5b9" category="paragraph">StorageGRID 信息板可使用下一代 API 框架启用。</block>
   <block id="28218bb56d995c803dfa66937720289f" category="paragraph">此版本提供以下功能：</block>
@@ -299,7 +298,6 @@
   <block id="2b8a1cf4302bf1a2b093ad5a2f86b07e" category="paragraph">您可以使用报告功能立即生成报告，也可以计划每周或每月生成报告。 <block ref="a215153d303469248fdb9fd5d964c085" category="inline-link-macro-rx"></block>。</block>
   <block id="152dbe546ff9aa1627c8b40ce14b12f6" category="section-title">手动 AutoSupport 上传</block>
   <block id="dae11fc59da97a669ccb5077d15f9feb" category="paragraph">手动 AutoSupport 上传功能已得到增强，可改善用户体验。另外还提供了一列，用于添加有关上传状态的注释。</block>
-  <block id="778a4d68a9ab6a94796fb1775c6cef29" category="section-title">Keystone 小工具</block>
   <block id="3abdc55ecb8f5549d400131a4e62eb26" category="paragraph">您可以监控 NetApp Keystone 灵活订阅服务的已提交，已用和突发存储容量。</block>
   <block id="54074209636092245fcad58469e0b60b" category="section-title">2020 年 9 月 30 日</block>
   <block id="c0b0c57bf06a60b6c879938a236e3641" category="section-title">使用 Ansible 攻略手册的 AFF 和 FAS 固件</block>
@@ -331,7 +329,6 @@
   <block id="f96522e1ff649962254ca83d5f0ccbc6" category="section-title">禁用健康评分功能</block>
   <block id="b8b301824f50a2466b05d0e265e26b92" category="paragraph">健康评分功能将暂时禁用，以改进评分算法并简化整体体验。</block>
   <block id="1366d33389e2c07fe5eb0f36d050d4e3" category="section-title">2020 年 4 月 2 日</block>
-  <block id="7d60ddda5fd6c7dd4debe5e657b29028" category="paragraph">此更新包括以下新增功能和增强功能：</block>
   <block id="9a6e9ab02b089e4597f04c993e0c7c7b" category="section-title">入职概述视频</block>
   <block id="f9b08de0f0bc72617b5e2e6555c6734c" category="paragraph">入职视频可帮助用户快速熟悉 Active IQ 数字顾问的选项和功能。</block>
   <block id="a73d4602bef933dd262bf00fe9698547" category="section-title">健康评分</block>
@@ -583,11 +580,8 @@
   <block id="3c31ca2c59ebd12781d8a3ccae41f4f7" category="admonition">不支持手动将集群和控制器添加到清单文件中。</block>
   <block id="345d76812dbf5452d2588e7271cf8436" category="summary">提供有关 NetApp Keystone Flex 订阅的容量利用率的信息。</block>
   <block id="29cb371773858a73b7aca64ff6f208f4" category="doc">使用 NetApp Keystone Flex 订阅查看容量利用率</block>
-  <block id="da9101f887a86e857415695969af0d54" category="paragraph">如果您订阅了 NetApp Keystone 灵活订阅服务，则可以查看 Active IQ 数字顾问信息板上的 Keystone 小工具。</block>
-  <block id="46e8e14d9da7c0b23d6ea8f9d1012060" category="paragraph">此小工具可为您的帐户提供已用容量摘要。您可以查看已提交容量的容量利用率图表，快照将四舍五入为过去五分钟。超过已提交容量（突发容量）的利用率以红色标记。</block>
   <block id="6ba7120903e272ef8ff94c3d3cd58f57" category="inline-link">服务层</block>
   <block id="e252513a2a6c279f863372807d4d590a" category="inline-link">Flex 订阅服务容量</block>
-  <block id="7cca17b4c5b53075f1e873374ef5b32e" category="paragraph">您可以查看 <block ref="89a369e27820d8f4b4edc540b820bd22" category="inline-link-rx"></block> 以及信息板上为块，文件服务或对象存储订阅的每个服务的使用情况。容量利用率以具有三个中心环的同心圆表示：内环显示已提交容量，中间环表示突发容量，外环表示已消耗容量。选定时间范围内某个特定日期和时间的已用容量由蓝线图指示。</block>
   <block id="559ab0392555ba0574ee8aafcb0dd4b8" category="list-text">单击 * 查看详细信息 * 以在详细的 * Keystone - 容量利用率 * 信息板中查看利用率趋势。</block>
   <block id="d59bded01684ae09c11dfc24d78fbe41" category="list-text">选择 30 天， 7 天或 1 天以查看最近的平均使用量趋势。</block>
   <block id="ca2539d7307d0d34f3e2f7bbef6876a0" category="summary">简要介绍了 API 服务功能。</block>
@@ -735,8 +729,6 @@
   <block id="94248bdab6eca12666593501ea5684f7" category="sidebar">使用 API 集成数据</block>
   <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">生成令牌以访问 API</block>
   <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">常见问题解答</block>
-  <block id="d254861f20bb59d58db872722e57ba9c" category="sidebar">通知</block>
-  <block id="74f76d1c2d2305520a0c63bdfa4d1828" category="paragraph">以下是新增功能和增强功能。</block>
   <block id="a22fe4c7486ab7ffb8d4bc05dcab6336" category="list-text">* 网格查看器： * 在 * 配置 * 小工具中，您可以单击 * 网格查看器 * 链接来详细查看网格配置。在 * 配置 * 小工具中，您可以单击 * 网格查看器 * 屏幕中的 * 下载 * 按钮来下载选定 StorageGRID 的站点详细信息和容量详细信息。</block>
   <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link">FabricPool 最佳实践</block>
   <block id="3099044efaa5a1ef100aa4cec7e2f189" category="paragraph">要了解有关 FabricPool 的更多信息，请参见 <block ref="d18918d12837aea2df2f7b9b24f83e29" category="inline-link-rx"></block>。</block>
@@ -956,4 +948,15 @@
   <block id="369c5e0a2b4ca18226dd42668ec16d4a" category="paragraph">应针对以下情况创建非技术案例：</block>
   <block id="57d68619b2765e5344ee6691f1cbbd88" category="paragraph">* 如何创建非技术案例？ *</block>
   <block id="ba625a9b488c5e1df819a67984494371" category="list-text">单击 <block ref="ee2c8057dc5018da669c93cf5a6627fa" category="inline-link-macro-rx"></block> 在 NetApp 支持站点上打开 " 非技术反馈工具 " 。</block>
+  <block id="b796f5a9938eed79a1b234c13b86fcaf" category="paragraph">NetApp Active IQ 数字顾问中引入了以下功能和增强功能：</block>
+  <block id="bd0328b259e09ba57ed30da815f4cc42" category="section-title">2021 年 6 月 25 日</block>
+  <block id="e6950d9f03fba06e22767b7f984caa30" category="section-title">Flex 订阅小工具</block>
+  <block id="3ec6287c56b9bb68a36e7c97f53e3f6b" category="list-text">如果您选择让 ONTAP 收集器获取有关容量使用情况的数据，则可以在共享和磁盘选项卡中查看文件共享和磁盘的详细信息。您可以通过确定即将提交容量的存储空间来节省存储空间。</block>
+  <block id="04831b0867d81afad6e918c11ee8b449" category="list-text">容量使用情况显示在 Keystone - 容量利用率信息板上，用于计费，现在基于逻辑容量。</block>
+  <block id="a0569192c93daf768db9180658231e9e" category="paragraph">如果您订阅了 Keystone Flex 订阅服务，则可以查看 Active IQ 数字顾问信息板上的 Flex 订阅小工具。</block>
+  <block id="2a386132dc9368657bf55334cdc2e9c0" category="paragraph">Flex 订阅小工具可为您的帐户提供容量使用情况摘要。它包含与逻辑容量相关的容量利用率图表，快照将四舍五入为过去五分钟。超过已提交容量（突发容量）的利用率以红色标记。</block>
+  <block id="c247604a9a54e024469e50635a2178fb" category="paragraph">您可以查看 <block ref="89a369e27820d8f4b4edc540b820bd22" category="inline-link-macro-rx"></block> 以及信息板上为块，文件服务或对象存储订阅的每个服务的使用情况。</block>
+  <block id="c56661a66437cf16fa6985915185aa55" category="admonition">作为 Active IQ 用户，您可以在 ONTAP 收集器和 AutoSupport 之间进行选择，以获取有关容量使用情况的数据。</block>
+  <block id="6c6a95e0f5aea889e91da11c9661f08c" category="list-text">或者，如果您选择使用 ONTAP 收集器获取容量使用情况数据，则可以单击信息板上的各个选项卡查看有关文件共享和磁盘的更多详细信息。</block>
+  <block id="6fc85e5ba98ece0cf451b774e77a7a7c" category="paragraph">单击 * 共享 * 或 * 磁盘 * 以确定接近已提交容量的文件共享或磁盘，并做出明智的决策以节省存储容量。</block>
 </blocks>
