@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: task_upgrade_support_offering.html 
+keywords: upgrade, support offering, supportedge, premium, standard, basic, expert, secure, purchase 
+summary: 提供有关升级支持服务的信息。 
+---
+= 升级支持服务
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以购买支持产品的升级，以访问 Active IQ 数字顾问中的更多特性和功能。
+
+您可以借助建议的实践和修复， Ansible 攻略手册升级自动化，可操作的报告和评论，个性化支持等，升级您当前的支持产品以优化您的安装群。您可以在续订支持合同时购买升级，也可以在系统（节点）信息板的任何其他时间购买升级。
+
+
+NOTE: 只有在当前使用 SupportEdge Premium 或 SupportEdge 安全支持产品的情况下，您才能选择升级 AIQ 。
+
+.步骤
+. 单击 * 清单 * 小工具旁边的 * 查看所有系统 * 。
+. 在清单信息板上，选择要升级的节点（主机）。
++
+系统会将您重定向到系统或节点信息板。
+
+. 单击 * 配置 * 小工具中的 * 升级 * 。
++
+image:Configuration widget_Support offering upgrade.PNG["配置小工具"]
+
+. 或者，也可以单击 * 比较支持服务项目 * 以查看比较图表，并选择符合您要求的支持服务项目。
++
+或者，您也可以单击左侧导航菜单上的 * 支持服务项目 * 来查看比较图表。
+
+. 添加您的任何注释，然后单击 * 发送 * 。
++
+购买支持服务升级的请求会发送给 NetApp 续订团队。
+
+

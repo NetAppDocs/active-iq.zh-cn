@@ -244,7 +244,6 @@
   <block id="672a98e16d598ad5d32b32f96bbf4db5" category="paragraph">默认情况下，系统会选中 * 容量 * 选项卡。</block>
   <block id="283c169bd8b723905691a0368b1eaf2a" category="list-text">查看集群和节点级别的容量详细信息。</block>
   <block id="be131fcebf48482dd72ea96add51f0e0" category="list-text">查看节点级别的容量预测。</block>
-  <block id="bf0d5c3a7b4e9f94bccfab0eb480683e" category="paragraph">根据容量预测，您可以向系统添加容量。</block>
   <block id="03c660c2768c96f05e2acdb21cf61ebb" category="list-text">单击 * 添加容量 * 向 NetApp 或您的合作伙伴发送添加容量的通知。</block>
   <block id="6d01d6a00b896623fe1252dcd728f7d4" category="list-text">查看存储系统的存储效率和数据节省情况。</block>
   <block id="f4211b7ee285529c0082b53f3b17de86" category="list-text">如果存储系统的存储效率比率高于平均存储效率比率，请单击 * 分享您的成功案例 * ，让我们了解所遵循的最佳实践。</block>
@@ -469,27 +468,7 @@
   <block id="3caae258f0b7b1933ce92f0c03955521" category="paragraph">服务处理器 /BMC 固件更新的 Ansible 攻略手册已启用，并提供了一个选项，用于验证控制器上是否安装了最新的 SP/BMC 固件。验证完成后（更新最长可能需要两小时）， Ansible 攻略手册将通过连接到 SP/BMC 控制台来应用内部交换机固件更新。</block>
   <block id="b80d891d0b3572cb38b140778c2439e6" category="paragraph">在 Ansible 攻略手册执行结束时，将通知 SP/BMC 固件和内部交换机固件安装的故障和成功信息。如果 SP/BMC 固件 / 内部交换机固件安装失败，请按照《 Ansible 攻略手册》中所述的步骤进行操作。</block>
   <block id="6551f219e2490db3bc60a0ba2bac261d" category="list-text">单击 * 可视化 * 选项卡以查看集群的图形表示形式。</block>
-  <block id="6963e434c6c702352323115759d00c82" category="summary">Active IQ 数字顾问文档。</block>
-  <block id="25ee4245ff35e15ec0a6dda5f6cd1765" category="doc">Active IQ 数字顾问文档</block>
-  <block id="c38a373c370e2da208f4dde8df6ccea0" category="paragraph">Active IQ 数字顾问可通过基于云的门户和移动应用程序提供可操作的预测性分析和主动式支持，帮助您优化全球混合云中的数据基础架构。</block>
-  <block id="9f15e7b7f8cb5e76369b610536ace96d" category="paragraph">Active IQ 基于云的服务利用从 NetApp 庞大的客户群中汲取的社区智慧和同行比较，将这些洞察与 AutoSupport 遥测和 My AutoSupport 功能相结合，提供一套高级的无与伦比的分析服务。</block>
-  <block id="db5eb84117d06047c97c9a0191b5fffe" category="inline-image-macro">支持</block>
-  <block id="34e741684a8c236c7a0870ef57e81674" category="paragraph">新版本的 Active IQ 称为 Active IQ 数字顾问，非常简单，您可以快速确定并采取下一个最佳措施来改善 NetApp 环境的运行状况。Active IQ 数字顾问经过改进和重新设计，可帮助您更有效地执行任务。我们正在逐步增强此版本，并希望您尝试这种新体验。您可以通过向我们提供反馈或报告问题 单击 <block ref="855bad4a062f8e18bb971150400bc21a" category="inline-image-macro-rx" type="image"></block> （支持）图标。</block>
-  <block id="0f7f43aceae358771a9e706f2cd90ec0" category="section-title">访问 Active IQ Web 门户并下载移动应用</block>
   <block id="f706543e3bc2ef8cf127bd6a70d0b831" category="inline-link">Active IQ Web 门户</block>
-  <block id="206582d9f2cc38932162dcfe93187c2f" category="list-text"><block ref="206582d9f2cc38932162dcfe93187c2f" category="inline-link-rx"></block></block>
-  <block id="dfe678b9f84d748c17801e145643c5d0" category="inline-link">Active IQ 移动应用程序下载（ iOS ）</block>
-  <block id="f10ca7054bb054888ae831372e0e720f" category="list-text"><block ref="acf89b5841d337a935a6f11ad5354c4d" category="inline-link-rx"></block></block>
-  <block id="47f493a6c23d2ddd793ed86e819b1806" category="inline-link">Active IQ 移动应用程序下载（ Android ）</block>
-  <block id="56632b7c3ba14678d71d38b8ddb74a55" category="list-text"><block ref="56632b7c3ba14678d71d38b8ddb74a55" category="inline-link-rx"></block></block>
-  <block id="c0b845337206fddc21c43b9e55f6422b" category="admonition">您必须具有有效的 NetApp 支持站点凭据才能登录。如果您没有帐户，并且刚刚开始使用 NetApp 支持，请访问 -<block ref="31f51fec93e3106aee6fa68eccedad2c" category="inline-link-rx"></block></block>
-  <block id="10553ef0acd01c6c0f2ca035327a4bd7" category="section-title">文档和支持</block>
-  <block id="58c15ba96d80da0192badb983c10279d" category="inline-link">文档资源</block>
-  <block id="35452e2dd037c7071e2a283924a8c985" category="list-text"><block ref="35452e2dd037c7071e2a283924a8c985" category="inline-link-rx"></block></block>
-  <block id="c571c7f962b14a4ad2f902508253ad6e" category="inline-link">用户社区</block>
-  <block id="2dcbf0da8c096ec7966a574fa8788b28" category="list-text"><block ref="2dcbf0da8c096ec7966a574fa8788b28" category="inline-link-rx"></block></block>
-  <block id="bc118735561878418d14c3320dd957d8" category="inline-link">在 Twitter 上关注我们</block>
-  <block id="aa8f78e51cff3a2a093bcded21600284" category="list-text"><block ref="aa8f78e51cff3a2a093bcded21600284" category="inline-link-rx"></block></block>
   <block id="204efaf5593d9e611dc3c30f114be675" category="summary">提供有关性能的信息。</block>
   <block id="14b9230853f4485a198aadfb867fa9d2" category="doc">分析性能图</block>
   <block id="1e722e5e313aad328fc378b28e2949f7" category="paragraph">通过性能图，您可以分析存储设备的性能。您可以查看一个 ONTAP 集群或一个 ONTAP 集群的多个节点的详细性能图。它会显示运行 ONTAP 8.3.1 及更高版本的系统的集群节点。这些图形提供了历史性能数据，可用于了解性能趋势和模式分析。您可以从日历中选择一个日期，以查看一天，周，月和两个月的性能图。您可以选择多个节点以同时查看特定图形。</block>
@@ -717,7 +696,6 @@
   <block id="6029b29ba0bf4fa906d9b33aeb4affea" category="sidebar">分析容量和效率节省情况</block>
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">分析存储性能</block>
   <block id="b0f4d50e3b0a80acae4cdfe5ec415bf2" category="sidebar">分析存储系统的运行状况</block>
-  <block id="ab5229bc90a20a9d9ec89253ae1ec09d" category="sidebar">确保您的存储系统为最新版本</block>
   <block id="bcbe3404f4519b7a276724fb02a336ec" category="sidebar">使用 Ansible 攻略手册更新 AFF 和 FAS 固件</block>
   <block id="cac43af1157491380365a3fbc40ffd0e" category="sidebar">安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（有经验的用户）</block>
   <block id="296c50bb7122e36d72b344edcdd0c679" category="sidebar">安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（入门级）</block>
@@ -768,7 +746,6 @@
   <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">单击 * 创建监视列表 * 。</block>
   <block id="d92f20aa0037ca0433951e4c3075ac1e" category="list-text">提供要添加到监视列表的系统的详细信息。</block>
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">此时将显示监视列表信息板。</block>
-  <block id="53341d80880065f372d7d0360c8dae07" category="paragraph">Active IQ 将显示具有有效支持合同的系统。如果合同到期，则系统仍可在 30 天的宽限期内持续可见。此后，系统将无法在 Active IQ 中搜索或显示。</block>
   <block id="99690ba41792c97440fb7507094c827d" category="doc">使用 API 目录执行 API</block>
   <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link">* 浏览 *</block>
   <block id="6b0cf1c3391c27f7ed23a37a7f08e23b" category="list-text">单击 <block ref="fde164deb6e8e46d9dfc690af8d1059d" category="inline-link-rx"></block> 在 * API Catalog* 图标下。</block>
@@ -881,7 +858,6 @@
   <block id="15da020a2033d049fff6b4623c2fb97b" category="paragraph">现在，您可以查看计算运行状况得分所依据的系统数量。此增强功能适用于运行状况检查评估信息板中的所有属性</block>
   <block id="5ad57484a0088c331d00073cc0508f63" category="list-text">* 容量增加： * 对于超过现有容量 70% 阈值的任何网格站点，您将收到通知。如果容量阈值可能超过 70% ，您可以选择在未来 1 ， 3 和 6 个月为站点中的 StorageGRID 添加容量。</block>
   <block id="d891e937202bc371fc43c6ba5e8795c1" category="paragraph">" 层数据 " 按钮已添加到 FabricPool 信息板中，可用于使用 NetApp Cloud Manager 将数据分层到低成本对象存储层。</block>
-  <block id="9192201bd176d96426465ee8aaf19773" category="sidebar">Active IQ 数字顾问文档</block>
   <block id="37adb256aff16968048142b85e04d7cc" category="list-text">* 系统固件： * 用于查看有关随 ONTAP 的每个主要版本和修补版本一起提供的系统固件的信息。</block>
   <block id="a9fc8b0c7515ed8f092626e8b6dfe6ae" category="section-title">2021 年 7 月 12 日</block>
   <block id="5d74c31f1e66f6dedf097f9a9ae5f31d" category="section-title">系统固件</block>
@@ -959,4 +935,42 @@
   <block id="c56661a66437cf16fa6985915185aa55" category="admonition">作为 Active IQ 用户，您可以在 ONTAP 收集器和 AutoSupport 之间进行选择，以获取有关容量使用情况的数据。</block>
   <block id="6c6a95e0f5aea889e91da11c9661f08c" category="list-text">或者，如果您选择使用 ONTAP 收集器获取容量使用情况数据，则可以单击信息板上的各个选项卡查看有关文件共享和磁盘的更多详细信息。</block>
   <block id="6fc85e5ba98ece0cf451b774e77a7a7c" category="paragraph">单击 * 共享 * 或 * 磁盘 * 以确定接近已提交容量的文件共享或磁盘，并做出明智的决策以节省存储容量。</block>
+  <block id="cff767810c25eb9e7e045026afa7e145" category="list-text">* 唯一风险： * 显示特定风险类别的风险名称和系统数量。</block>
+  <block id="0df29eb5c3a3cf627598e14216743f20" category="list-text">* 健康历史记录： * 显示有关过去三个月发生的系统风险的信息，以便您了解这些风险是如何应对超时的。</block>
+  <block id="f58148b36d284264c85f69fb927477ef" category="paragraph">要访问 AutoSupport 功能，请登录到 Active IQ 数字顾问并搜索集群或主机名。左窗格中提供了 AutoSupport 选项。</block>
+  <block id="e10554f48e3ad865c8bd3aa251010031" category="paragraph">E 系列系统不支持集群查看器功能。</block>
+  <block id="17c1d72dbea38c3c03aed0e08dbb37f9" category="admonition">E 系列系统不支持此功能。</block>
+  <block id="c08f4fce6d9fc3b55b586bec7ed0c778" category="paragraph">对于 ONTAP 系统，可在 ClusterViewer 中查看有关原始容量的信息。</block>
+  <block id="c6483c09e97ee0fc310ecd3048002f04" category="summary">Active IQ 数字顾问可通过基于云的门户和移动应用程序提供可操作的预测性分析和主动式支持，帮助您优化全球混合云中的数据基础架构。Active IQ 基于云的服务利用从 NetApp 庞大的客户群中汲取的社区智慧和同行比较，将这些洞察与 AutoSupport 遥测和 My AutoSupport 功能相结合，提供一套高级的无与伦比的分析服务。</block>
+  <block id="8aec6a2bcfb78af1fffa4f2c52dfe49d" category="doc">Active IQ 数字顾问文档</block>
+  <block id="6566d0c64aca6f40a49a4420aa3d8883" category="summary">提供有关升级支持服务的信息。</block>
+  <block id="467ddc656b1c849a40e46a0d7ee06a8f" category="doc">升级支持服务</block>
+  <block id="d6a2c3315eaa87effd365a47d6dfb92b" category="paragraph">您可以购买支持产品的升级，以访问 Active IQ 数字顾问中的更多特性和功能。</block>
+  <block id="81bee906866e738f7e8a54b6610f32e3" category="paragraph">您可以借助建议的实践和修复， Ansible 攻略手册升级自动化，可操作的报告和评论，个性化支持等，升级您当前的支持产品以优化您的安装群。您可以在续订支持合同时购买升级，也可以在系统（节点）信息板的任何其他时间购买升级。</block>
+  <block id="4b0ff7d5bbadbf7074a8de3b40758350" category="admonition">只有在当前使用 SupportEdge Premium 或 SupportEdge 安全支持产品的情况下，您才能选择升级 AIQ 。</block>
+  <block id="7f59006fb633d44faf18e7aa72c20403" category="list-text">单击 * 清单 * 小工具旁边的 * 查看所有系统 * 。</block>
+  <block id="aecdac801bd39071d7037983f383ef2b" category="list-text">在清单信息板上，选择要升级的节点（主机）。</block>
+  <block id="c4512b72c505ac1a3ffa1676b26a6ba4" category="paragraph">系统会将您重定向到系统或节点信息板。</block>
+  <block id="6d622bcce07deb96f1d4cea2024b0766" category="list-text">单击 * 配置 * 小工具中的 * 升级 * 。</block>
+  <block id="bf08cd4c1bc33720a5485c666caed145" category="paragraph"><block ref="bf08cd4c1bc33720a5485c666caed145" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d65b2c300d811ca1a99a917d7e65f12f" category="list-text">或者，也可以单击 * 比较支持服务项目 * 以查看比较图表，并选择符合您要求的支持服务项目。</block>
+  <block id="efbad35274bdfb6a263f7d5c4a9a3b07" category="paragraph">或者，您也可以单击左侧导航菜单上的 * 支持服务项目 * 来查看比较图表。</block>
+  <block id="d0c2285fdd0f4e2a5d68894dfb1b33a7" category="list-text">添加您的任何注释，然后单击 * 发送 * 。</block>
+  <block id="51f0c069cb67c8e1d001716813ffb4d6" category="paragraph">购买支持服务升级的请求会发送给 NetApp 续订团队。</block>
+  <block id="0056e708efc93210499292c833fd6580" category="sidebar">Active IQ 数字顾问文档</block>
+  <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">升级以优化您的客户群</block>
+  <block id="92073a6013a22635da417c415cea3970" category="sidebar">了解 Active IQ</block>
+  <block id="80f522a133d5c0697a1422b8cba4f439" category="sidebar">Active IQ 快速入门</block>
+  <block id="3903992d449534623e64de4fb24bc7bf" category="sidebar">使用 Active IQ</block>
+  <block id="11d4d5337b73945892437ccbc95a0733" category="sidebar">查看风险并采取更正措施</block>
+  <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">检测配置差异</block>
+  <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">修复关键安全风险</block>
+  <block id="d30be8ed596e28125eabf3aaa9088577" category="sidebar">使用 Active IQ 进行分析</block>
+  <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">查看 ONTAP 升级建议</block>
+  <block id="cf7ecbbc7d2dad5af625439bf096d746" category="sidebar">借助 Cloud Manager 减少存储占用空间</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">更多资源</block>
+  <block id="dd4f53241a447bade15efabb4cd19ce4" category="sidebar">Active IQ 视频</block>
+  <block id="df332e88c38c4fe66059f71090f042ca" category="sidebar">NetApp 社区— Active IQ</block>
+  <block id="9fb5d585aad7cbcbf4b27548d6b5e072" category="sidebar">Active IQ 移动应用程序（ Android ）</block>
+  <block id="1b2c7b8f8e2694e94122b68464b31c9f" category="sidebar">Active IQ 移动应用程序（ iOS ）</block>
 </blocks>

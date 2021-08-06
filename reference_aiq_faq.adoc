@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference_aiq_faq.html 
-keywords: faq, frequently asked questions, nontechnical case 
+keywords: faq, frequently asked questions, nontechnical, nontechnical case, non-technical, non-technical case 
 summary: 如果您只是想快速了解问题解答，此常见问题解答会很有帮助。 
 ---
 = Active IQ 常见问题解答
