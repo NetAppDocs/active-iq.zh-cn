@@ -973,4 +973,12 @@
   <block id="df332e88c38c4fe66059f71090f042ca" category="sidebar">NetApp 社区— Active IQ</block>
   <block id="9fb5d585aad7cbcbf4b27548d6b5e072" category="sidebar">Active IQ 移动应用程序（ Android ）</block>
   <block id="1b2c7b8f8e2694e94122b68464b31c9f" category="sidebar">Active IQ 移动应用程序（ iOS ）</block>
+  <block id="5c3849b33a3b6bf738dbe72c0348f10c" category="section-title">2021 年 8 月 16 日</block>
+  <block id="ba0619dd0f47665766133e60320fb439" category="section-title">健康审查</block>
+  <block id="c9de0ec49084be05fec9ba7b0f4a6b26" category="paragraph">现在，您可以生成按需报告。此外，您还可以从 "Wellness Review 订阅 " 屏幕下载上次计划的报告。</block>
+  <block id="2beb2ab0c9df0a1b1c7b89d28d94b394" category="paragraph">现在，在网格清单选项卡中，您可以按站点级别以可扩展和可折叠的格式查看节点详细信息。</block>
+  <block id="9d8ce84c0bf081ce006dd3eb8e15fffe" category="section-title">混合型号集群标志</block>
+  <block id="eb2249e8ced682cca59b7347422fd3ae" category="paragraph">如果集群采用混合硬件型号，则应用于整个集群的操作系统版本是所有节点均可使用的版本。因此，较新硬件型号的某些节点的操作系统版本可能会从原来的位置降级。为了使这些混合模式集群更可见，我们应用了一个 " 混合模式 " 图标。</block>
+  <block id="cc85a81e9d6e17fbea80420c8dbe7efa" category="section-title">建议的配置 / Storage Virtual Machine （ SVM ）运行状况：卷级别摘要</block>
+  <block id="3a48ac5fd188547db06b9f51266e7df6" category="paragraph">单击 SVM 表中的蓝色 ‘Volume Summary ' 框后，将显示一个弹出窗口，其中显示了有关托管或附加到特定序列号或物理节点的卷的详细信息。</block>
 </blocks>
