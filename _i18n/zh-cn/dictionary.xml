@@ -28,14 +28,12 @@
   <block id="f0ee5c8e0425d79cc4821f46b896129b" category="list-text">* 容量： * 包含具有影响区域值容量属性的风险。</block>
   <block id="b9a9426de6f2aeaaa8a2431da4900e30" category="list-text">* 配置： * 由风险组成，其影响区域值的配置属性按顶部影响最大排序。</block>
   <block id="6f2c1f776a5c6c896a39063bd5149764" category="list-text">* 安全性： * 由具有影响区域值安全属性的风险组成。</block>
-  <block id="390c0300a007628e0b128fbd04c22d26" category="list-text">* 续订： * 提供有关服务合同结束日期的信息，按合同已过期或即将到期的主机名进行排序。您可以在 * 健康 * 和 * 计划 * 小工具中找到此选项。</block>
   <block id="927c2765ee865261a716c54a2fde3878" category="list-text">* 确认风险（ Ack ）： * 用于确认已受影响的风险和系统。您可以确认这些风险，并熟悉可为缓解这些风险而采取的措施。</block>
   <block id="91351fc68db7f9bca112a2fb897a0902" category="list-text">* 取消确认风险（取消确认）： * 允许您取消确认已确认的风险和系统。</block>
   <block id="0f4f0d8eb7497054f3f3160501e62e20" category="list-text">* 修复： * 使用 Active IQ 统一管理器（ UM ） 9.7 或更高版本修复系统风险。单击此按钮可启动 UM 并执行相应步骤以降低风险。</block>
   <block id="92a113ae9f19ea88db4e78b8c397339e" category="list-text">* 清单小工具： * 显示您拥有的系统总数汇总。这包括支持 Active IQ 的产品和不支持 的产品。</block>
   <block id="70997d9cb46f1884262203c0386ee9ba" category="list-text">* 生成报告： * 生成选定监视列表的报告，并通过电子邮件将报告发送给最多 5 个收件人。</block>
   <block id="4f34ff28c8e6e0459e7e8b7c218ea60a" category="list-text">* 规划小工具： * 显示有关需要续订的容量添加，软件和硬件的信息。</block>
-  <block id="e18b8ec7fb12e95cc04b3da1a4cc2884" category="list-text">* 续订： * 提供有关未来 6 个月内已过期或即将到期的软件和硬件的信息。您可以在 * 健康 * 和 * 计划 * 小工具中找到此选项。</block>
   <block id="fcc5fdc856cbb2876c3c6a828548290b" category="list-text">* 存储效率： * 表示 AFF 系统，非 AFF 系统或这两者的 Snapshot 备份的存储系统存储效率比率和节省量。</block>
   <block id="b397fac92f5d136f7fe3fb94680c6e6f" category="list-text">* 性能图： * 用于通过查看性能数据的图形格式来分析存储设备的性能。您可以查看选定节点的 ONTAP 集群的详细性能图。</block>
   <block id="c6a6fbd3c93831286955b654f3a43c2d" category="list-text">* 有价值的 Insights 小工具： * 提供有关支持案例数量，待定软件升级，存储效率节省，已缓解风险等信息。此外，它还会主动列出 Wellness 属性中的风险通知。</block>
@@ -870,7 +868,6 @@
   <block id="11654a7c9bfe622e8f0c2bd5fa18720b" category="paragraph">您可以在详细清单页面上查看硬件，软件和不可退回磁盘的支持合同结束日期。</block>
   <block id="fc6d3ceb7c84059ca7f2eb808bff5479" category="section-title">支持服务升级</block>
   <block id="afd7e04c0a9b982d69f8dafe88b0c37f" category="list-text">用户界面经过改进，可显示您在 Active IQ 中订阅的特定支持服务。</block>
-  <block id="d3a9727234af152105cdd13aca8cdb44" category="list-text">现在，您可以从系统信息板提出升级支持服务订阅的请求，以访问更多功能。</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想快速了解问题解答，此常见问题解答会很有帮助。</block>
   <block id="96dcda009a89f5728838eaae68633cbf" category="doc">Active IQ 常见问题解答</block>
   <block id="1733ab713f46f3f8c18b694cf0e0f2c2" category="paragraph">以下问题解答了您经常询问的有关 Active IQ 的问题。</block>
@@ -981,4 +978,15 @@
   <block id="eb2249e8ced682cca59b7347422fd3ae" category="paragraph">如果集群采用混合硬件型号，则应用于整个集群的操作系统版本是所有节点均可使用的版本。因此，较新硬件型号的某些节点的操作系统版本可能会从原来的位置降级。为了使这些混合模式集群更可见，我们应用了一个 " 混合模式 " 图标。</block>
   <block id="cc85a81e9d6e17fbea80420c8dbe7efa" category="section-title">建议的配置 / Storage Virtual Machine （ SVM ）运行状况：卷级别摘要</block>
   <block id="3a48ac5fd188547db06b9f51266e7df6" category="paragraph">单击 SVM 表中的蓝色 ‘Volume Summary ' 框后，将显示一个弹出窗口，其中显示了有关托管或附加到特定序列号或物理节点的卷的详细信息。</block>
+  <block id="8d4304747bf1c53a7a27da5249a5a0c3" category="list-text">* 勒索软件防护： * 提供有关与勒索软件检测，预防和恢复相关的风险和更正操作的信息。</block>
+  <block id="a14095eb1402d18db0b8da516449039e" category="list-text">* 续订： * 提供有关未来 6 个月内已过期或即将到期的软件和硬件的信息。</block>
+  <block id="aefb7a7993c510ef70b2a8e8af0c8a8d" category="section-title">2021 年 8 月 26 日</block>
+  <block id="cdf13500e15ccdea960e2cbd513e706e" category="section-title">Active IQ 数字顾问移动应用程序</block>
+  <block id="c2177c5092a1d047c74aacc2ac6a0266" category="paragraph">现在，您可以在 Active IQ 数字顾问移动应用程序上启用生物识别身份验证。根据您的移动电话支持的功能，可用于身份验证的选项会有所不同。</block>
+  <block id="36cbd0d8037ebab11ab6cbc27994392d" category="inline-link-macro">Active IQ 数字顾问移动应用程序（ Android ）</block>
+  <block id="e6692358ec400759110ca506b80cdccf" category="inline-link-macro">Active IQ 数字顾问移动应用程序（ iOS ）</block>
+  <block id="67336000033c69d2422b8a1d56abc928" category="paragraph">下载应用程序以了解更多信息：<block ref="f4a3d04670909fa28f3881892d9f974d" category="inline-link-macro-rx"></block>
+<block ref="df3e240c84a77f3ec5b190ed94cab8b3" category="inline-link-macro-rx"></block></block>
+  <block id="b5007357b4e518744cbd11c21e6102ff" category="paragraph">健康小工具已通过勒索软件防护属性进行了增强。现在，您可以查看与勒索软件检测，预防和恢复相关的风险和更正操作。</block>
+  <block id="bb4ddc55330c48075b3116356500dbf5" category="list-text">现在，您可以从系统信息板提出升级支持服务订阅的请求，以访问更多功能。 <block ref="cb0308c385d8d496d1f59d74eb315c21" category="inline-link-macro-rx"></block>。</block>
 </blocks>
