@@ -95,19 +95,8 @@
   <block id="4d604dd8f008145471dc845683399189" category="cell">清单</block>
   <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">仅在集群模式 Data ONTAP 上受支持</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">升级</block>
-  <block id="b86035b7392c3148f643faee13caa61b" category="summary">法律信息</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
-  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
-  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商标</block>
-  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 徽标和 NetApp 商标页面上列出的标记是 NetApp 、 Inc. 的商标。其他公司和产品名称可能是其各自所有者的商标。</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
-  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">专利</block>
-  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">有关 NetApp 拥有的专利的最新列表，请访问：</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
-  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="d30bc95f114574e4f302ff7d56c38197" category="summary">提供有关使用 Web 服务器托管固件文件的信息。</block>
   <block id="e8d8e943135c6833b6747d1c1486332b" category="doc">使用 Web 服务器托管固件文件</block>
   <block id="dc3625ebff827af69b299c8e6fea1420" category="paragraph">下载自动化软件包后，固件文件应托管在 Web 服务器上。</block>
@@ -489,7 +478,6 @@
   <block id="26ae7bdd1d6fb8c4886e6fde8d12601c" category="cell">延迟</block>
   <block id="363feef65df9d9b2c15feec5eeae6961" category="cell">平均利用率</block>
   <block id="52d04ac041f40e180ee13d2d46edbfc6" category="cell">协议 IOPS</block>
-  <block id="8c03c9ae3355689c1b3ff915e6fd269e" category="admonition">只有运行 ONTAP 9.2 及更高版本的系统才支持节点延迟性能图形。</block>
   <block id="8830ebf30b3e1ad7b344461753f7d3dd" category="summary">提供有关增加系统容量的信息。</block>
   <block id="9438f616517805af3f4c395324944dff" category="doc">确定达到容量限制的系统</block>
   <block id="7f5131aab7fa520fc9551135afbbe9e3" category="list-text">在 * 计划 * 小工具中，单击 * 容量添加项 * 以查看容量超过 90% 或容量接近 90% 的系统。</block>
@@ -993,4 +981,13 @@
   <block id="e151846aa3b308b87c9d25ba4b1deba4" category="list-text">任何其他升级请求</block>
   <block id="0c152bcc14bc08edd4b0de34a463af86" category="list-text">添加您的任何注释，然后单击 * 发送 * 。购买支持服务升级的请求会发送给 NetApp 续订团队。</block>
   <block id="00de952105fc077b1333ac55d8d0bb98" category="paragraph">" 容量预测 " 是如何计算的？ * 容量预测使用过去一年的已用容量数据来计算系统的平均每周增长率。然后，系统使用量的这一变化率将从当前已用容量中进行推断，以展示未来 6 个月系统利用率的变化情况（假设总可用容量保持不变）。</block>
+  <block id="c59ae8d7beeb519a23478ab048af482c" category="paragraph"><block ref="c59ae8d7beeb519a23478ab048af482c" category="inline-link-macro-rx"></block></block>
+  <block id="1201772d73bae2bd2ca29d21ab61238f" category="section-title">2021 年 9 月 16 日</block>
+  <block id="e334c16b25916f028d0cccfe5500fd69" category="list-text">现在，勒索软件防护小工具属于健康工作流，而不是独立小工具。</block>
+  <block id="0452e82e921087d7b1a83c2f02b68e57" category="list-text">在健康审查电子邮件中，您将找到有关勒索软件防护而非续订的信息。</block>
+  <block id="b3133741a2e146480d59529cf245b52d" category="list-text">View AutoSupport ：查看 StorageGRID 和底层节点的 AutoSupport 日志。</block>
+  <block id="be2ca2c828948202cf80b4f5a05562a9" category="list-text">StorageGRID 设备详细信息：查看 StorageGRID 设备详细信息，例如节点类型，设备型号，驱动器大小，驱动器类型， RAID 模式， 等位于网格查看器 - 网格清单部分。</block>
+  <block id="89bcdbae8ce3c1ee510be773259789e7" category="list-text">续订：查看要续订的网格和底层节点列表。</block>
+  <block id="d5ce3696c490cfd2eb9bd24f1aec7d29" category="list-text">E 系列 SANtricity 风险：在网格信息板 - 健康部分中查看底层节点的 E 系列 SANtricity 风险。</block>
+  <block id="23f1323406f594572732c2bad13eebde" category="admonition">只有运行 ONTAP 9.2 及更高版本的系统才支持节点延迟性能图形和卷性能图形。</block>
 </blocks>

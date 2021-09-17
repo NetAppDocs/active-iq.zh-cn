@@ -59,4 +59,4 @@ video::fWrHYX17xT8[youtube, width=848,height=480]
 |  | 网络吞吐量 |  |  
 |===
 
-NOTE: 只有运行 ONTAP 9.2 及更高版本的系统才支持节点延迟性能图形。
+NOTE: 只有运行 ONTAP 9.2 及更高版本的系统才支持节点延迟性能图形和卷性能图形。
