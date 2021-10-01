@@ -497,7 +497,6 @@
   <block id="05bc37729c4a94d83e8b67e8d6af6202" category="paragraph">缓解风险的步骤对于所有健康属性都是相同的。您可以观看以下视频来监控和修复与安全相关的问题：</block>
   <block id="20827f5f11724ac7658af2f39f50f964" category="doc">续订存储系统的软件和硬件</block>
   <block id="6134af206850e07eeb1d6838aae2ceb5" category="paragraph">您可以主动识别未来 6 个月内已过期或即将到期的软件和硬件，并发送硬件和软件续订请求。</block>
-  <block id="15873e062e03b1d046db8c95a8123bc1" category="list-text">单击信息板上的 * 续订 * 小工具，或者单击 * 计划 * 小工具中的 * 续订 * 。</block>
   <block id="0d9283785cad0930c05662c95f72d63d" category="list-text">选择要续订的系统，然后单击 * 续订 * 。</block>
   <block id="23ed0325a3e4b1fb0cb88618017f6637" category="doc">在不使用 NetApp Docker 映像的情况下执行 Ansible 攻略手册</block>
   <block id="a7f5f35426b927411fc9231b56382173" category="inline-link">Python</block>
@@ -990,4 +989,29 @@
   <block id="89bcdbae8ce3c1ee510be773259789e7" category="list-text">续订：查看要续订的网格和底层节点列表。</block>
   <block id="d5ce3696c490cfd2eb9bd24f1aec7d29" category="list-text">E 系列 SANtricity 风险：在网格信息板 - 健康部分中查看底层节点的 E 系列 SANtricity 风险。</block>
   <block id="23f1323406f594572732c2bad13eebde" category="admonition">只有运行 ONTAP 9.2 及更高版本的系统才支持节点延迟性能图形和卷性能图形。</block>
+  <block id="30a3a5781ffac6a88cce2ccd6925d533" category="doc">保护系统免受勒索软件风险的影响</block>
+  <block id="3deb21101d87fafbbc562a691cfe0a34" category="paragraph">登录到 Active IQ 数字顾问时，您可以查看 * 勒索软件防护 * 小工具上突出显示的 * 操作 * ，其中显示了风险计数。</block>
+  <block id="a65c2a1d83d8e29315151edd9cb20614" category="paragraph">您可以查看 Snapshot 创建，保留和 ONTAP FPolicy 风险，然后采取措施修复这些风险。</block>
+  <block id="6f75bc30c5b47eb48f72d647d67781a9" category="list-text">单击 * 勒索软件防护 * 小工具上的 * 操作 * 。</block>
+  <block id="5e0e2c126796ee31f891f0f923d864f9" category="list-text">对于显示的风险，请检查影响级别并按照建议的操作进行操作。</block>
+  <block id="9468b2f5ff83e6a3ed59b51e8ca38dc2" category="list-text">单击 * 更正操作 * 列中的唯一风险选项卡和链接。</block>
+  <block id="719f031257428b8b9c9c34ee45a1c9ae" category="list-text">单击 * 受影响的系统 * 选项卡以查看存在风险的系统。</block>
+  <block id="0733f4fb920038885a10cd7d7528474a" category="list-text">请按照建议的修复操作保护系统。</block>
+  <block id="01577a026e7abe02a9ba236a3d4f679b" category="section-title">2021 年 9 月 30 日</block>
+  <block id="5548552a90db4c3921de9d1e9c9fb3e3" category="section-title">客户限定版本</block>
+  <block id="1a55a42fef82760b4bf1c9a610731b20" category="paragraph">客户认证版本可帮助支持客户经理（ SAM ）管理其客户部分安装群，其中托管的应用程序需要：</block>
+  <block id="a6cfeafd34fe6f642483207974dd04a7" category="list-text">早期版本的 ONTAP ，有时不受支持</block>
+  <block id="1b7190e71bf87b797608810a3fa80d64" category="list-text">或经过测试和认证的客户安装群使用特定操作系统版本。</block>
+  <block id="f40998631af1af360155366585f115c8" category="section-title">技术案例工作流</block>
+  <block id="41705b7e1f487807deb1b3b4480313a9" category="paragraph">在信息板和下拉屏幕中，数据图表和折线图都进行了图形增强。您也可以选择在条形图中查看该数据。在折线图窗口中，您可以在这两个用户界面中查看，选择和取消选择 " 已打开 " ， " 已关闭 " 和 " 案例总数 " 的图形。</block>
+  <block id="67a5b2d9a5273b701cac4b32fff5b10a" category="section-title">运行状况评估内容提要演示文稿</block>
+  <block id="cd53d46c7fc3370b6d84cb5f78b0ad18" category="paragraph">它作为运行状况评估报告的一部分提供，并与 " 整合 " 运行状况评估 Excel 报告捆绑在一起。此报告以 zip 文件格式提供。</block>
+  <block id="78c23e199d9efe5acc7d061bf66e50fa" category="section-title">运行状况评估报告</block>
+  <block id="fcb306303a3702a60e771cdf9289c264" category="paragraph">其中包含一个有关 NetApp FabricPool 报告的章节。</block>
+  <block id="ee163ea8d25376f3053bffdb651cb6d4" category="section-title">客户视图</block>
+  <block id="c8c697a371f8637bfc0e1b44a6cea0a4" category="paragraph">在向客户或其他面向外部的角色提供 Active IQ 数字顾问时，您可以选择关闭内部以销售为中心的 Active IQ 工具和选项，例如发现信息板，资产洞察等。</block>
+  <block id="6543a004d3e45f62cad7937f04baa622" category="paragraph">要启用此功能，请转到用户界面中显示 " 客户视图 " 切换的 " 查看设置 " 。</block>
+  <block id="93c8a6e17d9d5f6fe358eb0ccb598e13" category="section-title">支持终止（ EOS ）控制器超过 12 个月</block>
+  <block id="2fab76159eccef44ca8dd94e1dee4665" category="paragraph">运行状况检查信息板已进行了改进，可通过一个选项卡显示 EOS 超过 12 个月的控制器。</block>
+  <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">单击 * 计划 * 小工具中的 * 续订 * 。</block>
 </blocks>

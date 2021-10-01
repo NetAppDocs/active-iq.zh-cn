@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_protect_systems_against_ransomware_risks.html 
+keywords: ransomware, risks, ransomware risks 
+summary:  
+---
+= 保护系统免受勒索软件风险的影响
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+登录到 Active IQ 数字顾问时，您可以查看 * 勒索软件防护 * 小工具上突出显示的 * 操作 * ，其中显示了风险计数。
+
+您可以查看 Snapshot 创建，保留和 ONTAP FPolicy 风险，然后采取措施修复这些风险。
+
+.步骤
+. 登录到 Active IQ 数字顾问
+. 单击 * 勒索软件防护 * 小工具上的 * 操作 * 。
+. 对于显示的风险，请检查影响级别并按照建议的操作进行操作。
+. 单击 * 更正操作 * 列中的唯一风险选项卡和链接。
+. 单击 * 受影响的系统 * 选项卡以查看存在风险的系统。
+. 请按照建议的修复操作保护系统。
+
