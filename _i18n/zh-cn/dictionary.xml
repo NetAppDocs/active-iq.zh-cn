@@ -1014,4 +1014,5 @@
   <block id="93c8a6e17d9d5f6fe358eb0ccb598e13" category="section-title">支持终止（ EOS ）控制器超过 12 个月</block>
   <block id="2fab76159eccef44ca8dd94e1dee4665" category="paragraph">运行状况检查信息板已进行了改进，可通过一个选项卡显示 EOS 超过 12 个月的控制器。</block>
   <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">单击 * 计划 * 小工具中的 * 续订 * 。</block>
+  <block id="07bdeb694d8afc8ca3ac40f7f85ed9e7" category="paragraph">您可以观看以下视频以生成并运行 Ansible 攻略手册以修复配置差异：</block>
 </blocks>

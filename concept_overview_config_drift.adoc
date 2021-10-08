@@ -25,3 +25,7 @@ Config Drift 功能可通过将系统模板与 " 黄金 " 或基本系统模板�
 您可以查看下图，了解用于确定配置差异并生成报告的工作流。
 
 image:config_drift.png["配置偏差工作流"]
+
+您可以观看以下视频以生成并运行 Ansible 攻略手册以修复配置差异：
+
+video::MbkwcZ7xk3Y[youtube, width=848,height=480]
