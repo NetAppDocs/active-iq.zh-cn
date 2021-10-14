@@ -79,6 +79,8 @@ sidebar:
       url: "/task_add_config_drift_template.html"
     - title: 比较配置偏差模板
       url: "/task_compare_config_drift_template.html"
+    - title: 生成偏移时间线报告
+      url: "/task_generate_drift_timeline_report.html"
   - title: 提高存储系统的效率和性能
     entries:
     - title: 分析容量和效率节省情况

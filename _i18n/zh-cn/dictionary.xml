@@ -583,7 +583,6 @@
   <block id="67b399315af1fd51d7b669851330bf0a" category="doc">使用 FabricPool Advisor 监控非活动数据并对其进行分层</block>
   <block id="ce8d6a782fcd6d935be2872ca00a46dd" category="paragraph">您可以通过监控冷数据或非活动数据并将其分层到低成本的对象存储层来减少存储占用空间和相关成本。</block>
   <block id="36afa058c74d288178950c27927bdb38" category="inline-link">了解 Cloud Tiering</block>
-  <block id="7d7cb4566140787987242b5a4c062540" category="paragraph">如果卷中的非活动数据超过 60% ，您可以使用 NetApp ® Cloud Manager 对数据进行分层。有关云分层的详细信息，请参见 <block ref="c3ebe7f502aadde64f1a50d413c5e2b0" category="inline-link-rx"></block>。</block>
   <block id="ba825ed19de4ba2cc70be46eb78689f1" category="list-text">单击 * 分层数据 * 以使用 Cloud Manager 对数据进行分层。</block>
   <block id="3be360a5cb329666d65e17b5ecd32b3c" category="summary">提供有关使用清单文件的信息。</block>
   <block id="69e0d4a3abb68d55b51aa1e3824395d1" category="doc">使用清单文件</block>
@@ -782,7 +781,6 @@
   <block id="ce18cbcf742aed8e35c658e5625fc984" category="inline-image-macro">配置小工具</block>
   <block id="60436722270a4533c09cb8939f672895" category="list-text">单击 * 配置 * 小工具中的 * 操作 * 。<block ref="6aa7a8b05df22247419ddcea980afa15" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eae8b28f90d4f0bef1cf3c21d4b34b89" category="list-text">单击 * 唯一风险 * 选项卡。单击 * 更正操作 * 链接后，您可以更改警告阈值或为卷分配更多空间。<block ref="bae9c6e4d72077c1f8c2b8eef31cbb4e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="59e957aaf5b367ba9d97d9e73c32e02a" category="paragraph">Active IQ FabricPool 中的 数字顾问信息板可显示非活动本地层（聚合）数据，非活动卷数据，分层数据以及未启用非活动数据报告（ IDR ）的数据的详细信息。此信息可在客户，站点，组，监视列表，集群和节点级别获得。</block>
   <block id="cd01c74549cdfc52159ec7a8329c2c3f" category="list-text">从左侧导航窗格中选择 * FabricPool Advisor* 。</block>
   <block id="2ddb7471f4505c6b0aa8e3464634debc" category="summary">提供有关 ClusterViewer 的信息。</block>
   <block id="6e6b112d636d5497f59ccca67738fac3" category="doc">分析集群和节点的运行状况</block>
@@ -1015,4 +1013,32 @@
   <block id="2fab76159eccef44ca8dd94e1dee4665" category="paragraph">运行状况检查信息板已进行了改进，可通过一个选项卡显示 EOS 超过 12 个月的控制器。</block>
   <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">单击 * 计划 * 小工具中的 * 续订 * 。</block>
   <block id="07bdeb694d8afc8ca3ac40f7f85ed9e7" category="paragraph">您可以观看以下视频以生成并运行 Ansible 攻略手册以修复配置差异：</block>
+  <block id="2a533baae54ffebd2a7ae449c7f45df9" category="list-text">下载 * 清单 * 报告以 .xls 格式查看系统详细信息。</block>
+  <block id="c97def108b37d464e0c4a724252e49d9" category="list-text">下载 * 可浏览清单 * 报告，以在区域或站点级别以 .yml 和 .ini 格式查看系统详细信息。</block>
+  <block id="cf9a05044c598886b8421db3045b9edd" category="paragraph">Ansible 清单文件可与自定义的 Ansible 攻略手册文件结合使用，以更改基础架构配置。</block>
+  <block id="812ad8b6bb127213d73d9d6bcd0ec8d0" category="list-text">选择 * 仅包含驱动器 * 选项仅下载配置差异更改。</block>
+  <block id="4f4438730e3b3e658fec82d94c8dd2c9" category="section-title">2021 年 10 月 14 日</block>
+  <block id="206b11a774f63418bae21625e6f6d2fb" category="section-title">可逆清单</block>
+  <block id="d218acf3139b2df9f86974252e34f973" category="paragraph">现在，您可以在区域和站点级别生成 .yml 和 .ini 文件格式的 Ansible 清单文件。 <block ref="6c1a86a6b220ef637b98bb90dcad9e67" category="inline-link-macro-rx"></block>。</block>
+  <block id="f6ba2adb39c05d434ab52c6ad161a40d" category="section-title">非活动数据报告（ IDR ）</block>
+  <block id="1363d8028841d1a619635b4cbd33e1e6" category="paragraph">在 FabricPool Advisor 屏幕中，您可以激活非活动数据报告（ IDR ）来监控聚合并生成可逆攻略手册。 <block ref="779f7b5b9d0c1245e542540e4775cdfe" category="inline-link-macro-rx"></block></block>
+  <block id="6f815aa2f2eb28995c59dd2d2b0af600" category="section-title">漂移时间线报告</block>
+  <block id="5e4b167efbd384d21eda43769f89f2b4" category="paragraph">您可以比较过去 90 天的 AutoSupport 数据并生成偏移时间线报告。 <block ref="6e959f6930398ffd4237fa003affc1a1" category="inline-link-macro-rx"></block>。</block>
+  <block id="cb3f8f484c3b350e78e56ea72f491137" category="section-title">合规系统切换</block>
+  <block id="25158a1dfe0d3c798ddbe50ec410b4c1" category="paragraph">运行状况检查信息板已进行了增强，可通过切换来显示 " 最小操作系统 " 和 " 最新操作系统 " 选项卡，以便您可以查看合规且不符合建议和最新版本最低要求的系统。</block>
+  <block id="726d553e79fbb6d2f511fe1bd60fb931" category="section-title">主要建议摘要</block>
+  <block id="1d1be840f4bc6297746dee2a3bb5547a" category="paragraph">在运行状况检查信息板上，您可以查看前 5 个主要整体建议的摘要。</block>
+  <block id="b00f197330b8c03d51bcc9ff737bf029" category="section-title">适用于 NetApp Cloud Volumes ONTAP 和 E 系列平台的选项卡</block>
+  <block id="823e0682a919056e63060941206cbbd0" category="paragraph">运行状况检查信息板已通过 Cloud Volumes ONTAP * 和 E 系列选项卡进行了增强，因此您可以查看这些平台的运行状况检查 KPI 和详细信息。</block>
+  <block id="b47109f6e8c3654beb551c1dc5b17f5e" category="paragraph">此外，还为 ONTAP 添加了一个选项卡，并启用了其他平台。</block>
+  <block id="33ff2e9459330445a2f8efc828105eb4" category="summary">提供生成偏移时间线报告的信息。</block>
+  <block id="377be568d398496d62e94ceb54a8e1af" category="doc">生成偏移时间线报告</block>
+  <block id="ff0ee6a38185520feff29fb49312cadc" category="paragraph">您可以比较过去 90 天的 AutoSupport 数据，并生成一个报告，提供有关事件和发生的配置差异的信息。</block>
+  <block id="1a13d9a0c86de95ae6f63dd3820e10c6" category="list-text">选择 * 偏移时间线 * 报告类型。</block>
+  <block id="4d3bf8b6bdc26afdb2aa1d58bbe4ee2d" category="inline-link-macro">下载并查看偏移时间线报告</block>
+  <block id="0ee9ccb81e2b9003939ac6aa09488241" category="list-text"><block ref="ab5a1cc12fe7d947d0930f0a2ef72091" category="inline-link-macro-rx"></block>。</block>
+  <block id="c085b6657036bb1d81722aa83019dea6" category="paragraph">Active IQ 数字顾问中的 FabricPool Advisor 信息板可显示非活动本地层（聚合）数据，非活动卷数据，分层数据和不受监控数据的详细信息。</block>
+  <block id="1ba52d4e13f2ee111637763e8fc34e61" category="admonition">您可以启用非活动数据报告（ IDR ）以使用 Ansible 攻略手册文件生成 zip 文件。此信息可在客户，站点，组，监视列表，集群和节点级别获得。</block>
+  <block id="68402dbd648038cbbdf19fccff1898f8" category="paragraph">如果卷中的非活动数据超过 50% ，您可以使用 NetApp ® Cloud Manager 对数据进行分层。有关云分层的详细信息，请参见 <block ref="c3ebe7f502aadde64f1a50d413c5e2b0" category="inline-link-macro-rx"></block>。</block>
+  <block id="2239c723cc5ca3dc6ba1585521896ba0" category="sidebar">生成偏移时间线报告</block>
 </blocks>

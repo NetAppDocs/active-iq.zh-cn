@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
-permalink: task_compare_config_drift_template.html 
-keywords: config deviation, drift, configuration, compare template 
-summary: 提供用于比较配置偏移模板的信息。 
+permalink: task_generate_drift_timeline_report.html 
+keywords: reports, generate reports, drift timeline, drift timeline report, AutoSupport data 
+summary: 提供生成偏移时间线报告的信息。 
 ---
-= 比较配置偏差模板
+= 生成偏移时间线报告
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -18,12 +18,12 @@ summary: 提供用于比较配置偏移模板的信息。
 
 
 [role="lead"]
-您可以比较系统和集群配置，并近乎实时地检测配置差异。
+您可以比较过去 90 天的 AutoSupport 数据，并生成一个报告，提供有关事件和发生的配置差异的信息。
 
 .步骤
 . 从左窗格中，单击 * 配置驱动器 * 。
-. 选择一个现有模板或单击 * 添加模板 * 以添加新模板。
-. 生成配置偏差报告
+. 选择 * 偏移时间线 * 报告类型。
+. 生成偏移时间线报告
 +
 您可以立即生成报告，也可以计划每周或每月生成报告。
 
@@ -38,8 +38,7 @@ summary: 提供用于比较配置偏移模板的信息。
 . 选择一个类别并为报告提供所请求的值。
 . 选择 * 仅包含驱动器 * 选项仅下载配置差异更改。
 . 单击 * 提交 * 。
-. link:task_generate_reports.html["下载并查看配置变化报告"]。
-. 运行 Ansible 攻略手册（包含在配置偏差报告中）以缓解偏差。
+. link:task_generate_reports.html["下载并查看偏移时间线报告"]。
 
  a| 
 . 单击 * 计划报告 * 选项卡。
@@ -48,9 +47,7 @@ summary: 提供用于比较配置偏移模板的信息。
 . 选择报告的频率。
 . 选择报告的开始日期和结束日期。
 . 单击 * 提交 * 。
-. link:task_generate_reports.html["下载并查看配置变化报告"]。
-. 运行 Ansible 攻略手册（包含在配置偏差报告中）以缓解偏差。
+. link:task_generate_reports.html["下载并查看偏移时间线报告"]。
 
 
 |===
-系统将发送一封电子邮件，其中详细说明了选定系统之间的配置差异。
