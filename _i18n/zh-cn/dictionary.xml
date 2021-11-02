@@ -22,12 +22,10 @@
   <block id="87f8a6ab85c9ced3702b4ea641ad4bb5" category="cell">中等</block>
   <block id="d382816a3cbeed082c9e216e7392eed1" category="inline-image-macro">绿色</block>
   <block id="64ee1c9e1f6593d727716a2bfd8604d0" category="cell"><block ref="64ee1c9e1f6593d727716a2bfd8604d0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="65d285cb39680ff192b64a7e5565a1ce" category="list-text">* 健康小工具： * 显示有关性能，效率，容量，配置设置，安全性等信息。它会主动确定已超过容量或容量接近 90% 的系统。此外，它还提供了有关已过期或设置为在未来 6 个月内过期的软件和硬件的信息。</block>
   <block id="3308e39f080273976ba1ead8edc3dd13" category="list-text">* 性能和效率： * 显示有关存储系统性能和效率的信息。</block>
   <block id="1c4f0f720caa935586c5ce44a7df6b85" category="list-text">* 可用性和保护： * 显示有关存储系统的可用性和保护的信息。</block>
   <block id="f0ee5c8e0425d79cc4821f46b896129b" category="list-text">* 容量： * 包含具有影响区域值容量属性的风险。</block>
   <block id="b9a9426de6f2aeaaa8a2431da4900e30" category="list-text">* 配置： * 由风险组成，其影响区域值的配置属性按顶部影响最大排序。</block>
-  <block id="6f2c1f776a5c6c896a39063bd5149764" category="list-text">* 安全性： * 由具有影响区域值安全属性的风险组成。</block>
   <block id="927c2765ee865261a716c54a2fde3878" category="list-text">* 确认风险（ Ack ）： * 用于确认已受影响的风险和系统。您可以确认这些风险，并熟悉可为缓解这些风险而采取的措施。</block>
   <block id="91351fc68db7f9bca112a2fb897a0902" category="list-text">* 取消确认风险（取消确认）： * 允许您取消确认已确认的风险和系统。</block>
   <block id="0f4f0d8eb7497054f3f3160501e62e20" category="list-text">* 修复： * 使用 Active IQ 统一管理器（ UM ） 9.7 或更高版本修复系统风险。单击此按钮可启动 UM 并执行相应步骤以降低风险。</block>
@@ -106,14 +104,8 @@
   <block id="f48786c9c76c96752daaf8192b199d06" category="list-text">保存 Web 服务器的基本 URL 。如果磁盘固件，磁盘架固件和服务处理器固件的 URL 为 * ： \http://&lt;web-server&gt;/path/all_shelf_fw.zip* ， * ： http://&lt;web-server&gt;/path/all.zip* 和 * ： \http://&lt;web-server&gt;/path/&lt;SP/BMC&gt;_&lt;version_number&gt;_fw.zip* ，请将 * ： http://&lt;web-server&gt;/path/* 保存为基本 URL 。</block>
   <block id="5d15b41ee5ac810b6e7268188476648c" category="paragraph">Ansible 攻略手册会自动检测文件名。</block>
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">提供有关信息板，运行状况得分，功能和小工具的信息。</block>
-  <block id="1cbbab135b127ee650365b218fb5d249" category="doc">开始使用运行状况检查评估信息板</block>
   <block id="0283692678f3caa0a73dcdba11b167a0" category="paragraph">此信息板可通过以下小工具提供已安装客户群的概览：</block>
-  <block id="e41ea0ff244290f24250a89cf7788936" category="list-text">* AutoSupport 采用率 * ：显示启用了 AutoSupport 的系统的数量和百分比。您还可以查看标记为已拒绝的系统， HTTPS 传输和 AutoSupport On Demand 。要查看运行状况检查得分以及有关客户群中系统的信息，请单击 * AutoSupport Adoption * 小工具。</block>
-  <block id="ac99384c748cbc3234a89744ff922fcb" category="list-text">* 建议配置 * ：根据 * 建议配置 * 小工具显示合规和不合规的系统。它可以帮助您采取措施，确保您的系统已针对 HA 对以及其他配置设置进行了妥善配置，以便在您的客户群中进行远程管理。您可以查看信息板上提供的分数，并根据按优先级顺序提供的关键建议采取措施。</block>
   <block id="e94ebb58e29dcb4765fa5c479c8e07d7" category="list-text">* 建议软件 * ：显示所有软件和固件升级以及货币建议的综合列表。您可以查看已启用 AutoSupport 的系统，这些系统应至少为最新版本的软件或固件。</block>
-  <block id="050e3edb35e4ae6e9a47f482e19197dd" category="list-text">* 支持和授权 * ：显示 6 到 12 个月内已过期和即将到期的支持合同。它会显示支持平台，磁盘，磁盘架，授权合规性和待定到期。您可以查看信息板上提供的运行状况检查得分，并根据按优先级顺序提供的关键建议采取措施。</block>
-  <block id="389847ad5a4bb287db6245fbcef50427" category="paragraph">要查看有关支持合同的详细信息，请单击 * 支持和授权 * 小工具。您也可以使用此小工具续订支持合同。</block>
-  <block id="b1c34b22fafdeb733d990b8e6a3ae34d" category="list-text">* 最佳实践 * ：通过评估存储系统的最佳实践属性来显示运行状况检查得分—性能和效率，可用性和保护，容量，配置和安全性。NetApp 最佳实践有助于保持系统运行状况，从而优化客户群的性能。</block>
   <block id="1adfed22e84a753b83628708ada03eee" category="summary">提供有关添加配置偏移模板的信息。</block>
   <block id="474c5ad2b749cb9d123843c02a15e051" category="doc">添加配置偏移模板</block>
   <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">您应添加一个模板来比较系统和集群配置，并近乎实时地检测配置差异。配置偏移模板是使用运行 AutoSupport 数据的系统添加的。</block>
@@ -381,11 +373,6 @@
   <block id="e26d70ef5011218a0e0d472d10f783bb" category="list-text">在 Main API Services 页面上，单击 * 生成令牌 * 以查看和下载访问令牌并刷新令牌以调用 API 。</block>
   <block id="99a9cfa523a42e23621796dfca6edb0a" category="paragraph">通过此门户，您可以通过多种方式保存集中的一个或两个令牌。您可以将其复制到剪贴板，以文本文件的形式下载或以纯文本格式查看。</block>
   <block id="607683664f7a92a19f972cb30b0f79a1" category="admonition">您应下载并保存访问令牌和刷新令牌，以供日后使用。访问令牌在生成后一小时到期，刷新令牌在七天后到期。生成新的刷新令牌后，此 API 调用中使用的刷新令牌将失效。</block>
-  <block id="95d8cf156ea4f05f36e6009c6d91bc9a" category="summary">提供信息以熟悉运行状况检查评估信息板。</block>
-  <block id="0b46e859b1c5c43bdec37609936c85b0" category="doc">了解运行状况检查评估信息板</block>
-  <block id="1d23ded4627447ee8611e445a63ede79" category="paragraph">Active IQ 运行状况检查评估（ HCA ）信息板可对您的整体环境进行时间点审核。</block>
-  <block id="c265a586f88d1dc3ec779e0c3cd9f480" category="paragraph">根据运行状况检查得分，您可以根据建议的 NetApp 最佳实践对齐存储系统，以便于进行长期规划。它可帮助您通过集中式用户界面监控在 ONTAP 软件和硬件上运行的所有系统。运行状况检查评估分数可帮助您快速深入了解系统风险。这些主要建议和最佳实践可帮助您采取措施来改善客户群的运行状况。</block>
-  <block id="68e54c6f211ea227f5f65a6c67529203" category="admonition">您只能通过 NetApp SupportEdge Advisor 和 SupportEdge Expert 服务产品访问运行状况检查评估信息板。</block>
   <block id="cfe3edab2601e99b9745cec9fd8ad086" category="summary">提供有关如何续订系统支持合同的信息。</block>
   <block id="fba041f597391cccf20df624e451614c" category="doc">续订支持合同</block>
   <block id="55c259bf51c9908c5e33fc4b248b3f61" category="paragraph">您可以在信息板上查看所有活动支持合同的得分和摘要。您可以根据按优先级顺序提供的关键建议采取措施。</block>
@@ -614,7 +601,6 @@
   <block id="e8999980f2d5f8e5a193a82965648f09" category="list-text">单击 * 下载 * 下载 AFF 和 FAS 固件 Ansible Automation 软件包。</block>
   <block id="f05b4b84106eafcc5aad0f438b841dff" category="admonition">要使用 * 修复它 * 选项和 Ansible 攻略手册功能，需要签订 SupportEdge Advisor 或 SupportEdge Expert 合同。</block>
   <block id="bda4a48b47a4d90e94b87697e6455bb9" category="doc">了解健康状况</block>
-  <block id="e32d42b71acd84e4e8529d6a90c04f3f" category="paragraph">健康小工具可提供有关存储系统的详细信息。它提供了有关存储系统不同属性的信息，例如性能和效率，容量，配置设置，安全性，续订等。</block>
   <block id="fce1523be4b4cc1966774ce59fd20610" category="inline-image-macro">健康工作流</block>
   <block id="32a4a6962e2e1ab900312c2d4eefa0de" category="paragraph"><block ref="32a4a6962e2e1ab900312c2d4eefa0de" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6fe43a0bc5267b501dd5c7825c17e1be" category="paragraph">您可以观看以下视频，了解健康属性的重要性：</block>
@@ -737,10 +723,7 @@
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">配置监视列表</block>
   <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">提供有关如何增强防范黑客和勒索软件攻击的信息。</block>
   <block id="994d62a653fe8361ea4d612235399fb3" category="doc">增强防范黑客和勒索软件攻击的能力</block>
-  <block id="bef8b69e84a51a70faac213b302a7f71" category="paragraph">登录到 Active IQ 数字顾问并注意到 * 安全性 * 小工具上的红色标志时，您可以采取措施来修复严重风险。</block>
   <block id="c93512b030d1e761994897b23c1eaf91" category="list-text">登录到 Active IQ 数字顾问</block>
-  <block id="7e162ffb353d70736734c44d1b072c5d" category="inline-image-macro">安全小工具</block>
-  <block id="396d80b68a9be86eb7692692eebfcadf" category="list-text">单击 * 安全性 * 小工具中的 * 操作 * 。<block ref="7c16f1a74ee42ef6ef9b200c0afea62b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c17e33981c0b062b393672808567a4ab" category="paragraph">对于影响较大的安全风险，请按照建议的操作升级操作系统。</block>
   <block id="75b13b2a3ff2cb52d35b06fcc7348713" category="inline-image-macro">Corrective Action 列</block>
   <block id="d13ac08a85c268be8e12fb2c5fc6a61f" category="list-text">单击 * 唯一风险 * 选项卡，然后单击 * 更正操作 * 列中的链接。<block ref="b8e4538a50e97a4603efab53e7672864" category="inline-image-macro-rx" type="image"></block></block>
@@ -1033,7 +1016,6 @@
   <block id="b47109f6e8c3654beb551c1dc5b17f5e" category="paragraph">此外，还为 ONTAP 添加了一个选项卡，并启用了其他平台。</block>
   <block id="33ff2e9459330445a2f8efc828105eb4" category="summary">提供生成偏移时间线报告的信息。</block>
   <block id="377be568d398496d62e94ceb54a8e1af" category="doc">生成偏移时间线报告</block>
-  <block id="ff0ee6a38185520feff29fb49312cadc" category="paragraph">您可以比较过去 90 天的 AutoSupport 数据，并生成一个报告，提供有关事件和发生的配置差异的信息。</block>
   <block id="1a13d9a0c86de95ae6f63dd3820e10c6" category="list-text">选择 * 偏移时间线 * 报告类型。</block>
   <block id="4d3bf8b6bdc26afdb2aa1d58bbe4ee2d" category="inline-link-macro">下载并查看偏移时间线报告</block>
   <block id="0ee9ccb81e2b9003939ac6aa09488241" category="list-text"><block ref="ab5a1cc12fe7d947d0930f0a2ef72091" category="inline-link-macro-rx"></block>。</block>
@@ -1041,4 +1023,23 @@
   <block id="1ba52d4e13f2ee111637763e8fc34e61" category="admonition">您可以启用非活动数据报告（ IDR ）以使用 Ansible 攻略手册文件生成 zip 文件。此信息可在客户，站点，组，监视列表，集群和节点级别获得。</block>
   <block id="68402dbd648038cbbdf19fccff1898f8" category="paragraph">如果卷中的非活动数据超过 50% ，您可以使用 NetApp ® Cloud Manager 对数据进行分层。有关云分层的详细信息，请参见 <block ref="c3ebe7f502aadde64f1a50d413c5e2b0" category="inline-link-macro-rx"></block>。</block>
   <block id="2239c723cc5ca3dc6ba1585521896ba0" category="sidebar">生成偏移时间线报告</block>
+  <block id="a0cead27e095329905ff0ea7d83de0d2" category="list-text">* 健康小工具： * 显示有关性能，效率，容量，配置设置，安全漏洞的信息， 和其他。它会主动确定已超过容量或容量接近 90% 的系统。此外，它还提供了有关已过期或设置为在未来 6 个月内过期的软件和硬件的信息。</block>
+  <block id="8dae33fe79be13ef64d47e7f786ed059" category="list-text">* 安全漏洞： * 由具有影响区域值安全属性的风险组成。</block>
+  <block id="516965ece26518bb9e7692ea79ff1d0c" category="paragraph">登录到 Active IQ 数字顾问并注意到 * 安全漏洞 * 小工具上的红色标志时，您可以采取措施来修复严重风险。</block>
+  <block id="9e49d2928b0f9c506afa91618789cc95" category="inline-image-macro">安全漏洞小工具</block>
+  <block id="b690081b833e8f28d12bf81f4c46d353" category="list-text">单击 * 安全漏洞 * 小工具中的 * 操作 * 。<block ref="8410ae438d98c330146456538464956f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9f7c9f58bb8756fe75c88f458c094ff5" category="summary">提供信息以熟悉运行状况检查信息板。</block>
+  <block id="8bd30f76be476058b4d8d425fef989b2" category="doc">了解运行状况检查信息板</block>
+  <block id="c4e79cb686b01699ee0c71f0e369c23c" category="paragraph">Active IQ 运行状况检查仪表板可对您的整体环境进行时间点审核。</block>
+  <block id="3cc3a0dbf287ac1f117caad7c4ff3529" category="paragraph">根据运行状况检查得分，您可以根据建议的 NetApp 最佳实践对齐存储系统，以便于进行长期规划。它可帮助您通过集中式用户界面监控在软件和硬件上运行的所有系统。运行状况检查分数可帮助您快速深入了解系统风险。这些主要建议和最佳实践可帮助您采取措施来改善客户群的运行状况。</block>
+  <block id="73b22abb2810760940bcbce346e76523" category="admonition">您只能通过 NetApp SupportEdge Advisor 和 SupportEdge Expert 服务产品访问运行状况检查信息板。</block>
+  <block id="1206d2cfc5680736af341c983375f78e" category="paragraph">您可以比较过去 90 天的 AutoSupport 数据，并生成一个报告，提供有关事件和发生的配置差异的信息。</block>
+  <block id="e916508b5fb2cdc772d71fc2a189c67b" category="doc">开始使用运行状况检查信息板</block>
+  <block id="820ed668f5824044ba24b743388d94f8" category="list-text">* AutoSupport 采用率 * ：显示启用了 AutoSupport 的系统的数量和百分比。此外，您还可以查看标记为 " 已 ‘D" 的系统，启用了 * HTTPS * 和 * AutoSupport on Demand * 的系统以及过去 7 天内停止发送 AutoSupport 数据的系统的 * 信号丢失 * 。要查看运行状况检查得分以及有关安装群中系统的信息，请单击 * AutoSupport Adoption * 小工具。</block>
+  <block id="5a203b8ad736b84e1741fd3d04b50fd8" category="list-text">* 建议配置 * ：根据 * 建议配置 * 小工具显示合规和不合规的系统。它可以帮助您采取措施，确保您的系统在您的客户群中配置良好。您可以查看信息板上提供的分数，并根据按优先级顺序提供的关键建议采取措施。</block>
+  <block id="63d26e96496f498e8ddc517162407ad9" category="list-text">* 支持和授权 * ：显示 6 到 12 个月内已过期和即将到期的支持合同。它会显示支持平台结束，磁盘，磁盘架，授权合规性，待定到期， 平台和硬件支持终止不适用。您可以查看信息板上提供的运行状况检查得分，并根据按优先级顺序提供的关键建议采取措施。要查看有关支持合同的详细信息，请单击 * 支持和授权 * 小工具。您也可以使用此小工具续订支持合同。</block>
+  <block id="022a011d9b874fb921f0168799a144d0" category="list-text">* 最佳实践 * ：通过评估存储系统的最佳实践属性来显示运行状况检查得分—性能和效率，可用性和保护，容量，配置和安全漏洞。NetApp 最佳实践有助于保持系统运行状况，从而优化客户群的性能。</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">NetApp 支持站点</block>
+  <block id="9d4e98ef3e858b364953644ba3b9dd42" category="list-text">* 技术案例 * ：按案例类型以及打开或关闭状态，在可选时间范围内为您提供详细的技术案例历史记录视图。您可以通过深入了解案例组并查看案例详细信息 <block ref="524afdbf585c55af8de5660a471d6788" category="inline-link-macro-rx"></block> 或其他案例门户。</block>
+  <block id="16ae463ae4f1266939a871f237f322a5" category="paragraph">健康小工具可提供有关存储系统的详细信息。它提供有关存储系统不同属性的信息，例如性能和效率，容量，配置设置，安全漏洞，续订， 和其他。</block>
 </blocks>

@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: concept_understand_health_check_dashboard.html 
+keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
+summary: 提供信息以熟悉运行状况检查信息板。 
+---
+= 了解运行状况检查信息板
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Active IQ 运行状况检查仪表板可对您的整体环境进行时间点审核。
+
+根据运行状况检查得分，您可以根据建议的 NetApp 最佳实践对齐存储系统，以便于进行长期规划。它可帮助您通过集中式用户界面监控在软件和硬件上运行的所有系统。运行状况检查分数可帮助您快速深入了解系统风险。这些主要建议和最佳实践可帮助您采取措施来改善客户群的运行状况。
+
+
+NOTE: 您只能通过 NetApp SupportEdge Advisor 和 SupportEdge Expert 服务产品访问运行状况检查信息板。

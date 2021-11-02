@@ -18,11 +18,11 @@ summary: 提供有关如何增强防范黑客和勒索软件攻击的信息。
 
 
 [role="lead"]
-登录到 Active IQ 数字顾问并注意到 * 安全性 * 小工具上的红色标志时，您可以采取措施来修复严重风险。
+登录到 Active IQ 数字顾问并注意到 * 安全漏洞 * 小工具上的红色标志时，您可以采取措施来修复严重风险。
 
 .步骤
 . 登录到 Active IQ 数字顾问
-. 单击 * 安全性 * 小工具中的 * 操作 * 。image:Security_Image 1 Ransomware attacks.png["安全小工具"]
+. 单击 * 安全漏洞 * 小工具中的 * 操作 * 。image:Security_Image 1 Ransomware attacks.png["安全漏洞小工具"]
 +
 对于影响较大的安全风险，请按照建议的操作升级操作系统。
 

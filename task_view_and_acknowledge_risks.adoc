@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_view_and_acknowledge_risks.html 
-keywords: wellness, performance, efficiency, availability, capacity, security, protection, protect, acknowledge, unacknowledge, disregard 
+keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, acknowledge, unacknowledge, disregard 
 summary: 提供有关查看和分析存储系统运行状况以及确认风险的信息。 
 ---
 = 查看并确认风险

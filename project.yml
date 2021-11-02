@@ -100,9 +100,9 @@ sidebar:
   - title: 分析存储系统的运行状况
     entries:
     - title: 概述
-      url: "/concept_understand_health_check_assessment_dashboard.html"
-    - title: 开始使用运行状况检查评估信息板
-      url: "/concept_get_started_with_health_check_assessment_dashboard.html"
+      url: "/concept_understand_health_check_dashboard.html"
+    - title: 开始使用运行状况检查信息板
+      url: "/concept_get_started_with_health_check_dashboard.html"
     - title: 续订支持合同
       url: "/task_renew_support_contracts_for_your_systems.html"
   - title: 升级以优化您的客户群
