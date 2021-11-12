@@ -1042,4 +1042,9 @@
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">NetApp 支持站点</block>
   <block id="9d4e98ef3e858b364953644ba3b9dd42" category="list-text">* 技术案例 * ：按案例类型以及打开或关闭状态，在可选时间范围内为您提供详细的技术案例历史记录视图。您可以通过深入了解案例组并查看案例详细信息 <block ref="524afdbf585c55af8de5660a471d6788" category="inline-link-macro-rx"></block> 或其他案例门户。</block>
   <block id="16ae463ae4f1266939a871f237f322a5" category="paragraph">健康小工具可提供有关存储系统的详细信息。它提供有关存储系统不同属性的信息，例如性能和效率，容量，配置设置，安全漏洞，续订， 和其他。</block>
+  <block id="45b18c343d43ec682e557426d44cda54" category="section-title">2021 年 11 月 11 日</block>
+  <block id="1c4dbaa68e9004b45ad08f1cf5f157a1" category="list-text">在这些运行状况检查图块上添加了图标，这些图标仅适用于具有 SupportEdge Advisor 和 SupportEdge Expert 支持服务的系统。已对 " 建议的软件 - 软件货币和固件货币 " 部分， " 建议的配置 " 和 " 最佳实践 " 进行了增强。</block>
+  <block id="0411f5495f5795b2270ee7603259fb59" category="list-text">在 Active IQ 数字顾问–报告屏幕上为内部和外部（客户和合作伙伴）用户添加了机密数据横幅。</block>
+  <block id="ec4db24b3963d4a0b276c998be9a81bc" category="section-title">健康和升级小工具</block>
+  <block id="54454ba57239406365ebc84a4d7bd111" category="paragraph">改进了信息板，在 " 健康行动历史记录 " 列中添加了 E 系列升级建议和风险触发日期。</block>
 </blocks>
