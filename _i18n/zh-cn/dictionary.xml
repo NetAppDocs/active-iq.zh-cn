@@ -985,13 +985,6 @@
   <block id="1b7190e71bf87b797608810a3fa80d64" category="list-text">或经过测试和认证的客户安装群使用特定操作系统版本。</block>
   <block id="f40998631af1af360155366585f115c8" category="section-title">技术案例工作流</block>
   <block id="41705b7e1f487807deb1b3b4480313a9" category="paragraph">在信息板和下拉屏幕中，数据图表和折线图都进行了图形增强。您也可以选择在条形图中查看该数据。在折线图窗口中，您可以在这两个用户界面中查看，选择和取消选择 " 已打开 " ， " 已关闭 " 和 " 案例总数 " 的图形。</block>
-  <block id="67a5b2d9a5273b701cac4b32fff5b10a" category="section-title">运行状况评估内容提要演示文稿</block>
-  <block id="cd53d46c7fc3370b6d84cb5f78b0ad18" category="paragraph">它作为运行状况评估报告的一部分提供，并与 " 整合 " 运行状况评估 Excel 报告捆绑在一起。此报告以 zip 文件格式提供。</block>
-  <block id="78c23e199d9efe5acc7d061bf66e50fa" category="section-title">运行状况评估报告</block>
-  <block id="fcb306303a3702a60e771cdf9289c264" category="paragraph">其中包含一个有关 NetApp FabricPool 报告的章节。</block>
-  <block id="ee163ea8d25376f3053bffdb651cb6d4" category="section-title">客户视图</block>
-  <block id="c8c697a371f8637bfc0e1b44a6cea0a4" category="paragraph">在向客户或其他面向外部的角色提供 Active IQ 数字顾问时，您可以选择关闭内部以销售为中心的 Active IQ 工具和选项，例如发现信息板，资产洞察等。</block>
-  <block id="6543a004d3e45f62cad7937f04baa622" category="paragraph">要启用此功能，请转到用户界面中显示 " 客户视图 " 切换的 " 查看设置 " 。</block>
   <block id="93c8a6e17d9d5f6fe358eb0ccb598e13" category="section-title">支持终止（ EOS ）控制器超过 12 个月</block>
   <block id="2fab76159eccef44ca8dd94e1dee4665" category="paragraph">运行状况检查信息板已进行了改进，可通过一个选项卡显示 EOS 超过 12 个月的控制器。</block>
   <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">单击 * 计划 * 小工具中的 * 续订 * 。</block>
@@ -1047,4 +1040,58 @@
   <block id="0411f5495f5795b2270ee7603259fb59" category="list-text">在 Active IQ 数字顾问–报告屏幕上为内部和外部（客户和合作伙伴）用户添加了机密数据横幅。</block>
   <block id="ec4db24b3963d4a0b276c998be9a81bc" category="section-title">健康和升级小工具</block>
   <block id="54454ba57239406365ebc84a4d7bd111" category="paragraph">改进了信息板，在 " 健康行动历史记录 " 列中添加了 E 系列升级建议和风险触发日期。</block>
+  <block id="1e6a2df5d81ec0be4913d5a6cc31e753" category="section-title">2021 年 12 月 15 日</block>
+  <block id="f551e29085dd1ae672a5c22b16dd5231" category="list-text">* 集群查看器报告 * ：此报告提供有关客户和监视列表级别的单个或多个集群的信息。您可以使用 ClusterViewer 报告将所有信息下载到一个文件中。您只能为最多包含 100 个节点的监视列表生成此报告。</block>
+  <block id="32323c520058568cf459c9c091b6302a" category="list-text">* 性能报告 * ：此报告在监视列表级别提供有关单个 zip 文件中集群，节点，本地层（聚合）和卷的性能信息。每个 zip 文件都包含一个集群的性能数据，可帮助用户分析每个集群的数据。您只能为最多包含 100 个节点的监视列表生成此报告。</block>
+  <block id="e7495c352afe82777cef53d3f7d2534f" category="section-title">与 E 系列系统集成</block>
+  <block id="00c03a5533f59ea010c2980d7e4d8d04" category="paragraph">您可以在 Active IQ 中查看选定 E 系列系统的容量详细信息和性能图形。</block>
+  <block id="bff8e0727b4c9b257312f2cbb6fcce4d" category="section-title">2021 年 11 月 18 日</block>
+  <block id="91b681e174a782226d26fb4056e14081" category="section-title">存储效率</block>
+  <block id="2837fa943ed77aa7de5f931fc0d9ddb0" category="paragraph">您可以查看由 NetApp Cloud Insights 维护和监控的节点的存储效率详细信息。</block>
+  <block id="8d1c3a552ad49163efb4753de2a95773" category="section-title">集群查看器</block>
+  <block id="9dc83864364276e0f933b83aba5a7e53" category="paragraph">ClusterViewer 堆栈可视化模块已进行了增强，包括放大 / 缩小和保存映像功能。</block>
+  <block id="3085ac0389f450e4cca3a2b286aaf59f" category="paragraph">您可以查看由 NetApp Cloud Insights 维护和监控的系统的存储效率详细信息。</block>
+  <block id="5113f77f1fff34aa6b365de6e30cf5ec" category="paragraph">您可以在 Active IQ 中查看有关 NetApp Cloud Volumes ONTAP 系统的容量详细信息。</block>
+  <block id="bab881e7a77679bf1ae1e0e5dcb3ec3e" category="paragraph">报告时间表已延长至 12 个月。当计划报告即将过期时，您还会收到通知。</block>
+  <block id="875d9c5afda791a40017daaed49334d2" category="section-title">性能图形</block>
+  <block id="3bea15cd61ddb06da5da3c9da21af174" category="paragraph">现在，除了 CSV 格式之外，您还可以下载 PNG 和 JPG 格式的性能图。</block>
+  <block id="6268dbec956651e7bd88197154e41f93" category="paragraph">您可以在 Active IQ 中查看有关 NetApp ONTAP ® Select 系统的容量详细信息。</block>
+  <block id="9ee1a0b7aa28c278380f54797be2bc29" category="paragraph">您可以在 ClusterViewer 的 "可视 化 " 选项卡中查看布线故障和其他错误。</block>
+  <block id="e2c6808982593708e3cfabf058fefb40" category="summary">提供有关集成以及如何在 Cloud Manager 中管理集群的信息。</block>
+  <block id="69afd9ad39724c949338645bc3c18d3c" category="doc">在 Cloud Manager 中管理集群</block>
+  <block id="8a0d2c897946577052b091701b0ae580" category="paragraph">Active IQ 数字顾问已集成到 Cloud Manager 中。现在，您可以通过 Cloud Manager 用户界面（ UI ）管理集群并访问 Active IQ 的所有功能。借助 Cloud Manager ， IT 专家和云架构师可以集中管理其混合多云基础架构。</block>
+  <block id="292e5c26d5c03cc4f8e1e8768bbbabaa" category="inline-link-macro">Active IQ 数字顾问如何与 Cloud Manager 配合使用</block>
+  <block id="1a14660c227c82394e14ca6a74c99853" category="paragraph">您只需在 Cloud Manager 中使用 NSS 帐户即可在 Cloud Manager 中集成和访问 Active IQ 。有关在 Cloud Manager 中集成和访问 Active IQ 的信息，请参见 <block ref="4b51d7668fb4335133544eec7db447ae" category="inline-link-macro-rx"></block>。</block>
+  <block id="7fffffd83e81207eb469a895955d2d8a" category="summary">提供有关可供用户使用的不同类型报告的信息。</block>
+  <block id="5205cb2f3582e719834d2230589ba0f6" category="doc">报告类型</block>
+  <block id="94e352af51d87c5a98b75dabcdaad93a" category="paragraph">Active IQ 提供了多种报告选项，可用于监控和管理系统运行状况以及操作成功情况。</block>
+  <block id="4580a4b84f306c8ee589e863f752ac16" category="paragraph">以下是 Active IQ 中提供的报告类型：</block>
+  <block id="fb988f484e2c15b2a450e5b4c6255e46" category="cell">报告名称</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Description</block>
+  <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">提供有关未解决和已确认风险，风险详细信息，更正操作以及受影响系统的信息。</block>
+  <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">健康—汇总</block>
+  <block id="87dafd57e21434bb814dbc172e84014c" category="cell">以 Excel 格式提供未解决风险和受影响系统计数的摘要。</block>
+  <block id="0c9c13cde9e8b69be84ca36dee87f611" category="cell">7- 模式 Upgrade Advisor 计划</block>
+  <block id="172ba4bf1d36ec96b59a55102d5b020c" category="cell">提供有关 7- 模式系统升级顾问计划的报告。此报告以 PDF 格式提供了有关 HA 配对节点的信息。</block>
+  <block id="35767d0c6b2bfe724794207ba0268903" category="cell">提供 Ansible 清单文件，其中按区域或站点列出了所有系统清单详细信息。此文件可用于自动化。</block>
+  <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
+  <block id="7eaee357275d531796b5348076c7abaa" category="cell">提供有关非活动，冷，活动，热，分层， 和不受监控的数据。此报告还包括用于对已禁用聚合启用非活动数据报告的 Ansible 攻略手册。</block>
+  <block id="ee50541ca9446ee369b76dc85f187051" category="cell">提供有关选定监视列表，客户，站点，组级别的安装基础的信息。此报告可以直接从 " 清单 " 详细信息页面下载，也可以从 " 报告 " 页面生成。</block>
+  <block id="7a1964d60060b532bf912499ef0e5419" category="cell">支持生命周期结束</block>
+  <block id="eb3e2bb77a70accd5403c18060eae0d0" category="cell">提供有关已达到支持终止（ EOS ）的控制器，磁盘架和磁盘列表的信息。</block>
+  <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">建议配置</block>
+  <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">提供有关远程管理配置，备用磁盘和驱动器， HA 对和 SVM 运行状况的各种建议配置差距的信息。</block>
+  <block id="fca571dd1b59c732f4bccd0d20435b5d" category="cell">技术案例详细信息</block>
+  <block id="d6cb167525a6b69100791b38c109bfe9" category="cell">提供有关所有技术案例及其状态的年度报告。</block>
+  <block id="5cbae6debb1f76f9bf4bec9196da5dc6" category="cell">升级建议（软件和固件）</block>
+  <block id="9932f2379db681a01520e32c482a3ddb" category="cell">有关搜索条件中每个控制器或串行的软件和固件货币以及建议版本的多选项卡报告。</block>
+  <block id="7ba03c87de2b2098f95107674c8477ff" category="cell">ClusterViewer 报告</block>
+  <block id="deadf2a9fa3f158efcd64e6a72518e2d" category="cell">提供有关客户和监视列表级别的单个或多个集群的信息。您可以使用 ClusterViewer 报告将所有信息下载到一个文件中。您只能为最多包含 100 个节点的监视列表生成此报告。</block>
+  <block id="2d99f2b259d1d48f91090cd494f911f9" category="cell">容量和效率</block>
+  <block id="5da3b92de536337b0597bb58ef5868ac" category="cell">提供有关集群，客户，站点，组，监视列表和节点级别的容量和效率详细信息。</block>
+  <block id="7780a058aaed86fab91b6e7629c71e93" category="cell">卷性能报告</block>
+  <block id="2bc63cd07b97ee266354dc14df194285" category="cell">提供有关集群级别卷的性能详细信息的信息。</block>
+  <block id="f7ced170f0a650cade73ee4d9d2d75de" category="cell">性能报告</block>
+  <block id="c05d44d160f419e8ea9a210443df1f11" category="cell">在监视列表级别提供有关单个 zip 文件中集群，节点，本地层（聚合）和卷性能的信息。您只能为最多包含 100 个节点的监视列表生成此报告。</block>
+  <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">生成自定义报告</block>
 </blocks>

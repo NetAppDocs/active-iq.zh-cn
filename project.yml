@@ -29,6 +29,8 @@ sidebar:
       url: "/concept_autosupport.html"
     - title: 登录到 Active IQ 数字顾问
       url: "/task_login_activeiq.html"
+    - title: 在 Cloud Manager 中管理集群
+      url: "/concept_manage_your_cluster_in_cloud_manager.html"
   - title: 配置监视列表
     entries:
     - title: 概述
@@ -139,8 +141,12 @@ sidebar:
       url: "/task_generate_tokens_API_services.html"
     - title: 使用 API 目录执行 API
       url: "/task_view_API_catalog.html"
-  - title: 生成报告
-    url: "/task_generate_reports.html"
+  - title: 生成自定义报告
+    entries:
+    - title: 报告类型
+      url: "/concept_report_types.html"
+    - title: 生成报告
+      url: "/task_generate_reports.html"
   - title: 常见问题解答
     url: reference_aiq_faq.html
   - title: 获取更多信息
