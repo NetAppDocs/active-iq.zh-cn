@@ -5,8 +5,9 @@ settings:
     pdf_enabled: true
   prod:
     pdf_enabled: true
-    harmony_enabled: true
+    harmony_enabled: false
     langs: zh-cn,us-en,ja-jp
+  langs: zh-cn,us-en,ja-jp
 sidebar:
   entries:
   - title: Active IQ 数字顾问文档
@@ -91,6 +92,8 @@ sidebar:
       url: "/task_compare_config_drift_template.html"
     - title: 生成偏移时间线报告
       url: "/task_generate_drift_timeline_report.html"
+    - title: 管理模板
+      url: "/task_manage_template.html"
   - title: 提高存储系统的效率和性能
     entries:
     - title: 分析容量和效率节省情况

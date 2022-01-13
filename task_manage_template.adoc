@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_manage_template.html 
+keywords: templates, share template, clone template, edit template, delete template 
+summary: 提供用于管理模板的信息。 
+---
+= 管理模板
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以克隆模板，共享模板，编辑现有模板的详细信息以及删除模板。
+
+.步骤
+. 从左窗格中，单击 * 配置驱动器 * 。
+. 单击 image:clone_icon.png["clone"] 以创建模板的副本。
+. 单击 image:share_icon.png["共享"] 并输入要与其共享模板的用户名。
++
+
+NOTE: 如果输入用户的电子邮件地址而不是用户名，则不会共享此模板。
+
+. 单击 image:edit_icon.png["编辑"] 更新模板的详细信息。
+. 单击 image:delete_icon.png["删除"] 删除模板。
+
