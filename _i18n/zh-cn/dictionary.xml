@@ -228,7 +228,6 @@
   <block id="f4211b7ee285529c0082b53f3b17de86" category="list-text">如果存储系统的存储效率比率高于平均存储效率比率，请单击 * 分享您的成功案例 * ，让我们了解所遵循的最佳实践。</block>
   <block id="7e4e265e9120fa2dfd6ce41588f5706a" category="list-text">如果存储系统的存储效率比率低于平均存储效率比率，请单击 * 联系我们 * ，告知我们您的存储系统配置。</block>
   <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">提供有关此版本中新增功能的信息。</block>
-  <block id="800e31baacf1dc07c572c5aed9b7c407" category="doc">Active IQ 数字顾问中的新增功能</block>
   <block id="39b6eb402b8871cdc35121d26ca117cb" category="section-title">2021 年 2 月 10 日</block>
   <block id="392d70ca39f31f10bd637936769788df" category="section-title">StorageGRID</block>
   <block id="42bee64e260cf6b08834a028608fd5b9" category="paragraph">StorageGRID 信息板可使用下一代 API 框架启用。</block>
@@ -1109,4 +1108,5 @@
   <block id="d1c945f8f77793851d1f6cbc46465c53" category="section-title">2021 年 1 月 12 日</block>
   <block id="1f11edbc13f039765fac872c257a9a13" category="list-text">您可以克隆模板以创建原始模板的副本。</block>
   <block id="4be9d327e5d4314ef41a2c76cb413647" category="list-text">您可以与对这些模板具有只读或完全访问权限的其他授权用户共享黄金模板。<block ref="cbf38bd30e52bcc4b4982b19aec6bc2b" category="inline-link-macro-rx"></block>。</block>
+  <block id="661b451e3ca8f0a560cc7724b5acfaa2" category="doc">Active IQ 数字顾问中的新增功能</block>
 </blocks>
