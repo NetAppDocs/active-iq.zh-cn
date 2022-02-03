@@ -1109,4 +1109,11 @@
   <block id="1f11edbc13f039765fac872c257a9a13" category="list-text">您可以克隆模板以创建原始模板的副本。</block>
   <block id="4be9d327e5d4314ef41a2c76cb413647" category="list-text">您可以与对这些模板具有只读或完全访问权限的其他授权用户共享黄金模板。<block ref="cbf38bd30e52bcc4b4982b19aec6bc2b" category="inline-link-macro-rx"></block>。</block>
   <block id="661b451e3ca8f0a560cc7724b5acfaa2" category="doc">Active IQ 数字顾问中的新增功能</block>
+  <block id="fb9ec4a767166de614d7b27285754a9b" category="paragraph">共享模板可以节省创建和自定义用户已创建的模板所需的时间和精力。共享用户可以相互更改共享模板，从而允许多个用户修改一个黄金模板。</block>
+  <block id="78166ce4ccceeedfbf6aeb8682851072" category="paragraph">* 关于此任务 *</block>
+  <block id="f4c12685c854edc2a70b55cda1355928" category="list-text">可以随时撤消对共享模板的访问。</block>
+  <block id="604e4b03afa73e998c83987a965bf62f" category="list-text">共享用户可以随时从其帐户中删除此模板。</block>
+  <block id="f4326c266c746886119f8753fbde4ae5" category="list-text">您不能在 Active IQ 中编辑报告。您应删除现有报告并创建新报告。</block>
+  <block id="1c29599ba00f8ba135a21a794908ea18" category="admonition">此报告将保存在 Active IQ 中 3 天。</block>
+  <block id="fbdbbae9b17b34243807f99738e169e7" category="admonition">生成新报告时，现有计划的报告将被替换。</block>
 </blocks>
