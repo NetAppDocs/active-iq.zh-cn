@@ -371,7 +371,6 @@
   <block id="b30b3bbfc415b638b24e6565c44b8b35" category="paragraph">激活是自动的，应即时激活。获得使用 Active IQ API 的授权后，您可以生成令牌，以便在进行编程 API 调用时使用。您也可以使用这些令牌在 API 目录中执行 " 试用 " 。通过编程方式获取令牌时，令牌始终以两组为一组：访问令牌和刷新令牌。要成功使用所有 API ，必须传递访问令牌（只有一个 API 除外 - 使用刷新令牌以编程方式获取一组新令牌）。</block>
   <block id="e26d70ef5011218a0e0d472d10f783bb" category="list-text">在 Main API Services 页面上，单击 * 生成令牌 * 以查看和下载访问令牌并刷新令牌以调用 API 。</block>
   <block id="99a9cfa523a42e23621796dfca6edb0a" category="paragraph">通过此门户，您可以通过多种方式保存集中的一个或两个令牌。您可以将其复制到剪贴板，以文本文件的形式下载或以纯文本格式查看。</block>
-  <block id="607683664f7a92a19f972cb30b0f79a1" category="admonition">您应下载并保存访问令牌和刷新令牌，以供日后使用。访问令牌在生成后一小时到期，刷新令牌在七天后到期。生成新的刷新令牌后，此 API 调用中使用的刷新令牌将失效。</block>
   <block id="cfe3edab2601e99b9745cec9fd8ad086" category="summary">提供有关如何续订系统支持合同的信息。</block>
   <block id="fba041f597391cccf20df624e451614c" category="doc">续订支持合同</block>
   <block id="55c259bf51c9908c5e33fc4b248b3f61" category="paragraph">您可以在信息板上查看所有活动支持合同的得分和摘要。您可以根据按优先级顺序提供的关键建议采取措施。</block>
@@ -836,7 +835,6 @@
   <block id="fc6d3ceb7c84059ca7f2eb808bff5479" category="section-title">支持服务升级</block>
   <block id="afd7e04c0a9b982d69f8dafe88b0c37f" category="list-text">用户界面经过改进，可显示您在 Active IQ 中订阅的特定支持服务。</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想快速了解问题解答，此常见问题解答会很有帮助。</block>
-  <block id="96dcda009a89f5728838eaae68633cbf" category="doc">Active IQ 常见问题解答</block>
   <block id="1733ab713f46f3f8c18b694cf0e0f2c2" category="paragraph">以下问题解答了您经常询问的有关 Active IQ 的问题。</block>
   <block id="83f77ac81e7b9adec1ae7943c11aef16" category="list-text">无法访问某些功能</block>
   <block id="9f289da80756bc405e29b49d51ac81d8" category="list-text">清单中缺少系统</block>
@@ -1116,4 +1114,7 @@
   <block id="f4326c266c746886119f8753fbde4ae5" category="list-text">您不能在 Active IQ 中编辑报告。您应删除现有报告并创建新报告。</block>
   <block id="1c29599ba00f8ba135a21a794908ea18" category="admonition">此报告将保存在 Active IQ 中 3 天。</block>
   <block id="fbdbbae9b17b34243807f99738e169e7" category="admonition">生成新报告时，现有计划的报告将被替换。</block>
+  <block id="f45e8ce7df04f3b7fdef9a7ac914534b" category="doc">有关 Active IQ 的常见问题解答</block>
+  <block id="ce35b219dc5f96e6b0eb25a2bb2623b6" category="admonition">您应下载并保存访问令牌和刷新令牌，以供日后使用。访问令牌在生成后一小时过期，刷新令牌应每 7 天重新生成一次并安装在应用程序中。90 天后，您需要手动登录并获取新的访问和刷新令牌。</block>
+  <block id="469ece09146953ebd6a7e5bf041f15f1" category="paragraph">有关容量和存储效率的详细信息，请参见 <block ref="1f14e24988ac8fc33e2e14ae229f096d" category="inline-link-macro-rx"></block>。</block>
 </blocks>
