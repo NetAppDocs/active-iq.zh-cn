@@ -45,7 +45,7 @@ sidebar:
       url: "/concept_overview_wellness.html"
     - title: 查看风险并手动采取更正操作
       url: "/task_view_risk_and_take_action.html"
-    - title: 增强防范黑客和勒索软件攻击的能力
+    - title: 检测安全漏洞
       url: "/task_increase_protection_against_hackers_and_Ransomware_attacks.html"
     - title: 保护系统免受勒索软件风险的影响
       url: "/task_protect_systems_against_ransomware_risks.html"

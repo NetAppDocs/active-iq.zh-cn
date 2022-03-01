@@ -720,7 +720,6 @@
   <block id="82ee712943040cce957254912d97aba0" category="list-text">选择任何 API</block>
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">配置监视列表</block>
   <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">提供有关如何增强防范黑客和勒索软件攻击的信息。</block>
-  <block id="994d62a653fe8361ea4d612235399fb3" category="doc">增强防范黑客和勒索软件攻击的能力</block>
   <block id="c93512b030d1e761994897b23c1eaf91" category="list-text">登录到 Active IQ 数字顾问</block>
   <block id="c17e33981c0b062b393672808567a4ab" category="paragraph">对于影响较大的安全风险，请按照建议的操作升级操作系统。</block>
   <block id="75b13b2a3ff2cb52d35b06fcc7348713" category="inline-image-macro">Corrective Action 列</block>
@@ -1015,7 +1014,6 @@
   <block id="2239c723cc5ca3dc6ba1585521896ba0" category="sidebar">生成偏移时间线报告</block>
   <block id="a0cead27e095329905ff0ea7d83de0d2" category="list-text">* 健康小工具： * 显示有关性能，效率，容量，配置设置，安全漏洞的信息， 和其他。它会主动确定已超过容量或容量接近 90% 的系统。此外，它还提供了有关已过期或设置为在未来 6 个月内过期的软件和硬件的信息。</block>
   <block id="8dae33fe79be13ef64d47e7f786ed059" category="list-text">* 安全漏洞： * 由具有影响区域值安全属性的风险组成。</block>
-  <block id="516965ece26518bb9e7692ea79ff1d0c" category="paragraph">登录到 Active IQ 数字顾问并注意到 * 安全漏洞 * 小工具上的红色标志时，您可以采取措施来修复严重风险。</block>
   <block id="9e49d2928b0f9c506afa91618789cc95" category="inline-image-macro">安全漏洞小工具</block>
   <block id="b690081b833e8f28d12bf81f4c46d353" category="list-text">单击 * 安全漏洞 * 小工具中的 * 操作 * 。<block ref="8410ae438d98c330146456538464956f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9f7c9f58bb8756fe75c88f458c094ff5" category="summary">提供信息以熟悉运行状况检查信息板。</block>
@@ -1117,4 +1115,9 @@
   <block id="f45e8ce7df04f3b7fdef9a7ac914534b" category="doc">有关 Active IQ 的常见问题解答</block>
   <block id="ce35b219dc5f96e6b0eb25a2bb2623b6" category="admonition">您应下载并保存访问令牌和刷新令牌，以供日后使用。访问令牌在生成后一小时过期，刷新令牌应每 7 天重新生成一次并安装在应用程序中。90 天后，您需要手动登录并获取新的访问和刷新令牌。</block>
   <block id="469ece09146953ebd6a7e5bf041f15f1" category="paragraph">有关容量和存储效率的详细信息，请参见 <block ref="1f14e24988ac8fc33e2e14ae229f096d" category="inline-link-macro-rx"></block>。</block>
+  <block id="f7e6c88265534036ac8e0f442a755875" category="doc">检测安全漏洞</block>
+  <block id="d5d17f408c363c187667642f4d2ee597" category="paragraph">NetApp 安全站点是 NetApp 产品安全的关键所在： <block ref="2b116f024b5e4a0f9c1d319872f1fc7d" category="inline-link-macro-rx"></block></block>
+  <block id="d07de6c78533ed3ecc00b46776283804" category="paragraph">Active IQ 利用遥测数据和已发布的产品安全建议来检测所涵盖 * 和授权支持的产品的安全问题。必须通过 AutoSupport 将产品遥测数据传输到 NetApp ，以便 Active IQ 检测风险。</block>
+  <block id="ac9e6dffc41619c8aed4c566d44168e4" category="paragraph">有关其他 NetApp 产品安全信息，包括 Active IQ 未涵盖的产品，请访问 <block ref="2b116f024b5e4a0f9c1d319872f1fc7d" category="inline-link-macro-rx"></block></block>
+  <block id="820369c7769d4f36cf2076f618fe371d" category="paragraph">* 涵盖产品： ONTAP 9 （内部和云）， SANtricity 操作系统控制器软件， NetApp SolidFire （ Element 软件）， StorageGRID ， Active IQ Unified Manager ， ONTAP Tools for VMware （ OTV ）</block>
 </blocks>
