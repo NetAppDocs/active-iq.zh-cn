@@ -49,7 +49,6 @@
   <block id="74bac88334325995c9ac3011aacb8ce6" category="paragraph">启用订阅后，您应在添加订阅时选择开始日期。每月电子邮件摘要提供了有关未完成的健康，续订，升级和运行状况检查操作的视图。您可以确认电子邮件地址，并将此电子邮件发送到指定的电子邮件地址。您还可以选择删除订阅。</block>
   <block id="758be7d229b841d1130a3c7c210ffbdf" category="admonition">此功能仅可通过 NetApp SupportEdge Advisor 和 SupportEdge Expert 服务产品获得。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
-  <block id="ee3b44cb150fbb2c2c068161d94f103f" category="list-text">在运行状况检查评估信息板上，单击 * 健康审查订阅 * 。</block>
   <block id="2e732ac605c2ed9156bbd850efb40083" category="list-text">单击 * 添加订阅 * 。</block>
   <block id="5fc44cddfe7ebd9f1c1db179221f47cf" category="list-text">在 * 添加新订阅 * 对话框的 * 为订阅命名 * ， * 选择类别 * ， * 搜索客户 * 和 * 电子邮件 * 字段中提供所需信息。</block>
   <block id="85bb97cf1fc6a37ea1a5e97e0e2e1a8b" category="list-text">单击 * 订阅 * 。</block>
@@ -245,7 +244,6 @@
   <block id="5c1cbbba646e78bf69e01be8602cbe41" category="section-title">云就绪工作负载</block>
   <block id="b07b6b80fae4b5c609f71c937ae1f913" category="paragraph">您可以查看存储系统中可用的不同类型的工作负载，并确定云就绪的工作负载。</block>
   <block id="e68cf4e683901ace045287e72cebd33c" category="section-title">2020 年 12 月 21 日</block>
-  <block id="f3d7d9f35ed0c245c9b174f44e9ad8b7" category="section-title">运行状况检查评估信息板</block>
   <block id="aa5994392f8a093dc1c41223c074d356" category="paragraph">信息板中添加了以下小工具：</block>
   <block id="1bc4226bb477b9de81539a5228f031c5" category="list-text">推荐软件：此小工具提供了所有软件和固件升级以及货币建议的综合列表。</block>
   <block id="665aadbe4be879e060b8e8fac4ef8d2d" category="list-text">信号丢失：此小工具提供有关系统的分数和信息，这些系统由于某种原因已停止发送 AutoSupport 数据。它可提供有关在 7 天内是否未从主机名收到任何 AutoSupport 数据的信息。</block>
@@ -263,7 +261,6 @@
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">了解如何操作</block>
   <block id="273c6172eab8f123977db3341f450022" category="paragraph">您可以生成或计划 ClusterViewer 报告，以查看有关系统的物理和逻辑配置的详细信息。 <block ref="a215153d303469248fdb9fd5d964c085" category="inline-link-macro-rx"></block>。</block>
   <block id="ff0ca88c2de09857272e1e64c6d20635" category="section-title">2020 年 10 月 15 日</block>
-  <block id="321e3d496eb41791534866fdbe717282" category="paragraph">Active IQ 运行状况检查评估（ HCA ）信息板可对您的整体环境进行时间点审核。根据运行状况检查得分，您可以根据建议的 NetApp 最佳实践调整存储系统，以便于进行长期规划并改善客户群的运行状况。 <block ref="1896498242b484574904ca9397362055" category="inline-link-macro-rx"></block>。</block>
   <block id="2ffefe6c8c1d57527c2c86448a467c08" category="section-title">配置变化</block>
   <block id="6d842379317d540dc2fdadff80691eac" category="inline-link-macro">了解如何添加配置偏移模板</block>
   <block id="a3ed0d9c8cd0f99576d01a2e583bb3ce" category="paragraph">通过此功能，您可以近乎实时地比较系统和集群配置以及检测配置差异。 <block ref="85835a3294f4672a256d2580bd36ed95" category="inline-link-macro-rx"></block>。</block>
@@ -374,7 +371,6 @@
   <block id="cfe3edab2601e99b9745cec9fd8ad086" category="summary">提供有关如何续订系统支持合同的信息。</block>
   <block id="fba041f597391cccf20df624e451614c" category="doc">续订支持合同</block>
   <block id="55c259bf51c9908c5e33fc4b248b3f61" category="paragraph">您可以在信息板上查看所有活动支持合同的得分和摘要。您可以根据按优先级顺序提供的关键建议采取措施。</block>
-  <block id="61daef84b21528e38c95c105f2e1c1ad" category="list-text">在运行状况检查评估信息板上，单击 * 支持和授权 * 小工具。</block>
   <block id="195a1e51a63db10df6d13350df648daf" category="list-text">如果您的任何系统支持合同已过期或即将到期，请单击 * 活动支持合同 * 小工具。</block>
   <block id="f166a7d8aa57a3dbeef11dc2e8abe7a8" category="list-text">选中复选框并单击 * 续订 * 以启动选定系统的续订过程。</block>
   <block id="1d6e1053c3a5ac9c901ad8624d357a85" category="doc">升级存储系统的 ONTAP 版本</block>
@@ -814,7 +810,6 @@
   <block id="e5a357b5d9e14c026e56b048d8d30481" category="inline-link-macro">下载并查看配置变化报告</block>
   <block id="3fe3e6cae45cdc7f363823f66ac8cff4" category="list-text"><block ref="9904fa624af53322bf0cb3a29f4aca11" category="inline-link-macro-rx"></block>。</block>
   <block id="385c42157f7dfc3d457c05af35c0f3e3" category="list-text">运行 Ansible 攻略手册（包含在配置偏差报告中）以缓解偏差。</block>
-  <block id="15da020a2033d049fff6b4623c2fb97b" category="paragraph">现在，您可以查看计算运行状况得分所依据的系统数量。此增强功能适用于运行状况检查评估信息板中的所有属性</block>
   <block id="5ad57484a0088c331d00073cc0508f63" category="list-text">* 容量增加： * 对于超过现有容量 70% 阈值的任何网格站点，您将收到通知。如果容量阈值可能超过 70% ，您可以选择在未来 1 ， 3 和 6 个月为站点中的 StorageGRID 添加容量。</block>
   <block id="d891e937202bc371fc43c6ba5e8795c1" category="paragraph">" 层数据 " 按钮已添加到 FabricPool 信息板中，可用于使用 NetApp Cloud Manager 将数据分层到低成本对象存储层。</block>
   <block id="37adb256aff16968048142b85e04d7cc" category="list-text">* 系统固件： * 用于查看有关随 ONTAP 的每个主要版本和修补版本一起提供的系统固件的信息。</block>
@@ -1097,7 +1092,6 @@
   <block id="0865a774e1174481df7273cee252f86b" category="list-text">单击 <block ref="d17ae34269ddc9b756c90c8b4fb41e88" category="inline-image-macro-rx" type="image"></block> 更新模板的详细信息。</block>
   <block id="099af53f601532dbd31e0ea99ffdeb64" category="inline-image-macro">删除</block>
   <block id="a9345dca2427f7f88c526df2640684ed" category="list-text">单击 <block ref="26fc5ebf2c3c934a9aae5c740ff267ef" category="inline-image-macro-rx" type="image"></block> 删除模板。</block>
-  <block id="d1c945f8f77793851d1f6cbc46465c53" category="section-title">2021 年 1 月 12 日</block>
   <block id="1f11edbc13f039765fac872c257a9a13" category="list-text">您可以克隆模板以创建原始模板的副本。</block>
   <block id="4be9d327e5d4314ef41a2c76cb413647" category="list-text">您可以与对这些模板具有只读或完全访问权限的其他授权用户共享黄金模板。<block ref="cbf38bd30e52bcc4b4982b19aec6bc2b" category="inline-link-macro-rx"></block>。</block>
   <block id="661b451e3ca8f0a560cc7724b5acfaa2" category="doc">Active IQ 数字顾问中的新增功能</block>
@@ -1124,4 +1118,13 @@
   <block id="194a23f51af9ff2576303b43382ec1b9" category="list-text">E 系列控制器提供了以下性能图以及所需指标：</block>
   <block id="cc2748501c3e7b4010b19883a07f8053" category="list-text">CPU 利用率</block>
   <block id="0b85467ebafa7ca3c47e82dc38184484" category="list-text">吞吐量</block>
+  <block id="4dc41be6abef4ee242883df1a57fb262" category="list-text">在运行状况检查信息板上，单击 * 支持和授权 * 小工具。</block>
+  <block id="e7b254db09865dd430cfc8b7b0677352" category="list-text">从左窗格中，单击 * 健康审查 * 。</block>
+  <block id="d0fae250da4b7045c7ff7f8d51ced9ec" category="section-title">2022 年 3 月 24 日</block>
+  <block id="96fff307c63b4a63d8ad632126d7cbfa" category="list-text">运行状况评估的增强功能和错误修复内容摘要 PPT 。</block>
+  <block id="a3b957b59d881117bf09ee6ca7366bb9" category="list-text">能够生成建议的最低版本升级计划。</block>
+  <block id="93023f3e4204331d859903eed4894e42" category="list-text">运行状况检查图块的增强功能，用于确定每个 KPI 需要关注的节点数。</block>
+  <block id="d5fe749824528d36ebfda1e6d68028c4" category="section-title">2022 年 1 月 12 日</block>
+  <block id="aca33dafdae7a3f67c7dfa9a5df0dc66" category="paragraph">现在，您可以查看计算运行状况得分所依据的系统数量。此增强功能适用于运行状况检查信息板中的所有属性。</block>
+  <block id="6d588ba57b36a25f837d3883ad145dcc" category="paragraph">Active IQ 运行状况检查仪表板可对您的整体环境进行时间点审核。根据运行状况检查得分，您可以根据建议的 NetApp 最佳实践调整存储系统，以便于进行长期规划并改善客户群的运行状况。 <block ref="1896498242b484574904ca9397362055" category="inline-link-macro-rx"></block>。</block>
 </blocks>
