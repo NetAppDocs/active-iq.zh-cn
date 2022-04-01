@@ -1127,4 +1127,8 @@
   <block id="d5fe749824528d36ebfda1e6d68028c4" category="section-title">2022 年 1 月 12 日</block>
   <block id="aca33dafdae7a3f67c7dfa9a5df0dc66" category="paragraph">现在，您可以查看计算运行状况得分所依据的系统数量。此增强功能适用于运行状况检查信息板中的所有属性。</block>
   <block id="6d588ba57b36a25f837d3883ad145dcc" category="paragraph">Active IQ 运行状况检查仪表板可对您的整体环境进行时间点审核。根据运行状况检查得分，您可以根据建议的 NetApp 最佳实践调整存储系统，以便于进行长期规划并改善客户群的运行状况。 <block ref="1896498242b484574904ca9397362055" category="inline-link-macro-rx"></block>。</block>
+  <block id="246416981c0bc5059f44e80fed33fe3f" category="section-title">2022 年 3 月 31 日</block>
+  <block id="c058a29a15264f27580683a21135dedb" category="paragraph">您可以在网格查看器中查看有关租户和分段的信息。</block>
+  <block id="a6c3d2af64b360b39a28cdb59292357b" category="paragraph">您可以在网格查看器中查看网格配置详细信息。</block>
+  <block id="dad2544fd1c448ea22b7a63cbf03e1df" category="paragraph">Cloud Manager 用户现在可以在适用的情况下通过新选项卡打开 Active IQ 链接，类似于 Active IQ 中的现有功能。</block>
 </blocks>
