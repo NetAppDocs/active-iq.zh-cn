@@ -266,7 +266,7 @@ ClusterViewer 堆栈可视化模块已进行了增强，包括放大 / 缩小和
 现在，您可以在 Active IQ 数字顾问移动应用程序上启用生物识别身份验证。根据您的移动电话支持的功能，可用于身份验证的选项会有所不同。
 
 下载应用程序以了解更多信息：link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Active IQ 数字顾问移动应用程序（ Android ）"]
-
+link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Active IQ 数字顾问移动应用程序（ iOS ）"]
 
 
 
