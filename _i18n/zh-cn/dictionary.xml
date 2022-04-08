@@ -1131,4 +1131,7 @@
   <block id="c058a29a15264f27580683a21135dedb" category="paragraph">您可以在网格查看器中查看有关租户和分段的信息。</block>
   <block id="a6c3d2af64b360b39a28cdb59292357b" category="paragraph">您可以在网格查看器中查看网格配置详细信息。</block>
   <block id="dad2544fd1c448ea22b7a63cbf03e1df" category="paragraph">Cloud Manager 用户现在可以在适用的情况下通过新选项卡打开 Active IQ 链接，类似于 Active IQ 中的现有功能。</block>
+  <block id="23bfe468015bf5d3034031a6c8dc0d0e" category="section-title">2022 年 4 月 7 日</block>
+  <block id="1de44a557b304229f4217b29677a5336" category="list-text">最新操作系统版本的关键建议评分以及支持合同和支持终止的 "6 个月 "KPI 评分已降低，以适应解决问题的紧迫性降低。</block>
+  <block id="63ed1cad11240bab739f30f048ea3624" category="list-text">已更新有关远程管理和 HA 对（建议配置）的主要建议，以添加 NetApp 支持站点的 URL ，以供客户自助服务使用。</block>
 </blocks>
