@@ -8,6 +8,7 @@ summary: 提供有关使用 FabricPool Advisor 对非活动数据分层的信息
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

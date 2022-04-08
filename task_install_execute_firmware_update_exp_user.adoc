@@ -8,6 +8,7 @@ summary: 提供有关如何使用 Ansible 攻略手册安装和执行固件更�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

@@ -8,6 +8,7 @@ summary: 提供有关如何验证固件安装的信息。
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

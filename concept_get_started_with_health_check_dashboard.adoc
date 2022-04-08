@@ -8,6 +8,7 @@ summary: 提供有关信息板，运行状况得分，功能和小工具的信�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

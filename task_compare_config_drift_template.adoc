@@ -8,6 +8,7 @@ summary: 提供用于比较配置偏移模板的信息。
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

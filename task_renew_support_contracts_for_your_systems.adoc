@@ -8,6 +8,7 @@ summary: 提供有关如何续订系统支持合同的信息。
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

@@ -8,6 +8,7 @@ summary: 提供有关可供用户使用的不同类型报告的信息。
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

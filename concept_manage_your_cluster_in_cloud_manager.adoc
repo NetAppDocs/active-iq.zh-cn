@@ -8,6 +8,7 @@ summary: 提供有关集成以及如何在 Cloud Manager 中管理集群的信�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

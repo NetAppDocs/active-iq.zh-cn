@@ -8,6 +8,7 @@ summary: 帮助您了解工作流并开始使用 Active IQ 数字顾问。
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

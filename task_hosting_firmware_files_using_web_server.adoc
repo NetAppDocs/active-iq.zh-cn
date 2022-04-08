@@ -8,6 +8,7 @@ summary: 提供有关使用 Web 服务器托管固件文件的信息。
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

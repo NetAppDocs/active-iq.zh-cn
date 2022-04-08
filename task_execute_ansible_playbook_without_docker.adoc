@@ -8,6 +8,7 @@ summary: 提供有关如何使用 Docker 映像执行 Ansible 攻略手册的信
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

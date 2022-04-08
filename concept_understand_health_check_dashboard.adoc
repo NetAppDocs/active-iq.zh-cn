@@ -8,6 +8,7 @@ summary: 提供信息以熟悉运行状况检查信息板。
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

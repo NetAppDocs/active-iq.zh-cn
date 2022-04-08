@@ -8,6 +8,7 @@ summary: 提供有关信息板，监视列表和小工具的信息。
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

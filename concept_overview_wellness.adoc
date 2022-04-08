@@ -8,6 +8,7 @@ summary: 提供有关健康状况和风险类型的信息，有助于您改进�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

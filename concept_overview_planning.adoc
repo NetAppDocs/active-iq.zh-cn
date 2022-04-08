@@ -8,6 +8,7 @@ summary: 提供信息以确定即将过期的系统容量以及软件和硬件�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

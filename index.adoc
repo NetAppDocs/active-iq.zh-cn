@@ -7,6 +7,7 @@ summary: Active IQ 数字顾问可通过基于云的门户和移动应用程序�
 ---
 = Active IQ 数字顾问文档
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

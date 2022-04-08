@@ -8,6 +8,7 @@ summary: 提供有关此版本中限制的信息。
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

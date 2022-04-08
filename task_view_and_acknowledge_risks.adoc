@@ -8,6 +8,7 @@ summary: 提供有关查看和分析存储系统运行状况以及确认风险�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

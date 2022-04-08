@@ -8,6 +8,7 @@ summary: 提供有关系统风险以及如何查看健康历史记录的信息�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 
