@@ -212,7 +212,7 @@ ClusterViewer 堆栈可视化模块已进行了增强，包括放大 / 缩小和
 
 
 
-=== 容量
+=== Capacity
 
 您可以在 Active IQ 中查看有关 NetApp Cloud Volumes ONTAP 系统的容量详细信息。
 
@@ -268,7 +268,7 @@ ClusterViewer 堆栈可视化模块已进行了增强，包括放大 / 缩小和
 
 
 
-=== 容量
+=== Capacity
 
 您可以在 Active IQ 中查看有关 NetApp ONTAP ® Select 系统的容量详细信息。
 
@@ -831,8 +831,8 @@ link:concept_overview_dashboard.html["了解更多信息。"]。
 
 * 性能和效率
 * 可用性和保护
-* 容量
-* 配置
+* Capacity
+* Configuration
 * 安全性
 * 续订
 

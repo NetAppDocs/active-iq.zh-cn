@@ -199,7 +199,7 @@ Active IQ 将显示运行 ONTAP 9.1 及更高版本的系统的比率。
 
 
 
-== 容量
+== Capacity
 
 * 如何在 Active IQ 数字顾问中计算容量？ * Active IQ 数字顾问中的容量是为集群和节点计算的，不包括根副本和 Snapshot 副本
 
