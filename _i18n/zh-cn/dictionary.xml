@@ -870,12 +870,6 @@
   <block id="62b464a696f86c90363b4594cfca87f4" category="paragraph">* 为什么每个卷的已添加已用容量与节点级别的已用总容量不匹配？ * 节点级别的已用容量包括卷，元数据和 Snapshot 副本预留的空间。它还包括为卷预留的空间，即文件或卷保证类型。因此，两者可能不匹配。</block>
   <block id="a11869b5899e26048c9ed041f11ec9bf" category="paragraph">* 容量是否显示在 Active IQ 数字顾问基础 2 或基础 10 中？ * Active IQ 中显示的所有容量均为基础 2 （除以 1024 ），并以 GiB/TiB 表示容量。ONTAP 存储和其他 NetApp 产品还会在 Base 2 中显示容量使用情况。</block>
   <block id="d8d27ee684d88256c60816459952e514" category="admonition">您可以从系统信息板上的 * 配置 * 小工具升级支持服务，以深入了解您的客户群并获得个性化支持。</block>
-  <block id="9dbb9bc7db7f476d8d07033da29e3963" category="paragraph">* 什么是非技术案例？ *</block>
-  <block id="3ecf934ba92a202021971366143ca10d" category="paragraph">无法查看清单中的系统，合同期限日期不正确等非技术问题均归类为非技术问题。</block>
-  <block id="00d92d98ebf38a6aa159770cf065b452" category="paragraph">* 何时需要创建非技术案例？ *</block>
-  <block id="369c5e0a2b4ca18226dd42668ec16d4a" category="paragraph">应针对以下情况创建非技术案例：</block>
-  <block id="57d68619b2765e5344ee6691f1cbbd88" category="paragraph">* 如何创建非技术案例？ *</block>
-  <block id="ba625a9b488c5e1df819a67984494371" category="list-text">单击 <block ref="ee2c8057dc5018da669c93cf5a6627fa" category="inline-link-macro-rx"></block> 在 NetApp 支持站点上打开 " 非技术反馈工具 " 。</block>
   <block id="b796f5a9938eed79a1b234c13b86fcaf" category="paragraph">NetApp Active IQ 数字顾问中引入了以下功能和增强功能：</block>
   <block id="bd0328b259e09ba57ed30da815f4cc42" category="section-title">2021 年 6 月 25 日</block>
   <block id="e6950d9f03fba06e22767b7f984caa30" category="section-title">Flex 订阅小工具</block>
@@ -1143,4 +1137,26 @@
   <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="390e66de0b25a9d9b226d4ede6fa20b5" category="section-title">2022年5月12日</block>
+  <block id="9ce6137128fa3150f0b3f3b8f9f5d110" category="paragraph">StorageGRID 容量和容量报告中包含其他容量指标。</block>
+  <block id="412b4661c99e365493b34061a41311d4" category="paragraph">集群的SnapMirror (数据保护)摘要现在包含在ClusterViewer中。</block>
+  <block id="30477aac7de696f872a4af4a6aff4a5e" category="paragraph">现在、您可以使用升级工作流查看目标E系列版本中提供的升级建议和新功能摘要。</block>
+  <block id="3974e26b26a740068e57eaa72b547d14" category="list-text">Ansible攻略手册已进行了改进、可降低软件配置风险。</block>
+  <block id="a47a4bf50c391a1c178847e49446d5d9" category="list-text">这些筛选器已整合到健康操作和风险中。</block>
+  <block id="beb3c900abcdebfe6fb8889f05e352f2" category="admonition">Active IQ 仅显示AutoSupport 数据早于60天的系统的AutoSupport 相关数据。</block>
+  <block id="73cbb404e3fdd583d819be0e2eb8034e" category="section-title">非技术案例</block>
+  <block id="b09ac678fb70485b6003259d225086ea" category="paragraph">*什么是非技术案例？*</block>
+  <block id="49b0363cd6699cf55e78d722000a5e8c" category="paragraph">无法查看清单中的系统、合同期限日期不正确等非技术问题均归类为非技术问题。</block>
+  <block id="5eb51f8ff81951a471d845f526636e66" category="paragraph">*何时需要创建非技术案例？*</block>
+  <block id="53184e7a4bde7d1975ba90074c0a52d3" category="paragraph">应针对以下情况创建非技术案例：</block>
+  <block id="8d561f83f3c24e7d066a3cd084ed3764" category="paragraph">*如何创建非技术案例？*</block>
+  <block id="85009e822479a8fa21551fa97aad6551" category="list-text">单击 <block ref="ee2c8057dc5018da669c93cf5a6627fa" category="inline-link-macro-rx"></block> 在 NetApp 支持站点上打开 " 非技术反馈工具 " 。</block>
+  <block id="9b3e70f7ec5801014bd7ba2b043dd460" category="paragraph">*为什么在清单页面中找不到某些系统？*由于以下原因之一、您可能无法在清单页面中查看某些系统：</block>
+  <block id="bc589a42c9712f3202e1697e0c7d5db9" category="list-text">新系统在SAP中添加或更新后、需要花费一天以上的时间才能在Active IQ 中反映出来。</block>
+  <block id="490faa3ce28cbfbdad8226dd7dc88a66" category="list-text">系统安全可靠、您无权查看安全系统。</block>
+  <block id="fff04069266603da7d63522615d51f31" category="list-text">您无权查看这些系统。</block>
+  <block id="04187ceda7d68629d17d32d7bfb72e06" category="list-text">系统处于非活动状态</block>
+  <block id="202e46041652836ed8241309090e3360" category="inline-link-macro">创建非技术案例</block>
+  <block id="8e52de0d4b03d5fe87dc88da09616c7f" category="inline-xref">此处。</block>
+  <block id="9ca5b690fe8bde0ca39f3697552ca80d" category="paragraph">如果由于任何其他原因无法查看系统、 <block ref="c55e3409f454389439c394d71613590b" category="inline-link-macro-rx"></block>。要了解有关非技术案例的更多信息、请单击 <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
 </blocks>

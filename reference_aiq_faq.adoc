@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference_aiq_faq.html 
-keywords: faq, frequently asked questions, nontechnical, nontechnical case, non-technical, non-technical case 
+keywords: faq, frequently asked questions, non-technical, non-technical case, inventory, storage efficiency, capacity, performance 
 summary: 如果您只是想快速了解问题解答，此常见问题解答会很有帮助。 
 ---
 = 有关 Active IQ 的常见问题解答
@@ -21,11 +21,15 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 [role="lead"]
 以下问题解答了您经常询问的有关 Active IQ 的问题。
 
-* 什么是非技术案例？ *
 
-无法查看清单中的系统，合同期限日期不正确等非技术问题均归类为非技术问题。
 
-* 何时需要创建非技术案例？ *
+== 非技术案例
+
+*什么是非技术案例？*
+
+无法查看清单中的系统、合同期限日期不正确等非技术问题均归类为非技术问题。
+
+*何时需要创建非技术案例？*
 
 应针对以下情况创建非技术案例：
 
@@ -36,7 +40,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 * 支持服务不正确
 
 
-* 如何创建非技术案例？ *
+*如何创建非技术案例？*
 
 . 单击 link:https://mysupport.netapp.com/site/help["此处"] 在 NetApp 支持站点上打开 " 非技术反馈工具 " 。
 . 从 * 反馈类别 * 下拉列表中选择相应的类别。
@@ -300,3 +304,17 @@ NOTE: 它包括为文件或卷保证类型的卷预留的空间。除了预留�
 * 容量是否显示在 Active IQ 数字顾问基础 2 或基础 10 中？ * Active IQ 中显示的所有容量均为基础 2 （除以 1024 ），并以 GiB/TiB 表示容量。ONTAP 存储和其他 NetApp 产品还会在 Base 2 中显示容量使用情况。
 
 对于 StorageGRID ，容量以基数 10 显示，容量单位以 TB 表示。
+
+
+
+== 清单
+
+*为什么在清单页面中找不到某些系统？*由于以下原因之一、您可能无法在清单页面中查看某些系统：
+
+* 新系统在SAP中添加或更新后、需要花费一天以上的时间才能在Active IQ 中反映出来。
+* 系统安全可靠、您无权查看安全系统。
+* 您无权查看这些系统。
+* 系统处于非活动状态
+
+
+如果由于任何其他原因无法查看系统、 link:https://mysupport.netapp.com/site/help["创建非技术案例"]。要了解有关非技术案例的更多信息、请单击 <<Non-technical case,此处。>>
