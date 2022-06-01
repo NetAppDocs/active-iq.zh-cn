@@ -34,12 +34,12 @@ summary: 提供有关此版本中限制的信息。
 
 
 
-=== 编辑监视列表可能需要 60 分钟才能反映在中 Active IQ 数字顾问
+== 编辑监视列表可能需要 60 分钟才能反映在中 Active IQ 数字顾问
 
 编辑监视列表不会立即更新 Active IQ 数字顾问中的信息。这些更改可能需要长达 60 分钟才能在 Active IQ 数字顾问中反映出来。
 
 
 
-=== 计划报告时，系统会显示一个空白报告
+== 计划报告时，系统会显示一个空白报告
 
 只有 SupportEdge Advisor 或 SupportEdge Expert 支持合同才提供计划的报告。如果您的系统不受 SupportEdge Advisor 或 SupportEdge Expert 支持合同的约束，则在计划报告时可能会收到空白报告。
