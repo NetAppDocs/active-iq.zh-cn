@@ -27,7 +27,7 @@ summary: 提供有关性能的信息。
 
 您还可以选择放大性能图；此时将显示各个数据点。
 
-video::fWrHYX17xT8[youtube, width=848,height=480]
+video::fWrHYX17xT8[youtube,width=848,height=480]
 .步骤
 . 在信息板上，单击 * 性能 * 。
 +

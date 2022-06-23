@@ -46,4 +46,4 @@ image:wellness_workflow.png["健康工作流"]
 |===
 您可以观看以下视频，了解健康属性的重要性：
 
-video::-lTF3oWZB1M[youtube, width=848,height=480]
+video::-lTF3oWZB1M[youtube,width=848,height=480]

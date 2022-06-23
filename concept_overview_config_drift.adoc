@@ -29,4 +29,4 @@ image:config_drift.png["配置偏差工作流"]
 
 您可以观看以下视频以生成并运行 Ansible 攻略手册以修复配置差异：
 
-video::MbkwcZ7xk3Y[youtube, width=848,height=480]
+video::MbkwcZ7xk3Y[youtube,width=848,height=480]

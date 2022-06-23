@@ -27,7 +27,7 @@ image:activeiq2_workflow.png["Active IQ 数字顾问工作流"]
 
 您可以观看以下视频，开始使用 Active IQ 数字顾问：
 
-video::rEPtldosjWM[youtube, width=848,height=480]
+video::rEPtldosjWM[youtube,width=848,height=480]
 并非所有平台都支持所有 Active IQ 数字顾问小工具。Active IQ 数字顾问可识别存储系统的平台，并仅显示可在存储系统上执行的一组任务。
 
 请阅读以下信息，了解存储系统支持的小工具。

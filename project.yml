@@ -75,6 +75,8 @@ sidebar:
     entries:
     - title: 概述
       url: "/concept_overview_planning.html"
+    - title: 根据云建议做出明智的决策
+      url: "/task-informed-decisions-based-on-cloud-recommendations.html"
     - title: 确定达到容量限制的系统
       url: "/task_identify_capacity_system.html"
     - title: 避免卷填满以防止中断

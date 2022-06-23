@@ -25,7 +25,7 @@ ClusterViewer 可提供节点堆栈图，存储使用情况和效率，硬件容
 
 您可以查看电缆，堆栈和 RAID 磁盘级别节点物理配置的可视化视图或图形表示形式。您还可以下载 SVG 格式的可视化对象。
 
-video::FVbb2bbIY9E[youtube, width=848,height=480]
+video::FVbb2bbIY9E[youtube,width=848,height=480]
 .步骤
 . 在 * 清单 * 小工具中，选择所需的集群或节点（主机）。
 . 在集群或节点级别，单击 * 配置 * 小工具旁边的 * 集群查看器 * 。

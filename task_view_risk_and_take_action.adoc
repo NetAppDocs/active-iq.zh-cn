@@ -31,4 +31,4 @@ summary: 提供信息，用于查看和分析存储系统的运行状况并降�
 
 缓解风险的步骤对于所有健康属性都是相同的。您可以观看以下视频来监控和修复与安全相关的问题：
 
-video::ssXI-FAKMis[youtube, width=848,height=480]
+video::ssXI-FAKMis[youtube,width=848,height=480]

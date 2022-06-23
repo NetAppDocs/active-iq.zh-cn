@@ -39,4 +39,4 @@ API 是一种接口，可用于编写简单代码，以便通过编程方式联�
 
 获得授权并生成令牌后，您可以利用令牌进行编程查询和检索数据。您还可以从 API 目录中测试 API ，以查看查询的直接工作原理以及返回的数据类型。在系统中构建代码框架之前，这是一种很好的方法，可确保您了解 API 的工作原理。
 
-video::GQskCeCrtQA[youtube, width=848,height=480]
+video::GQskCeCrtQA[youtube,width=848,height=480]

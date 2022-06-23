@@ -21,4 +21,4 @@ summary: 提供信息以确定即将过期的系统容量以及软件和硬件�
 [role="lead"]
 "* 规划 * " 小工具可帮助客户确定容量超过 90% 或接近 90% 的容量要求，并确定未来 6 个月内已过期或即将到期的软件和硬件。您可以发送请求以增加存储系统的容量并续订硬件和软件。
 
-video::ZJwz3WSD2u0[youtube, width=848,height=480]
+video::ZJwz3WSD2u0[youtube,width=848,height=480]

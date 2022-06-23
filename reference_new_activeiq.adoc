@@ -23,6 +23,31 @@ NetApp Active IQ 数字顾问中引入了以下功能和增强功能：
 
 
 
+== 2022年6月22日
+
+
+
+=== StorageGRID
+
+网格查看器中包含适用于StorageGRID 的信息生命周期管理(ILM)。
+
+
+
+=== 云建议
+
+为您提供了有关可使用SnapMirror数据复制移动到NetApp Cloud Volumes ONTAP 、NetApp Cloud Volumes Service 和NetApp Cloud Backup (以前称为AltaVault)的工作负载及其相应卷的建议。 link:task-informed-decisions-based-on-cloud-recommendations.html["了解如何操作"]。
+
+
+
+=== 报告
+
+* 现在、您可以使用为已生成的报告定义的条件生成报告。
+* 现在、您可以尝试3次以重试生成失败的报告。
+* 生成的报告的保留期限已从3天增加到90天。
+
+
+
+
 == 2022年6月1日
 
 
@@ -735,7 +760,7 @@ AFF 和 FAS 固件屏幕已进行了增强，可提供更好的用户体验。
 
 === 存储效率
 
-无论是否为 AFF 系统，非 AFF 系统或这两者提供 Snapshot 备份，您都可以查看存储系统的存储效率比率和节省量。您可以在节点级别查看存储效率信息。 link:task_analyze_storage_efficiency.html["了解如何操作"]。
+无论是否为AFF 系统、非AFF系统或这两者提供Snapshot副本、您都可以查看存储系统的存储效率比率和节省量。您可以在节点级别查看存储效率信息。 link:task_analyze_storage_efficiency.html["了解如何操作"]。
 
 
 

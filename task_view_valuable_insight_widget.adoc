@@ -21,7 +21,7 @@ summary: 提供有关有价值的 Insight 小工具的信息。
 [role="lead"]
 "* 有价值的 Insights * " 小工具可提供有关支持案例数量，待定软件升级，存储效率节省，已缓解风险等信息。此外，它还会主动列出 * 健康 * 属性中的风险通知。
 
-video::QPJY2TWnRxQ[youtube, width=848,height=480]
+video::QPJY2TWnRxQ[youtube,width=848,height=480]
 .步骤
 . 在 * 清单 * 小工具中，单击 * 系统 * 以查看所有平台的系统信息，或者单击平台类型，然后单击 * 系统 * 以查看特定于该平台的系统。
 . 单击节点或集群可查看有关系统的详细信息。

@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: task-informed-decisions-based-on-cloud-recommendations.html 
+keywords: cloud recommendations, migration, backup and archive, disaster recovery 
+summary: 提供可根据其做出明智决策的建议。 
+---
+= 根据云建议做出明智的决策
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Active IQ 会不断分析您的系统并提供建议、以提高系统性能、效率和运行状况。
+
+Active IQ 提供了有关以下内容的建议：
+
+* 迁移：提供有关存储系统中可用的不同工作负载类型的信息、并确定云就绪的工作负载。将工作负载迁移到云可节省成本并提供云灾难恢复。
+* 备份和归档：提供有关应备份到云的系统的信息。您可以使用NetApp Cloud Backup保护系统安全、并在需要时将其还原。
+* 灾难恢复：提供有关应复制到云中的数据的信息、以便在发生灾难时提供帮助。
+
+
+
+NOTE: Active IQ 将导航到Cloud Manager以实施这些建议。
+
+.步骤
+. 从左窗格中、单击*云建议*。
+. 要迁移数据、请执行以下操作：
++
+.. 单击*迁移*窗格中的任一链接。
+.. 单击*迁移到云*以启动* Cloud Manager*。
+
+
+. 备份和归档数据：
++
+.. 单击*备份和归档*窗格中的任一链接。
+.. 单击*备份到云*以启动* Cloud Manager*。
+
+
+. 复制数据：
++
+.. 单击*灾难恢复*窗格中的任一链接。
+.. 单击*复制到云*以启动* Cloud Manager*。
+
+
+
