@@ -43,3 +43,9 @@ summary: 提供有关此版本中限制的信息。
 == 计划报告时，系统会显示一个空白报告
 
 只有 SupportEdge Advisor 或 SupportEdge Expert 支持合同才提供计划的报告。如果您的系统不受 SupportEdge Advisor 或 SupportEdge Expert 支持合同的约束，则在计划报告时可能会收到空白报告。
+
+
+
+== 已确认和未确认的风险可能需要60分钟才能反映在Active IQ 数字顾问中
+
+已确认和未确认的风险状态不会立即反映在Active IQ 数字顾问中。这些变更可能需要长达60分钟才能反映在Active IQ 数字顾问和健康报告中。
