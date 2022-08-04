@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept_getting_started_2.html 
 keywords: overview, get started, wellness, performance, configuration, renewal, risk, remediation, planning, inventory 
-summary: 帮助您了解工作流并开始使用 Active IQ 数字顾问。 
+summary: 帮助您了解工作流并开始使用 Active IQ Digital Advisor。 
 ---
-= Active IQ 数字顾问快速入门
+= Active IQ Digital Advisor 快速入门
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,22 +19,22 @@ summary: 帮助您了解工作流并开始使用 Active IQ 数字顾问。
 
 
 [role="lead"]
-Active IQ 数字顾问经过改进和重新设计，可帮助您更有效地执行任务。我们开发了用户界面，用于指导您实现所需的目标。
+Active IQ Digital Advisor 经过改进和重新设计，可帮助您更有效地执行任务。我们开发了用户界面，用于指导您实现所需的目标。
 
-您可以通过下图了解 Active IQ 数字顾问的工作流。
+您可以通过下图了解 Active IQ Digital Advisor 的工作流。
 
-image:activeiq2_workflow.png["Active IQ 数字顾问工作流"]
+image:activeiq2_workflow.png["Active IQ Digital Advisor 工作流"]
 
-您可以观看以下视频，开始使用 Active IQ 数字顾问：
+您可以观看以下视频，开始使用 Active IQ Digital Advisor：
 
 video::rEPtldosjWM[youtube,width=848,height=480]
-并非所有平台都支持所有 Active IQ 数字顾问小工具。Active IQ 数字顾问可识别存储系统的平台，并仅显示可在存储系统上执行的一组任务。
+并非所有平台都支持所有 Active IQ Digital Advisor 小工具。Active IQ Digital Advisor 可识别存储系统的平台，并仅显示可在存储系统上执行的一组任务。
 
 请阅读以下信息，了解存储系统支持的小工具。
 
 [cols="4*"]
 |===
-| * 小工具 * | * 客户 * | * 集群 * | * 节点 * 
+| *小工具* | *客户* | *集群* | *节点* 
 
 
 | 健康 | 在所有平台上均受支持 | 在所有平台上均受支持 | 在所有平台上均受支持 

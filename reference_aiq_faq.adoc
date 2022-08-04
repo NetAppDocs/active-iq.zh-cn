@@ -60,7 +60,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 * 如何在 Active IQ 数字顾问中访问存储效率？ *
 
-. 打开的主页 link:https://activeiq.netapp.com/?source=onlinedocs["Active IQ 数字顾问"]。
+. 打开的主页 link:https://activeiq.netapp.com/?source=onlinedocs["Active IQ Digital Advisor"]。
 . 从右上角的搜索框中搜索客户，站点，组，集群或节点，以访问相应的信息板。
 . 单击左侧导航栏中的 * 存储效率 * 。
 
@@ -83,7 +83,7 @@ Active IQ 将显示运行 ONTAP 9.1 及更高版本的系统的比率。
 * 快照
 
 
-如果选中 * 不使用 Snapshots* 复选框， Active IQ 数字顾问将在客户级别，站点级别，组级别，集群级别和节点级别计算效率比率（重复数据删除，数据压缩，数据缩减和克隆存储效率技术的比率）。
+如果选中 * 不使用 Snapshots* 复选框， Active IQ Digital Advisor 将在客户级别，站点级别，组级别，集群级别和节点级别计算效率比率（重复数据删除，数据压缩，数据缩减和克隆存储效率技术的比率）。
 
 * 使用的是物理数据和逻辑数据？ *
 

@@ -27,7 +27,7 @@ sidebar:
       url: "/concept_key_terms.html"
     - title: 了解 AutoSupport
       url: "/concept_autosupport.html"
-    - title: 登录到 Active IQ 数字顾问
+    - title: 登录到 Active IQ Digital Advisor
       url: "/task_login_activeiq.html"
     - title: 在 Cloud Manager 中管理集群
       url: "/concept_manage_your_cluster_in_cloud_manager.html"
@@ -53,7 +53,7 @@ sidebar:
       url: "/task_view_and_acknowledge_risks.html"
     - title: 查看健康历史记录
       url: "/task_view_wellness_history.html"
-    - title: 查看可使用 Active 自动缓解的风险 IQ Unified Manager 或 Ansible 攻略手册
+    - title: 查看可使用 Active IQ Unified Manager 或 Ansible 攻略手册自动缓解的风险
       url: "/task_view_risks_remediated_unified_manager.html"
     - title: 避免停机和可能的数据丢失
       url: "/task_avoid_the_downtime_and_possible_data_loss.html"
