@@ -75,14 +75,14 @@ sidebar:
     entries:
     - title: 概述
       url: "/concept_overview_planning.html"
-    - title: 根据云建议做出明智的决策
-      url: "/task-informed-decisions-based-on-cloud-recommendations.html"
     - title: 确定达到容量限制的系统
       url: "/task_identify_capacity_system.html"
     - title: 避免卷填满以防止中断
       url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
     - title: 续订软件和硬件
       url: "/task_renew_software_and_hardware.html"
+  - title: 根据云建议做出明智的决策
+    url: "/task-informed-decisions-based-on-cloud-recommendations.html"
   - title: 确定配置差异
     entries:
     - title: 概述
@@ -101,8 +101,6 @@ sidebar:
       url: "/task_analyze_storage_efficiency.html"
     - title: 分析存储性能
       url: "/task_view_performance_graphs.html"
-  - title: 使用 FabricPool Advisor 监控非活动数据并对其进行分层
-    url: "/task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html"
   - title: 分析存储系统的运行状况
     entries:
     - title: 概述
@@ -185,8 +183,8 @@ homepage:
     links:
     - title: 查看 ONTAP 升级建议
       url: task_view_upgrade.html
-    - title: 借助 Cloud Manager 减少存储占用空间
-      url: task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html
+    - title: 根据云建议做出明智的决策
+      url: "/task-informed-decisions-based-on-cloud-recommendations.html"
     - title: 使用 NetApp Keystone Flex 订阅查看容量利用率
       url: task_view_keystone_capacity_utilization.html
   - title: 更多资源
