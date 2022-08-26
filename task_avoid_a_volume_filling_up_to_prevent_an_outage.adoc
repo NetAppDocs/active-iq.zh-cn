@@ -19,10 +19,10 @@ summary: 提供有关如何避免卷填满以防止中断的信息。
 
 
 [role="lead"]
-登录到 Active IQ 数字顾问并注意到 * 配置 * 小工具上的红色标志。单击小工具后，您会看到卷已满 98% 发生原因，这可能会导致中断。修复此问题描述可以避免卷填满，从而使其变为只读状态，从而导致访问它的应用程序崩溃并出现故障。
+登录到 Active IQ Digital Advisor 并注意到 *配置* 小工具上的红色标志。单击小工具后，您会看到卷已满 98% 发生原因，这可能会导致中断。修复此问题描述可以避免卷填满，从而使其变为只读状态，从而导致访问它的应用程序崩溃并出现故障。
 
 .步骤
-. 登录到 Active IQ 数字顾问
+. 登录到 Active IQ Digital Advisor
 . 单击 * 配置 * 小工具中的 * 操作 * 。image:Configuration_image 1 prevent an outage.png["配置小工具"]
 . 单击 * 唯一风险 * 选项卡。单击 * 更正操作 * 链接后，您可以更改警告阈值或为卷分配更多空间。image:Risk summary_image 2 prevent an outage.png["风险摘要"]
 

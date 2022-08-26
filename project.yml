@@ -9,7 +9,7 @@ settings:
   langs: zh-cn,us-en,ja-jp,zh-tw,ko-kr
 sidebar:
   entries:
-  - title: Active IQ 数字顾问文档
+  - title: Active IQ Digital Advisor 文档
     url: "/index.html"
   - title: 发行说明
     entries:

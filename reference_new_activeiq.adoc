@@ -4,7 +4,7 @@ permalink: reference_new_activeiq.html
 keywords: 'what"s new, features, new' 
 summary: 提供有关此版本中新增功能的信息。 
 ---
-= Active IQ 数字顾问中的新增功能
+= Active IQ Digital Advisor 中的新增功能
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,7 +19,7 @@ summary: 提供有关此版本中新增功能的信息。
 
 
 [role="lead"]
-NetApp Active IQ 数字顾问中引入了以下功能和增强功能：
+NetApp Active IQ Digital Advisor 中引入了以下功能和增强功能：
 
 
 
@@ -137,7 +137,7 @@ StorageGRID 容量和容量报告中包含其他容量指标。
 === 健康
 
 * 最新操作系统版本的关键建议评分以及支持合同和支持终止的 "6 个月 "KPI 评分已降低，以适应解决问题的紧迫性降低。
-* 已更新有关远程管理和 HA 对（建议配置）的主要建议，以添加 NetApp 支持站点的 URL ，以供客户自助服务使用。
+* 已更新有关远程管理和 HA 对（建议配置）的主要建议，以添加 NetApp 支持站点的 URL，以供客户自助服务使用。
 
 
 
@@ -224,7 +224,7 @@ Cloud Manager 用户现在可以在适用的情况下通过新选项卡打开 Ac
 === 运行状况检查信息板
 
 * 在这些运行状况检查图块上添加了图标，这些图标仅适用于具有 SupportEdge Advisor 和 SupportEdge Expert 支持服务的系统。已对 " 建议的软件 - 软件货币和固件货币 " 部分， " 建议的配置 " 和 " 最佳实践 " 进行了增强。
-* 在 Active IQ 数字顾问–报告屏幕上为内部和外部（客户和合作伙伴）用户添加了机密数据横幅。
+* 在 Active IQ Digital Advisor–报告屏幕上为内部和外部（客户和合作伙伴）用户添加了机密数据横幅。
 
 
 
@@ -381,12 +381,12 @@ ClusterViewer 堆栈可视化模块已进行了增强，包括放大 / 缩小和
 
 
 
-=== Active IQ 数字顾问移动应用程序
+=== Active IQ Digital Advisor 移动应用程序
 
-现在，您可以在 Active IQ 数字顾问移动应用程序上启用生物识别身份验证。根据您的移动电话支持的功能，可用于身份验证的选项会有所不同。
+现在，您可以在 Active IQ Digital Advisor 移动应用程序上启用生物识别身份验证。根据您的移动电话支持的功能，可用于身份验证的选项会有所不同。
 
-下载应用程序以了解更多信息：link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Active IQ 数字顾问移动应用程序（ Android ）"]
-link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Active IQ 数字顾问移动应用程序（ iOS ）"]
+下载应用程序以了解更多信息：link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Active IQ Digital Advisor 移动应用程序 (Android)"]
+link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Active IQ Digital Advisor 移动应用程序 (iOS)"]
 
 
 
@@ -543,7 +543,7 @@ link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Activ
 
 === 监视列表
 
-首次访问 Active IQ 数字顾问时，您现在应创建监视列表，而不是信息板。您还可以查看不同监视列表的信息板，编辑现有监视列表的详细信息以及删除监视列表。
+首次访问 Active IQ Digital Advisor 时，您现在应创建监视列表，而不是信息板。您还可以查看不同监视列表的信息板，编辑现有监视列表的详细信息以及删除监视列表。
 
 
 
@@ -828,7 +828,7 @@ AFF 和 FAS 固件屏幕已进行了增强，可提供更好的用户体验。
 
 === 入门简介视频
 
-入门简介视频可帮助用户快速熟悉 Active IQ Digital Advisor 的选项和功能。
+入职视频可帮助用户快速熟悉 Active IQ Digital Advisor 的选项和功能。
 
 
 

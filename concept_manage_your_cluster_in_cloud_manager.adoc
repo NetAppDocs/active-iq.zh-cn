@@ -19,6 +19,6 @@ summary: 提供有关集成以及如何在 Cloud Manager 中管理集群的信�
 
 
 [role="lead"]
-Active IQ 数字顾问已集成到 Cloud Manager 中。现在，您可以通过 Cloud Manager 用户界面（ UI ）管理集群并访问 Active IQ 的所有功能。借助 Cloud Manager ， IT 专家和云架构师可以集中管理其混合多云基础架构。
+Active IQ Digital Advisor 已集成到 Cloud Manager 中。现在，您可以通过 Cloud Manager 用户界面（ UI ）管理集群并访问 Active IQ 的所有功能。借助 Cloud Manager ， IT 专家和云架构师可以集中管理其混合多云基础架构。
 
-您只需在Cloud Manager中使用NetApp支持站点(NSS)帐户即可在Cloud Manager中集成和访问Active IQ。有关在 Cloud Manager 中集成和访问 Active IQ 的信息，请参见 link:https://docs.netapp.com/us-en/occm/concept-aiq-digital-advisor.html#how-active-iq-digital-advisor-works-with-cloud-manager["Active IQ 数字顾问如何与 Cloud Manager 配合使用"]。
+您只需在 Cloud Manager 中使用 NetApp 支持站点 (NSS) 帐户即可在 Cloud Manager 中集成和访问 Active IQ。有关在 Cloud Manager 中集成和访问 Active IQ 的信息，请参见 link:https://docs.netapp.com/us-en/occm/concept-aiq-digital-advisor.html#how-active-iq-digital-advisor-works-with-cloud-manager["Active IQ Digital Advisor 如何与 Cloud Manager 配合使用"]。

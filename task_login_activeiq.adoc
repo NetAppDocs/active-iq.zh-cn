@@ -19,7 +19,7 @@ summary: 提供登录到 Active IQ Digital Advisor 的信息。
 
 
 [role="lead"]
-要登录到 Active IQ Digital Advisor，您必须具有有效的 NetApp 支持站点凭据。如果您没有帐户且正在开始使用，请单击 link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["此处"]。
+要登录到 Active IQ Digital Advisor ，您必须具有有效的 NetApp 支持站点凭据。如果您没有帐户且正在开始使用，请单击 link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["此处"]。
 
 .步骤
 . 单击 link:https://activeiq.netapp.com/?source=onlinedocs["此处"] 访问 Active IQ Digital Advisor。

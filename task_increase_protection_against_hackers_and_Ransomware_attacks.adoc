@@ -28,7 +28,7 @@ Active IQ 利用遥测数据和已发布的产品安全建议来检测所涵盖 
 * 涵盖产品： ONTAP 9 （内部和云）， SANtricity 操作系统控制器软件， NetApp SolidFire （ Element 软件）， StorageGRID ， Active IQ Unified Manager ， ONTAP Tools for VMware （ OTV ）
 
 .步骤
-. 登录到 Active IQ 数字顾问
+. 登录到 Active IQ Digital Advisor
 . 单击 * 安全漏洞 * 小工具中的 * 操作 * 。image:Security_Image 1 Ransomware attacks.png["安全漏洞小工具"]
 +
 对于影响较大的安全风险，请按照建议的操作升级操作系统。
@@ -37,5 +37,5 @@ Active IQ 利用遥测数据和已发布的产品安全建议来检测所涵盖 
 +
 此风险已在 ONTAP 9.7P8 及更高版本中修复。image:Remediations_Image 3 Ransomware attacks.png["修复选项卡"]
 
-. 最重要的步骤是在 Active IQ 数字顾问的 * 升级顾问 * 中规划操作系统升级。
+. 最重要的步骤是在 Active IQ Digital Advisor 的 *升级顾问* 中规划操作系统升级。
 
