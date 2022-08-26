@@ -23,6 +23,16 @@ NetApp Active IQ 数字顾问中引入了以下功能和增强功能：
 
 
 
+== 2022年8月25日
+
+
+
+=== 清单
+
+有关vCenter、ESXi主机和虚拟机的VMware资产信息现在包含在清单详细信息中、用于提供完整的堆栈清单和互操作性检查。 link:task-integrating-with-cloud-insights-to-view-vm-details.html["了解如何操作"]。
+
+
+
 == 2022年7月14日
 
 

@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: task-integrating-with-cloud-insights-to-view-vm-details.html 
+keywords: Cloud Insights, VMs, virtual machines 
+summary: 提供有关Cloud Insights 中虚拟机的信息 
+---
+= 与Cloud Insights 集成以查看虚拟机详细信息
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Active IQ 现已与Cloud Insights 基本版集成、可为客户提供完整的堆栈清单和互操作性检查。
+
+此集成的优势包括：
+
+* 简化了对ONTAP 的SaaS监控
+* VMware全堆栈监控的可见性
+* 通过自动化互操作性检查帮助客户规划ONTAP 升级、为客户节省了工作效率。这样可以使ONTAP 升级更顺畅、并降低与主机不兼容的风险。
+
+
+
+NOTE: 此功能仅适用于SupportEdge Advisor 、SupportEdge Expert 和Active IQ 升级合同。
+
+.步骤
+. 在*清单*小工具中、单击*虚拟机*以查看Cloud Insights 中的可用数据。
+. 单击*虚拟机概述*选项卡。
+. 单击* ESX主机数*可查看有关主机的信息。
+. 单击* ESX Name*可导航到Cloud Insights 以查看更多信息。
+

@@ -67,9 +67,11 @@ sidebar:
     entries:
     - title: 查看清单详细信息
       url: "/task_view_inventory_details.html"
+    - title: 与Cloud Insights 集成以查看虚拟机详细信息
+      url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
     - title: 查看有价值的见解
       url: "/task_view_valuable_insight_widget.html"
-    - title: 查看 Flex 订阅容量利用率
+    - title: 查看Keystone订阅容量利用率
       url: "/task_view_keystone_capacity_utilization.html"
   - title: 主动确定系统要求
     entries:

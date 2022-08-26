@@ -549,15 +549,9 @@
   <block id="a7601e85e4e519e4d1467321c32fe973" category="list-text"><block ref="a7601e85e4e519e4d1467321c32fe973" category="inline-link-macro-rx"></block></block>
   <block id="345d76812dbf5452d2588e7271cf8436" category="summary">提供有关 NetApp Keystone Flex 订阅的容量利用率的信息。</block>
   <block id="29cb371773858a73b7aca64ff6f208f4" category="doc">使用 NetApp Keystone Flex 订阅查看容量利用率</block>
-  <block id="a0569192c93daf768db9180658231e9e" category="paragraph">如果您订阅了 Keystone Flex 订阅服务，则可以查看 Active IQ 数字顾问信息板上的 Flex 订阅小工具。</block>
-  <block id="2a386132dc9368657bf55334cdc2e9c0" category="paragraph">Flex 订阅小工具可为您的帐户提供容量使用情况摘要。它包含与逻辑容量相关的容量利用率图表，快照将四舍五入为过去五分钟。超过已提交容量（突发容量）的利用率以红色标记。</block>
   <block id="6ba7120903e272ef8ff94c3d3cd58f57" category="inline-link-macro">服务层</block>
-  <block id="a40699645a064ce56bb66217612d0bbf" category="paragraph">您可以查看 * Keystone - 容量利用率 * 信息板，该信息板可分析小工具中的数据，并以图形方式表示所有已订阅存储的容量和使用情况的利用率趋势 <block ref="fc793db6d2c63268b4ab3d8ca0a9e15f" category="inline-link-macro-rx"></block>与您的 NetApp Keystone Flex 订阅帐户关联的，例如高级，极速和标准。</block>
-  <block id="e252513a2a6c279f863372807d4d590a" category="inline-link-macro">Flex 订阅服务容量</block>
-  <block id="c247604a9a54e024469e50635a2178fb" category="paragraph">您可以查看 <block ref="89a369e27820d8f4b4edc540b820bd22" category="inline-link-macro-rx"></block> 以及信息板上为块，文件服务或对象存储订阅的每个服务的使用情况。</block>
   <block id="c56661a66437cf16fa6985915185aa55" category="admonition">作为 Active IQ 用户，您可以在 ONTAP 收集器和 AutoSupport 之间进行选择，以获取有关容量使用情况的数据。</block>
   <block id="559ab0392555ba0574ee8aafcb0dd4b8" category="list-text">单击 * 查看详细信息 * 以在详细的 * Keystone - 容量利用率 * 信息板中查看利用率趋势。</block>
-  <block id="d59bded01684ae09c11dfc24d78fbe41" category="list-text">选择 30 天， 7 天或 1 天以查看最近的平均使用量趋势。</block>
   <block id="6c6a95e0f5aea889e91da11c9661f08c" category="list-text">或者，如果您选择使用 ONTAP 收集器获取容量使用情况数据，则可以单击信息板上的各个选项卡查看有关文件共享和磁盘的更多详细信息。</block>
   <block id="6fc85e5ba98ece0cf451b774e77a7a7c" category="paragraph">单击 * 共享 * 或 * 磁盘 * 以确定接近已提交容量的文件共享或磁盘，并做出明智的决策以节省存储容量。</block>
   <block id="204efaf5593d9e611dc3c30f114be675" category="summary">提供有关性能的信息。</block>
@@ -1172,7 +1166,6 @@
   <block id="a847a249ea34e3557fd4b0faa9b1a58c" category="sidebar">查看可使用 Active IQ Unified Manager 或 Ansible 攻略手册自动缓解的风险</block>
   <block id="e5c576a815351e15ac0b32011a7cd066" category="sidebar">续订软件和硬件</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="sidebar">查看系统详细信息</block>
-  <block id="dc63f1d6af160ca1c3f1b882bf421db7" category="sidebar">查看 Flex 订阅容量利用率</block>
   <block id="2cedeaac2dc61820b8d8fc6586834073" category="sidebar">主动确定系统要求</block>
   <block id="b3f73dc804d731e2fd50580bfb4bd2bb" category="sidebar">确定配置差异</block>
   <block id="2239c723cc5ca3dc6ba1585521896ba0" category="sidebar">生成偏移时间线报告</block>
@@ -1208,4 +1201,28 @@
   <block id="df332e88c38c4fe66059f71090f042ca" category="sidebar">NetApp 社区— Active IQ</block>
   <block id="9fb5d585aad7cbcbf4b27548d6b5e072" category="sidebar">Active IQ 移动应用程序（ Android ）</block>
   <block id="1b2c7b8f8e2694e94122b68464b31c9f" category="sidebar">Active IQ 移动应用程序（ iOS ）</block>
+  <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">查看NetApp Keystone 订阅的容量利用率</block>
+  <block id="3d49fcaa5c70ee5c62bd12985bcdc011" category="paragraph">如果您订阅了Keystone订阅服务、则可以查看Active IQ 数字顾问信息板上的Keystone订阅小工具。</block>
+  <block id="da8d3bbd5e630a0cb154a6c5d8885297" category="paragraph">Keystone订阅小工具可为您的帐户提供容量使用情况摘要。它包含与物理容量相关的容量利用率图表、快照将四舍五入为过去五分钟。超过已提交容量（突发容量）的利用率以红色标记。</block>
+  <block id="f05054c9a7b129693b022320001e81ed" category="paragraph">您可以查看 * Keystone - 容量利用率 * 信息板，该信息板可分析小工具中的数据，并以图形方式表示所有已订阅存储的容量和使用情况的利用率趋势 <block ref="fc793db6d2c63268b4ab3d8ca0a9e15f" category="inline-link-macro-rx"></block>与您的NetApp Keystone 订阅帐户关联的、例如高级、极速和标准。</block>
+  <block id="986127c46ede44cd6e9ba2b5754cafca" category="inline-link-macro">Keystone订阅服务容量</block>
+  <block id="eada85ae345afac1356e1265ed14965d" category="paragraph">您可以查看 <block ref="c3e14696d82449875aa62ae1bc7f05d0" category="inline-link-macro-rx"></block> 以及信息板上为块，文件服务或对象存储订阅的每个服务的使用情况。</block>
+  <block id="842ffce382b29ce5f564cf2e7a51575e" category="list-text">选择"当前账单期限"、" 30天"、" 7天"或" 1天"以查看最近的平均使用量趋势。</block>
+  <block id="b75ffe757df198361f55d7334bf6a3ea" category="paragraph">对于当前计费周期、您可以下载一份报告、其中提供了有关突发详细信息的信息。</block>
+  <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
+  <block id="0b351c39af261a93af103bf080f120a3" category="paragraph">有关vCenter、ESXi主机和虚拟机的VMware资产信息现在包含在清单详细信息中、用于提供完整的堆栈清单和互操作性检查。 <block ref="c1d18b80dac13889361e9f73d9613fbb" category="inline-link-macro-rx"></block>。</block>
+  <block id="cc035831ceccd9eaf04a71fd720c7f1f" category="summary">提供有关Cloud Insights 中虚拟机的信息</block>
+  <block id="d152c939b222bcd3e796ea901ac07554" category="doc">与Cloud Insights 集成以查看虚拟机详细信息</block>
+  <block id="bad5d4e303a8943f6791b611707e97f2" category="paragraph">Active IQ 现已与Cloud Insights 基本版集成、可为客户提供完整的堆栈清单和互操作性检查。</block>
+  <block id="7988a3af08a9ab5c3313f24277fd8cdb" category="paragraph">此集成的优势包括：</block>
+  <block id="d73fc2f93b0cf7e6d3bf78fb70bff2a8" category="list-text">简化了对ONTAP 的SaaS监控</block>
+  <block id="05bffae7acee1d751495fb2f8a0701fe" category="list-text">VMware全堆栈监控的可见性</block>
+  <block id="c1541ad2124531ef89e365336511a23e" category="list-text">通过自动化互操作性检查帮助客户规划ONTAP 升级、为客户节省了工作效率。这样可以使ONTAP 升级更顺畅、并降低与主机不兼容的风险。</block>
+  <block id="8c0f9ce9681dd5179f5451c71f8f6793" category="admonition">此功能仅适用于SupportEdge Advisor 、SupportEdge Expert 和Active IQ 升级合同。</block>
+  <block id="cf14d774d8d0c6d9907931e44af83d21" category="list-text">在*清单*小工具中、单击*虚拟机*以查看Cloud Insights 中的可用数据。</block>
+  <block id="5292d19ab11993bca39a0810f62fdc4d" category="list-text">单击*虚拟机概述*选项卡。</block>
+  <block id="e0c81bd049581387caad2e365f631ca6" category="list-text">单击* ESX主机数*可查看有关主机的信息。</block>
+  <block id="79fc7fc3d1c3888f0da7bea1712b7cb0" category="list-text">单击* ESX Name*可导航到Cloud Insights 以查看更多信息。</block>
+  <block id="46edca0ff6e552183e1d49c7d4a3ff08" category="sidebar">与Cloud Insights 集成以查看虚拟机详细信息</block>
+  <block id="6721d14778dfec7598747969baedc497" category="sidebar">查看Keystone订阅容量利用率</block>
 </blocks>
