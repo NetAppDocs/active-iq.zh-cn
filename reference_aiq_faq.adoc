@@ -317,4 +317,4 @@ NOTE: 它包括为文件或卷保证类型的卷预留的空间。除了预留�
 * 系统处于非活动状态
 
 
-如果由于任何其他原因无法查看系统、 link:https://mysupport.netapp.com/site/help["创建非技术案例"]。要了解有关非技术案例的更多信息、请单击 <<Non-technical case,此处。>>
+如果由于任何其他原因无法查看系统、 link:https://mysupport.netapp.com/site/help["创建非技术案例"]。要了解有关非技术案例的更多信息、请单击  case,此处。

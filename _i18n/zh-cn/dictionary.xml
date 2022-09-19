@@ -816,11 +816,8 @@
   <block id="d22d74dd6e0a6c5cd64ecb61ba45759d" category="summary">提供有关查看和升级存储系统的 ONTAP 版本的信息。</block>
   <block id="d6917a390639e0a267939dc55858c685" category="doc">通过生成升级计划来升级 ONTAP 版本</block>
   <block id="46a187e39eefc3fd35138a494e565b49" category="paragraph">您可以通过生成升级计划来查看存储系统的待定升级并升级到更高版本的 ONTAP 。您还应在 * 风险顾问 * 选项卡中查看风险列表，此列表可通过升级缓解风险。</block>
-  <block id="49786ca9e9171e0b112a14ef40054cea" category="list-text">在信息板上的 * 升级 * 小工具中查看待定升级。</block>
   <block id="38fafc5e9c9553727750b9510171bb41" category="list-text">单击 * 操作 * 的数量可查看待定升级。</block>
-  <block id="5bd5fef463b4aadc5c62af290cab7b03" category="list-text">选择所需的升级选项。</block>
   <block id="01d220f359ae904005a0944f594a1bcd" category="list-text">单击小工具上显示的系统数量以查看 * 升级顾问 * 选项卡。</block>
-  <block id="a6b0fa6504db5a6f3dee9bdba49d1fe7" category="paragraph">您也可以查看发行说明以查看有关此发行的详细信息。</block>
   <block id="ac73a7625c762ca863d294bc61f64a16" category="list-text">在 * 风险顾问 * 选项卡中查看风险列表及其严重性级别，升级后可缓解这些风险。</block>
   <block id="281921503952801e23be5489728f4728" category="list-text">单击 * 生成升级计划 * 以导航到 * 升级顾问 * 。</block>
   <block id="f48a84db276a73cbf07dc419e82ec5ec" category="summary">提供有关 Active IQ Digital Advisor 中使用的关键术语的信息。</block>
@@ -1225,4 +1222,12 @@
   <block id="df332e88c38c4fe66059f71090f042ca" category="sidebar">NetApp 社区— Active IQ</block>
   <block id="9fb5d585aad7cbcbf4b27548d6b5e072" category="sidebar">Active IQ 移动应用程序（ Android ）</block>
   <block id="1b2c7b8f8e2694e94122b68464b31c9f" category="sidebar">Active IQ 移动应用程序（ iOS ）</block>
+  <block id="2eec6525cedefe6316db600adeaf337c" category="section-title">多跃点升级</block>
+  <block id="01b9a3f3b3303730f5c2525f136ad86b" category="paragraph">对于某些自动无中断升级(ANDU)到非相邻版本、您可以安装中间版本和目标版本的软件映像。自动升级过程使用后台的中间映像完成目标版本的更新。例如，如果集群运行的是 9.3 ，而您要升级到 9.7 ，则应加载 9.5 和 9.7 的 ONTAP 安装包，然后启动 andu 到 9.7 。然后， ONTAP 会先自动将集群升级到 9.5 ，然后再自动升级到 9.7 。在此过程中，您应该会执行多个接管 / 交还操作以及相关的重新启动。</block>
+  <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">Upgrade Advisor</block>
+  <block id="e9588616576594b7265f748171c85266" category="list-text">在信息板上的 * 升级 * 小工具中查看待定升级。<block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="64916198004d1ee19b1b50002f51f1a8" category="inline-image-macro">升级选项</block>
+  <block id="6398194d87822fdaa5a4dac58b51a1cd" category="list-text">选择所需的升级选项。<block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b58373ef1164bbd04be01f9d80e8c58e" category="inline-image-macro">生成升级计划</block>
+  <block id="7438b9deedb82087dad294ad34018afe" category="paragraph">您也可以查看发行说明以查看有关此发行的详细信息。<block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
