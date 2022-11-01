@@ -19,7 +19,7 @@ summary: 提供有关Cloud Insights 中虚拟机的信息
 
 
 [role="lead"]
-Active IQ 现已与Cloud Insights 基本版集成、可为客户提供完整的堆栈清单和互操作性检查。
+现在、Digital Advisor已与Cloud Insights 基本版集成、可为客户提供完整的堆栈清单和互操作性检查。
 
 此集成的优势包括：
 
@@ -29,7 +29,7 @@ Active IQ 现已与Cloud Insights 基本版集成、可为客户提供完整的�
 
 
 
-NOTE: 此功能仅适用于SupportEdge Advisor 、SupportEdge Expert 和Active IQ 升级合同。
+NOTE: 此功能仅适用于SupportEdge Advisor 、SupportEdge Expert 和Digital Advisor升级合同。
 
 .步骤
 . 在*清单*小工具中、单击*虚拟机*以查看Cloud Insights 中的可用数据。

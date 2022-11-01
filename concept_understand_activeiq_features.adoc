@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concept_understand_activeiq_features.html 
-keywords: activeiq, active iq digital advisor, features, upgrade, support offering 
+keywords: digital advisor, features, upgrade, support offering 
 summary: 提供有关信息板，监视列表，功能和小工具的信息。 
 ---
-= 了解 Active IQ 的功能
+= 了解Digital Advisor的功能
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,13 +19,13 @@ summary: 提供有关信息板，监视列表，功能和小工具的信息。
 
 
 [role="lead"]
-您可以使用 Active IQ Digital Advisor 在监视列表级别查看存储系统的整体状态，有关系统运行状况的详细信息，清单，规划，升级以及有价值的见解。
+您可以使用Digital Advisor在监视列表级别查看存储系统的整体状态、有关系统运行状况的详细信息、清单、规划、升级以及有价值的见解。
 
-首次访问 Active IQ Digital Advisor 时，您可以创建监视列表，也可以搜索客户名称、站点名称、组名称、StorageGRID、主机名、集群、序列号或系统 ID。
+首次访问Digital Advisor时、您可以创建监视列表、也可以搜索客户名称、站点名称、组名称、StorageGRID 、主机名、 集群、序列号或系统ID。
 
 此外，您还应了解应用于卡的颜色，这些颜色表示风险的严重性和类型。
 
-以下是 Active IQ Digital Advisor 的一些功能：
+下面是Digital Advisor的一些功能：
 
 * 查看多个监视列表，以及可操作且有用的信息概览视图
 * 深入了解存储系统面临的所有风险 以及降低风险的操作

@@ -51,4 +51,4 @@ video::8Ge3_0qlyxA[youtube,width=848,height=480]
 
 
 
-有关容量和存储效率的详细信息，请参见 link:reference_aiq_faq.html["有关 Active IQ 的常见问题解答"]。
+有关容量和存储效率的详细信息，请参见 link:reference_aiq_faq.html["有关Digital Advisor的常见问题解答"]。

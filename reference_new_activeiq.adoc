@@ -4,7 +4,7 @@ permalink: reference_new_activeiq.html
 keywords: 'what"s new, features, new' 
 summary: 提供有关此版本中新增功能的信息。 
 ---
-= Active IQ Digital Advisor 中的新增功能
+= Digital Advisor中的新增功能
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,7 +19,17 @@ summary: 提供有关此版本中新增功能的信息。
 
 
 [role="lead"]
-NetApp Active IQ Digital Advisor 中引入了以下功能和增强功能：
+Digital Advisor引入了以下功能和增强功能：
+
+
+
+== 2022年11月1日
+
+
+
+=== Digital Advisor与BlueXP集成
+
+Active IQ 数字顾问将改为Digital Advisor、现已集成到NetApp面向混合多云环境的统一管理控制台BlueXP中。 link:digital-advisor-integration-with-bluexp.html["了解更多信息。"]。
 
 
 
@@ -177,9 +187,9 @@ StorageGRID 容量和容量报告中包含其他容量指标。
 
 
 
-=== Cloud Manager
+=== BlueXP
 
-Cloud Manager 用户现在可以在适用的情况下通过新选项卡打开 Active IQ 链接，类似于 Active IQ 中的现有功能。
+BlueXP用户现在可以在适用的情况下在新选项卡中打开Digital Advisor链接、类似于Digital Advisor中的现有功能。
 
 
 
@@ -209,7 +219,7 @@ Cloud Manager 用户现在可以在适用的情况下通过新选项卡打开 Ac
 
 === 与 E 系列系统集成
 
-您可以在 Active IQ 中查看选定 E 系列系统的容量详细信息和性能图形。
+您可以在Digital Advisor中查看选定E系列系统的容量详细信息和性能图。
 
 
 
@@ -230,7 +240,7 @@ Cloud Manager 用户现在可以在适用的情况下通过新选项卡打开 Ac
 === 运行状况检查信息板
 
 * 在这些运行状况检查图块上添加了图标，这些图标仅适用于具有 SupportEdge Advisor 和 SupportEdge Expert 支持服务的系统。已对 " 建议的软件 - 软件货币和固件货币 " 部分， " 建议的配置 " 和 " 最佳实践 " 进行了增强。
-* 在 Active IQ Digital Advisor–报告屏幕上为内部和外部（客户和合作伙伴）用户添加了机密数据横幅。
+* 在Digital Advisor–Reports屏幕上为内部和外部(客户和合作伙伴)用户添加了一个机密数据横幅。
 
 
 
@@ -297,7 +307,7 @@ ClusterViewer 堆栈可视化模块已进行了增强，包括放大 / 缩小和
 
 === Capacity
 
-您可以在 Active IQ 中查看有关 NetApp Cloud Volumes ONTAP 系统的容量详细信息。
+您可以在Digital Advisor中查看有关NetApp Cloud Volumes ONTAP 系统的容量详细信息。
 
 
 
@@ -353,7 +363,7 @@ ClusterViewer 堆栈可视化模块已进行了增强，包括放大 / 缩小和
 
 === Capacity
 
-您可以在 Active IQ 中查看有关 NetApp ONTAP ® Select 系统的容量详细信息。
+您可以在Digital Advisor中查看有关NetApp ONTAP®Select系统的容量详细信息。
 
 
 
@@ -387,12 +397,12 @@ ClusterViewer 堆栈可视化模块已进行了增强，包括放大 / 缩小和
 
 
 
-=== Active IQ Digital Advisor 移动应用程序
+=== Digital Advisor移动应用程序
 
-现在，您可以在 Active IQ Digital Advisor 移动应用程序上启用生物识别身份验证。根据您的移动电话支持的功能，可用于身份验证的选项会有所不同。
+现在、您可以在Digital Advisor移动应用程序上启用生物识别身份验证。根据您的移动电话支持的功能，可用于身份验证的选项会有所不同。
 
-下载应用程序以了解更多信息：link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Active IQ Digital Advisor 移动应用程序 (Android)"]
-link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Active IQ Digital Advisor 移动应用程序 (iOS)"]
+下载应用程序以了解更多信息：link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Digital Advisor移动应用程序(Android)"]
+link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Digital Advisor移动应用程序(iOS)"]
 
 
 
@@ -458,7 +468,7 @@ link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Activ
 
 === 支持服务升级
 
-* 用户界面经过改进，可显示您在 Active IQ 中订阅的特定支持服务。
+* 用户界面经过改进、可显示您在Digital Advisor中订阅的特定支持服务。
 * 现在，您可以从系统信息板提出升级支持服务订阅的请求，以访问更多功能。 link:task_upgrade_support_offering.html["了解如何操作"]。
 
 
@@ -549,7 +559,7 @@ link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Activ
 
 === 监视列表
 
-首次访问 Active IQ Digital Advisor 时，您现在应创建监视列表，而不是信息板。您还可以查看不同监视列表的信息板，编辑现有监视列表的详细信息以及删除监视列表。
+首次访问Digital Advisor时、您现在应创建监视列表、而不是信息板。您还可以查看不同监视列表的信息板，编辑现有监视列表的详细信息以及删除监视列表。
 
 
 
@@ -606,7 +616,7 @@ StorageGRID 信息板可使用下一代 API 框架启用。
 
 === FabricPool 顾问
 
-" 层数据 " 按钮已添加到 FabricPool 信息板中，可用于使用 NetApp Cloud Manager 将数据分层到低成本对象存储层。
+"层数据"按钮已添加到FabricPool 信息板中、可用于使用NetApp BlueXP将数据分层到低成本对象存储层。
 
 
 
@@ -636,7 +646,7 @@ StorageGRID 信息板可使用下一代 API 框架启用。
 
 === 使用 API 集成数据
 
-您可以使用 Active IQ API 提取感兴趣的数据并将其直接集成到公司的工作流中。 link:concept_overview_API_service.html["了解更多信息。"]。
+您可以使用Digital Advisor API提取感兴趣的数据并将其直接集成到公司的工作流中。 link:concept_overview_API_service.html["了解更多信息。"]。
 
 
 
@@ -660,7 +670,7 @@ StorageGRID 信息板可使用下一代 API 框架启用。
 
 === 以简体中文和日语进行本地化
 
-Active IQ Digital Advisor 目前提供三种语言版本 — 中文、英文和日语。
+Digital Advisor现在提供三种语言版本：中文、英文和日语。
 
 
 
@@ -676,7 +686,7 @@ Active IQ Digital Advisor 目前提供三种语言版本 — 中文、英文和�
 
 === 运行状况检查信息板
 
-Active IQ 运行状况检查仪表板可对您的整体环境进行时间点审核。根据运行状况检查得分，您可以根据建议的 NetApp 最佳实践调整存储系统，以便于进行长期规划并改善客户群的运行状况。 link:concept_understand_health_check_assessment_dashboard.html["了解更多信息。"]。
+通过Digital Advisor运行状况检查信息板、您可以对整个环境进行时间点审核。根据运行状况检查得分，您可以根据建议的 NetApp 最佳实践调整存储系统，以便于进行长期规划并改善客户群的运行状况。 link:concept_understand_health_check_assessment_dashboard.html["了解更多信息。"]。
 
 
 
@@ -784,7 +794,7 @@ AFF 和 FAS 固件屏幕已进行了增强，可提供更好的用户体验。
 
 === 更新默认主页
 
-现在，您可以提供反馈，并告知我们您更新 Active IQ 默认主页屏幕的原因。
+现在、您可以提供反馈、并告知我们您更新Digital Advisor默认主页屏幕的原因。
 
 
 
@@ -800,7 +810,7 @@ AFF 和 FAS 固件屏幕已进行了增强，可提供更好的用户体验。
 
 === 设置默认主页
 
-现在，您可以设置 Active IQ 的默认主页屏幕。您可以将其设置为 Active IQ Digital Advisor 或 Active IQ 经典版。
+现在、您可以设置Digital Advisor的默认主页屏幕。您可以将其设置为Digital Advisor或Classic。
 
 
 
@@ -834,7 +844,7 @@ AFF 和 FAS 固件屏幕已进行了增强，可提供更好的用户体验。
 
 === 入门简介视频
 
-入职视频可帮助用户快速熟悉 Active IQ Digital Advisor 的选项和功能。
+入职视频可帮助用户快速熟悉Digital Advisor的选项和功能。
 
 
 
@@ -868,7 +878,7 @@ AFF 和 FAS 固件屏幕已进行了增强，可提供更好的用户体验。
 
 === 有价值的见解
 
-您可以查看通过 Active IQ 获得的权益摘要以及您的支持合同。对于选定系统，价值报告整合了过去一年的优势。 link:task_view_valuable_insight_widget.html["立即查看"]。
+您可以查看通过Digital Advisor获得的权益摘要以及您的支持合同。对于选定系统，价值报告整合了过去一年的优势。 link:task_view_valuable_insight_widget.html["立即查看"]。
 
 
 
@@ -890,7 +900,7 @@ AFF 和 FAS 固件屏幕已进行了增强，可提供更好的用户体验。
 
 === 增强的用户界面
 
-最新的 Active IQ Digital Advisor 信息板可提供个性化体验。它可以通过直观的方式在不同的信息板，小工具和屏幕上顺畅无缝地导航。它提供一体化体验。它可以传达比较结果，关系和趋势。它提供的洞察力有助于您根据不同信息板提供的数据检测和验证重要关系和有意义的差异。
+最新的Digital Advisor信息板可提供个性化体验。它可以通过直观的方式在不同的信息板，小工具和屏幕上顺畅无缝地导航。它提供一体化体验。它可以传达比较结果，关系和趋势。它提供的洞察力有助于您根据不同信息板提供的数据检测和验证重要关系和有意义的差异。
 
 
 

@@ -21,10 +21,10 @@ summary: 简要介绍了 AutoSupport 。
 [role="lead"]
 AutoSupport 是一种遥测机制，可主动监控系统的运行状况，并自动向 NetApp 发送配置，状态，性能和系统事件数据。
 
-NetApp 技术支持使用这些数据加快问题的诊断和解决速度， Active IQ 使用这些数据主动检测和避免潜在问题。它也可以发送给您的内部支持组织和支持合作伙伴。
+NetApp技术支持使用这些数据加快问题的诊断和解决速度、Digital Advisor则使用这些数据主动检测和避免潜在问题。它也可以发送给您的内部支持组织和支持合作伙伴。
 
 
-NOTE: Active IQ 仅显示AutoSupport 数据早于60天的系统的AutoSupport 相关数据。
+NOTE: Digital Advisor仅显示AutoSupport 数据早于60天的系统的AutoSupport 相关数据。
 
 对于 ONTAP 系统，在首次配置存储系统时，默认情况下会启用 AutoSupport 。您应该 link:https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/GUID-91C43742-E563-442E-8161-17D5C5DA8C19.html["设置 AutoSupport"] 在 ONTAP 系统上，用于控制如何将 AutoSupport 信息发送给技术支持和您的内部支持组织。
 

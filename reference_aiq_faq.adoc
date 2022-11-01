@@ -4,7 +4,7 @@ permalink: reference_aiq_faq.html
 keywords: faq, frequently asked questions, non-technical, non-technical case, inventory, storage efficiency, capacity, performance 
 summary: 如果您只是想快速了解问题解答，此常见问题解答会很有帮助。 
 ---
-= 有关 Active IQ 的常见问题解答
+= 有关Digital Advisor的常见问题解答
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,7 +19,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 [role="lead"]
-以下问题解答了您经常询问的有关 Active IQ 的问题。
+以下问题解答了您经常询问的有关Digital Advisor的问题。
 
 
 
@@ -50,7 +50,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 此时将创建一个案例，并提供一个案例编号供您参考。
 
-* 如何提供与 Active IQ 相关的反馈或询问其他问题？ *
+*如何提供反馈或询问与Digital Advisor相关的其他问题？*
 
 要提供反馈或提出问题，请发送电子邮件至： mailto ： ng-activeiq-feedback@netapp.com [.下划线 ]#ng-activeiq-feedback@netapp.com #]
 
@@ -58,9 +58,9 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 == 存储效率
 
-*如何在 Active IQ Digital Advisor 中查看存储效率？*
+*如何在Digital Advisor中访问存储效率？*
 
-. 打开的主页 link:https://activeiq.netapp.com/?source=onlinedocs["Active IQ Digital Advisor"]。
+. 打开的主页 link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"]。
 . 从右上角的搜索框中搜索客户，站点，组，集群或节点，以访问相应的信息板。
 . 单击左侧导航栏中的 * 存储效率 * 。
 
@@ -68,13 +68,13 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 NOTE: 使用监视列表创建的信息板不会显示在存储效率小工具中。
 
-*Active IQ Digital Advisor 是否显示所有 ONTAP 系统的比率？*
+*数字顾问是否显示所有ONTAP 系统的比率？*
 
-Active IQ 将显示运行 ONTAP 9.1 及更高版本的系统的比率。
+Digital Advisor可显示运行ONTAP 9.1及更高版本的系统的比率。
 
 * 效率信息板上的 ‘无快照 ' 复选框是什么？ *
 
-默认情况下， Active IQ 效率信息板会计算客户级别，站点级别，组级别，集群级别和节点级别的总体比率。总体比率包括以下存储效率技术的比率：
+默认情况下、Digital Advisor效率信息板会计算客户级别、站点级别、组级别、集群级别和节点级别的总体比率。总体比率包括以下存储效率技术的比率：
 
 * 重复数据删除
 * 压缩
@@ -83,7 +83,7 @@ Active IQ 将显示运行 ONTAP 9.1 及更高版本的系统的比率。
 * 快照
 
 
-如果选中 *不使用 Snapshots* 复选框，Active IQ Digital Advisor 将在客户级别，站点级别，组级别，集群级别和节点级别计算效率比率（重复数据删除，数据压缩，数据缩减和克隆存储效率技术的比率）。
+如果选中*不使用Snapshots*复选框、则Digital Advisor将在客户级别、站点级别、组级别、集群级别和节点级别计算效率比率(重复数据删除、数据缩减和克隆存储效率技术的比率)。
 
 * 使用的是物理数据和逻辑数据？ *
 
@@ -201,7 +201,7 @@ Active IQ 将显示运行 ONTAP 9.1 及更高版本的系统的比率。
 
 == Capacity
 
-*如何在 Active IQ Digital Advisor 中计算容量？*Active IQ Digital Advisor 中的容量是为集群和节点计算的，不包括根副本和 Snapshot 副本
+*如何在Digital Advisor中计算容量？* Digital Advisor中的容量是为集群和节点计算的、不包括根副本和Snapshot副本
 
 |===
 | * 容量 * | * 通过添加每个聚合… * 计算得出 
@@ -301,7 +301,7 @@ NOTE: 它包括为文件或卷保证类型的卷预留的空间。除了预留�
 
 * 为什么每个卷的已添加已用容量与节点级别的已用总容量不匹配？ * 节点级别的已用容量包括卷，元数据和 Snapshot 副本预留的空间。它还包括为卷预留的空间，即文件或卷保证类型。因此，两者可能不匹配。
 
-*Active IQ Digital Advisor 显示的容量是二进制还是十进制？*Active IQ 中显示的所有容量均为二进制数字（除以 1024），并以 GiB/TiB 表示容量。ONTAP 存储和其他 NetApp 产品还会在 Base 2 中显示容量使用情况。
+*容量显示在Digital Advisor Base 2或Base 10中吗？*在Digital Advisor中显示的所有容量均为Base 2 (除以1024)、并以GiB/TiB表示容量。ONTAP 存储和其他 NetApp 产品还会在 Base 2 中显示容量使用情况。
 
 对于 StorageGRID ，容量以基数 10 显示，容量单位以 TB 表示。
 
@@ -311,7 +311,7 @@ NOTE: 它包括为文件或卷保证类型的卷预留的空间。除了预留�
 
 *为什么在清单页面中找不到某些系统？*由于以下原因之一、您可能无法在清单页面中查看某些系统：
 
-* 新系统在SAP中添加或更新后、需要花费一天以上的时间才能在Active IQ 中反映出来。
+* 在SAP中添加或更新新系统后、需要花费一天的时间才能在Digital Advisor中反映出来。
 * 系统安全可靠、您无权查看安全系统。
 * 您无权查看这些系统。
 * 系统处于非活动状态

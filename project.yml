@@ -1,6 +1,7 @@
 ---
 settings:
-  name: Active IQ Digital Advisor
+  name: Digital Advisor
+  platform: cloud
   internal:
     pdf_enabled: true
   prod:
@@ -9,8 +10,10 @@ settings:
   langs: zh-cn,us-en,ja-jp,zh-tw,ko-kr
 sidebar:
   entries:
-  - title: Active IQ Digital Advisor 文档
+  - title: Digital Advisor文档
     url: "/index.html"
+  - title: Digital Advisor与BlueXP集成
+    url: "/digital-advisor-integration-with-bluexp.html"
   - title: 发行说明
     entries:
     - title: 新增功能
@@ -21,15 +24,15 @@ sidebar:
     entries:
     - title: 快速入门
       url: "/concept_getting_started_2.html"
-    - title: 了解 Active IQ 的功能
+    - title: 了解Digital Advisor的功能
       url: "/concept_understand_activeiq_features.html"
-    - title: Active IQ 的主要概念
+    - title: 关键概念
       url: "/concept_key_terms.html"
     - title: 了解 AutoSupport
       url: "/concept_autosupport.html"
-    - title: 登录到 Active IQ Digital Advisor
+    - title: 登录到Digital Advisor
       url: "/task_login_activeiq.html"
-    - title: 在 Cloud Manager 中管理集群
+    - title: 在BlueXP中管理集群
       url: "/concept_manage_your_cluster_in_cloud_manager.html"
   - title: 配置监视列表
     entries:
@@ -161,15 +164,15 @@ homepage:
   tiles:
   - title: 入门
     links:
-    - title: 了解 Active IQ
+    - title: 了解Digital Advisor
       url: https://tv.netapp.com/detail/video/6254074753001/what-can-you-do-with-active-iq
-    - title: Active IQ 快速入门
+    - title: Digital Advisor快速入门
       url: concept_getting_started_2.html
     - title: 关键概念
       url: concept_key_terms.html
     - title: 创建监视列表
       url: task_add_watchlist.html
-  - title: 使用 Active IQ
+  - title: 使用Digital Advisor
     links:
     - title: 查看风险并采取更正措施
       url: task_view_risk_and_take_action.html
@@ -181,7 +184,7 @@ homepage:
       url: task_view_performance_graphs.html
     - title: 生成报告
       url: task_generate_reports.html
-  - title: 使用 Active IQ 进行分析
+  - title: 使用Digital Advisor进行分析
     links:
     - title: 查看 ONTAP 升级建议
       url: task_view_upgrade.html
@@ -191,13 +194,17 @@ homepage:
       url: task_view_keystone_capacity_utilization.html
   - title: 更多资源
     links:
-    - title: Active IQ Web 门户
+    - title: Digital Advisor Web门户
       url: https://mysupport.netapp.com/myautosupport/home.html
-    - title: Active IQ 视频
+    - title: Digital Advisor视频
       url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7kWBxqwLYBchpMW4k9Z6Vum
-    - title: NetApp 社区— Active IQ
+    - title: NetApp社区—Digital Advisor
       url: https://community.netapp.com/t5/Active-IQ-and-AutoSupport/ct-p/autosupport-and-my-autosupport
-    - title: Active IQ 移动应用程序（ Android ）
+    - title: Digital Advisor移动应用程序(Android)
       url: https://play.google.com/store/apps/details?id=com.netapp.myautosupport
-    - title: Active IQ 移动应用程序（ iOS ）
+    - title: Digital Advisor移动应用程序(iOS)
       url: https://apps.apple.com/us/app/active-iq/id1230542480
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: 所有BlueXP文档

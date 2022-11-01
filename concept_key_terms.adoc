@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept_key_terms.html 
 keywords: overview, inventory, wellness, widgets, actions 
-summary: 提供有关 Active IQ Digital Advisor 中使用的关键术语的信息。 
+summary: 提供有关Digital Advisor中使用的关键术语的信息。 
 ---
 = 关键概念
 :toc: macro
@@ -19,9 +19,9 @@ summary: 提供有关 Active IQ Digital Advisor 中使用的关键术语的信�
 
 
 [role="lead"]
-开始使用 Active IQ Digital Advisor 时，请务必了解 Active IQ Digital Advisor 中的一些基本术语。
+在开始使用Digital Advisor时、请务必了解您可能会在整个Digital Advisor中看到的一些基本术语。
 
-* *监视列表：*可让您灵活地访问 Active IQ Digital Advisor 中已选择的系统。您可以使用监视列表从一个或多个客户添加系统。
+* *监视列表：*可让您灵活地访问已选择的Digital Advisor中的系统。您可以使用监视列表从一个或多个客户添加系统。
 +
 ** * 健康信息板： * 提供监视列表中系统的整体状态。
 ** * 小工具： * 在信息板上显示小应用程序，可快速提供系统状态摘要。
@@ -65,7 +65,7 @@ summary: 提供有关 Active IQ Digital Advisor 中使用的关键术语的信�
 ** * 修复： * 使用 Active IQ 统一管理器（ UM ） 9.7 或更高版本修复系统风险。单击此按钮可启动 UM 并执行相应步骤以降低风险。
 
 
-* * 清单小工具： * 显示您拥有的系统总数汇总。这包括支持 Active IQ 的产品和不支持 的产品。
+* * 清单小工具： * 显示您拥有的系统总数汇总。这包括支持和未支持Digital Advisor的产品。
 +
 ** * 生成报告： * 生成选定监视列表的报告，并通过电子邮件将报告发送给最多 5 个收件人。
 
@@ -89,9 +89,9 @@ summary: 提供有关 Active IQ Digital Advisor 中使用的关键术语的信�
 * * 有价值的 Insights 小工具： * 提供有关支持案例数量，待定软件升级，存储效率节省，已缓解风险等信息。此外，它还会主动列出 Wellness 属性中的风险通知。
 * 使用 * AutoSupport ： * 可以查看 AutoSupport 实例的详细信息或详细信息。详细信息包括系统详细信息，可能出现此问题的原因以及建议的操作。
 +
-要访问 AutoSupport 功能，请登录到 Active IQ Digital Advisor 并搜索集群或主机名。左窗格中提供了 AutoSupport 选项。
+要访问AutoSupport 功能、请登录到Digital Advisor并搜索集群或主机名。左窗格中提供了 AutoSupport 选项。
 
-* *快速链接：*提供了可使用 Active IQ Digital Advisor 启动的应用程序列表。
+* *快速链接：*提供了可使用Digital Advisor启动的应用程序列表。
 +
 ** 通过 * 集群查看器： * ，您可以查看详细的物理和逻辑配置信息。详细信息显示在多个选项卡中的多个易于查看的表中，其中包括集群和节点配置摘要，本地层和卷信息，网络接口和端口信息，详细介绍磁盘和磁盘架信息的堆栈图以及一些缆线可视化。您还可以下载 SVG 格式的电缆可视化图形。
 +
@@ -108,7 +108,7 @@ E 系列系统不支持集群查看器功能。
 ** *搜索： * 允许您根据客户名称，序列号，集群，站点名称，组名称，主机名等不同类别搜索系统。
 
 
-* *客户： * 允许您查看和管理客户的客户群。客户信息板是 Active IQ 的中央门户。
+* *客户： * 允许您查看和管理客户的客户群。客户信息板是Digital Advisor的中央门户。
 * *集群： * 提供了有关 ONTAP 集群的信息。信息板还整合了运行状况，容量，存储效率和性能方面的洞察信息。
 * *序列号： * 提供有关分配给客户的序列号的信息。
 

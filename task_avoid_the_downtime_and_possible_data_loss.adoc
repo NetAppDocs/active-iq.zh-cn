@@ -19,10 +19,10 @@ summary: 提供有关如何避免停机和可能的数据丢失的信息。
 
 
 [role="lead"]
-登录到 Active IQ Digital Advisor 并注意到 *可用性和保护* 小工具上的红色标志时，您可以采取措施来修复严重风险。如果不修复固件，这些驱动器很容易在打开电源后的一定时间内无法运行。解决此问题可以避免停机和可能的数据丢失。
+登录到Digital Advisor并注意到*可用性和保护*小工具上的红色标志时、您可以采取措施来修复严重风险。如果不修复固件，这些驱动器很容易在打开电源后的一定时间内无法运行。解决此问题可以避免停机和可能的数据丢失。
 
 .步骤
-. 登录到 Active IQ Digital Advisor。
+. 登录到Digital Advisor。
 . 单击 * 可用性和保护 * 小工具中的 * 操作 * 。image:Availability and protection_image 1 downtime and data loss.png["可用性和放大器；保护小工具"]
 +
 对于高影响安全风险，请按照建议的操作更新磁盘固件。
@@ -30,7 +30,7 @@ summary: 提供有关如何避免停机和可能的数据丢失的信息。
 . 单击 * 风险名称 * 链接以查看风险摘要。image:Risk summary_image 2 downtime and data loss.png["风险摘要"]
 . 单击 * 唯一风险 * 选项卡，然后单击 * 更正操作 * 列中的链接。image:Corrective action_image 3 downtime and data loss.png["更正操作"]
 +
-Active IQ Digital Advisor 会生成自定义的 Ansible 脚本或攻略手册，以更新所需的磁盘固件，包括磁盘固件文件。
+Digital Advisor会生成自定义Ansible脚本或攻略手册、以更新所需的磁盘固件、包括磁盘固件文件。
 
 . 单击 * 可 Ansible "A"* 图标以生成并下载脚本。image:Update AFF and FAS Firmware_image 4 downtime and data loss.png["AFF 和 FAS 固件"]
 

@@ -34,9 +34,9 @@ summary: 提供有关此版本中限制的信息。
 
 
 
-== 编辑监视列表可能需要 60 分钟才能反映在中 Active IQ Digital Advisor
+== 编辑监视列表可能需要60分钟才能反映在Digital Advisor中
 
-编辑监视列表不会立即更新 Active IQ Digital Advisor 中的信息。这些更改可能需要长达 60 分钟才能在 Active IQ Digital Advisor 中反映出来。
+编辑监视列表不会立即更新Digital Advisor中的信息。这些更改可能需要长达60分钟才能在Digital Advisor中反映出来。
 
 
 
@@ -46,6 +46,6 @@ summary: 提供有关此版本中限制的信息。
 
 
 
-== 已确认和未确认的风险可能需要 60 分钟才能反映在 Active IQ Digital Advisor 中
+== 已确认和未确认的风险可能需要60分钟才能反映在Digital Advisor中
 
-已确认和未确认的风险状态不会立即反映在 Active IQ Digital Advisor 中。这些变更可能需要长达 60 分钟才能反映在 Active IQ Digital Advisor 和健康报告中。
+已确认和未确认的风险状态不会立即反映在Digital Advisor中。这些变更可能需要长达60分钟才能反映在Digital Advisor和健康报告中。

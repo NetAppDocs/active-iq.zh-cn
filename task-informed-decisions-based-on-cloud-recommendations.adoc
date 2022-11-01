@@ -19,10 +19,10 @@ summary: 提供可根据其做出明智决策的建议。
 
 
 [role="lead"]
-Active IQ 会不断分析您的系统并提供建议、以提高系统性能、效率和运行状况。
+Digital Advisor会不断分析您的系统并提供建议、以提高系统性能、效率和运行状况。
 
 
-NOTE: Active IQ 将导航到Cloud Manager以实施这些建议。
+NOTE: Digital Advisor可导航到BlueXP以实施这些建议。
 
 
 
@@ -42,7 +42,7 @@ NOTE: Active IQ 将导航到Cloud Manager以实施这些建议。
 .步骤
 . 从左窗格中、单击*云建议*。
 . 单击*迁移*窗格中的任一链接。
-. 单击*迁移到云*以启动* Cloud Manager*。
+. 单击*迁移到云*以启动*蓝图X*。
 
 
 
@@ -65,7 +65,7 @@ NOTE: 您可以启用非活动数据报告（ IDR ）以使用 Ansible 攻略手
 .步骤
 . 从左窗格中、单击*云建议*。
 . 单击*分层*窗格中的任一链接。
-. 单击*层数据*以启动* Cloud Manager*。
+. 单击*层数据*以启动*蓝图X*。
 
 
 要了解有关 FabricPool 的更多信息，请参见 link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["FabricPool 最佳实践"]。
@@ -85,7 +85,7 @@ NOTE: 您可以启用非活动数据报告（ IDR ）以使用 Ansible 攻略手
 .步骤
 . 从左窗格中、单击*云建议*。
 . 单击*备份和归档*窗格中的任一链接。
-. 单击*备份到云*以启动* Cloud Manager*。
+. 单击*备份到云*以启动*蓝图x*。
 
 
 
@@ -104,5 +104,5 @@ NOTE: 您可以启用非活动数据报告（ IDR ）以使用 Ansible 攻略手
 .步骤
 . 从左窗格中、单击*云建议*。
 . 单击*灾难恢复*窗格中的任一链接。
-. 单击*复制到云*以启动* Cloud Manager*。
+. 单击*复制到云*以启动*蓝图X*。
 
