@@ -1235,7 +1235,6 @@
   <block id="7668feb1d998cf5c94c1e24359309154" category="list-text">登录到Digital Advisor。</block>
   <block id="eea107c69ccee0cbe0becace353b156f" category="paragraph">Digital Advisor会生成自定义Ansible脚本或攻略手册、以更新所需的磁盘固件、包括磁盘固件文件。</block>
   <block id="c8a6259aed44fea9ff6723eeb59cce9e" category="sidebar">Digital Advisor文档</block>
-  <block id="87ff2175a631a03e0b15d2041aab4f9f" category="sidebar">在BlueXP中管理集群</block>
   <block id="102d9716e9927264b03dcd24c0dd5cc3" category="sidebar">了解Digital Advisor</block>
   <block id="156203bd2f0dca053d9b9dbd8f8912c7" category="sidebar">使用Digital Advisor</block>
   <block id="6cb30ae6af19fc79cca62d705f6b0744" category="sidebar">使用Digital Advisor进行分析</block>
@@ -1243,4 +1242,5 @@
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Digital Advisor视频</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">NetApp社区—Digital Advisor</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
+  <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">根据云建议做出明智的决策</block>
 </blocks>
