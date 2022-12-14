@@ -19,6 +19,7 @@ summary: 提供有关如何使用 Docker 映像执行 Ansible 攻略手册的信
 
 
 .步骤
+[role="lead"]
 . 安装 link:https://docs.python.org/3/using/windows.html["Python"] 和 link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"]。
 . 使用 * pip* 安装所需的 Python 软件包：
 +
