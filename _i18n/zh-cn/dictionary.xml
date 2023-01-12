@@ -1012,7 +1012,6 @@
   <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
   <block id="7eaee357275d531796b5348076c7abaa" category="cell">提供有关非活动，冷，活动，热，分层， 和不受监控的数据。此报告还包括用于对已禁用聚合启用非活动数据报告的 Ansible 攻略手册。</block>
   <block id="2a414d2cb2f384ea04369dd0623dab64" category="cell">提供有关选定监视列表，客户，站点，组级别的安装基础的信息。此报告可以直接从 " 清单 " 详细信息页面下载，也可以从 " 报告 " 页面生成。</block>
-  <block id="7a1964d60060b532bf912499ef0e5419" category="cell">支持生命周期结束</block>
   <block id="945bdabc5825ce732fb5d22e7dd80610" category="cell">提供有关已达到支持终止(EOS)的控制器、磁盘架和磁盘列表的信息。</block>
   <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">建议配置</block>
   <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">提供有关远程管理配置，备用磁盘和驱动器， HA 对和 SVM 运行状况的各种建议配置差距的信息。</block>
@@ -1268,4 +1267,10 @@
   <block id="0acf8be1231e24946c3d10b649fb576f" category="cell">卷</block>
   <block id="21f34cc44dc8079bb3c3e391a241dae2" category="paragraph">用户可以使用正则表达式创建配置偏移报告、其中包括因卷、聚合、集群等命名不一致而产生的变化。例如、如果在组*聚合*中的* aggr-info.xml*部分中为属性*名称*提及正则表达式* aggr-name*、则在生成配置偏移报告时、不带前缀* aggr-name*的属性值将标记为偏移。</block>
   <block id="2eb59240b774cdd59bd034ded7487a51" category="list-text">可选：您可以通过编辑组或删除模板中不需要的组来自定义模板。</block>
+  <block id="65ad691748c94924b6f326c7c9439c6f" category="section-title">2023年1月12日</block>
+  <block id="af8ffc565aa8e5b74351ac5b3619d11e" category="section-title">性能报告</block>
+  <block id="da1d47d31f2c9af4c95e87ea269228d6" category="paragraph">您可以在卷级别的性能报告中查看平均读取、写入和其他操作。</block>
+  <block id="02e55cfbe6e55152bef274ca4a6a3d14" category="cell">支持合同/硬件EOS</block>
+  <block id="e5f2463f379aba48a0f9ca6c913203cc" category="cell">IO 密度</block>
+  <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">IO密度报告从数据和元数据的使用量和密度角度深入分析了客户的输入-输出峰值操作。</block>
 </blocks>
