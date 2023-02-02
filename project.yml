@@ -7,7 +7,7 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
-  langs: zh-cn,us-en,ja-jp,zh-tw,ko-kr,fr-fr,de-de
+  langs: zh-cn,us-en,ja-jp,ko-kr,zh-tw,de-de,fr-fr
 sidebar:
   entries:
   - title: Digital Advisor文档
@@ -73,7 +73,7 @@ sidebar:
     - title: 查看有价值的见解
       url: "/task_view_valuable_insight_widget.html"
     - title: 查看Keystone订阅容量利用率
-      url: "/task_view_keystone_capacity_utilization.html"
+      url: "/view_keystone_capacity_utilization.html"
   - title: 主动确定系统要求
     entries:
     - title: 概述

@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: task_view_keystone_capacity_utilization.html 
+permalink: view_keystone_capacity_utilization.html 
 keywords: keystone, capacity utilization, service tiers, Keystone subscription, keystone subscription, shares, disks 
 summary: 提供有关 NetApp Keystone Flex 订阅的容量利用率的信息。 
 ---
@@ -30,12 +30,4 @@ Keystone订阅小工具可为您的帐户提供容量使用情况摘要。它包
 
 NOTE: 作为一名Digital Advisor用户、您可以在ONTAP 收集器和AutoSupport 之间进行选择、以获取有关容量使用情况的数据。
 
-.步骤
-. 单击 * 查看详细信息 * 以在详细的 * Keystone - 容量利用率 * 信息板中查看利用率趋势。
-. 选择"当前账单期限"、" 30天"、" 7天"或" 1天"以查看最近的平均使用量趋势。
-+
-对于当前计费周期、您可以下载一份报告、其中提供了有关突发详细信息的信息。
-
-. 或者，如果您选择使用 ONTAP 收集器获取容量使用情况数据，则可以单击信息板上的各个选项卡查看有关文件共享和磁盘的更多详细信息。
-. 单击 * 共享 * 或 * 磁盘 * 以确定接近已提交容量的文件共享或磁盘，并做出明智的决策以节省存储容量。
-
+有关Keystone订阅的信息、请参见 link:https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.html["Keystone订阅信息板和报告"^]。
