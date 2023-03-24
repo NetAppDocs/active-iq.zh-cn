@@ -19,11 +19,11 @@ summary: 提供有关如何增强防范黑客和勒索软件攻击的信息。
 
 
 [role="lead"]
-NetApp 安全站点是 NetApp 产品安全的关键所在： link:https://security.netapp.com[""]
+NetApp 安全站点是 NetApp 产品安全的关键所在： link:https://security.netapp.com["NetApp产品安全性"^]
 
 Digital Advisor利用遥测数据和已发布的产品安全建议来检测所涵盖*和授权支持的产品的安全问题。产品遥测数据必须通过AutoSupport 传输到NetApp、以便Digital Advisor检测风险。
 
-有关其他NetApp产品安全信息、包括Digital Advisor未涵盖的产品、请访问 link:https://security.netapp.com[""]
+有关其他NetApp产品安全信息、包括Digital Advisor未涵盖的产品、请访问 link:https://security.netapp.com["NetApp产品安全性"^]
 
 * 涵盖产品： ONTAP 9 （内部和云）， SANtricity 操作系统控制器软件， NetApp SolidFire （ Element 软件）， StorageGRID ， Active IQ Unified Manager ， ONTAP Tools for VMware （ OTV ）
 

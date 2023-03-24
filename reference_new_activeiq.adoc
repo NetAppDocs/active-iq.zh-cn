@@ -301,7 +301,7 @@ ClusterViewer 堆栈可视化模块已进行了增强，包括放大 / 缩小和
 
 === 非活动数据报告（ IDR ）
 
-在 FabricPool Advisor 屏幕中，您可以激活非活动数据报告（ IDR ）来监控聚合并生成可逆攻略手册。 link:task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html["了解更多信息。"]
+在 FabricPool Advisor 屏幕中，您可以激活非活动数据报告（ IDR ）来监控聚合并生成可逆攻略手册。
 
 
 
@@ -427,8 +427,8 @@ ClusterViewer 堆栈可视化模块已进行了增强，包括放大 / 缩小和
 
 现在、您可以在Digital Advisor移动应用程序上启用生物识别身份验证。根据您的移动电话支持的功能，可用于身份验证的选项会有所不同。
 
-下载应用程序以了解更多信息：link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Digital Advisor移动应用程序(Android)"]
-link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Digital Advisor移动应用程序(iOS)"]
+下载应用程序以了解更多信息：link:https://play.google.com/store/apps/details?id=com.netapp.myautosupport["Digital Advisor移动应用程序(Android)"^]
+link:https://apps.apple.com/us/app/active-iq/id1230542480["Digital Advisor移动应用程序(iOS)"^]
 
 
 
@@ -504,7 +504,7 @@ link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Digit
 
 
 
-=== Flex 订阅小工具
+=== Keystone订阅小工具
 
 * 如果您选择让 ONTAP 收集器获取有关容量使用情况的数据，则可以在共享和磁盘选项卡中查看文件共享和磁盘的详细信息。您可以通过确定即将提交容量的存储空间来节省存储空间。
 * 容量使用情况显示在 Keystone - 容量利用率信息板上，用于计费，现在基于逻辑容量。
@@ -712,7 +712,7 @@ Digital Advisor现在提供三种语言版本：中文、英文和日语。
 
 === 运行状况检查信息板
 
-通过Digital Advisor运行状况检查信息板、您可以对整个环境进行时间点审核。根据运行状况检查得分，您可以根据建议的 NetApp 最佳实践调整存储系统，以便于进行长期规划并改善客户群的运行状况。 link:concept_understand_health_check_assessment_dashboard.html["了解更多信息。"]。
+通过Digital Advisor运行状况检查信息板、您可以对整个环境进行时间点审核。根据运行状况检查得分，您可以根据建议的 NetApp 最佳实践调整存储系统，以便于进行长期规划并改善客户群的运行状况。
 
 
 
@@ -746,9 +746,9 @@ Digital Advisor现在提供三种语言版本：中文、英文和日语。
 
 
 
-=== Flex 订阅小工具
+=== Keystone订阅小工具
 
-您可以监控 NetApp Keystone 灵活订阅服务的已提交，已用和突发存储容量。
+您可以监控NetApp Keystone 订阅服务的已提交、已用和突发存储容量。
 
 
 

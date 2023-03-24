@@ -188,9 +188,9 @@ homepage:
     - title: 查看 ONTAP 升级建议
       url: task_view_upgrade.html
     - title: 根据云建议做出明智的决策
-      url: "/task-informed-decisions-based-on-cloud-recommendations.html"
-    - title: 使用 NetApp Keystone Flex 订阅查看容量利用率
-      url: task_view_keystone_capacity_utilization.html
+      url: task-informed-decisions-based-on-cloud-recommendations.html
+    - title: 查看NetApp Keystone 订阅的容量利用率
+      url: view_keystone_capacity_utilization.html
   - title: 更多资源
     links:
     - title: Digital Advisor Web门户
