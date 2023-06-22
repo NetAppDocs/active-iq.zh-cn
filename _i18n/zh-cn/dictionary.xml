@@ -973,18 +973,6 @@
   <block id="4cb8aabcf131d734977ab53c8a2ca120" category="list-text">不包括SnapMirror目标卷(卷类型LS和DP)</block>
   <block id="a883cf21600271d7200622fa1132d9b8" category="list-text">单击*灾难恢复*窗格中的任一链接。</block>
   <block id="ef8a4ebca6f4cc3e64a7ad289ebd3eb6" category="summary">提供有关信息板，监视列表，功能和小工具的信息。</block>
-  <block id="ac1dcbd86bac3c8e0c5adb11006ef7d3" category="list-text">查看多个监视列表，以及可操作且有用的信息概览视图</block>
-  <block id="9c469876265a6bb1e8b9865685bdea76" category="list-text">深入了解存储系统面临的所有风险 以及降低风险的操作</block>
-  <block id="07fbf7c29b885315f5a499828e5d2912" category="list-text">升级存储系统</block>
-  <block id="7c19de9daa4abc4fd87b688f29ba6e89" category="list-text">查看运行 ONTAP 9.1 及更高版本的存储系统的存储效率比率，已用逻辑空间，已用物理空间以及节省的总数据</block>
-  <block id="4c8438807538fa50db0d24cda516c562" category="list-text">通过查看分析存储设备的性能 性能数据的图形格式</block>
-  <block id="25bab72d979d2f781310fbd8a7510d1e" category="list-text">获取有关已过期的硬件和软件的信息 或即将在未来 6 个月内到期</block>
-  <block id="582adb4f0e7a3267346145b6b82ce29a" category="list-text">使用 Ansible 更新 ONTAP 固件</block>
-  <block id="63a792f0efaeee81d9e7f3ba251637c2" category="list-text">获取有关容量超过 90% 或的系统的详细信息 容量接近 90%</block>
-  <block id="3635d6c25949f1a58c70590c42f57462" category="list-text">查看详细的物理和逻辑配置信息，包括集群和节点配置摘要，本地层和卷信息，网络接口和端口信息，详细介绍磁盘和磁盘架信息的堆栈图以及一些缆线可视化功能</block>
-  <block id="99d2fd1ab881558fd1bfafc670c1e114" category="list-text">提供跨堆栈信息和见解，这些信息和见解有助于进行故障排除，升级评估，解决方案验证和迁移</block>
-  <block id="2eff8449b9983f6e6e5e4c068f551cde" category="list-text">检查主机的兼容性，并提供主机操作系统，驱动程序和固件的升级建议</block>
-  <block id="3ef99ba5d79d98939649058bd12621b4" category="list-text">准确了解您希望在中找到的内容 更智能，更快速</block>
   <block id="d8d27ee684d88256c60816459952e514" category="admonition">您可以从系统信息板上的 * 配置 * 小工具升级支持服务，以深入了解您的客户群并获得个性化支持。</block>
   <block id="7fffffd83e81207eb469a895955d2d8a" category="summary">提供有关可供用户使用的不同类型报告的信息。</block>
   <block id="5205cb2f3582e719834d2230589ba0f6" category="doc">报告类型</block>
@@ -1272,5 +1260,75 @@
   <block id="c0992993c6a0220032f6f381a6082dc2" category="section-title">Keystone订阅小工具</block>
   <block id="f84828c873f8fa6665a13cc455631ce9" category="paragraph">通过Digital Advisor运行状况检查信息板、您可以对整个环境进行时间点审核。根据运行状况检查得分，您可以根据建议的 NetApp 最佳实践调整存储系统，以便于进行长期规划并改善客户群的运行状况。</block>
   <block id="767f01b53ed58e4274d58e166e4e1e78" category="paragraph">您可以监控NetApp Keystone 订阅服务的已提交、已用和突发存储容量。</block>
-  <block id="51f3a0a362446375c682ade41a945286" category="list-text">系统在SAP中处于非活动状态。</block>
+  <block id="cd58a2289aa9a570f905ace9253b287f" category="list-text">系统在SAP中处于非活动状态或已停用。</block>
+  <block id="e90912cb3f8595479987796300c99d6c" category="summary">提供有关信息板、可持续发展得分、工作环境和建议措施的信息。</block>
+  <block id="06cdd6dcccb0573b58a1525964134965" category="doc">开始使用Sustainability信息板</block>
+  <block id="87711a398a7e6a734618da04d3342954" category="paragraph">此信息板以NetApp建议的操作形式提供存储系统的环境评估以及可指导行动的改进见解。</block>
+  <block id="de857c4705c01d60f072c89db409bb0f" category="paragraph">*可持续发展得分*：显示表明存储系统环境可持续性的总分。您可以根据以下范围评估存储系统的可持续性级别：</block>
+  <block id="b04fdd8d3c616238ff5067578ec445ae" category="list-text">76 - 100：表示可持续性是重中之重。</block>
+  <block id="d79fa3a278fafc90f05b60fc886ee7a8" category="list-text">51 - 75：表示对可持续性举措的高投资水平。</block>
+  <block id="8af93586db898b2afff53995435e56cd" category="list-text">26 - 50：表示在可持续性举措方面取得了良好进展。</block>
+  <block id="129c025cb275919421a73e175f4d6b51" category="list-text">不足25：表示需要改进可持续性做法。</block>
+  <block id="39df01e4d3f96b515477bb91d41693e1" category="paragraph">您可以查看长达5周的得分图形表示形式、每周更新一次。您还可以通过将鼠标悬停在图上来查看可持续性得分增加或减少的原因。</block>
+  <block id="124737733adb9db94833bf1012498225" category="inline-image-macro">显示可持续性得分和图形的屏幕截图。</block>
+  <block id="a2bc2df13c5a3762142955fb95ab0af5" category="paragraph"><block ref="a2bc2df13c5a3762142955fb95ab0af5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4a4ece81a5a89febb339536be98d1458" category="paragraph">*环境指标*：显示对电耗、直接碳用量和热量排放的预测，以评估存储系统的环境运行状况。您可以通过从此部分右上角的下拉列表中选择所需时间范围来查看这些预测、包括每月、每季度或每年。</block>
+  <block id="d934690f46f773b38d9c65526a88d2a1" category="inline-image-macro">显示可编辑图标的屏幕截图。</block>
+  <block id="88ff2e9a0a1bf07b4e3957199ef248f0" category="paragraph">*碳缓解百分比*：显示每个站点/城市的碳缓解百分比，显示的基线值基于您所在的位置。您可以通过单击来调整特定站点的碳缓解百分比 <block ref="58945c98e470d270455cd5912e91eb15" category="inline-image-macro-rx" type="image"></block> 图标、碳数将自动相应调整。</block>
+  <block id="35c40b1976d1ce98a9121146c10ec009" category="paragraph">*建议操作*：显示可提高存储系统可持续性得分的建议操作列表。通过选择*Fix*，可以立即执行这些操作。您可以通过单击*Fix*或向下箭头展开视图，如果继续执行*Fix*选项，您可以看到集群名称、可持续性得分和后续增加。在展开的视图中，您还可以看到继续使用*Fix*选项的信息性消息。</block>
+  <block id="707741d275e0975dc229329ccd426a07" category="inline-image-macro">显示展开视图中的操作列表的屏幕截图。</block>
+  <block id="d1f34a9fa829d3045f1efbad48f775eb" category="paragraph"><block ref="d1f34a9fa829d3045f1efbad48f775eb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="09620871e591b6de487066e0b42c028c" category="paragraph">如果您计划稍后处理这些操作，可以通过选择*later*将其移至*Actions* for Later*选项卡。这些行动将推迟30天。30天后，这些操作将自动移回“*建议操作*”选项卡。您也可以随时查看推迟的操作，并可通过单击*悸*将其移回*Recommended Actions*选项卡。</block>
+  <block id="5f0388a6e35ab1c017b19f9c0c580225" category="paragraph">*工作环境*：显示装机量集群级别的各种环境参数。您可以在集群级别查看Sustainability得分、通过选择集群名称访问*集群查看器*、并从此处采取具体建议的操作来提高可持续性。</block>
+  <block id="f2ae849ec2f53979329ed4b00e3cd6eb" category="admonition">目前、支持具有AFF、FAS和CVO的ONTAP系统。</block>
+  <block id="fb8c863be001fc68522b09f5c7ab5899" category="summary">提供相关信息、帮助您熟悉Sustainability信息板。</block>
+  <block id="df3259aced42e68d1518ac692c0cd25d" category="doc">了解BlueXP Sustainability服务</block>
+  <block id="855d25a326a6ecf64f0190057e34a8a2" category="paragraph">可持续性即服务可帮助您降低能耗、并帮助您实现环保目标。这样、您就可以根据环保实践调整存储系统、并实现可持续发展目标。</block>
+  <block id="7a5cdb5829440fd156d521830c546a85" category="section-title">您可以利用可持续发展服务做些什么</block>
+  <block id="f6e5c50b1d630128adfb99732b3be16b" category="paragraph">您可以查看可持续性得分、以及预计的电力、直接碳和热量使用情况。您可以调整特定站点的碳缓解百分比。根据可持续发展得分、您可以评估您的整体可持续发展态势、并实施NetApp建议的措施来提高得分。</block>
+  <block id="61f3d8e621fe05148bb6346a3da7c9cc" category="paragraph">您还可以查看集群级别的可持续性得分。在集群级别提供的数据还有助于确定可移至更高效存储的集群、从而在性能和能效之间实现适当的平衡。</block>
+  <block id="40dc10ad135a4e4dc568a7aa242e346b" category="section-title">访问可持续性服务</block>
+  <block id="591d6bde7048e0f055f2937e178fe8eb" category="paragraph">您可以通过以下两种方式访问此服务：</block>
+  <block id="bc321562c41e07c6c7a7c2fcc7819032" category="list-text">*在Digital Advisor中访问可持续发展服务*
+您可以登录到Digital Advisor并从Digital Advisor信息板访问Sustainability服务。</block>
+  <block id="e58e5e6ea250c0d33583a97403fee17c" category="inline-image-macro">显示Sustainability信息板概述的UI屏幕截图。</block>
+  <block id="c15bf54bfb138c4f090b02cbeeca69f9" category="paragraph"><block ref="c15bf54bfb138c4f090b02cbeeca69f9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0ff38bbdb0277b0a0d29e6fc78aca4e1" category="paragraph">有关登录到Digital Advisor的详细信息、请参见 <block ref="ea710f62517834d879fd62e2f2933884" category="inline-link-macro-rx"></block>。</block>
+  <block id="67b2c8af58c710f6cd4521f1f80f8216" category="list-text">*在BlueXP*中访问可持续性服务
+您可以登录BlueXP并从BlueXP左侧导航栏中的*监管*类别访问可持续发展服务。</block>
+  <block id="96d0f57ed12b3b53cfcbb2be8d2ecf30" category="inline-image-macro">显示BlueXP中Sustainability信息板概述的用户界面屏幕截图。</block>
+  <block id="547c7e82193b8c421f80fff741758831" category="paragraph"><block ref="547c7e82193b8c421f80fff741758831" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8e917942a77709dfd28c155f42a97553" category="inline-link-macro">了解有关登录的更多信息</block>
+  <block id="8f311d0aee01eb4f3b71cb4a1f717703" category="paragraph">要登录到BlueXP、您可以使用NetApp 支持站点 凭据、也可以使用电子邮件和密码注册NetApp云登录。 <block ref="f3eba1008b655e5e66f20213b643dd24" category="inline-link-macro-rx"></block>。</block>
+  <block id="821d1756364d64a3adf1ff448e34d40b" category="section-title">使用可持续性服务的优势</block>
+  <block id="953321a5ab304bd7d58cf4dd451e32e0" category="paragraph">可持续性服务具有以下优势：</block>
+  <block id="4fdc8f8c48e4ec80848e9368764d4b95" category="list-text">提升性能</block>
+  <block id="3539435a6de515609cc1b8543224f713" category="list-text">降低存储成本</block>
+  <block id="f12856396bd806cdc7038dbbbc5efcd2" category="list-text">减少碳排放</block>
+  <block id="49beaa2702ece5b3496f85b7811e7898" category="list-text">提高能效</block>
+  <block id="d7ffa2dface411a028c111d92c0574cc" category="list-text">清晰地洞察您的可持续发展态势</block>
+  <block id="f172c78b7f668c77b49c9342501992c0" category="list-text">AI/ML驱动的可指导行动的建议</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
+  <block id="520e1d23fab39afcbff2a7abad3b1d89" category="paragraph">NetApp不会因使用BlueXP Sustainability服务而向您收费。您可以在有效支持合同中使用它。</block>
+  <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">许可</block>
+  <block id="8a85fa75801981e1dba36489f26b604e" category="paragraph">访问此服务不需要特殊许可证。如果您为系统启用了AutoSupport、则可以将其与有效的支持合同结合使用。</block>
+  <block id="e9cdfc3ff6e77bfb8ec195d6362f98f9" category="list-text">查看多个监视列表、可操作且有用的信息概览视图。</block>
+  <block id="6af161dea04328fb2cd0c0438e1f8355" category="list-text">深入了解存储系统面临的所有风险以及降低这些风险的措施。</block>
+  <block id="36cec47f7689f0259d19d5b01531f4e9" category="list-text">使用Active IQ Unified Manager降低风险。</block>
+  <block id="2c1d81e3772d9ef164c64b411ca4e8f2" category="list-text">升级存储系统。</block>
+  <block id="a3724fe4c82d2e588a76d98b41647731" category="list-text">查看可持续性得分以及电耗、直接碳和热量的预计使用量。根据可持续发展得分、评估存储系统的整体效率、并遵循NetApp建议的措施来提高得分。 <block ref="2a00df11659d53cc6af50733fabe3a4a" category="inline-link-macro-rx"></block>。</block>
+  <block id="05eae71003a0c12ec28cec072f7339f8" category="list-text">查看运行ONTAP 9.1及更高版本的存储系统的存储效率比率、已用逻辑空间、已用物理空间以及节省的总数据。</block>
+  <block id="125859f7a75ea087ef61995849562e3b" category="list-text">通过查看性能数据的图形格式来分析存储设备的性能。</block>
+  <block id="dacf9744e039d2c6cd15d0001ef8a424" category="list-text">获取有关未来6个月内已过期或即将过期的硬件和软件的信息。</block>
+  <block id="bb684054961f57c4a18794310f91e0e7" category="list-text">使用ONTAP更新其固件。</block>
+  <block id="eb1fe695fcd963b57a65eba0363be8d8" category="list-text">获取有关容量已超过90%或即将达到90%的系统的详细信息。</block>
+  <block id="7c6c02effa6412237c8c392380180699" category="list-text">查看详细的物理和逻辑配置信息、包括集群和节点配置摘要、本地层和卷信息、网络接口和端口信息、详细介绍磁盘和磁盘架信息的堆栈图以及一些缆线可视化信息。</block>
+  <block id="d81e9eda4f33de56cfd4c583d99ab437" category="list-text">提供有助于故障排除、升级评估、解决方案验证和迁移的跨堆栈信息和见解。</block>
+  <block id="c2b079f6f62fe899dec7b1a93823c546" category="list-text">检查主机的兼容性，并提供主机操作系统、驱动程序和的升级建议。</block>
+  <block id="daea2bcb0af4558719fc040fddad5b69" category="list-text">以更智能、更快速的方式准确找到您想要的内容。</block>
+  <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">2023年6月21日</block>
+  <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="section-title">Sustainability信息板</block>
+  <block id="87dcc2d179cb1551f2eb118866025f06" category="paragraph">通过Digital Advisor Sustainability信息板、您可以深入了解存储系统的环境可持续性。您可以查看诸如可持续性得分、碳缓解百分比、预计电力使用量、直接碳和热量等信息。您可以调整特定站点的碳缓解百分比。您还可以查看集群级别的可持续性得分。通过评估可持续发展得分、您可以评估存储系统的整体效率、并将其与NetApp为增强可持续性而建议的操作保持一致。 <block ref="2a00df11659d53cc6af50733fabe3a4a" category="inline-link-macro-rx"></block>。</block>
+  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">分析存储系统的可持续性</block>
+  <block id="718c5101b53c8646db75a2172094f520" category="sidebar">开始使用Sustainability信息板</block>
 </blocks>

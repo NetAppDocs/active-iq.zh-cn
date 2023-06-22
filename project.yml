@@ -113,6 +113,12 @@ sidebar:
       url: "/concept_get_started_with_health_check_dashboard.html"
     - title: 续订支持合同
       url: "/task_renew_support_contracts_for_your_systems.html"
+  - title: 分析存储系统的可持续性
+    entries:
+    - title: 了解BlueXP Sustainability服务
+      url: "/concept_understand_sustainability_dashboard.html"
+    - title: 开始使用Sustainability信息板
+      url: "/concept_get_started_with_sustainability_dashboard.html"
   - title: 升级以优化您的客户群
     entries:
     - title: 升级存储系统的 ONTAP 版本

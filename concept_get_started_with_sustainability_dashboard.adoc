@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: concept_get_started_with_sustainability_dashboard.html 
+keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, working environments, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives 
+summary: 提供有关信息板、可持续发展得分、工作环境和建议措施的信息。 
+---
+= 开始使用Sustainability信息板
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+此信息板以NetApp建议的操作形式提供存储系统的环境评估以及可指导行动的改进见解。
+
+*可持续发展得分*：显示表明存储系统环境可持续性的总分。您可以根据以下范围评估存储系统的可持续性级别：
+
+* 76 - 100：表示可持续性是重中之重。
+* 51 - 75：表示对可持续性举措的高投资水平。
+* 26 - 50：表示在可持续性举措方面取得了良好进展。
+* 不足25：表示需要改进可持续性做法。
+
+
+您可以查看长达5周的得分图形表示形式、每周更新一次。您还可以通过将鼠标悬停在图上来查看可持续性得分增加或减少的原因。
+
+image:sustainability_score.png["显示可持续性得分和图形的屏幕截图。"]
+
+*环境指标*：显示对电耗、直接碳用量和热量排放的预测，以评估存储系统的环境运行状况。您可以通过从此部分右上角的下拉列表中选择所需时间范围来查看这些预测、包括每月、每季度或每年。
+
+*碳缓解百分比*：显示每个站点/城市的碳缓解百分比，显示的基线值基于您所在的位置。您可以通过单击来调整特定站点的碳缓解百分比 image:edit_icon_1.png["显示可编辑图标的屏幕截图。"] 图标、碳数将自动相应调整。
+
+*建议操作*：显示可提高存储系统可持续性得分的建议操作列表。通过选择*Fix*，可以立即执行这些操作。您可以通过单击*Fix*或向下箭头展开视图，如果继续执行*Fix*选项，您可以看到集群名称、可持续性得分和后续增加。在展开的视图中，您还可以看到继续使用*Fix*选项的信息性消息。
+
+image:recommended_actions.png["显示展开视图中的操作列表的屏幕截图。"]
+
+如果您计划稍后处理这些操作，可以通过选择*later*将其移至*Actions* for Later*选项卡。这些行动将推迟30天。30天后，这些操作将自动移回“*建议操作*”选项卡。您也可以随时查看推迟的操作，并可通过单击*悸*将其移回*Recommended Actions*选项卡。
+
+*工作环境*：显示装机量集群级别的各种环境参数。您可以在集群级别查看Sustainability得分、通过选择集群名称访问*集群查看器*、并从此处采取具体建议的操作来提高可持续性。
+
+
+NOTE: 目前、支持具有AFF、FAS和CVO的ONTAP系统。
