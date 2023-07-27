@@ -21,7 +21,7 @@ summary: 提供有关使用 Web 服务器托管固件文件的信息。
 [role="lead"]
 下载自动化软件包后，固件文件应托管在 Web 服务器上。
 
-可以通过多种方式设置 Web 服务器。有关使用 Python 设置简单 Web 服务器的说明，请参见 link:https://docs.python.org/3/library/http.server.html["使用 Python 的 Web 服务器"]。
+可以通过多种方式设置 Web 服务器。有关使用 Python 设置简单 Web 服务器的说明，请参见 link:https://docs.python.org/3/library/http.server.html["使用 Python 的 Web 服务器"^]。
 
 .步骤
 . 保存 Web 服务器的基本 URL 。如果磁盘固件，磁盘架固件和服务处理器固件的 URL 为 * ： \http://<web-server>/path/all_shelf_fw.zip* ， * ： http://<web-server>/path/all.zip* 和 * ： \http://<web-server>/path/<SP/BMC>_<version_number>_fw.zip* ，请将 * ： http://<web-server>/path/* 保存为基本 URL 。

@@ -20,7 +20,7 @@ summary: 提供有关如何使用 Docker 映像执行 Ansible 攻略手册的信
 
 .步骤
 [role="lead"]
-. 安装 link:https://docs.python.org/3/using/windows.html["Python"] 和 link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"]。
+. 安装 link:https://docs.python.org/3/using/windows.html["Python"^] 和 link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"^]。
 . 使用 * pip* 安装所需的 Python 软件包：
 +
 [listing]
@@ -43,7 +43,7 @@ $ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collectio
 $ chmod -R +rw /usr/share/ansible/collections
 ----
 +
-有关 Ansible galxy 命令的详细信息，请参见 link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Ansible GALAXY 文档"] 有关 NetApp Ansible 资料集的详细信息，请参见 link:https://galaxy.ansible.com/netapp/ontap["NetApp Ansible Collection 页面"]。
+有关 Ansible galxy 命令的详细信息，请参见 link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Ansible GALAXY 文档"^] 有关 NetApp Ansible 资料集的详细信息，请参见 link:https://galaxy.ansible.com/netapp/ontap["NetApp Ansible Collection 页面"^]。
 
 . 使用 * Ansible 攻略手册 * 命令执行 Ansible 攻略手册：
 +
@@ -63,6 +63,6 @@ NOTE: 如果有一组集群使用不同的登录凭据，则必须在每个集�
 
 
 
-有关 * 安全攻略手册 * 命令的详细信息，请参见 link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible 攻略手册文档"] 要在检查模式（试运行）下执行 Ansible 攻略手册，请参见 link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible ：检查模式"]。
+有关 * 安全攻略手册 * 命令的详细信息，请参见 link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible 攻略手册文档"^] 要在检查模式（试运行）下执行 Ansible 攻略手册，请参见 link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible ：检查模式"^]。
 
 执行攻略手册后，请参见 link:task_validate_firmware_installation.html["固件安装验证"] 用于执行后的说明。

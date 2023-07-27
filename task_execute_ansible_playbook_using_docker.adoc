@@ -34,7 +34,7 @@ summary: 提供有关如何使用 Docker 映像执行 Ansible 攻略手册的信
 
 
 .步骤
-. link:https://docs.docker.com/get-started/["设置 Docker"]。
+. link:https://docs.docker.com/get-started/["设置 Docker"^]。
 . 执行以下命令，从 DockerHub 中提取 NetApp Docker 映像：
 +
 [listing]
@@ -46,7 +46,7 @@ latest: Pulling from schmots1/netapp-ansible
 docker.io/schmots1/netapp-ansible:lates
 ----
 +
-有关 Docker Pull 命令的详细信息，请参见 link:https://docs.docker.com/engine/reference/commandline/pull/["Docker Pull 文档"]。
+有关 Docker Pull 命令的详细信息，请参见 link:https://docs.docker.com/engine/reference/commandline/pull/["Docker Pull 文档"^]。
 
 . 将 Docker 映像作为容器运行并登录到容器以执行 Ansible 攻略手册。
 . 复制包含提取的 Ansible 攻略手册和清单文件的文件夹路径，例如 * 已下载 _playbook_path* 。要成功执行， Ansible 攻略手册和清单文件应位于同一文件夹中。
@@ -57,7 +57,7 @@ docker.io/schmots1/netapp-ansible:lates
 $ docker run -v <downloaded_playbook_path>:/<container_path> -it schmots1/netapp-ansible:latest /bin/bash
 ----
 +
-此时，此容器将启动，控制台将位于此容器的 bash shell 中。有关 Docker Run 命令的详细信息，请参见 link:https://docs.docker.com/engine/reference/run/["Docker 运行文档"]。
+此时，此容器将启动，控制台将位于此容器的 bash shell 中。有关 Docker Run 命令的详细信息，请参见 link:https://docs.docker.com/engine/reference/run/["Docker 运行文档"^]。
 
 . 使用 * 可逆攻略手册 * 命令在容器中执行可逆攻略手册：
 +
@@ -77,6 +77,6 @@ NOTE: 如果有一组集群使用不同的登录凭据，则必须在每个集�
 
 
 
-有关 * 安全攻略手册 * 命令的详细信息，请参见 link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible 攻略手册文档"] 要在检查模式（试运行）下执行 Ansible 攻略手册，请参见 link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible ：检查模式"]。
+有关 * 安全攻略手册 * 命令的详细信息，请参见 link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible 攻略手册文档"^] 要在检查模式（试运行）下执行 Ansible 攻略手册，请参见 link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible ：检查模式"^]。
 
 执行 Ansible 攻略手册后，请参见 link:task_validate_firmware_installation.html["固件安装验证"] 用于执行后的说明。

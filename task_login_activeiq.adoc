@@ -19,10 +19,13 @@ summary: 提供登录到Digital Advisor的信息。
 
 
 [role="lead"]
-您必须具有有效的NetApp 支持站点 凭据才能登录到Digital Advisor。如果您没有帐户且正在开始使用，请单击 link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["此处"]。
+您可以从基于Web的控制台登录到Digital Advisor、以创建一个监视列表、用于查看存储系统的整体状态。
+
+.开始之前
+您必须具有有效的NetApp 支持站点 凭据才能登录到Digital Advisor。如果您没有帐户且正在使用、请继续执行 link:https://mysupport.netapp.com/info/web/ECMLP2458178.html["创建帐户"^]。
 
 .步骤
-. 单击 link:https://activeiq.netapp.com/?source=onlinedocs["此处"] 访问Digital Advisor。
+. 转至 link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^] 登录页面。
 +
 Digital Advisor会显示具有有效支持合同的系统。如果合同到期，则会提供 90 天的宽限期，在此宽限期内，系统仍然可见。此后、系统将无法在Digital Advisor中搜索或显示。
 

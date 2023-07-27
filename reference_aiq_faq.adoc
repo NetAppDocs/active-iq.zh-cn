@@ -42,7 +42,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 *如何创建非技术案例？*
 
-. 单击 link:https://mysupport.netapp.com/site/help["此处"] 在 NetApp 支持站点上打开“非技术反馈工具”。
+. 单击 link:https://mysupport.netapp.com/site/help["此处"^] 在 NetApp 支持站点上打开“非技术反馈工具”。
 . 从 * 反馈类别 * 下拉列表中选择相应的类别。
 . 输入所需的详细信息并在 " 注释 " 框中提供追加信息。
 . 单击 * 提交 * 。
@@ -60,7 +60,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 *如何在Digital Advisor中访问存储效率？*
 
-. 打开的主页 link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"]。
+. 打开的主页 link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^]。
 . 从右上角的搜索框中搜索客户，站点，组，集群或节点，以访问相应的信息板。
 . 单击左侧导航栏中的 * 存储效率 * 。
 
@@ -210,7 +210,7 @@ Digital Advisor可显示运行ONTAP 9.1及更高版本的系统的比率。
 * 系统在SAP中处于非活动状态、已归档或已停用状态。
 
 
-如果您出于任何其他原因无法查看系统、有疑问或希望请求访问、 link:https://mysupport.netapp.com/site/help["创建非技术案例"]。要了解有关非技术案例的更多信息、请单击 <<非技术案例,此处。>>
+如果您出于任何其他原因无法查看系统、有疑问或希望请求访问、 link:https://mysupport.netapp.com/site/help["创建非技术案例"^]。要了解有关非技术案例的更多信息、请单击 <<非技术案例,此处。>>
 
 
 

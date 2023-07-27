@@ -68,7 +68,7 @@ NOTE: 您可以启用非活动数据报告（ IDR ）以使用 Ansible 攻略手
 . 单击*层数据*以启动*蓝图X*。
 
 
-要了解有关 FabricPool 的更多信息，请参见 link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["FabricPool 最佳实践"]。
+要了解有关 FabricPool 的更多信息，请参见 link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["FabricPool 最佳实践"^]。
 
 
 
