@@ -65,6 +65,16 @@ sidebar:
       url: "/task_renew_software_and_hardware.html"
     - title: 分析集群和节点的运行状况
       url: "/task_analyze_wellness_clusters_and_nodes.html"
+  - title: 分析存储系统的可持续性
+    entries:
+    - title: 了解可持续性
+      url: "/learn_BlueXP_sustainability.html"
+    - title: 开始使用Sustainability信息板
+      url: "/get_started_sustainability_dashboard.html"
+    - title: Sustainability信息板概述
+      url: "/BlueXP_sustainability_dashboard_overview.html"
+    - title: 提高可持续性得分
+      url: "/improve_sustainability_score.html"
   - title: 查看系统详细信息
     entries:
     - title: 查看清单详细信息
@@ -113,12 +123,6 @@ sidebar:
       url: "/concept_get_started_with_health_check_dashboard.html"
     - title: 续订支持合同
       url: "/task_renew_support_contracts_for_your_systems.html"
-  - title: 分析存储系统的可持续性
-    entries:
-    - title: 了解BlueXP Sustainability服务
-      url: "/concept_understand_sustainability_dashboard.html"
-    - title: 开始使用Sustainability信息板
-      url: "/concept_get_started_with_sustainability_dashboard.html"
   - title: 升级以优化您的客户群
     entries:
     - title: 升级存储系统的 ONTAP 版本

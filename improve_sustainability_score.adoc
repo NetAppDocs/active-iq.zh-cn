@@ -1,0 +1,145 @@
+---
+sidebar: sidebar 
+permalink: improve_sustainability_score.html 
+keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp, sustainability core, cluster level 
+summary: 提供通过建议的操作提高可持续性得分的步骤。 
+---
+= 提高可持续性得分
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sustainability信息板可生成建议的操作、您可以使用这些操作来提高Sustainability分数。您可以从NetApp BlueXP或数字顾问查看和实施这些建议操作。
+
+您可以提高整体可持续性得分和集群级别的可持续性得分。
+
+
+NOTE: 要计算整体Sustainability得分和集群级别的Sustainability得分、必须启用AutoSupport。
+
+
+
+== 提高整体可持续性得分
+
+您可以按照以下步骤提高整体可持续发展得分、并将重点放在公司层面的可持续发展工作上：
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. 从BlueXP左侧导航栏中的*监管*类别转到*可持续性*。
+. 转到*建议操作*选项卡。
++
+** 您可以选择*Fix*立即执行这些操作，或选择*later*稍后处理这些操作。
+** 如果您计划立即解决这些操作，请选择*Fix*。
++
+*** 它将展开选定建议操作的视图。您也可以使用向下箭头展开建议的操作视图。在展开的视图中、如果继续执行*修复*选项、您可以看到集群名称、可持续性得分以及后续增加的值。
+  +
+image:recommended_actions.png["显示展开视图中的操作列表的屏幕截图。"]
+
+
+** 如果计划稍后处理这些操作，请选择*later*。
++
+*** 如果选择*later*，则会将选定的建议操作移至*Actionsfor Later*选项卡。选定操作将推迟30天。30天后，此操作将移至*建议操作*选项卡。
+*** 您也可以随时查看推迟的操作，并单击*悸*将其移至*Recommended Actions*选项卡。
+ +
+image:actions_for_later.png["屏幕截图、显示带有\"考虑\"选项的建议操作。"]
+
+
+
+
+
+
+--
+.Digital Advisor
+--
+. 从Digital Advisor信息板左侧导航栏中的*存储运行状况*类别转到*可持续性*。
+. 转到*建议操作*选项卡。
++
+** 您可以选择*Fix*立即执行这些操作，或选择*later*稍后处理这些操作。
+** 如果您计划立即解决这些操作，请选择*Fix*。
++
+*** 此时将展开选定建议操作的视图。您也可以使用向下箭头展开建议的操作视图。在展开的视图中、如果继续执行*修复*选项、您可以看到集群名称、可持续性得分以及后续增加的值。
+  +
+image:recommended_actions.png["显示展开视图中的操作列表的屏幕截图。"]
+
+
+** 如果计划稍后处理这些操作，请选择*later*。
++
+*** 如果选择*later*，则会将选定的建议操作移至*Actionsfor Later*选项卡。选定操作将推迟30天。30天后，此操作将移至*建议操作*选项卡。
+*** 您也可以随时查看推迟的操作，并单击*悸*将其移至*Recommended Actions*选项卡。
+ +
+image:actions_for_later.png["屏幕截图、显示带有\"考虑\"选项的建议操作。"]
+
+
+
+
+
+
+--
+====
+
+
+== 提高集群级别的可持续性得分
+
+您可以按照以下步骤提高集群级别的可持续性得分、该得分侧重于提高特定集群的可持续性：
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. 从BlueXP左侧导航栏中的*监管*类别转到*可持续性*。
+. 转到*工作环境*表。
+. 单击目标集群的*建议操作*列中的操作数。
++
+image:recommended_actions_cluster.png["显示操作数的屏幕截图。"]
+
++
+** 您可以选择*Fix*立即执行这些操作，或选择*later*稍后处理这些操作。
++
+image:recommended_actions_list.png["屏幕截图、提供了建议操作的详细信息以及修复及更高版本选项。"]
+
+** 如果选择*later*，则会将选定的建议操作移至*Actionsfor Later*选项卡。选定操作将推迟30天。30天后，此操作将移至*建议操作*选项卡。
+** 您也可以随时查看推迟的操作，并单击*悸*将其移至*Recommended Actions*选项卡。
+
+
+
+
+
+TIP: 您可以使用在*工作环境*表中添加或删除环境参数 image:add_icon.png["用于添加或删除参数的加号图标"] 图标、并可以使用以逗号分隔值(.csv)格式导出此表 image:download_icon.png["用于导出参数的下载符号"] 图标。
+
+--
+.Digital Advisor
+--
+. 从Digital Advisor信息板左侧导航栏中的*存储运行状况*类别转到*可持续性*。
+. 转到*建议操作*选项卡。
+. 转到*工作环境*表。
+. 单击目标集群的*建议操作*列中的操作数。
++
+image:recommended_actions_cluster.png["显示操作数的屏幕截图。"]
+
++
+** 您可以选择*Fix*立即执行这些操作，或选择*later*稍后处理这些操作。
++
+image:recommended_actions_list.png["屏幕截图、提供了建议操作的详细信息以及修复及更高版本选项。"]
+
+** 如果选择*later*，则会将选定的建议操作移至*Actionsfor Later*选项卡。选定操作将推迟30天。30天后，此操作将移至*建议操作*选项卡。
+** 您也可以随时查看推迟的操作，并单击*悸*将其移至*Recommended Actions*选项卡。
+
+
+
+
+
+TIP: 您可以使用在*工作环境*表中添加或删除环境参数 image:add_icon.png["用于添加或删除参数的加号图标"] 图标、并可以使用以逗号分隔值(.csv)格式导出此表 image:download_icon.png["用于导出参数的下载符号"] 图标。
+
+--
+====

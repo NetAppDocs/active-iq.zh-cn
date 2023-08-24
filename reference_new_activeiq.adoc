@@ -23,13 +23,26 @@ Digital Advisor引入了以下功能和增强功能：
 
 
 
+== 2023年7月16日
+
+
+
+=== 存储效率
+
+* 显示效率比率的标签*存储效率*已重命名为*数据精简*。
+* 标签*存储效率节省的数据*已重命名为*数据精简节省*。
+* 切换*不使用Snapshot备份时节省空间*将重命名为*使用Snapshot副本*并对其功能进行了更改。 link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency["了解更多信息。"]。
+
+
+
+
 == 2023年6月21日
 
 
 
 === Sustainability信息板
 
-通过Digital Advisor Sustainability信息板、您可以深入了解存储系统的环境可持续性。您可以查看诸如可持续性得分、碳缓解百分比、预计电力使用量、直接碳和热量等信息。您可以调整特定站点的碳缓解百分比。您还可以查看集群级别的可持续性得分。通过评估可持续发展得分、您可以评估存储系统的整体效率、并将其与NetApp为增强可持续性而建议的操作保持一致。 link:concept_understand_sustainability_dashboard.html["了解更多信息。"]。
+Sustainability信息板可提供有关存储系统环境可持续性的宝贵见解。您可以查看诸如可持续性得分、碳缓解百分比、预计电力使用量、直接碳和热量等信息。您可以调整特定站点的碳缓解百分比。您还可以查看集群级别的可持续性得分。通过评估可持续发展得分、您可以评估存储系统的整体效率、并将其与NetApp为增强可持续性而建议的操作保持一致。 link:concept_understand_sustainability_dashboard.html["了解更多信息。"]。
 
 
 

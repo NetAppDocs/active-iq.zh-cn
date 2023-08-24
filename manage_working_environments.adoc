@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: manage_working_environments.html 
+keywords: activeiq, sustainability dashboard, sustainability score, clusterviewer, cloud insights, working environments 
+summary: '提供有关"工作环境"中各种环境参数的信息、这些参数有助于确定可移动到更高效存储的集群。' 
+---
+= 管理工作环境
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+*工作环境*表包含各种环境参数，这些参数有助于确定可移至更高效存储的集群。您可以添加或删除环境参数以自定义*工作环境*表。
+
+您可以在集群级别分析Sustainability得分。您还可以在现有客户群的集群级别实施建议的操作、以提高集群级别的可持续性得分。有关详细信息，请参见 link:improve_sustainability_score.html["提高集群级别的可持续性得分"]。
+
+要自定义*工作环境*表并更好地了解该表，请执行以下步骤：
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. 从BlueXP左侧导航栏中的*监管*类别转到*可持续性*。
+. 转到*工作环境*表。
++
+** 您可以使用添加或删除环境参数以自定义*工作环境*表 image:add_icon.png["用于添加或删除参数的加号图标"] 图标。
+** 您可以在集群级别查看Sustainability得分、选择要访问*集群查看器*的集群名称、并从此处采取具体建议的操作来提高集群级别的Sustainability得分。有关详细信息，请参见 link:improve_sustainability_score.html["提高集群级别的可持续性得分"]。
+** 您可以从*real-time power*列中选择*Enable Monitoring*，以查看集群级别的实时电源详细信息。有关详细信息，请参见 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]。
+  +
+image:working_environments.png["显示各种环境参数的UI屏幕截图"]
+** 您可以使用以逗号分隔值(.csv)格式导出此表 image:download_icon.png["用于导出参数的下载符号"] 图标。
+
+
+
+
+--
+.Digital Advisor
+--
+. 从Digital Advisor信息板左侧导航栏中的*存储运行状况*类别转到*可持续性*。
+. 转到*工作环境*表。
++
+** 您可以使用添加或删除环境参数以自定义*工作环境*表 image:add_icon.png["用于添加或删除参数的加号图标"] 图标。
+** 您可以在集群级别查看Sustainability得分、选择要访问*集群查看器*的集群名称、并从此处采取具体建议的操作来提高集群级别的Sustainability得分。有关详细信息，请参见 link:improve_sustainability_score.html["提高集群级别的可持续性得分"]。
+** 您可以从*real-time power*列中选择*Enable Monitoring*，以查看集群级别的实时电源详细信息。有关详细信息，请参见 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]。
+  +
+image:working_environments.png["显示各种环境参数的UI屏幕截图"]
+** 您可以使用以逗号分隔值(.csv)格式导出此表 image:download_icon.png["用于导出参数的下载符号"] 图标。
+
+
+
+
+--
+====
