@@ -4,7 +4,7 @@ permalink: task_view_upgrade.html
 keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
 summary: 提供有关查看和升级存储系统的 ONTAP 版本的信息。 
 ---
-= 使用升级计划升级ONTAP版本
+= 升级存储系统的 ONTAP 版本
 :toc: macro
 :hardbreaks:
 :toclevels: 1
