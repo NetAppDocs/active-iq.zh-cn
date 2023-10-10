@@ -4,7 +4,7 @@ permalink: task_view_upgrade.html
 keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
 summary: 提供有关查看和升级存储系统的 ONTAP 版本的信息。 
 ---
-= 升级存储系统的 ONTAP 版本
+= 升级存储系统的ONTAP版本
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,33 +19,35 @@ summary: 提供有关查看和升级存储系统的 ONTAP 版本的信息。
 
 
 [role="lead"]
-您可以查看存储系统的待定升级、并使用升级计划升级到较新版本的ONTAP。您还可以在*Risk Advisor选项卡中查看风险列表，此风险列表将因升级而得以缓解。
+您可以使用Upgrade Advisor查看建议的升级并为存储系统创建升级计划。您可以在与存储系统关联的Risk Advisor选项卡中查看风险列表、并在将存储系统升级到较新版本的ONTAP时缓解这些风险。
 
 .步骤
 . 在信息板的*Upgrade Advisor小工具中，单击操作数以查看待定升级。
 +
 image:upgrade_advisor_widget.png["Upgrade Advisor"]
 
-. 选择所需的升级选项。
+. 选择升级选项。
 +
 image:upgrade_options.png["升级选项"]
 
-. 从选定升级选项中单击兼容系统的数量，转到“*升级详细信息*”页面以生成升级计划。
+. 单击合规系统的数量以生成升级计划。
+此时将显示“*升级详细信息*”页面。
 +
 image:generate_upgrade_plan.png["生成升级计划"]
 
 +
-** 您可以转到*风险顾问*选项卡查看风险列表及其严重性级别，这些风险将因升级而得以缓解。
+** 您可以转到“*风险顾问*”选项卡查看风险列表及其严重性级别。
   +
 image:view_risks.png["Risk Advisor选项卡"]
-** 如果选定的升级选项包括*Total risks *，则可以单击总风险数以在*Risk Advisor *选项卡中查看风险列表。
+** 如果升级选项包括*Total risks，则可以单击总风险数，在*Risk Advisor选项卡中查看风险列表。
 +
 image:total_risks.png["总风险"]
 
 
 
-. 在*Upgrade Advisor选项卡中，单击*Generate Upgrade Plan*。
-. 在显示的弹出窗口中提供详细信息。您还可以选中*还原计划*复选框，以便在升级计划报告中包含回退计划。
+. 在*Upgrade Advisor选项卡中，选择要升级的系统。
+. 单击*生成升级计划*。
+. 在显示的弹出窗口中提供详细信息。您还可以选中*还原计划*复选框，以便在升级计划中包括回退计划。
 +
 image:details_upgrade_plan.png["此时将弹出一个窗口、用于填写详细信息以提交生成升级计划的请求"]
 

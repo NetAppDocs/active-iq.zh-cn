@@ -964,7 +964,6 @@
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">分析存储性能</block>
   <block id="b0f4d50e3b0a80acae4cdfe5ec415bf2" category="sidebar">分析存储系统的运行状况</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">升级以优化您的客户群</block>
-  <block id="1d6e1053c3a5ac9c901ad8624d357a85" category="sidebar">升级存储系统的 ONTAP 版本</block>
   <block id="bcbe3404f4519b7a276724fb02a336ec" category="sidebar">使用 Ansible 攻略手册更新 AFF 和 FAS 固件</block>
   <block id="cac43af1157491380365a3fbc40ffd0e" category="sidebar">安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（有经验的用户）</block>
   <block id="296c50bb7122e36d72b344edcdd0c679" category="sidebar">安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（入门级）</block>
@@ -1179,7 +1178,6 @@
   <block id="c2b079f6f62fe899dec7b1a93823c546" category="list-text">检查主机的兼容性，并提供主机操作系统、驱动程序和的升级建议。</block>
   <block id="daea2bcb0af4558719fc040fddad5b69" category="list-text">以更智能、更快速的方式准确找到您想要的内容。</block>
   <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">2023年6月21日</block>
-  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">分析存储系统的可持续性</block>
   <block id="23c5744a4c274e51948ba5ceeb6db0f9" category="paragraph">*为什么在Digital Advisor中找不到某些系统？*
 由于以下原因之一、您可能无法在清单页面中搜索或查看某些系统：</block>
   <block id="f2c1cd072b0801929f6eda1e5bff8545" category="list-text">系统在SAP中处于非活动状态、已归档或已停用状态。</block>
@@ -1402,22 +1400,13 @@
   <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">如果您订阅了NetApp Keystone STaaS服务、则可以在数字顾问信息板上查看"Keystone订阅"小工具。</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone和Digital Advisor</block>
   <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Keystone订阅小工具可为您的帐户提供容量使用情况摘要。它包含与物理容量相关的容量利用率图表。有关各种级别的订阅数据和使用情况信息的详细信息、请参见 <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>。</block>
-  <block id="05101a0f55d1824ea65fdd4aed3a0df5" category="paragraph">您可以查看存储系统的待定升级、并使用升级计划升级到较新版本的ONTAP。您还可以在*Risk Advisor选项卡中查看风险列表，此风险列表将因升级而得以缓解。</block>
   <block id="88c21efa97d0237f72649c201f8b8d3e" category="list-text">在信息板的*Upgrade Advisor小工具中，单击操作数以查看待定升级。</block>
   <block id="aee744d64cc19e679b53b0c639b25694" category="paragraph"><block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5bd5fef463b4aadc5c62af290cab7b03" category="list-text">选择所需的升级选项。</block>
   <block id="63134457816850025801f96a7797e55c" category="paragraph"><block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="21161aff1728668cb5f36b56c240c89c" category="list-text">从选定升级选项中单击兼容系统的数量，转到“*升级详细信息*”页面以生成升级计划。</block>
   <block id="04306a8a1debf79f0ac04ae6415d891b" category="paragraph"><block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d67c629baadb827d64b6f908a024ff7" category="inline-image-macro">Risk Advisor选项卡</block>
-  <block id="0520934f7f277be53d0e5af988901e83" category="list-text">您可以转到*风险顾问*选项卡查看风险列表及其严重性级别，这些风险将因升级而得以缓解。
-  +
-<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="10df3b7bc0d299d1789736d691e0d81b" category="list-text">如果选定的升级选项包括*Total risks *，则可以单击总风险数以在*Risk Advisor *选项卡中查看风险列表。</block>
   <block id="c406705ee0488217955ba39bbcd3e0f3" category="inline-image-macro">总风险</block>
   <block id="545606e93056e8efc230dfc45f3dffd2" category="paragraph"><block ref="545606e93056e8efc230dfc45f3dffd2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0d3a6c12cad96c6c84d2e06211666b7a" category="list-text">在*Upgrade Advisor选项卡中，单击*Generate Upgrade Plan*。</block>
-  <block id="ee86a97709cbf5c06d97b73c231dde60" category="list-text">在显示的弹出窗口中提供详细信息。您还可以选中*还原计划*复选框，以便在升级计划报告中包含回退计划。</block>
   <block id="9b9689199f95721c2dbffc551f8161fa" category="inline-image-macro">此时将弹出一个窗口、用于填写详细信息以提交生成升级计划的请求</block>
   <block id="d9884ccdf942ab0c8a261c9bf340eefe" category="paragraph"><block ref="d9884ccdf942ab0c8a261c9bf340eefe" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5d97ab11aa1e9f44020218850b335941" category="list-text">转至*报告*。您可以监控升级计划的状态、并在升级计划可用后进行下载。</block>
@@ -1429,4 +1418,17 @@
   <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">了解如何生成和查看升级计划</block>
   <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">升级计划经过优化、可消除冗余升级步骤并简化回退计划。集群中所有节点上的通用步骤均已整合、可在升级计划的"常规信息"部分下找到。 <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block>。</block>
   <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">Sustainability信息板可提供有关存储系统环境可持续性的宝贵见解。您可以查看诸如可持续性得分、碳缓解百分比、预计电力使用量、直接碳和热量等信息。您可以调整特定站点的碳缓解百分比。您还可以查看集群级别的可持续性得分。根据可持续发展得分、您可以评估存储系统的整体效率、并将其与NetApp为增强可持续性而建议的操作保持一致。 <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>。</block>
+  <block id="cdb49ecd8a62ade62c327a64e1695566" category="doc">升级存储系统的ONTAP版本</block>
+  <block id="0311d8be615519ede7fdf56e28c4e87a" category="paragraph">您可以使用Upgrade Advisor查看建议的升级并为存储系统创建升级计划。您可以在与存储系统关联的Risk Advisor选项卡中查看风险列表、并在将存储系统升级到较新版本的ONTAP时缓解这些风险。</block>
+  <block id="a51f3b59b1e2e55eb492198c5498a7bf" category="list-text">选择升级选项。</block>
+  <block id="fd23e666b2cc48f70922dc0a25bed60d" category="list-text">单击合规系统的数量以生成升级计划。
+此时将显示“*升级详细信息*”页面。</block>
+  <block id="075d151109499e2e30fc7ffd634ce560" category="list-text">您可以转到“*风险顾问*”选项卡查看风险列表及其严重性级别。
+  +
+<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f4e13f16e7fba0f60794942036b0d5b3" category="list-text">如果升级选项包括*Total risks，则可以单击总风险数，在*Risk Advisor选项卡中查看风险列表。</block>
+  <block id="ace70623d17cb73b373d377d0c453895" category="list-text">在*Upgrade Advisor选项卡中，选择要升级的系统。</block>
+  <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">单击*生成升级计划*。</block>
+  <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">在显示的弹出窗口中提供详细信息。您还可以选中*还原计划*复选框，以便在升级计划中包括回退计划。</block>
+  <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">分析存储系统的可持续性</block>
 </blocks>
