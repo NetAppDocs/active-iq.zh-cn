@@ -1103,7 +1103,6 @@
   <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Digital Advisor Web门户</block>
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Digital Advisor视频</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">NetApp社区—Digital Advisor</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
   <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">根据云建议做出明智的决策</block>
   <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">您应下载并保存访问令牌和刷新令牌，以供日后使用。访问令牌在生成后一小时过期、应手动重新生成刷新令牌、每7天重新生成一次、并将其安装在应用程序中。要执行此操作、您无需登录到应用程序。但是、90天后、您需要登录到应用程序才能获取新的访问和刷新令牌。</block>
   <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">配置偏移模板中的属性是可编辑的、以下几组模板支持某些部分的正则表达式：</block>
@@ -1431,4 +1430,7 @@
   <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">单击*生成升级计划*。</block>
   <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">在显示的弹出窗口中提供详细信息。您还可以选中*还原计划*复选框，以便在升级计划中包括回退计划。</block>
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">分析存储系统的可持续性</block>
+  <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">2023年10月4日</block>
+  <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">规划小工具</block>
+  <block id="cf75b31aeb339e309fa309a49a276a28" category="paragraph">客户级别信息板的规划小工具中包含技术更新建议计数。这些建议有助于在硬件停止支持或即将停止支持时规划硬件技术更新活动。</block>
 </blocks>
