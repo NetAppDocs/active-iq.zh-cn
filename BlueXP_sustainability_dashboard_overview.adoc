@@ -53,5 +53,5 @@ image:carbon_mitigation_percentage.png["显示站点的碳缓解百分比以及�
 +
 image:working_environments.png["显示各种环境参数的UI屏幕截图"]
 
-* 从*实时电源*余栏启用监控以查看集群级别的实时电源详细信息。有关详细信息，请参见 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]。
+* 从*实时电源*列启用监控以查看集群级别的实时电源详细信息。有关详细信息，请参见 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]。
 
