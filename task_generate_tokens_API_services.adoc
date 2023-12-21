@@ -5,17 +5,14 @@ keywords: generate token, access token, refresh token, API services
 summary: 提供有关如何生成令牌以访问 API 的信息。 
 ---
 = 生成令牌以使用 API
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

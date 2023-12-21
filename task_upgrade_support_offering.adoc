@@ -5,17 +5,14 @@ keywords: upgrade, support offering, supportedge, premium, standard, basic, expe
 summary: 提供有关升级支持服务的信息。 
 ---
 = 升级支持服务
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

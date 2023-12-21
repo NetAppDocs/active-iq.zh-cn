@@ -5,17 +5,14 @@ keywords: performance, performance graph, graphs, digital advisor, performance c
 summary: 提供有关性能的信息。 
 ---
 = 分析性能图
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

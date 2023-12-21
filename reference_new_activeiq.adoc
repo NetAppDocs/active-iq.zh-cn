@@ -5,17 +5,14 @@ keywords: 'what"s new, features, new'
 summary: 提供有关此版本中新增功能的信息。 
 ---
 = Digital Advisor中的新增功能
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

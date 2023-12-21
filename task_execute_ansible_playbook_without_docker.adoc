@@ -5,17 +5,14 @@ keywords: Ansible Playbook, Ansible, playbook, without docker
 summary: 提供有关如何使用 Docker 映像执行 Ansible 攻略手册的信息。 
 ---
 = 在不使用 NetApp Docker 映像的情况下执行 Ansible 攻略手册
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 .步骤

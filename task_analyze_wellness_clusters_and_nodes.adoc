@@ -5,17 +5,14 @@ keywords: cluster, node, clusterviewer, configuration
 summary: 提供有关 ClusterViewer 的信息。 
 ---
 = 分析集群和节点的运行状况
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

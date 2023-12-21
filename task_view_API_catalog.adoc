@@ -5,17 +5,14 @@ keywords: API Catalog, APIs, integrate data, view catalog
 summary: 提供有关 API 目录中可用 API 的信息。 
 ---
 = 使用 API 目录执行 API
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

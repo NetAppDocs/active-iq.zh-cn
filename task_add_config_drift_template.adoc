@@ -5,17 +5,14 @@ keywords: config deviation, drift, configuration, add template
 summary: 提供有关添加配置偏移模板的信息。 
 ---
 = 添加配置偏移模板
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: digital advisor, features, upgrade, support offering
 summary: 提供有关信息板，监视列表，功能和小工具的信息。 
 ---
 = 了解Digital Advisor的功能
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

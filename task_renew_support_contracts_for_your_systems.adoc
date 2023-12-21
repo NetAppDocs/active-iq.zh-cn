@@ -5,17 +5,14 @@ keywords: renew, renewals, support contracts, support & entitlements, active sup
 summary: 提供有关如何续订系统支持合同的信息。 
 ---
 = 续订支持合同
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: overview, planning, increate capacity, renew, software, hardware, expi
 summary: 提供信息以确定即将过期的系统容量以及软件和硬件。 
 ---
 = 了解规划
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

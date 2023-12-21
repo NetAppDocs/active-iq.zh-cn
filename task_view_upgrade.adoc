@@ -5,17 +5,14 @@ keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, p
 summary: 提供有关查看和升级存储系统的 ONTAP 版本的信息。 
 ---
 = 升级存储系统的ONTAP版本
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

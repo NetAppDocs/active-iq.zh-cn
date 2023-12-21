@@ -5,17 +5,14 @@ keywords: inventory, platforms, systems, clusters, sites
 summary: 提供有关您拥有的整体清单的信息。 
 ---
 = 查看清单详细信息
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

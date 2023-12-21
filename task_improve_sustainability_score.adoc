@@ -5,17 +5,14 @@ keywords: activeiq, sustainability dashboard, recommended actions, digital advis
 summary: 提供立即或稍后执行建议操作的步骤。 
 ---
 = 提高可持续性得分
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: activeiq, sustainability dashboard, sustainability score, sustainabili
 summary: 提供有关信息板、可持续发展得分、工作环境和建议措施的信息。 
 ---
 = Sustainability信息板概述
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
@@ -24,7 +21,7 @@ summary: 提供有关信息板、可持续发展得分、工作环境和建议�
 image:get_started_sustainability_dashboard.png["显示Sustainability信息板的UI屏幕截图。"]
 
 
-NOTE: 要从信息板获得最佳结果、必须启用AutoSupport。如果未启用AutoSupport、则数据将基于产品规格。要获取实时电源详细信息、您需要启用Cloud Insights。有关如何启用Cloud Insights的详细信息、请参见 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]。
+NOTE: 要准确计算可持续性得分、应启用AutoSupport。
 
 *可持续发展得分*：显示表明存储系统环境可持续性的总分。您可以根据以下范围评估存储系统的可持续性级别：
 

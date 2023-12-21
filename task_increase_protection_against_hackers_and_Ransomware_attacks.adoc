@@ -5,17 +5,14 @@ keywords: protection, hackers, ransomware, ransomware attacks, attack
 summary: 提供有关如何增强防范黑客和勒索软件攻击的信息。 
 ---
 = 检测安全漏洞
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

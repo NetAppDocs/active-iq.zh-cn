@@ -5,17 +5,14 @@ keywords: cloud recommendations, migration, backup and archive, disaster recover
 summary: 提供可根据其做出明智决策的建议。 
 ---
 = 根据云建议做出明智的决策
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

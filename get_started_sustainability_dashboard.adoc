@@ -4,22 +4,19 @@ permalink: get_started_sustainability_dashboard.html
 keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
 summary: 通过访问BlueXP或Digital Advisor开始使用BlueXP Sustainability信息板。 
 ---
-= 开始使用Sustainability信息板
-:toc: macro
+= 访问Sustainability信息板
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
-Sustainability信息板可提供支持AIIOPS的报告和评分、并提供可指导行动的洞察力、以改善您的可持续性状况。您可以使用NetApp BlueXP或数字顾问查看Sustainability信息板。
+Sustainability信息板可提供支持AIIOPS的报告和评分、并提供可指导行动的洞察力、以改善您的可持续性状况。您可以通过NetApp BlueXP或数字顾问访问Sustainability信息板。
 
 [role="tabbed-block"]
 ====

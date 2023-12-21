@@ -5,17 +5,14 @@ keywords: templates, share template, clone template, edit template, delete templ
 summary: 提供用于管理模板的信息。 
 ---
 = 管理模板
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

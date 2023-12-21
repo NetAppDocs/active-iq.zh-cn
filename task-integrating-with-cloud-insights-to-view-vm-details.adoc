@@ -5,17 +5,14 @@ keywords: Cloud Insights, VMs, virtual machines
 summary: 提供有关Cloud Insights 中虚拟机的信息 
 ---
 = 与Cloud Insights 集成以查看虚拟机详细信息
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

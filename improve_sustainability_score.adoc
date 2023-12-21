@@ -5,26 +5,21 @@ keywords: activeiq, sustainability dashboard, recommended actions, digital advis
 summary: 提供通过建议的操作提高可持续性得分的步骤。 
 ---
 = 提高可持续性得分
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
-Sustainability信息板可生成建议的操作、您可以使用这些操作来提高Sustainability分数。您可以从NetApp BlueXP或数字顾问查看和实施这些建议操作。
-
-您可以提高整体可持续性得分和集群级别的可持续性得分。
+Sustainability信息板提供了建议的操作、您可以实施这些操作来提高整体Sustainability得分和集群级别的Sustainability得分。
 
 
-NOTE: 要计算整体Sustainability得分和集群级别的Sustainability得分、必须启用AutoSupport。
+NOTE: 要从信息板获得最佳结果、必须启用AutoSupport。如果未启用AutoSupport、则数据将基于产品规格。要获取实时电源详细信息、您需要启用Cloud Insights。有关如何启用Cloud Insights的详细信息、请参见 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]。
 
 
 

@@ -5,17 +5,14 @@ keywords: troubleshoot, feedback, support
 summary: 提供有关 Ansible 的详细信息。 
 ---
 = 获取更多信息
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

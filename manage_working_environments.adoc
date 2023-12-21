@@ -5,17 +5,14 @@ keywords: activeiq, sustainability dashboard, sustainability score, clusterviewe
 summary: '提供有关"工作环境"中各种环境参数的信息、这些参数有助于确定可移动到更高效存储的集群。' 
 ---
 = 管理工作环境
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

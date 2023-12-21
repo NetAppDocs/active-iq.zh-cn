@@ -5,17 +5,14 @@ keywords: overview, wellness, risk types, risk definition, mitigate risks, perfo
 summary: 提供有关健康状况和风险类型的信息，有助于您改进存储系统。 
 ---
 = 了解健康状况
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

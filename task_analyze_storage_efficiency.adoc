@@ -5,17 +5,14 @@ keywords: renew, hardware, software
 summary: 提供有关续订存储系统软件和硬件的信息。 
 ---
 = 分析容量和存储效率节省情况
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

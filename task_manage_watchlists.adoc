@@ -5,17 +5,14 @@ keywords: dashboard, watchlist, add watchlist
 summary: 提供用于管理监视列表的信息。 
 ---
 = 管理监视列表
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

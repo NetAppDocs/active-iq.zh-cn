@@ -1232,9 +1232,6 @@
   <block id="79999a4ecf711f396250420972b3f656" category="inline-image-macro">显示各种环境参数的UI屏幕截图</block>
   <block id="bdd2426c4d2109338fe18a123768ecdc" category="paragraph"><block ref="bdd2426c4d2109338fe18a123768ecdc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a2f1182a601b743128d6828388ae0858" category="summary">提供通过建议的操作提高可持续性得分的步骤。</block>
-  <block id="2918acdc5a483d34499fea5cbd269851" category="paragraph">Sustainability信息板可生成建议的操作、您可以使用这些操作来提高Sustainability分数。您可以从NetApp BlueXP或数字顾问查看和实施这些建议操作。</block>
-  <block id="3b3aba76e199225196725fa3238e318d" category="paragraph">您可以提高整体可持续性得分和集群级别的可持续性得分。</block>
-  <block id="5fc7b06711ac7bb637c8eec226c1f5ac" category="admonition">要计算整体Sustainability得分和集群级别的Sustainability得分、必须启用AutoSupport。</block>
   <block id="f80ed0bec4d5369f6f27677cc8e21f1a" category="section-title">提高整体可持续性得分</block>
   <block id="ba18ca93ca864ea5d718c8e7333965be" category="paragraph">您可以按照以下步骤提高整体可持续发展得分、并将重点放在公司层面的可持续发展工作上：</block>
   <block id="3774cb32c82786aa28930cf523223326" category="list-text">从BlueXP左侧导航栏中的*监管*类别转到*可持续性*。</block>
@@ -1267,18 +1264,13 @@
   <block id="a2bb032a03a021fbba597fa619f46950" category="admonition">您可以使用在*工作环境*表中添加或删除环境参数 <block ref="2152c38f4a2771e87024e1e087a05f24" category="inline-image-macro-rx" type="image"></block> 图标、并可以使用以逗号分隔值(.csv)格式导出此表 <block ref="12f258362dcb80dcb781736a1d5e0dbf" category="inline-image-macro-rx" type="image"></block> 图标。</block>
   <block id="df99fff5ad47295f7f49e20f556653f3" category="summary">提供有关可持续性的信息、帮助您降低能耗、并努力实现环境目标。</block>
   <block id="9a9d1fcb0fc2ed3c19b9209c78b11654" category="doc">了解可持续性</block>
-  <block id="65d0a6b734949784b0887407ba3ca70d" category="inline-link-macro">开始使用Sustainability信息板</block>
-  <block id="86d85c8f18d99b8b865f7c6d94244def" category="paragraph">您可以使用Sustainability信息板实现环境目标。您可以从Sustainability信息板查看Sustainability得分、以及预计的电力、直接碳和热量使用情况。您可以调整特定站点的碳缓解百分比。您还可以查看集群级别的可持续性得分。根据可持续发展得分、您可以评估可持续发展态势并实施NetApp建议的措施来提高得分。要了解有关Sustainability信息板的更多信息、请访问 <block ref="58051d8d22ef1ef0b0d8fdd8d18af919" category="inline-link-macro-rx"></block>。</block>
   <block id="7e173a40533251b9a026b06b164f28ae" category="section-title">可持续性的优势</block>
   <block id="ebfae6189a060b9e62c9f5fecbd6516a" category="paragraph">可持续性具有以下优势：</block>
   <block id="1fb360f9d6a57ed97d8536894f3f8efd" category="list-text">通过减少存储相同数据量的存储设备数量来提高性能。</block>
   <block id="b45ed6948b37af462ee5cdb424cfb29a" category="list-text">通过优化存储系统利用率降低存储成本。</block>
   <block id="7deccfb8ccadeec05840091d0f6dcace" category="list-text">通过在数据中心使用可再生能源减少碳足迹。</block>
   <block id="ee7f876e33250c3bf3bd06dad6065dba" category="list-text">通过执行节能政策提高能效。</block>
-  <block id="17c309cd3ef85e53fa45c90d78949975" category="section-title">成本和许可证</block>
-  <block id="e0943fe441310282662d063a6725f72b" category="paragraph">如果您为系统启用了AutoSupport、则可以使用有效的支持合同访问Sustainability服务。</block>
   <block id="e3d549bf2a651737a2f9dec61a7bca5d" category="summary">通过访问BlueXP或Digital Advisor开始使用BlueXP Sustainability信息板。</block>
-  <block id="f4a94060e4d3713508345bb3a954caf3" category="paragraph">Sustainability信息板可提供支持AIIOPS的报告和评分、并提供可指导行动的洞察力、以改善您的可持续性状况。您可以使用NetApp BlueXP或数字顾问查看Sustainability信息板。</block>
   <block id="69613a6744dc452d818ae93a3ca6e67e" category="inline-link-macro">登录到BlueXP</block>
   <block id="102ef687d04ae33c5b12822aef7fb5a9" category="paragraph">要登录到BlueXP、您可以使用NetApp 支持站点 凭据、也可以使用电子邮件和密码注册NetApp云登录。了解更多信息 <block ref="f004bb99255f2fe182e7d54b421131c5" category="inline-link-macro-rx"></block>。</block>
   <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP控制台</block>
@@ -1437,4 +1429,10 @@
   <block id="752f0c78427b5fffe498798d609a58a7" category="list-text">现在、监视列表、站点和组信息板中提供了技术更新建议。</block>
   <block id="5abb66a3f2a4a3a5e6083eb0e9cb8016" category="list-text">现在、当技术更新建议计数为零时、您可以查看潜在的技术更新候选项。</block>
   <block id="bd644bc36e5d6955b3d49189c83c45f3" category="paragraph">客户级别信息板的规划小工具中包含技术更新建议计数。这些建议有助于在硬件停止支持或即将停止支持时规划硬件技术更新活动。</block>
+  <block id="4a33ef12db92e241992049db5250349e" category="paragraph">Sustainability信息板提供了建议的操作、您可以实施这些操作来提高整体Sustainability得分和集群级别的Sustainability得分。</block>
+  <block id="c9a394b5403b3d38eaa06673b8c9050b" category="paragraph">您可以使用Sustainability信息板查看Sustainability得分、以及Sustainability信息板中的电力、直接碳和热量的预计使用量。您可以调整特定站点的碳缓解百分比。您还可以查看集群级别的可持续性得分。根据可持续发展得分、您可以评估可持续发展态势并实施NetApp建议的措施来提高得分。要了解有关Sustainability信息板的更多信息、请访问 <block ref="53113380bf04c6731431f3e5ed0db598" category="inline-link-macro-rx"></block>。</block>
+  <block id="5e5fa64fce688126dbdf2ee76a2a88dc" category="paragraph">您可以观看以下视频来了解Sustainability信息板：</block>
+  <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">要准确计算可持续性得分、应启用AutoSupport。</block>
+  <block id="f1a07ac2a47e6ae773882ceb0f2e9570" category="doc">访问Sustainability信息板</block>
+  <block id="4a94cc80e3bef643a461eac57bc8c9ef" category="paragraph">Sustainability信息板可提供支持AIIOPS的报告和评分、并提供可指导行动的洞察力、以改善您的可持续性状况。您可以通过NetApp BlueXP或数字顾问访问Sustainability信息板。</block>
 </blocks>

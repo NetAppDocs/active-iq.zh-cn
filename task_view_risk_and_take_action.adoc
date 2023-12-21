@@ -5,17 +5,14 @@ keywords: wellness, performance, efficiency, availability, capacity, security vu
 summary: 提供信息，用于查看和分析存储系统的运行状况并降低风险。 
 ---
 = 查看风险并手动采取更正操作
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

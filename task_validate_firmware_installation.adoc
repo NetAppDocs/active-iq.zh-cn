@@ -5,17 +5,14 @@ keywords: validate, firmware, firmware installation
 summary: 提供有关如何验证固件安装的信息。 
 ---
 = 验证固件安装
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

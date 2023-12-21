@@ -5,27 +5,27 @@ keywords: activeiq, sustainability, sustainability score, sustainability dashboa
 summary: 提供有关可持续性的信息、帮助您降低能耗、并努力实现环境目标。 
 ---
 = 了解可持续性
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
 可持续性即服务可帮助您降低能耗、并帮助您实现环保目标。这样、您就可以根据环保实践调整存储系统、并实现可持续发展目标。
 
-您可以使用Sustainability信息板实现环境目标。您可以从Sustainability信息板查看Sustainability得分、以及预计的电力、直接碳和热量使用情况。您可以调整特定站点的碳缓解百分比。您还可以查看集群级别的可持续性得分。根据可持续发展得分、您可以评估可持续发展态势并实施NetApp建议的措施来提高得分。要了解有关Sustainability信息板的更多信息、请访问 link:get_started_sustainability_dashboard.html["开始使用Sustainability信息板"]。
+您可以使用Sustainability信息板查看Sustainability得分、以及Sustainability信息板中的电力、直接碳和热量的预计使用量。您可以调整特定站点的碳缓解百分比。您还可以查看集群级别的可持续性得分。根据可持续发展得分、您可以评估可持续发展态势并实施NetApp建议的措施来提高得分。要了解有关Sustainability信息板的更多信息、请访问 link:BlueXP_sustainability_dashboard_overview.html["Sustainability信息板概述"]。
 
 
 NOTE: AFF系统(A系列和C系列)、FAS系统和Cloud Volumes ONTAP (CVO)均支持Sustainability。
 
+您可以观看以下视频来了解Sustainability信息板：
+
+video::yNRHeOvbGX8[youtube,width=848,height=480]
 
 
 == 可持续性的优势
@@ -37,9 +37,3 @@ NOTE: AFF系统(A系列和C系列)、FAS系统和Cloud Volumes ONTAP (CVO)均支
 * 通过在数据中心使用可再生能源减少碳足迹。
 * 通过执行节能政策提高能效。
 
-
-
-
-== 成本和许可证
-
-如果您为系统启用了AutoSupport、则可以使用有效的支持合同访问Sustainability服务。

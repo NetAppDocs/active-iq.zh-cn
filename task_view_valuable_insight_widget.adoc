@@ -5,17 +5,14 @@ keywords: valuable insight, support cases, storage efficiency savings, mitigated
 summary: 提供有关有价值的 Insight 小工具的信息。 
 ---
 = 查看有价值的见解
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: firmware, web server, hosting
 summary: 提供有关使用 Web 服务器托管固件文件的信息。 
 ---
 = 使用 Web 服务器托管固件文件
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

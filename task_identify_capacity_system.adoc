@@ -5,17 +5,14 @@ keywords: capacity, space, increase,
 summary: 提供有关增加系统容量的信息。 
 ---
 = 确定达到容量限制的系统
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

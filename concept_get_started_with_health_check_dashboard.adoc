@@ -5,17 +5,14 @@ keywords: activeiq, health check, health, HCA, health check dashboard, autosuppo
 summary: 提供有关信息板，运行状况得分，功能和小工具的信息。 
 ---
 = 开始使用运行状况检查信息板
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

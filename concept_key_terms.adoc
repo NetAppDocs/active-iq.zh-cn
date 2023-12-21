@@ -5,17 +5,14 @@ keywords: overview, inventory, wellness, widgets, actions
 summary: 提供有关Digital Advisor中使用的关键术语的信息。 
 ---
 = 关键概念
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
