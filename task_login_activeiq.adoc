@@ -16,10 +16,11 @@ summary: 提供登录到Digital Advisor的信息。
 
 
 [role="lead"]
-您可以从基于Web的控制台登录到Digital Advisor、以创建一个监视列表、用于查看存储系统的整体状态。
+您可以从基于Web的控制台登录到Digital Advisor、以查看存储系统的整体状态。
 
 .开始之前
-您必须具有有效的NetApp 支持站点 凭据才能登录到Digital Advisor。如果您没有帐户且正在使用、请继续执行 link:https://mysupport.netapp.com/info/web/ECMLP2458178.html["创建帐户"^]。
+您必须具有有效的NetApp 支持站点 凭据才能登录到Digital Advisor。如果您没有帐户、并且正在开始使用、请参见以下知识库文章以创建帐户：
+link:https://kb.netapp.com/Support/General_Support/How_to_register_for_a_NetApp_Support_Site_account_as_a_Customer_or_a_Guest_user["如何以客户或来宾用户身份注册NetApp 支持站点 帐户"^]。
 
 .步骤
 . 转至 link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^] 登录页面。

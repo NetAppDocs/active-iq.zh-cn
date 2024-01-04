@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task_view_upgrade.html 
 keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
-summary: 提供有关查看和升级存储系统的 ONTAP 版本的信息。 
+summary: '提供有关查看和升级节点(存储系统)的ONTAP版本的信息。' 
 ---
-= 升级存储系统的ONTAP版本
+= 为节点生成升级计划
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,29 +16,37 @@ summary: 提供有关查看和升级存储系统的 ONTAP 版本的信息。
 
 
 [role="lead"]
-您可以使用Upgrade Advisor查看建议的升级并为存储系统创建升级计划。您可以在与存储系统关联的Risk Advisor选项卡中查看风险列表、并在将存储系统升级到较新版本的ONTAP时缓解这些风险。
+您可以使用Upgrade Advisor查看建议的升级并为节点(存储系统)生成升级计划。您可以在与节点关联的风险顾问选项卡中查看风险列表、如果升级到较新版本的ONTAP、则可以缓解这些风险。
 
 .步骤
-. 在信息板的*Upgrade Advisor小工具中，单击操作数以查看待定升级。
+. 在信息板上，单击*Upgrade Advisor小工具中的群集数。
 +
-image:upgrade_advisor_widget.png["Upgrade Advisor"]
+image:ua_widget.png["显示集群数量的屏幕截图。"]
+
++
+出现“*Upgrade Advisor－ONTAP”页面。
+
+. 禁用*增强型Upgrade Advisor切换。
++
+image:ua_disable_toggle.png["此时将禁用显示增强版Upgrade Advisor切换的屏幕截图。"]
 
 . 选择升级选项。
 +
-image:upgrade_options.png["升级选项"]
+image:ua_upgrade_options.png["升级选项"]
 
 . 单击合规系统的数量以生成升级计划。
 此时将显示“*升级详细信息*”页面。
 +
-image:generate_upgrade_plan.png["生成升级计划"]
+image:r_ua_generate_upgrade_plan.png["生成升级计划"]
 
 +
+** 您可以单击 image:edit_icon.png["\"编辑\"按钮的图像"] 图标以选择集群的另一个目标操作系统版本。
 ** 您可以转到“*风险顾问*”选项卡查看风险列表及其严重性级别。
   +
-image:view_risks.png["Risk Advisor选项卡"]
+image:ua_view_risks.png["Risk Advisor选项卡"]
 ** 如果升级选项包括*Total risks，则可以单击总风险数，在*Risk Advisor选项卡中查看风险列表。
 +
-image:total_risks.png["总风险"]
+image:ua_total_risks.png["总风险"]
 
 
 
@@ -46,14 +54,11 @@ image:total_risks.png["总风险"]
 . 单击*生成升级计划*。
 . 在显示的弹出窗口中提供详细信息。您还可以选中*还原计划*复选框，以便在升级计划中包括回退计划。
 +
-image:details_upgrade_plan.png["此时将弹出一个窗口、用于填写详细信息以提交生成升级计划的请求"]
+image:ua_details_upgrade_plan.png["此时将弹出一个窗口、用于填写详细信息以提交生成升级计划的请求"]
 
 . 单击 * 提交 * 。
-. 转至*报告*。您可以监控升级计划的状态、并在升级计划可用后进行下载。
-+
-生成升级计划后、您还会收到一封包含升级计划的电子邮件。
-
-+
-image:download_upgrade_plan.png["显示升级计划报告状态的屏幕截图"]
+您将被重定向到*报告*页面。
+. 一旦有升级计划可用，您就可以从*reports*页面下载该升级计划。
 
 
+升级ONTAP后、您应执行一些任务来确认集群是否就绪。要了解更多信息，请参见 link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["ONTAP升级后要执行的操作"]。

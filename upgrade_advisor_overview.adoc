@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: upgrade_advisor_overview.html 
+keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters, storage systems 
+summary: 简要介绍可简化ONTAP升级规划的Upgrade Advisor。 
+---
+= 概述
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+使用Upgrade Advisor、您可以生成升级计划、其中包含成功升级或还原ONTAP所需的详细分步信息。
+
+您可以为单个集群和多个集群生成自动化无中断升级计划。您只能查看单个集群的升级建议、其中包括与集群相关的风险列表、包含升级阻止程序和警告列表的升级前检查报告以及有关新功能和增强功能的信息。要了解更多信息，请参见 link:generate_upgrade_plan_single_multiple_clusters.html["为单个集群和多个集群生成升级计划"]。
+
+
+NOTE: 对于MetroCluster配置中的每个集群、为完整的升级说明生成单独的升级计划。
+
+您可以为节点(存储系统)生成自动化无中断、中断和无中断升级计划。您可以查看建议的升级路径并生成升级计划。要了解更多信息，请参见 link:task_view_upgrade.html["为节点生成升级计划"]。
+
+在生成升级计划之前、您应准备好ONTAP升级。正确的准备有助于在开始升级过程之前确定和缓解潜在的升级风险或阻止因素。要了解更多信息，请参见 link:https://docs.netapp.com/us-en/ontap/upgrade/prepare.html["准备ONTAP升级"^]。

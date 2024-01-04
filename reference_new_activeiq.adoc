@@ -20,6 +20,16 @@ Digital Advisor引入了以下功能和增强功能：
 
 
 
+== 2024年1月3日
+
+
+
+== Upgrade Advisor
+
+Upgrade Advisor经过增强、可为单个集群和多个集群提供自动化无中断升级计划。您只能查看单个集群的升级建议、其中包括风险摘要、升级前检查报告以及有关新功能和增强功能的信息。 link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["了解如何查看升级建议并生成升级计划。"]
+
+
+
 == 2023年11月16日
 
 
@@ -55,7 +65,7 @@ Digital Advisor引入了以下功能和增强功能：
 === Upgrade Advisor
 
 * 您可以使用访问默认监视列表的Upgrade Advisor页面 link:https://activeiq.netapp.com/redirect/upgrade-advisor["Upgrade Advisor"^] 链接。
-* 升级计划经过优化、可消除冗余升级步骤并简化回退计划。集群中所有节点上的通用步骤均已整合、可在升级计划的"常规信息"部分下找到。 link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["了解如何生成和查看升级计划"]。
+* 升级计划经过优化、可消除冗余升级步骤并简化回退计划。集群中所有节点上的通用步骤均已整合、可在升级计划的"常规信息"部分下找到。 link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["了解如何生成和查看升级计划"]。
 
 
 

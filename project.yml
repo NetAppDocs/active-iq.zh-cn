@@ -75,6 +75,14 @@ sidebar:
       url: "/BlueXP_sustainability_dashboard_overview.html"
     - title: 提高可持续性得分
       url: "/improve_sustainability_score.html"
+  - title: 生成升级计划
+    entries:
+    - title: 概述
+      url: "/upgrade_advisor_overview.html"
+    - title: 为单个集群和多个集群生成升级计划
+      url: "/generate_upgrade_plan_single_multiple_clusters.html"
+    - title: 为节点生成升级计划
+      url: "/task_view_upgrade.html"
   - title: 查看系统详细信息
     entries:
     - title: 查看清单详细信息
@@ -125,8 +133,6 @@ sidebar:
       url: "/task_renew_support_contracts_for_your_systems.html"
   - title: 升级以优化您的客户群
     entries:
-    - title: 升级存储系统的ONTAP版本
-      url: "/task_view_upgrade.html"
     - title: 升级支持服务
       url: "/task_upgrade_support_offering.html"
     - title: 使用 Ansible 攻略手册更新 AFF 和 FAS 固件

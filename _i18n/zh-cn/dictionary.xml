@@ -659,7 +659,6 @@
   <block id="112380f3f709a44ef8f75f6d665ac2c9" category="list-text">安装 Python 和 Ansible ，然后使用 Pip 下载 Python 软件包：</block>
   <block id="03f27531419e8390d55e5ee184b373c7" category="list-text">安装 NetApp Ansible 资料集：</block>
   <block id="9b838c4ce633e917e74290b161349c3a" category="list-text">确保 Ansible 攻略手册和清单文件位于同一路径中，然后执行 Ansible 攻略手册。固件更新会在后台运行几小时。</block>
-  <block id="d22d74dd6e0a6c5cd64ecb61ba45759d" category="summary">提供有关查看和升级存储系统的 ONTAP 版本的信息。</block>
   <block id="aecb526721c5811e8b940ed95c7e8b18" category="doc">关键概念</block>
   <block id="f7aec255f127e937f979de1bed372a50" category="list-text">* 健康信息板： * 提供监视列表中系统的整体状态。</block>
   <block id="b6f36a5587ee48036508da1d84d1b299" category="list-text">* 小工具： * 在信息板上显示小应用程序，可快速提供系统状态摘要。</block>
@@ -1196,9 +1195,6 @@
   <block id="801b554762e480a183c2424cbe8c2fb6" category="list-text"><block ref="801b554762e480a183c2424cbe8c2fb6" category="inline-link-macro-rx"></block></block>
   <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">可以通过多种方式设置 Web 服务器。有关使用 Python 设置简单 Web 服务器的说明，请参见 <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>。</block>
   <block id="713451159dacf58d1a99e356169dfb3f" category="list-text">单击 <block ref="9b2adf8ad12dd16d4d2b3750ca65e5de" category="inline-link-macro-rx"></block> 在 * API Catalog* 图标下。</block>
-  <block id="6300a3453f44e919baf2a9aa05a8acaf" category="paragraph">您可以从基于Web的控制台登录到Digital Advisor、以创建一个监视列表、用于查看存储系统的整体状态。</block>
-  <block id="315ad4061cc238e6dcb01825e9ab9572" category="inline-link-macro">创建帐户</block>
-  <block id="425f3e0f4d6e9e92e654e9ba5e993d54" category="paragraph">您必须具有有效的NetApp 支持站点 凭据才能登录到Digital Advisor。如果您没有帐户且正在使用、请继续执行 <block ref="6e6f0f52d614dd0ec77faf300e34ad53" category="inline-link-macro-rx"></block>。</block>
   <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">转至 <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> 登录页面。</block>
   <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">对于 ONTAP 系统，在首次配置存储系统时，默认情况下会启用 AutoSupport 。您应该 <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> 在 ONTAP 系统上，用于控制如何将 AutoSupport 信息发送给技术支持和您的内部支持组织。</block>
   <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
@@ -1384,34 +1380,17 @@
   <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">如果您订阅了NetApp Keystone STaaS服务、则可以在数字顾问信息板上查看"Keystone订阅"小工具。</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone和Digital Advisor</block>
   <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Keystone订阅小工具可为您的帐户提供容量使用情况摘要。它包含与物理容量相关的容量利用率图表。有关各种级别的订阅数据和使用情况信息的详细信息、请参见 <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>。</block>
-  <block id="88c21efa97d0237f72649c201f8b8d3e" category="list-text">在信息板的*Upgrade Advisor小工具中，单击操作数以查看待定升级。</block>
-  <block id="aee744d64cc19e679b53b0c639b25694" category="paragraph"><block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="63134457816850025801f96a7797e55c" category="paragraph"><block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="04306a8a1debf79f0ac04ae6415d891b" category="paragraph"><block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d67c629baadb827d64b6f908a024ff7" category="inline-image-macro">Risk Advisor选项卡</block>
   <block id="c406705ee0488217955ba39bbcd3e0f3" category="inline-image-macro">总风险</block>
-  <block id="545606e93056e8efc230dfc45f3dffd2" category="paragraph"><block ref="545606e93056e8efc230dfc45f3dffd2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9b9689199f95721c2dbffc551f8161fa" category="inline-image-macro">此时将弹出一个窗口、用于填写详细信息以提交生成升级计划的请求</block>
-  <block id="d9884ccdf942ab0c8a261c9bf340eefe" category="paragraph"><block ref="d9884ccdf942ab0c8a261c9bf340eefe" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5d97ab11aa1e9f44020218850b335941" category="list-text">转至*报告*。您可以监控升级计划的状态、并在升级计划可用后进行下载。</block>
-  <block id="c1b382578ccbe1b4821d0b8a7f29e343" category="paragraph">生成升级计划后、您还会收到一封包含升级计划的电子邮件。</block>
-  <block id="3cefe062f61e5f64624dd75eec82a381" category="inline-image-macro">显示升级计划报告状态的屏幕截图</block>
-  <block id="6f8fd13bf5cb0b5816478a43f298af9e" category="paragraph"><block ref="6f8fd13bf5cb0b5816478a43f298af9e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023年9月27日</block>
   <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">您可以使用访问默认监视列表的Upgrade Advisor页面 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> 链接。</block>
   <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">了解如何生成和查看升级计划</block>
-  <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">升级计划经过优化、可消除冗余升级步骤并简化回退计划。集群中所有节点上的通用步骤均已整合、可在升级计划的"常规信息"部分下找到。 <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block>。</block>
   <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">Sustainability信息板可提供有关存储系统环境可持续性的宝贵见解。您可以查看诸如可持续性得分、碳缓解百分比、预计电力使用量、直接碳和热量等信息。您可以调整特定站点的碳缓解百分比。您还可以查看集群级别的可持续性得分。根据可持续发展得分、您可以评估存储系统的整体效率、并将其与NetApp为增强可持续性而建议的操作保持一致。 <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>。</block>
-  <block id="cdb49ecd8a62ade62c327a64e1695566" category="doc">升级存储系统的ONTAP版本</block>
-  <block id="0311d8be615519ede7fdf56e28c4e87a" category="paragraph">您可以使用Upgrade Advisor查看建议的升级并为存储系统创建升级计划。您可以在与存储系统关联的Risk Advisor选项卡中查看风险列表、并在将存储系统升级到较新版本的ONTAP时缓解这些风险。</block>
   <block id="a51f3b59b1e2e55eb492198c5498a7bf" category="list-text">选择升级选项。</block>
   <block id="fd23e666b2cc48f70922dc0a25bed60d" category="list-text">单击合规系统的数量以生成升级计划。
 此时将显示“*升级详细信息*”页面。</block>
-  <block id="075d151109499e2e30fc7ffd634ce560" category="list-text">您可以转到“*风险顾问*”选项卡查看风险列表及其严重性级别。
-  +
-<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4e13f16e7fba0f60794942036b0d5b3" category="list-text">如果升级选项包括*Total risks，则可以单击总风险数，在*Risk Advisor选项卡中查看风险列表。</block>
-  <block id="ace70623d17cb73b373d377d0c453895" category="list-text">在*Upgrade Advisor选项卡中，选择要升级的系统。</block>
   <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">单击*生成升级计划*。</block>
   <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">在显示的弹出窗口中提供详细信息。您还可以选中*还原计划*复选框，以便在升级计划中包括回退计划。</block>
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">分析存储系统的可持续性</block>
@@ -1435,4 +1414,93 @@
   <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">要准确计算可持续性得分、应启用AutoSupport。</block>
   <block id="f1a07ac2a47e6ae773882ceb0f2e9570" category="doc">访问Sustainability信息板</block>
   <block id="4a94cc80e3bef643a461eac57bc8c9ef" category="paragraph">Sustainability信息板可提供支持AIIOPS的报告和评分、并提供可指导行动的洞察力、以改善您的可持续性状况。您可以通过NetApp BlueXP或数字顾问访问Sustainability信息板。</block>
+  <block id="be5178143d843340e4e67eba4c9e81e5" category="summary">提供有关查看和升级节点(存储系统)的ONTAP版本的信息。</block>
+  <block id="8601f406e80391d056c58948aa581fb2" category="doc">为节点生成升级计划</block>
+  <block id="2bd844d4631a34a970dfaf3be90c4a0b" category="paragraph">您可以使用Upgrade Advisor查看建议的升级并为节点(存储系统)生成升级计划。您可以在与节点关联的风险顾问选项卡中查看风险列表、如果升级到较新版本的ONTAP、则可以缓解这些风险。</block>
+  <block id="24fbd138c7dc295cdff7b25fb0003595" category="list-text">在信息板上，单击*Upgrade Advisor小工具中的群集数。</block>
+  <block id="bcc117d8c868654bdcb5b2de44d7fbf2" category="inline-image-macro">显示集群数量的屏幕截图。</block>
+  <block id="28c5b9b9eefe3c1e8c902c9d79cc6787" category="paragraph"><block ref="28c5b9b9eefe3c1e8c902c9d79cc6787" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a66487996a06c28a71be20aa0af1d26c" category="paragraph">出现“*Upgrade Advisor－ONTAP”页面。</block>
+  <block id="154c77c413a39ecb8c39b457c5252f40" category="list-text">禁用*增强型Upgrade Advisor切换。</block>
+  <block id="8b60d322239e9b30aae8b8fd47a48ce3" category="inline-image-macro">此时将禁用显示增强版Upgrade Advisor切换的屏幕截图。</block>
+  <block id="0041204be6f9f2e470c98ebfb3d5b0b0" category="paragraph"><block ref="0041204be6f9f2e470c98ebfb3d5b0b0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="aad5368020cbd683aeba5851f49b4a38" category="paragraph"><block ref="aad5368020cbd683aeba5851f49b4a38" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a7b4dbfcbcafcdcc68cd3071fff921ef" category="paragraph"><block ref="a7b4dbfcbcafcdcc68cd3071fff921ef" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9d13760352c3ef2c67f70c65eb9218c3" category="inline-image-macro">"编辑"按钮的图像</block>
+  <block id="42dc80a9f868807808bfb3bd6d3fa3e4" category="list-text">您可以单击 <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> 图标以选择集群的另一个目标操作系统版本。</block>
+  <block id="81782223768cc597145a7fe6649737aa" category="list-text">您可以转到“*风险顾问*”选项卡查看风险列表及其严重性级别。
+  +
+<block ref="64ab9e5ee435c8d4125b4c4b2f334200" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="141bbe67ced8a85bfd11063ebb59d88d" category="paragraph"><block ref="141bbe67ced8a85bfd11063ebb59d88d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="13c6c834b23acb47e87a7edcc32e7f88" category="list-text">在*Upgrade Advisor选项卡中，选择要升级的系统。</block>
+  <block id="f5a352aea6c7a54f54feff2b5821b2f0" category="paragraph"><block ref="f5a352aea6c7a54f54feff2b5821b2f0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="680ec4642757efc9cf2d150edf5ce5fc" category="list-text">单击 * 提交 * 。
+您将被重定向到*报告*页面。</block>
+  <block id="d983f30395f8346ffd80f3672dfe8b2a" category="list-text">一旦有升级计划可用，您就可以从*reports*页面下载该升级计划。</block>
+  <block id="e914294f6ad533c4cc5d44ff79ab35e3" category="inline-link-macro">ONTAP升级后要执行的操作</block>
+  <block id="bbc10f30b2ee9ee55d84238475ba20b0" category="paragraph">升级ONTAP后、您应执行一些任务来确认集群是否就绪。要了解更多信息，请参见 <block ref="49be8ce40deb1a0b7eb5c98a4fed6622" category="inline-link-macro-rx"></block>。</block>
+  <block id="ef2ca72de9895714706408c3a660a3ad" category="summary">简要介绍可简化ONTAP升级规划的Upgrade Advisor。</block>
+  <block id="67ee936e795ffe8e8018ac6757105eae" category="paragraph">使用Upgrade Advisor、您可以生成升级计划、其中包含成功升级或还原ONTAP所需的详细分步信息。</block>
+  <block id="d9b9898ac1165db3daef0e6e50933c02" category="inline-link-macro">为单个集群和多个集群生成升级计划</block>
+  <block id="db336d8bf73f1c92f4ed725650c533e9" category="paragraph">您可以为单个集群和多个集群生成自动化无中断升级计划。您只能查看单个集群的升级建议、其中包括与集群相关的风险列表、包含升级阻止程序和警告列表的升级前检查报告以及有关新功能和增强功能的信息。要了解更多信息，请参见 <block ref="41932a416de65dadbc9f715244a32fe5" category="inline-link-macro-rx"></block>。</block>
+  <block id="86889b2158b4ac7c9d8fcef2845d3f55" category="admonition">对于MetroCluster配置中的每个集群、为完整的升级说明生成单独的升级计划。</block>
+  <block id="5681200d8f1383312047ace6aad75922" category="inline-link-macro">为节点生成升级计划</block>
+  <block id="9b7d1ab37e6749081c5ac63cb683b1c4" category="paragraph">您可以为节点(存储系统)生成自动化无中断、中断和无中断升级计划。您可以查看建议的升级路径并生成升级计划。要了解更多信息，请参见 <block ref="480e8086971f91861d6dfe49fd297465" category="inline-link-macro-rx"></block>。</block>
+  <block id="7b410e5aa098af7d98f180ce6460fdfe" category="inline-link-macro">准备ONTAP升级</block>
+  <block id="222865b37915c0c4bc9b2b9bfcf5b07b" category="paragraph">在生成升级计划之前、您应准备好ONTAP升级。正确的准备有助于在开始升级过程之前确定和缓解潜在的升级风险或阻止因素。要了解更多信息，请参见 <block ref="ea9d3240085371b5bf3a3755f96d8f6d" category="inline-link-macro-rx"></block>。</block>
+  <block id="0850cf3036348eacfcb9da9c7e6dff71" category="section-title">2024年1月3日</block>
+  <block id="9c818280eee76d75834ab648289ae85f" category="inline-link-macro">了解如何查看升级建议并生成升级计划。</block>
+  <block id="bdc2200252b96cc6ed0c081012882ca8" category="paragraph">Upgrade Advisor经过增强、可为单个集群和多个集群提供自动化无中断升级计划。您只能查看单个集群的升级建议、其中包括风险摘要、升级前检查报告以及有关新功能和增强功能的信息。 <block ref="5432771afbfeb8bee17b110b384d0041" category="inline-link-macro-rx"></block></block>
+  <block id="fdee59a37f60e4c66e5c6b1c6c80b2c1" category="list-text">升级计划经过优化、可消除冗余升级步骤并简化回退计划。集群中所有节点上的通用步骤均已整合、可在升级计划的"常规信息"部分下找到。 <block ref="f0e67dfcb5ef41ef22b88debd0952b4f" category="inline-link-macro-rx"></block>。</block>
+  <block id="54c8d286439441f65d676d4c8b3f8e5d" category="paragraph">您可以从基于Web的控制台登录到Digital Advisor、以查看存储系统的整体状态。</block>
+  <block id="1e483625e81b84fcdebccdf1e8a9446a" category="inline-link-macro">如何以客户或来宾用户身份注册NetApp 支持站点 帐户</block>
+  <block id="dd535b546ee88a50134df4a8bcb9ebc7" category="paragraph">您必须具有有效的NetApp 支持站点 凭据才能登录到Digital Advisor。如果您没有帐户、并且正在开始使用、请参见以下知识库文章以创建帐户：
+<block ref="b73ff2fa987bdb24b44ced01bb2bd4c6" category="inline-link-macro-rx"></block>。</block>
+  <block id="cb6d856529734d9ca63ed119e0c1bba6" category="summary">提供为单个集群和多个集群成功完成ONTAP升级或还原生成升级计划的步骤。</block>
+  <block id="85af6d120b0bc5a9e283fc346b4434ba" category="paragraph">您可以使用Upgrade Advisor查看符合升级条件或不符合升级条件的集群列表。您可以查看符合条件的集群的升级建议并生成升级计划。您可以修复不符合条件的集群的问题、使其符合升级条件。</block>
+  <block id="6e394bcec3129051274784fa1f725065" category="paragraph">您可以按照以下步骤为单个集群和多个集群生成升级计划：</block>
+  <block id="94df3919fe9cfa11e61d8a1c34ab29ac" category="open-title">单个集群</block>
+  <block id="a8a13bd076efa14c76bf4d2412097a76" category="list-text">验证是否已启用*增强型Upgrade Advisor切换。</block>
+  <block id="b8b6bd2d3e7273f469feb9820cd57266" category="inline-image-macro">此时将显示一个屏幕截图、其中显示增强的Upgrade Advisor切换。</block>
+  <block id="e5030f0aad42928362a1dd6d459850f1" category="paragraph"><block ref="e5030f0aad42928362a1dd6d459850f1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="97bf638dd7855f5b871198e3de655fb7" category="paragraph">您可以查看符合升级条件和不符合升级条件的集群列表。</block>
+  <block id="b3264e5abfc7f8aa9cbe9bbf2bf2839e" category="list-text">选择要升级的集群。
+目标操作系统版本*列显示建议的目标操作系统版本。您可以单击 <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> 图标以选择集群的其他目标操作系统版本。</block>
+  <block id="c25dba4666d739afcf74fafca0e16ec1" category="inline-image-macro">显示如何选择目标版本的图像。</block>
+  <block id="df54a2761f4e27e29bd65d8ac649e3a9" category="paragraph"><block ref="df54a2761f4e27e29bd65d8ac649e3a9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="33934d5a93267aecc3bf0f2c43482311" category="list-text">您可以单击*节点*列中的节点数来查看集群的节点摘要。</block>
+  <block id="d4586bd723aa7ed4cd56bae25e8c11c6" category="inline-image-macro">显示问题描述类型和修复所需分辨率的图像。</block>
+  <block id="e56c89382384db93bf68a52b43fa244d" category="list-text">您可以单击*建议操作*列中的*解决问题*来修复不符合条件的集群的问题、使其符合升级条件。
+ +
+<block ref="dd4506ad5994ec27eaf432e5646257a2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6aa4c290298860f81a97d2d4eb92f157" category="list-text">单击*生成升级计划*。
+您将被重定向到“*升级建议*”页面。</block>
+  <block id="be3de2fbd923b98d3ddce6f87604687b" category="list-text">在*升级建议*页面上，您可以通过*Risk Advisor选项卡查看与集群相关的风险的详细信息。您可以通过*升级前检查*选项卡查看升级阻止程序、升级警告和所需操作，并通过*增强和更新的ONTAP功能*选项卡查看与选定目标操作系统版本相关的新功能和增强功能的信息。</block>
+  <block id="3968a0cc76421e54bc6b6ab94ab3ef6d" category="inline-image-macro">显示升级建议页面整体视图的屏幕截图。</block>
+  <block id="8cb031ec78addd4251b0d98fadb1f16d" category="paragraph"><block ref="8cb031ec78addd4251b0d98fadb1f16d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7911af84e5893fc16119ebbbd79e0ddd" category="list-text">您可以选择其他目标操作系统版本、并查看风险摘要、升级前检查报告以及与该目标操作系统版本相关的新功能和增强功能的信息。</block>
+  <block id="5ff9a8a8f5a8e1185c269de1ae1f16fa" category="inline-image-macro">导出按钮</block>
+  <block id="d0ff34d4ed0d434b63065177d69660b4" category="list-text">您可以单击 <block ref="db6dc66ed954c8de99897788c99c122a" category="inline-image-macro-rx" type="image"></block> 图标、用于将风险摘要导出到Excel工作表。</block>
+  <block id="f4c01d8521810198d0aedeb1804292d2" category="list-text">从“*升级建议*”页面单击“*生成升级计划*”。</block>
+  <block id="391ae857ef756e131304172e405792b4" category="inline-image-macro">此时将弹出一个窗口、用于填写详细信息以提交生成升级计划的请求。</block>
+  <block id="224d1474fa987e54a2ac30c76ea2e21e" category="list-text">在显示的弹出窗口中提供详细信息。
+  +
+<block ref="b84846bb39db1b32d099a86ab30da18d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ed103c2a26bede51077e4be32d323609" category="list-text">单击 * 生成 * 。
+您将被重定向到*报告*页面。</block>
+  <block id="d33dd907f0f2e416c58ccfa29cd01d18" category="inline-image-macro">屏幕截图、显示要单击的View Upgrade Advisor所在位置。 </block>
+  <block id="e6a714556ba607de0796b5ebf874022b" category="admonition">您可以单击*查看Upgrade Advisor报告*转到*报告*页面。
+ +
+<block ref="17bf329c781a0dba1bb8097588dd3401" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18e4f5c6e58b95e97aff34068b2ebc6c" category="open-title">多个集群</block>
+  <block id="9847c4aa92db55ca2d4698117caccc8b" category="list-text">选择要升级的集群。
+目标操作系统版本*列显示建议的目标操作系统版本。您可以单击 <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> 图标以选择集群的其他目标操作系统版本。</block>
+  <block id="02a1c6ad942cf70822b83555179da604" category="paragraph"><block ref="02a1c6ad942cf70822b83555179da604" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9fe2ae1dc4e08b83a8b63d06803dd564" category="list-text">您可以单击*建议操作*列中的*解决问题*来修复不符合条件的集群的问题、使其符合升级条件。
+ +
+<block ref="dd4506ad5994ec27eaf432e5646257a2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b323017de005e05ca9af3f3a9807384d" category="list-text">在显示的弹出窗口中提供详细信息。
+  +
+<block ref="f898fc4c474d90827399fc16cb1ce540" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c99a7dfbdf4d3cd808ff275e0e323d69" category="sidebar">生成升级计划</block>
 </blocks>
