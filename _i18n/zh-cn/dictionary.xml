@@ -1492,7 +1492,6 @@
   <block id="e6a714556ba607de0796b5ebf874022b" category="admonition">您可以单击*查看Upgrade Advisor报告*转到*报告*页面。
  +
 <block ref="17bf329c781a0dba1bb8097588dd3401" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="18e4f5c6e58b95e97aff34068b2ebc6c" category="open-title">多个集群</block>
   <block id="9847c4aa92db55ca2d4698117caccc8b" category="list-text">选择要升级的集群。
 目标操作系统版本*列显示建议的目标操作系统版本。您可以单击 <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> 图标以选择集群的其他目标操作系统版本。</block>
   <block id="02a1c6ad942cf70822b83555179da604" category="paragraph"><block ref="02a1c6ad942cf70822b83555179da604" category="inline-image-macro-rx" type="image"></block></block>
@@ -1503,4 +1502,8 @@
   +
 <block ref="f898fc4c474d90827399fc16cb1ce540" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c99a7dfbdf4d3cd808ff275e0e323d69" category="sidebar">生成升级计划</block>
+  <block id="387baf0199e7c9cc944fae94e96448fa" category="section-title">其他</block>
+  <block id="48c86fda9292a5b410c6b86a0d2e64b7" category="paragraph">*为什么左侧导航窗格中存储运行状况下的功能被禁用？*
+存储运行状况*下功能的可用性取决于系统类型和级别。例如、集群查看器可用于集群和节点级别的ONTAP和Cloud Volumes ONTAP (CVO)系统。您可以将鼠标悬停在每个功能旁边的*i*图标上，了解适用的系统类型和级别。</block>
+  <block id="568d1629463645988ff4868c31e4cba7" category="open-title">多个集群</block>
 </blocks>
