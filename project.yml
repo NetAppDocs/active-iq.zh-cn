@@ -175,50 +175,6 @@ sidebar:
     url: "/concept_get_more_information.html"
   - title: 法律声明
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 入门
-    links:
-    - title: 了解Digital Advisor
-      url: https://tv.netapp.com/detail/video/6254074753001/what-can-you-do-with-active-iq
-    - title: Digital Advisor快速入门
-      url: concept_getting_started_2.html
-    - title: 关键概念
-      url: concept_key_terms.html
-    - title: 创建监视列表
-      url: task_add_watchlist.html
-  - title: 使用Digital Advisor
-    links:
-    - title: 查看风险并采取更正措施
-      url: task_view_risk_and_take_action.html
-    - title: 检测配置差异
-      url: task_compare_config_drift_template.html
-    - title: 修复关键安全风险
-      url: task_increase_protection_against_hackers_and_Ransomware_attacks.html
-    - title: 分析存储性能
-      url: task_view_performance_graphs.html
-    - title: 生成报告
-      url: task_generate_reports.html
-  - title: 使用Digital Advisor进行分析
-    links:
-    - title: 查看 ONTAP 升级建议
-      url: task_view_upgrade.html
-    - title: 根据云建议做出明智的决策
-      url: task-informed-decisions-based-on-cloud-recommendations.html
-    - title: 查看NetApp Keystone 订阅的容量利用率
-      url: view_keystone_capacity_utilization.html
-  - title: 更多资源
-    links:
-    - title: Digital Advisor Web门户
-      url: https://mysupport.netapp.com/myautosupport/home.html
-    - title: Digital Advisor视频
-      url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7kWBxqwLYBchpMW4k9Z6Vum
-    - title: NetApp社区—Digital Advisor
-      url: https://community.netapp.com/t5/Active-IQ-and-AutoSupport/ct-p/autosupport-and-my-autosupport
-    - title: Digital Advisor移动应用程序(Android)
-      url: https://play.google.com/store/apps/details?id=com.netapp.myautosupport
-    - title: Digital Advisor移动应用程序(iOS)
-      url: https://apps.apple.com/us/app/active-iq/id1230542480
 product-family:
   name: BlueXP
   repo: cloud-manager-family

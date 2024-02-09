@@ -20,6 +20,22 @@ Digital Advisor引入了以下功能和增强功能：
 
 
 
+== 2024年2月8日
+
+
+
+=== Sustainability信息板
+
+现在、您可以使用直接访问默认信息板或监视列表的可持续性指标 link:https://activeiq.netapp.com/redirect/sustainability["Sustainability信息板"^] 链接。
+
+
+
+=== 集群查看器
+
+现在、您可以在"Storage (存储)"选项卡和"ClusterViewer Reports (集群查看器报告)"中的"Disk Summary (磁盘摘要)"部分中查看磁盘RPM信息。
+
+
+
 == 2024年1月3日
 
 
