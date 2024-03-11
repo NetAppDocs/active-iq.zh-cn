@@ -543,12 +543,10 @@
   <block id="1dce4feb01121addbdaf71931c469035" category="list-text">请提供您的用户名和密码，然后单击 * 登录 * 。</block>
   <block id="f39b53c109ef22724fc3808f3709808c" category="summary">提供向信息板添加监视列表的信息。</block>
   <block id="19a1aa0085c346ac0453f3463cfe5ae0" category="doc">创建监视列表</block>
-  <block id="a6b5018db137b1873575388bb66fd696" category="paragraph">您可以创建监视列表来快速轻松地访问一组系统。您可以根据类别或位置组合这组系统。</block>
   <block id="da2d66a259f4a63d3108ebfd2b3e72c3" category="list-text">从左窗格中，单击 * 监视列表 *</block>
   <block id="ba76cc75fba1482c23f5d61fcf99fc47" category="paragraph">此时将显示 * 管理监视列表 * 屏幕。</block>
   <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">单击 * 创建监视列表 * 。</block>
   <block id="6e6456ff615835fa78db50bf4c134885" category="list-text">请为监视列表提供一个名称。</block>
-  <block id="d92f20aa0037ca0433951e4c3075ac1e" category="list-text">提供要添加到监视列表的系统的详细信息。</block>
   <block id="d757f95a394959d080114b15fde1d52e" category="paragraph">您最多可以在一个类别下添加 15 ， 000 个系统，并在一个序列号下添加 500 个系统。</block>
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">此时将显示监视列表信息板。</block>
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">提供有关信息板，运行状况得分，功能和小工具的信息。</block>
@@ -984,7 +982,6 @@
   <block id="45b708abb9ee2f917c7896e31ae4c7b6" category="paragraph">Digital Advisor会显示具有有效支持合同的系统。如果合同到期，则会提供 90 天的宽限期，在此宽限期内，系统仍然可见。此后、系统将无法在Digital Advisor中搜索或显示。</block>
   <block id="5c711ca6514b7bc5e8b54eb7d0514b90" category="paragraph">NetApp技术支持使用这些数据加快问题的诊断和解决速度、Digital Advisor则使用这些数据主动检测和避免潜在问题。它也可以发送给您的内部支持组织和支持合作伙伴。</block>
   <block id="5da64b23743d20365a812a148d09b65f" category="admonition">Digital Advisor仅显示AutoSupport 数据早于60天的系统的AutoSupport 相关数据。</block>
-  <block id="2d0aa76ea44ffecf44fd1e54e726b8a1" category="summary">借助Digital Advisor、您可以通过基于云的门户和移动应用程序提供可操作的预测性分析和主动式支持、从而优化全球混合云中的数据基础架构。Digital Advisor基于云的服务利用社区智慧和从NetApp庞大的客户群中得出的同行比较、将这些洞察与AutoSupport 遥测和My AutoSupport 功能相结合、提供一套高级的无与伦比的分析服务。</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="doc">Digital Advisor文档</block>
   <block id="571d621f51c49640d8adb2c5bb15554a" category="paragraph">Digital Advisor会不断分析您的系统并提供建议、以提高系统性能、效率和运行状况。</block>
   <block id="ee8a7221101a63a879e7b11a9e134817" category="admonition">Digital Advisor可导航到BlueXP以实施这些建议。</block>
@@ -1030,7 +1027,6 @@
   <block id="e3f44fedccc2711587690bd9581827ed" category="paragraph">Digital Advisor利用遥测数据和已发布的产品安全建议来检测所涵盖*和授权支持的产品的安全问题。产品遥测数据必须通过AutoSupport 传输到NetApp、以便Digital Advisor检测风险。</block>
   <block id="6c0397360aa8b37bbbe1fa3a38744674" category="list-text">登录到Digital Advisor。</block>
   <block id="ca249192c36cc85e44209b65bfb3ec3d" category="list-text">最重要的步骤是在Digital Advisor中的*升级顾问*中规划操作系统升级。</block>
-  <block id="16d182da6aeb172074cbe06d557991cc" category="paragraph">监视列表用于快速轻松地访问Digital Advisor中预先选择的系统。如果您经常查看某个客户或一组系统，我们建议您创建监视列表。您最多可以创建 50 个监视列表，每个监视列表最多可以包含 15 ， 000 个系统（按类别）或 500 个系统（按序列号）。</block>
   <block id="fdcefef7d938550393c7f560b2c30cac" category="paragraph">首次访问Digital Advisor时、您可以创建监视列表、也可以搜索客户名称、站点名称、组名称、StorageGRID 、主机名、 集群、序列号或系统ID。</block>
   <block id="8fe538800aeef2cc4ce4a036305bf264" category="paragraph">Digital Advisor API Services可利用自动化提高工作流的效率。API 服务内部包含 * API 目录 * ，该目录描述了 100 多个不同的 API 端点，这些端点分为 20 多个不同的服务区域。这些 API 作为 NetApp 客户提供给您，它们涵盖不同的关注领域，例如系统信息，存储效率，性能，运行状况和升级。</block>
   <block id="b55b7f8ad3b486e6903c05d80410b389" category="paragraph">API是一种接口、可用于编写简单代码、以便通过编程方式联系Digital Advisor并将数据返回到计算环境中。您可以通过编写代码的方式每天与Digital Advisor联系、并将您感兴趣的领域的最新数据带回家。然后，您可以使用此数据填充您的票证系统或创建自己的信息板，网页或报告。Digital Advisor API目录包含代码示例、并可用于在浏览器中试用API。</block>
@@ -1498,4 +1494,27 @@
   <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">Sustainability信息板</block>
   <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">现在、您可以使用直接访问默认信息板或监视列表的可持续性指标 <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> 链接。</block>
   <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">现在、您可以在"Storage (存储)"选项卡和"ClusterViewer Reports (集群查看器报告)"中的"Disk Summary (磁盘摘要)"部分中查看磁盘RPM信息。</block>
+  <block id="ee994369582acbd0aa1a2c594329160a" category="section-title">2024年2月29日</block>
+  <block id="a87afd0ebe87406d33b58f65b33a438b" category="paragraph">现在、您可以根据Keystone订阅编号创建监视列表、并使用订阅编号或监视列表名称的前三个字符搜索Keystone订阅。</block>
+  <block id="bb6677c30e1599d498cc331db9ae9ac1" category="paragraph">监视列表用于快速轻松地访问Digital Advisor中预先选择的系统。如果您经常查看某个客户或一组系统，我们建议您创建监视列表。您最多可以创建100个监视列表、每个监视列表最多可以包含15、000个系统(按类别)或500个系统(按序列号)。</block>
+  <block id="0c9919bc11a911adb7dfe0c3fcfec57e" category="paragraph">首次访问Digital Advisor时、您可以创建监视列表、也可以搜索客户名称、站点名称、组名称、StorageGRID、主机名、 集群、序列号、系统ID或Keystone订阅。</block>
+  <block id="696132aa64e1de699fed134cebca0cb4" category="paragraph">您可以创建监视列表来快速轻松地访问一组系统。您可以根据类别或序列号添加系统。</block>
+  <block id="8724cab6ff3882b095d7f7a1af087d3c" category="list-text">选择以下选项之一将系统添加到监视列表：</block>
+  <block id="046b77894dfde73619bb48b4dc431dd0" category="list-text">*类别*：此选项可用于添加与特定类别(例如客户、站点、组或Keystone订阅)关联的整个清单、 到您的监视列表。</block>
+  <block id="ca5b91a68ba656cb1cb6cdd4e75f646a" category="inline-link-macro">按Keystone监视列表搜索</block>
+  <block id="a5a3e88ca2e2f72fdd690c7bf4473d53" category="admonition">Keystone订阅*选项允许您包含与Keystone订阅关联的任何订阅号码。按监视列表搜索时、您可以在Digital Advisor信息板上的* Keystone订阅*小工具中查看订阅。有关详细信息，请参见 <block ref="6c48397e666066c17d428674ea869bc7" category="inline-link-macro-rx"></block>。</block>
+  <block id="abc045a62577e8c80a76e2f49162b3ae" category="list-text">*序列号*：此选项可用于根据指定序列号将清单包含在监视列表中。您可以直接输入序列号、也可以从客户、站点或组等类别中选择序列号。</block>
+  <block id="28fa24f22582565336a20a99aac1a3b6" category="sidebar">Active IQ数字顾问(也称为数字顾问)通过基于云的门户和移动应用程序提供可指导行动的预测性分析和主动式支持、帮助您优化全球混合云中的数据基础架构。Digital Advisor基于云的服务利用社区智慧和从NetApp庞大的客户群中得出的同行比较、将这些洞察与AutoSupport 遥测和My AutoSupport 功能相结合、提供一套高级的无与伦比的分析服务。</block>
+  <block id="102d9716e9927264b03dcd24c0dd5cc3" category="sidebar">了解Digital Advisor</block>
+  <block id="156203bd2f0dca053d9b9dbd8f8912c7" category="sidebar">使用Digital Advisor</block>
+  <block id="11d4d5337b73945892437ccbc95a0733" category="sidebar">查看风险并采取更正措施</block>
+  <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">检测配置差异</block>
+  <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">修复关键安全风险</block>
+  <block id="6cb30ae6af19fc79cca62d705f6b0744" category="sidebar">使用Digital Advisor进行分析</block>
+  <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">查看 ONTAP 升级建议</block>
+  <block id="5649476905365d651ff75a651e4e79a8" category="sidebar">根据云建议做出明智的决策</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">更多资源</block>
+  <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Digital Advisor Web门户</block>
+  <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Digital Advisor视频</block>
+  <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">NetApp社区—Digital Advisor</block>
 </blocks>
