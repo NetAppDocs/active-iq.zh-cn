@@ -101,6 +101,8 @@ sidebar:
       url: "/task_identify_capacity_system.html"
     - title: 避免卷填满以防止中断
       url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
+    - title: 评估技术更新
+      url: "/evaluate-tech-refresh.html"
     - title: 续订软件和硬件
       url: "/task_renew_software_and_hardware.html"
   - title: 根据云建议做出明智的决策
