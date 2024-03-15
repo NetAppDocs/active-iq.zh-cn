@@ -26,10 +26,10 @@ Digital Advisor利用遥测数据和已发布的产品安全建议来检测所�
 
 .步骤
 . 登录到Digital Advisor。
-. 单击 * 安全漏洞 * 小工具中的 * 操作 * 。image:Security_Image 1 Ransomware attacks.png["安全漏洞小工具"]
-+
-对于影响较大的安全风险，请按照建议的操作升级操作系统。
-
+. 单击*安全和防兰索防*小工具中的*操作*。
+image:Security_Image 2 Ransomware attacks.png["安全漏洞小工具"]
+. 清除*防防兰索程序*复选框。
+. 对于影响较大的安全风险，请按照建议的操作升级操作系统。
 . 单击 * 唯一风险 * 选项卡，然后单击 * 更正操作 * 列中的链接。image:Corrective Action_Image 2 Ransomware attacks.png["Corrective Action 列"]
 +
 此风险已在 ONTAP 9.7P8 及更高版本中修复。image:Remediations_Image 3 Ransomware attacks.png["修复选项卡"]

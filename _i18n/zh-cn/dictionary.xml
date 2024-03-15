@@ -188,7 +188,6 @@
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="30a3a5781ffac6a88cce2ccd6925d533" category="doc">保护系统免受勒索软件风险的影响</block>
   <block id="a65c2a1d83d8e29315151edd9cb20614" category="paragraph">您可以查看 Snapshot 创建，保留和 ONTAP FPolicy 风险，然后采取措施修复这些风险。</block>
-  <block id="6f75bc30c5b47eb48f72d647d67781a9" category="list-text">单击 * 勒索软件防护 * 小工具上的 * 操作 * 。</block>
   <block id="5e0e2c126796ee31f891f0f923d864f9" category="list-text">对于显示的风险，请检查影响级别并按照建议的操作进行操作。</block>
   <block id="9468b2f5ff83e6a3ed59b51e8ca38dc2" category="list-text">单击 * 更正操作 * 列中的唯一风险选项卡和链接。</block>
   <block id="719f031257428b8b9c9c34ee45a1c9ae" category="list-text">单击 * 受影响的系统 * 选项卡以查看存在风险的系统。</block>
@@ -680,9 +679,7 @@
   <block id="1c4f0f720caa935586c5ce44a7df6b85" category="list-text">* 可用性和保护： * 显示有关存储系统的可用性和保护的信息。</block>
   <block id="f0ee5c8e0425d79cc4821f46b896129b" category="list-text">* 容量： * 包含具有影响区域值容量属性的风险。</block>
   <block id="b9a9426de6f2aeaaa8a2431da4900e30" category="list-text">* 配置： * 由风险组成，其影响区域值的配置属性按顶部影响最大排序。</block>
-  <block id="8dae33fe79be13ef64d47e7f786ed059" category="list-text">* 安全漏洞： * 由具有影响区域值安全属性的风险组成。</block>
   <block id="0df29eb5c3a3cf627598e14216743f20" category="list-text">* 健康历史记录： * 显示有关过去三个月发生的系统风险的信息，以便您了解这些风险是如何应对超时的。</block>
-  <block id="8d4304747bf1c53a7a27da5249a5a0c3" category="list-text">* 勒索软件防护： * 提供有关与勒索软件检测，预防和恢复相关的风险和更正操作的信息。</block>
   <block id="927c2765ee865261a716c54a2fde3878" category="list-text">* 确认风险（ Ack ）： * 用于确认已受影响的风险和系统。您可以确认这些风险，并熟悉可为缓解这些风险而采取的措施。</block>
   <block id="91351fc68db7f9bca112a2fb897a0902" category="list-text">* 取消确认风险（取消确认）： * 允许您取消确认已确认的风险和系统。</block>
   <block id="0f4f0d8eb7497054f3f3160501e62e20" category="list-text">* 修复： * 使用 Active IQ 统一管理器（ UM ） 9.7 或更高版本修复系统风险。单击此按钮可启动 UM 并执行相应步骤以降低风险。</block>
@@ -791,7 +788,6 @@
   <block id="f7e6c88265534036ac8e0f442a755875" category="doc">检测安全漏洞</block>
   <block id="820369c7769d4f36cf2076f618fe371d" category="paragraph">* 涵盖产品： ONTAP 9 （内部和云）， SANtricity 操作系统控制器软件， NetApp SolidFire （ Element 软件）， StorageGRID ， Active IQ Unified Manager ， ONTAP Tools for VMware （ OTV ）</block>
   <block id="9e49d2928b0f9c506afa91618789cc95" category="inline-image-macro">安全漏洞小工具</block>
-  <block id="b690081b833e8f28d12bf81f4c46d353" category="list-text">单击 * 安全漏洞 * 小工具中的 * 操作 * 。<block ref="8410ae438d98c330146456538464956f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c17e33981c0b062b393672808567a4ab" category="paragraph">对于影响较大的安全风险，请按照建议的操作升级操作系统。</block>
   <block id="75b13b2a3ff2cb52d35b06fcc7348713" category="inline-image-macro">Corrective Action 列</block>
   <block id="d13ac08a85c268be8e12fb2c5fc6a61f" category="list-text">单击 * 唯一风险 * 选项卡，然后单击 * 更正操作 * 列中的链接。<block ref="b8e4538a50e97a4603efab53e7672864" category="inline-image-macro-rx" type="image"></block></block>
@@ -1032,7 +1028,6 @@
   <block id="b55b7f8ad3b486e6903c05d80410b389" category="paragraph">API是一种接口、可用于编写简单代码、以便通过编程方式联系Digital Advisor并将数据返回到计算环境中。您可以通过编写代码的方式每天与Digital Advisor联系、并将您感兴趣的领域的最新数据带回家。然后，您可以使用此数据填充您的票证系统或创建自己的信息板，网页或报告。Digital Advisor API目录包含代码示例、并可用于在浏览器中试用API。</block>
   <block id="2eba3fd530b8be90290c1ea2652f4310" category="paragraph">利用 API 实现自动化是提高日常或每周任务效率和准确性的绝佳方式。它可以释放您的资源来执行更复杂的活动或自动执行新的工作流。例如、如果您的系统运行状况风险需要修复、则至少可以自动从Digital Advisor中拉出这些项目并推送到您的票证系统。</block>
   <block id="ee67d4518095f8899eb8244097de7a35" category="paragraph">激活是自动的，应即时激活。获得使用Digital Advisor API的授权后、您可以生成令牌、以便在进行编程API调用时使用。您也可以使用这些令牌在 API 目录中执行 " 试用 " 。通过编程方式获取令牌时，令牌始终以两组为一组：访问令牌和刷新令牌。要成功使用所有 API ，必须传递访问令牌（只有一个 API 除外 - 使用刷新令牌以编程方式获取一组新令牌）。</block>
-  <block id="ea91f255c0d20a5fbac87ebc9647b943" category="paragraph">登录到Digital Advisor时、您可以查看*勒索软件防护*小工具上突出显示的*操作*、其中显示了风险计数。</block>
   <block id="ec51503b0f35cbc8702985e4aa3ca3c5" category="paragraph">有关容量和存储效率的详细信息，请参见 <block ref="de007cfc8081d514ce95fa7f06caeee8" category="inline-link-macro-rx"></block>。</block>
   <block id="ddd5bde8e3e027f9a9efab7fcfa90542" category="doc">Digital Advisor中的新增功能</block>
   <block id="67b15699a3be9f040c8687b7005f0de8" category="paragraph">Digital Advisor引入了以下功能和增强功能：</block>
@@ -1495,7 +1490,6 @@
   <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">现在、您可以使用直接访问默认信息板或监视列表的可持续性指标 <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> 链接。</block>
   <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">现在、您可以在"Storage (存储)"选项卡和"ClusterViewer Reports (集群查看器报告)"中的"Disk Summary (磁盘摘要)"部分中查看磁盘RPM信息。</block>
   <block id="ee994369582acbd0aa1a2c594329160a" category="section-title">2024年2月29日</block>
-  <block id="a87afd0ebe87406d33b58f65b33a438b" category="paragraph">现在、您可以根据Keystone订阅编号创建监视列表、并使用订阅编号或监视列表名称的前三个字符搜索Keystone订阅。</block>
   <block id="bb6677c30e1599d498cc331db9ae9ac1" category="paragraph">监视列表用于快速轻松地访问Digital Advisor中预先选择的系统。如果您经常查看某个客户或一组系统，我们建议您创建监视列表。您最多可以创建100个监视列表、每个监视列表最多可以包含15、000个系统(按类别)或500个系统(按序列号)。</block>
   <block id="0c9919bc11a911adb7dfe0c3fcfec57e" category="paragraph">首次访问Digital Advisor时、您可以创建监视列表、也可以搜索客户名称、站点名称、组名称、StorageGRID、主机名、 集群、序列号、系统ID或Keystone订阅。</block>
   <block id="696132aa64e1de699fed134cebca0cb4" category="paragraph">您可以创建监视列表来快速轻松地访问一组系统。您可以根据类别或序列号添加系统。</block>
@@ -1522,4 +1516,18 @@
   <block id="2d6605eb73e95419014e86f084d39681" category="paragraph">如果您要确定建议对您的技术支持合同还是硬件进行技术更新、可以使用技术更新选项。</block>
   <block id="65a5dc35cec4fdb5b8c204304a2ab99a" category="admonition">您可以通过BlueXP经济效率(*监管&gt;经济效率&gt;技术更新*)或NetApp数字顾问(*信息板&gt;规划小工具&gt;技术更新*)访问此功能。</block>
   <block id="26528bfb42ca87e3e5f7846afd863bb0" category="paragraph">有关此功能的详细信息、请参见 <block ref="a230b818a44a7d13155b37e12838fa41" category="inline-link-macro-rx"></block> BlueXP文档中的。</block>
+  <block id="ef2753666e2bb535cdbdfcab50c1a017" category="list-text">*安全性和勒索软件防护：*提供与安全漏洞、勒索软件检测、预防和恢复相关的风险和更正操作的信息。</block>
+  <block id="1f4882587636b2511732cfb3b14bfbcf" category="list-text">*可持续性：*显示为提高客户、监视列表、站点和组级别的可持续性得分而建议的操作数量。</block>
+  <block id="0235bcf89237278317e178c8c295ac74" category="list-text">单击*安全和防兰索防*小工具中的*操作*。
+<block ref="2fcb804d5a34085afa85e482ac09263f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="83dec637bc884dc4a2f4600da2ca5f4a" category="list-text">清除*防防兰索程序*复选框。</block>
+  <block id="434c0382d376982e5be3c7cf351f2ee1" category="section-title">2024年3月15日</block>
+  <block id="02a4f8fbb0ee7f45b63d85dd6999883c" category="list-text">健康度工作流现在包括Sustainability小工具、可提供客户、监视列表、站点和组级别的建议操作计数。您可以在Sustainability信息板上单击操作数以查看这些建议操作的详细视图。要了解更多信息、请参见 <block ref="53ff1edd2c20f94d2a6e053c55aa3849" category="inline-link-macro-rx"></block>。</block>
+  <block id="6dca4e9566164889a09a5302487f229a" category="list-text">健康工作流中的"安全漏洞"和"防兰索防"小工具组合到一个小工具中、该小工具现在称为"安全和防兰索防"。</block>
+  <block id="5bf96d52d5b39a06798b24dfa7469237" category="section-title">运行状况检查信息板</block>
+  <block id="15853c3ab7376c7041427b2140bbd504" category="paragraph">技术案例的时间表已得到改进、可查看6或12个月的完整案例历史记录。</block>
+  <block id="51832813a6cc95d32db002987711fdc7" category="paragraph">现在、您可以根据Keystone订阅编号创建监视列表、并使用订阅编号或监视列表名称的前三个字符搜索Keystone订阅。</block>
+  <block id="994ea9e16920acdbe0ac6e35ae6fffad" category="paragraph">登录到Digital Advisor后，您可以查看*安全和防兰索防*小工具上突出显示的*操作*，其中显示了风险计数。</block>
+  <block id="e8563fdf2c4612622ba50a5e8cfcb99a" category="list-text">单击*安全和防兰索防*小工具上的*操作*。</block>
+  <block id="4d7b0b036dd7f28233ff7e59c3c1dbf5" category="list-text">清除*安全漏洞*复选框。</block>
 </blocks>
