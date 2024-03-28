@@ -1,0 +1,2756 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head class="at-element-marker">
+  <title>有关Digital Advisor的常见问题解答 | NetApp Documentation</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="有关Digital Advisor的常见问题解答 | NetApp Documentation" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/zh-cn/active-iq/reference_aiq_faq.html" />
+	<meta property="og:description" content="如果您只是想快速了解问题解答，此常见问题解答会很有帮助。" />
+  <meta property="og:image" content="https://docs.netapp.com/zh-cn/active-iq/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="如果您只是想快速了解问题解答，此常见问题解答会很有帮助。">
+  <meta name="keywords" content=" faq, frequently asked questions, non-technical, non-technical case, inventory, storage efficiency, capacity, performance"><!-- Icons -->
+  <link rel="icon" href="/zh-cn/active-iq/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><link rel="alternate" type="application/rss+xml" title="NetApp Documentation" href="/zh-cn/active-iq/feed.xml"><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/zh-cn/active-iq/css/ie-netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/zh-cn/active-iq/css/ie-landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/zh-cn/active-iq/css/ie-tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel="canonical" href="https://docs.netapp.com/zh-cn/active-iq/reference_aiq_faq.html" />
+  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/active-iq/reference_aiq_faq.html" />
+  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html" />
+  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/active-iq/reference_aiq_faq.html" />
+  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/active-iq/reference_aiq_faq.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/active-iq/reference_aiq_faq.html" />
+  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/active-iq/reference_aiq_faq.html" />
+  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/active-iq/reference_aiq_faq.html" />
+  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/active-iq/reference_aiq_faq.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/active-iq/reference_aiq_faq.html" />
+  <!-- Top level site integrations -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/72570c5c-fe30-465f-b0e0-b77f7fb4ae34/OtAutoBlock.js"></script>
+    <script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-document-language="true" data-domain-script="72570c5c-fe30-465f-b0e0-b77f7fb4ae34"></script>
+    <script type="text/javascript">function OptanonWrapper() { }</script>
+    <script type="text/plain" class="optanon-category-C0002" src="https://assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js"></script>
+    <script class="optanon-category-C0001">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAttribute('data-ot-ignore'));j.setAttribute('class','optanon-category-C0001');j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MD73T9M');</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      const MASTHEAD_OFFSET = 65;
+      const SECTIONS = $("main h2, main h3");
+      // PAGE NAV - Init
+      if (SECTIONS.length == 0) {
+        // remove if there is no elements
+        /*
+        $("#ie-right-navbar").remove();
+        $("#ie-right-navbar-collapse").remove();
+        */
+      } else {
+        $(".page-nav-title").css('display', 'block');
+        for (var i = 0; i < SECTIONS.length; i++) {
+          var sectionId = $(SECTIONS[i]).attr('id');
+          var sectionName = $(SECTIONS[i]).text();
+          var subClass = $(SECTIONS[i]).is("h3") ? ' page-nav__sublink' : '';
+          $("#page-menu").append('<li class="page-nav-item"><a href="#' + sectionId + '" class="page-nav__link' + subClass + '">' + sectionName + '</a></li>');
+        }
+      }
+    });
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/zh-cn/active-iq/js/na-search.js'></script><script src='/zh-cn/active-iq/js/ie-clouddocs.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script>
+    /*
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+      */
+  </script>
+  <script src='/zh-cn/active-iq/js/custom-dropdown.js'></script>
+  <script src='/zh-cn/active-iq/js/FileSaver.min.js'></script>
+  <script src='/zh-cn/active-iq/js/jszip-utils.min.js'></script>
+  <script src='/zh-cn/active-iq/js/jszip.min.js'></script><script src='/zh-cn/active-iq/js/ie-pdf-ux.js'></script></head>
+
+
+  <body class role="document" data-flavor="">
+    <div class="skip-to-main">
+      <a href="#main" >Skip to main content</a>
+    </div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD73T9M"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="page" class="">
+      <div id="ie-phone-menu" class=""></div>
+      <div id="ie-content-wrap" class="">
+        <nav id="ie-new-header">
+    <ul>
+        <li id="ie-phone-menu-button">
+            <a href="#">
+                <image id="" src="/zh-cn/active-iq/images/hamburger.svg" alt="menu" />
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.netapp.com/cn">
+                <image id="ie-header-logo" src="/zh-cn/active-iq/images/netapp_logo.svg" alt="netapp" />
+            </a>
+        </li>
+        <li id="ie-header-docs">
+            <a href="https://www.netapp.com/support-and-training/documentation/">文档</a>
+        </li>
+
+        <!-- Empty container to push header left with or without lang selector -->
+        <li id="empty-container" style="margin-left: auto">
+        </li>
+        <!-- Start Language Selector --><li id="ie-language-dropdown">
+            <div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+                <div class="custom-dropdown-select custom-dropdown-select-lang">
+                    <img src="/zh-cn/active-iq/images/language_white_24dp.svg" class="n-globe__icon" />
+                    <span class="lang-name">简体中文</span>
+                    <img src="/zh-cn/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/zh-cn/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu"><li>
+                        <a href="https://docs.netapp.com/zh-cn/active-iq/reference_aiq_faq.html"
+                            target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html"
+                            target="_self"><span translate="no" class="notranslate">English</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ja-jp/active-iq/reference_aiq_faq.html"
+                            target="_self"><span translate="no" class="notranslate">日本語</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ko-kr/active-iq/reference_aiq_faq.html"
+                            target="_self"><span translate="no" class="notranslate">한국어</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-tw/active-iq/reference_aiq_faq.html"
+                            target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/de-de/active-iq/reference_aiq_faq.html"
+                            target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/es-es/active-iq/reference_aiq_faq.html"
+                            target="_self"><span translate="no" class="notranslate">Español</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/fr-fr/active-iq/reference_aiq_faq.html"
+                            target="_self"><span translate="no" class="notranslate">Français</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/it-it/active-iq/reference_aiq_faq.html"
+                            target="_self"><span translate="no" class="notranslate">Italiano</span></a>
+                    </li></ul>
+            </div>
+            </li>
+        <!-- End Language Selector -->
+
+
+        <li id="ie-allnetapp">
+            <div id="allnetapp-dropdown" class="custom-dropdown custom-dropdown-allnetapp">
+                <div class="custom-dropdown-select custom-dropdown-select-allnetapp">
+                    <img src="/zh-cn/active-iq/images/apps_white_24dp.svg" alt="" class="allnetapp-icon" />
+                    <span class="allnetapp-name">全部来自 NetApp</span>
+                    <img src="/zh-cn/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/zh-cn/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu allnetapp-dropdown">
+                    <li>
+                        <a href="https://bluexp.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">BlueXP</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mysupport.netapp.com/site/"
+                            target="_self"><span translate="no" class="notranslate">支持</span></a>
+                    </li>
+                    <li>
+                        <a href="https://kb.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">知识库</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.netapp.com/zh-hans/support-and-training/netapp-learning-services/"
+                            target="_self"><span translate="no" class="notranslate">训练</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </li>
+
+    </ul>
+</nav>
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+
+<div id="ie-new-sidebar-collapse" style="display: none">
+    <img id="sidebar-expand" class="ie-searchbox-icon" src="/zh-cn/active-iq/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-new-sidebar">
+    <div id="ie-product-identity-lockup">
+        <div id="sidebar-collapse" class="">
+            <img src="/zh-cn/active-iq/images/double_arrow.svg" alt="" />
+        </div>
+        <div id="ie-breadcrumb" class="">
+  <ul class="ie-breadcrumb">
+    <li class="">
+      <a href="https://docs.netapp.com">所有文档</a>
+    </li>
+    
+    
+    <li class="">
+      <a href="https://docs.netapp.com/us-en/cloud/">云文档</a>
+    </li>
+    
+
+    
+    <li class="">
+      <a href="https://docs.netapp.com/zh-cn/cloud-manager-family/">
+        BlueXP
+      </a>
+    </li>
+    
+  </ul>
+  
+  <div class="ie-product-name" >
+    <!--<a href="/zh-cn/active-iq/">-->
+      Digital Advisor
+    <!--</a>-->
+  </div>
+</div>
+
+            
+
+        
+        
+
+<div id="ie-searchbox" class="ie-searchbox-sidebar ">
+    <img class="ie-searchbox-icon" src="/zh-cn/active-iq/images/loupe.svg" alt=""/>
+    <div id="react-search" 
+        data-search-html="/zh-cn/active-iq/search.html" 
+        data-type="widget"
+        data-placeholder="搜索文档"
+        data-no-results-found="未找到 {query} 的相关结果"
+        data-did-you-mean="搜索 {suggestion}。"
+        data-no-results-found-did-you-mean="未找到 {query} 的相关结果。您是指 {suggestion}？"
+        data-results-found="找到 {hitCount} 个结果"
+        data-error-message="发生错误。请重试。"
+        data-error-reset="重置搜索"
+        data-sk-es-pf-indexes="" 
+        data-flavor="">
+    </div>
+</div>
+        
+    </div>
+    <div id="ie-new-toc"><script>
+  let sidebarAccordion = true;
+
+  /* specific css rules for Mac */
+  if(navigator.platform.match('Mac') !== null) {
+    document.body.setAttribute('class', 'OSX');
+  }
+
+</script>
+
+<div id="ie-sidebar-container">
+  <ul id="ie-sidebar-list" ><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Digital Advisor文档"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/index.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/zh-cn/active-iq/index.html">
+        Digital Advisor文档
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Digital Advisor与BlueXP集成"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/digital-advisor-integration-with-bluexp.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/zh-cn/active-iq/digital-advisor-integration-with-bluexp.html">
+        Digital Advisor与BlueXP集成
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="发行说明"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 发行说明</div>-->
+         发行说明
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="新增功能"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/reference_new_activeiq.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/reference_new_activeiq.html">
+        新增功能
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="已知限制"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/reference_limitations_activeiq.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/reference_limitations_activeiq.html">
+        已知限制
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="入门"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 入门</div>-->
+         入门
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="快速入门"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/concept_getting_started_2.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/concept_getting_started_2.html">
+        快速入门
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="了解Digital Advisor的功能"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/concept_understand_activeiq_features.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/concept_understand_activeiq_features.html">
+        了解Digital Advisor的功能
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="关键概念"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/concept_key_terms.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/concept_key_terms.html">
+        关键概念
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="什么是 AutoSupport"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/concept_autosupport.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/concept_autosupport.html">
+        什么是 AutoSupport
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="登录到Digital Advisor"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_login_activeiq.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_login_activeiq.html">
+        登录到Digital Advisor
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="配置监视列表"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 配置监视列表</div>-->
+         配置监视列表
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概述"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/concept_overview_dashboard.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/concept_overview_dashboard.html">
+        概述
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="创建监视列表"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_add_watchlist.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_add_watchlist.html">
+        创建监视列表
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="管理监视列表"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_manage_watchlists.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_manage_watchlists.html">
+        管理监视列表
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="分析健康属性"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 分析健康属性</div>-->
+         分析健康属性
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概述"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/concept_overview_wellness.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/concept_overview_wellness.html">
+        概述
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="查看风险并手动采取更正操作"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_view_risk_and_take_action.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_view_risk_and_take_action.html">
+        查看风险并手动采取更正操作
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="检测安全漏洞"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_increase_protection_against_hackers_and_Ransomware_attacks.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html">
+        检测安全漏洞
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="保护系统免受勒索软件风险的影响"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_protect_systems_against_ransomware_risks.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_protect_systems_against_ransomware_risks.html">
+        保护系统免受勒索软件风险的影响
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="查看并确认风险"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_view_and_acknowledge_risks.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_view_and_acknowledge_risks.html">
+        查看并确认风险
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="查看健康历史记录"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_view_wellness_history.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_view_wellness_history.html">
+        查看健康历史记录
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="查看可使用 Active IQ Unified Manager 或 Ansible 攻略手册自动缓解的风险"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_view_risks_remediated_unified_manager.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_view_risks_remediated_unified_manager.html">
+        查看可使用 Active IQ Unified Manager 或 Ansible 攻略手册自动缓解的风险
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="避免停机和可能的数据丢失"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_avoid_the_downtime_and_possible_data_loss.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_avoid_the_downtime_and_possible_data_loss.html">
+        避免停机和可能的数据丢失
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="订阅健康评估电子邮件"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_subscribe_to_wellness_review_email.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_subscribe_to_wellness_review_email.html">
+        订阅健康评估电子邮件
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="续订软件和硬件"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_renew_software_and_hardware.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_renew_software_and_hardware.html">
+        续订软件和硬件
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="分析集群和节点的运行状况"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_analyze_wellness_clusters_and_nodes.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_analyze_wellness_clusters_and_nodes.html">
+        分析集群和节点的运行状况
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="分析存储系统的可持续性"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 分析存储系统的可持续性</div>-->
+         分析存储系统的可持续性
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="了解可持续性"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/learn_BlueXP_sustainability.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/learn_BlueXP_sustainability.html">
+        了解可持续性
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="访问Sustainability信息板"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/get_started_sustainability_dashboard.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/get_started_sustainability_dashboard.html">
+        访问Sustainability信息板
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Sustainability信息板概述"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/BlueXP_sustainability_dashboard_overview.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/BlueXP_sustainability_dashboard_overview.html">
+        Sustainability信息板概述
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="提高可持续性得分"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/improve_sustainability_score.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/improve_sustainability_score.html">
+        提高可持续性得分
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="生成升级计划"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 生成升级计划</div>-->
+         生成升级计划
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概述"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/upgrade_advisor_overview.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/upgrade_advisor_overview.html">
+        概述
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="为单个集群和多个集群生成升级计划"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/generate_upgrade_plan_single_multiple_clusters.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/generate_upgrade_plan_single_multiple_clusters.html">
+        为单个集群和多个集群生成升级计划
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="查看系统详细信息"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 查看系统详细信息</div>-->
+         查看系统详细信息
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="查看清单详细信息"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_view_inventory_details.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_view_inventory_details.html">
+        查看清单详细信息
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="与Cloud Insights 集成以查看虚拟机详细信息"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task-integrating-with-cloud-insights-to-view-vm-details.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task-integrating-with-cloud-insights-to-view-vm-details.html">
+        与Cloud Insights 集成以查看虚拟机详细信息
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="查看有价值的见解"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_view_valuable_insight_widget.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_view_valuable_insight_widget.html">
+        查看有价值的见解
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="查看Keystone订阅容量利用率"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/view_keystone_capacity_utilization.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/view_keystone_capacity_utilization.html">
+        查看Keystone订阅容量利用率
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="主动确定系统要求"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 主动确定系统要求</div>-->
+         主动确定系统要求
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概述"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/concept_overview_planning.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/concept_overview_planning.html">
+        概述
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="确定达到容量限制的系统"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_identify_capacity_system.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_identify_capacity_system.html">
+        确定达到容量限制的系统
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="避免卷填满以防止中断"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_avoid_a_volume_filling_up_to_prevent_an_outage.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_avoid_a_volume_filling_up_to_prevent_an_outage.html">
+        避免卷填满以防止中断
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="评估技术更新"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/evaluate-tech-refresh.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/evaluate-tech-refresh.html">
+        评估技术更新
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="续订软件和硬件"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_renew_software_and_hardware.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_renew_software_and_hardware.html">
+        续订软件和硬件
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="根据云建议做出明智的决策"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task-informed-decisions-based-on-cloud-recommendations.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/zh-cn/active-iq/task-informed-decisions-based-on-cloud-recommendations.html">
+        根据云建议做出明智的决策
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="确定配置差异"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 确定配置差异</div>-->
+         确定配置差异
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概述"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/concept_overview_config_drift.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/concept_overview_config_drift.html">
+        概述
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="添加配置偏移模板"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_add_config_drift_template.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_add_config_drift_template.html">
+        添加配置偏移模板
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="比较配置偏差模板"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_compare_config_drift_template.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_compare_config_drift_template.html">
+        比较配置偏差模板
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="生成偏移时间线报告"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_generate_drift_timeline_report.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_generate_drift_timeline_report.html">
+        生成偏移时间线报告
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="管理模板"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_manage_template.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_manage_template.html">
+        管理模板
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="提高存储系统的效率和性能"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 提高存储系统的效率和性能</div>-->
+         提高存储系统的效率和性能
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="分析容量和效率节省情况"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_analyze_storage_efficiency.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_analyze_storage_efficiency.html">
+        分析容量和效率节省情况
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="分析存储性能"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_view_performance_graphs.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_view_performance_graphs.html">
+        分析存储性能
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="分析存储系统的运行状况"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 分析存储系统的运行状况</div>-->
+         分析存储系统的运行状况
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概述"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/concept_understand_health_check_dashboard.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/concept_understand_health_check_dashboard.html">
+        概述
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="开始使用运行状况检查信息板"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/concept_get_started_with_health_check_dashboard.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/concept_get_started_with_health_check_dashboard.html">
+        开始使用运行状况检查信息板
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="续订支持合同"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_renew_support_contracts_for_your_systems.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_renew_support_contracts_for_your_systems.html">
+        续订支持合同
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="升级以优化您的客户群"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 升级以优化您的客户群</div>-->
+         升级以优化您的客户群
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="升级支持服务"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_upgrade_support_offering.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_upgrade_support_offering.html">
+        升级支持服务
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="使用 Ansible 攻略手册更新 AFF 和 FAS 固件"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 使用 Ansible 攻略手册更新 AFF 和 FAS 固件</div>-->
+         使用 Ansible 攻略手册更新 AFF 和 FAS 固件
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="下载 AFF 和 FAS 固件 Ansible Automation 软件包"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_update_AFF_FAS_firmware.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/zh-cn/active-iq/task_update_AFF_FAS_firmware.html">
+        下载 AFF 和 FAS 固件 Ansible Automation 软件包
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（有经验的用户）"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_install_execute_firmware_update_exp_user.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/zh-cn/active-iq/task_install_execute_firmware_update_exp_user.html">
+        安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（有经验的用户）
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（入门级）"
+      data-li-level="3" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-3  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（入门级）</div>-->
+         安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（入门级）
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="使用 Web 服务器托管固件文件"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_hosting_firmware_files_using_web_server.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/zh-cn/active-iq/task_hosting_firmware_files_using_web_server.html">
+        使用 Web 服务器托管固件文件
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="使用清单文件"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/concept_working_with_inventory_file.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/zh-cn/active-iq/concept_working_with_inventory_file.html">
+        使用清单文件
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="使用 NetApp Docker 映像执行 Ansible 攻略手册"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_execute_ansible_playbook_using_docker.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/zh-cn/active-iq/task_execute_ansible_playbook_using_docker.html">
+        使用 NetApp Docker 映像执行 Ansible 攻略手册
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="在不使用 Docker 的情况下执行 Ansible 攻略手册"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_execute_ansible_playbook_without_docker.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/zh-cn/active-iq/task_execute_ansible_playbook_without_docker.html">
+        在不使用 Docker 的情况下执行 Ansible 攻略手册
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="验证固件安装"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_validate_firmware_installation.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/zh-cn/active-iq/task_validate_firmware_installation.html">
+        验证固件安装
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="故障排除，反馈和支持"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/reference_ansible_troubleshoot_feedback_support.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/zh-cn/active-iq/reference_ansible_troubleshoot_feedback_support.html">
+        故障排除，反馈和支持
+      </a></li></ul></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="使用 API 集成数据"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 使用 API 集成数据</div>-->
+         使用 API 集成数据
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概述"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/concept_overview_API_service.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/concept_overview_API_service.html">
+        概述
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="生成令牌以访问 API"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_generate_tokens_API_services.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_generate_tokens_API_services.html">
+        生成令牌以访问 API
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="使用 API 目录执行 API"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_view_API_catalog.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_view_API_catalog.html">
+        使用 API 目录执行 API
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="生成自定义报告"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-cn/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-cn/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 生成自定义报告</div>-->
+         生成自定义报告
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="报告类型"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/concept_report_types.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/concept_report_types.html">
+        报告类型
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="生成报告"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/task_generate_reports.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-cn/active-iq/task_generate_reports.html">
+        生成报告
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="常见问题解答"
+      data-li-level="1#" 
+      class="  ie-sidebar-selected    "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="reference_aiq_faq.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/zh-cn/active-iq/reference_aiq_faq.html">
+        常见问题解答
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="获取更多信息"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/concept_get_more_information.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/zh-cn/active-iq/concept_get_more_information.html">
+        获取更多信息
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="法律声明"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_aiq_faq.html" 
+      dale-entry-url="/legal-notices.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/zh-cn/active-iq/legal-notices.html">
+        法律声明
+      </a></li></ul>
+</div>
+<script>
+
+  $(".ie-sidebar-button").click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    expandedLI = $('li.ie-sidebar-expand')
+
+    const li = $(this).closest("li");
+
+    const parentsLI = $(li).parents('li');
+
+    expandedLI.map(element => {
+      if (sidebarAccordion && !li.hasClass('ie-sidebar-expand') && jQuery.inArray(expandedLI[element], parentsLI) == -1) {
+        $(expandedLI[element]).toggleClass('ie-sidebar-expand');
+        $(expandedLI[element]).children("ul").animate({ height: 'toggle' }, 400, function () {
+          $(li).children("ul").toggleClass('ie-sidebar-open');
+
+        })
+      }
+
+    })
+
+    $(li).toggleClass('ie-sidebar-expand');
+    $(li).children("ul").animate({ height: 'toggle' }, 400, function () {
+      $(li).children("ul").toggleClass('ie-sidebar-open');
+    })
+  });
+
+
+  
+    $("li.ie-sidebar-selected").parents('ul').toggleClass("ie-sidebar-open");
+    $("li.ie-sidebar-selected").toggleClass("ie-sidebar-expand")
+    $("ul.ie-sidebar-open").parent().toggleClass("ie-sidebar-expand");
+    $("li.ie-sidebar-selected").children('ul').toggleClass("ie-sidebar-open")
+  
+  
+</script>
+    </div>
+</div>
+<script>
+
+    
+    let sidebarScrollTopPosition = 0;
+    $("#ie-new-toc").on("scroll", function () {
+        if (sidebarScrollTopPosition == 0) {
+            $.cookie("sidebarScroll", $("#ie-new-toc").scrollTop(), {
+                path: "/zh-cn/active-iq"
+            });
+        }
+
+        if ($("#ie-new-toc").scrollTop() > 0) {
+            $('#ie-product-identity-lockup').addClass('ie-addShadow');
+        } else {
+            $('#ie-product-identity-lockup').removeClass('ie-addShadow');
+        }
+    });
+
+    $(function () {
+        if ($.cookie("sidebarScroll")) {
+            $("#ie-new-toc").scrollTop($.cookie("sidebarScroll"));
+        }
+    });
+
+    function setSidebarBottom() {
+        const footerGap = PXinViewport($(".n-footer"));
+        document.getElementById("ie-new-sidebar").style.bottom = Math.max(0, footerGap) + "px";
+    }
+
+    window.onscroll = () => {
+        setSidebarBottom();
+    };
+
+    $("#sidebar-collapse").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        if ($.cookie("sidebarScroll")) {
+            sidebarScrollTopPosition = $.cookie("sidebarScroll");
+        }
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 350, function () {
+            $("#ie-new-sidebar-collapse").show();
+            $("#ie-new-sidebar").removeClass("open")
+            $("#ie-new-sidebar").addClass("close")
+            $("#ie-new-sidebar").removeAttr("style")
+        });
+        $(".ie-content-pane").animate({ width: (width + sidebarWidth), marginLeft: (marginLeft - sidebarWidth) }, 350, function () {
+            resizeContent()
+        })
+
+    });
+    $("#sidebar-expand").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 250, function () {
+            $('#ie-new-sidebar').css('display', 'flex');
+            $("#ie-new-sidebar-collapse").hide();
+            $("#ie-new-sidebar").removeClass("close")
+            $("#ie-new-sidebar").addClass("open")
+            setSidebarBottom();
+
+            if (sidebarScrollTopPosition != 0) {
+                $.cookie("sidebarScroll", sidebarScrollTopPosition, {
+                    path: "/zh-cn/active-iq"
+                })
+                $("#ie-new-toc").scrollTop(sidebarScrollTopPosition);
+                sidebarScrollTopPosition = 0;
+            }
+        });
+        $(".ie-content-pane").animate({ width: (width - sidebarWidth), 'marginLeft': (marginLeft + sidebarWidth) }, 250, function () {
+            resizeContent()
+        })
+    });
+    function resizeContent() {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        const rightNavbarVisible =  $("#ie-right-navbar").css('display') && $("#ie-right-navbar").css('display') != 'none';
+        const sidebarVisible = $("#ie-new-sidebar").css('display') != 'none';
+        const rightNavbarWidth = $("#ie-right-navbar").width();
+        const rightNavbarCollapseWidth = $("#ie-right-navbar-collapse").width();
+        const rightNavbarCollapseVisible = $("#ie-right-navbar-collapse").css('display') && $("#ie-right-navbar-collapse").css('display') != 'none';
+        
+        if (rightNavbarVisible && sidebarVisible) {
+            $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarWidth}px)`)
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+        } else if (sidebarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarCollapseWidth}px)`)
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar").width()}px)`)
+            }
+
+        } else if (rightNavbarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            $(".ie-content-pane").width(`calc(100% - ${rightNavbarWidth}px)`)
+        } else {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${rightNavbarCollapseWidth}px)`);
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar-collapse").width()}px) `);
+            }
+            
+        }
+    }
+    $(window).on("resize load", function () {
+        setSidebarBottom();
+        resizeContent()
+    });
+
+
+</script>
+
+<div class="ie-content-pane ie-component-detail-content ie-component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <!-- include utility.html -->
+      <div class="ie-info-disclaimer">
+    <span>
+      <div class="ie-info-disclaimer-container">
+        <div class="ie-info-disclaimer-icon">
+          <img src="/zh-cn/active-iq/images/notification-icons.svg" class="luci-icon" alt="" />
+        </div>
+        <div class="ie-info-disclaimer-content">
+          <span> 简体中文版经机器翻译而成，仅供参考。如与英语版出现任何冲突，应以英语版为准。 </span>
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+    </span>
+  </div><div class="ie-component-detail-heading-wrap">
+  <h1 class="ie-component-detail-heading">有关Digital Advisor的常见问题解答</h1>
+</div>
+
+<div id="ie-byline">
+  
+<div class="page-details">
+    
+        
+            <time datetime="2024-01-05 10:08:59 +0000">01/05/2024</time>
+        
+    
+    
+        <span>贡献者
+        </span>
+    
+    
+</div>
+<div class="page-controls">
+    <div id="contribute-dropdown" class="custom-dropdown custom-dropdown-contrib" >
+        <div class="custom-dropdown-select custom-dropdown-select-contrib">
+        <span class="contrib-name"><img src="/zh-cn/active-iq/images/discuss-sm.svg" alt="" class="github-icon" />建议更改</span>
+        <img src="/zh-cn/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown invisible" />
+        <img src="/zh-cn/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup" />
+        </div>
+        <ul class="custom-dropdown-menu suggested-changes-dropdown"><li>
+                <a target="_blank" href="https://github.com/NetAppDocs/active-iq.zh-cn/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/zh-cn/active-iq/reference_aiq_faq.html&page-title=有关Digital Advisor的常见问题解答" class="page-nav-contribute-link" role="button">请求文档更改</a>
+            </li><li> 
+                <a target="_blank" href="https://github.com/NetAppDocs/active-iq/blob/main/reference_aiq_faq.adoc" class="page-nav-contribute-link" role="button">编辑此页面</a>
+            </li><li><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >了解如何贡献</a></li>
+        </ul>
+    </div>
+    <div id="pdf-control-container">
+        <div class="n-pdf-header">
+            <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+                <img class="adobe-icon" src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>PDF<img src="/zh-cn/active-iq/images/dropdown-arrow.svg" class="custom-icon" alt="" />
+            </a>
+        </div>
+        <div class="n-pdf-body-container">
+            <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+                    
+                    
+                    
+                    <a target="_blank" class="pdf-download-link" href="/zh-cn/active-iq/pdfs/fullsite-sidebar/Digital_Advisor文档.pdf" >
+                    <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>本文档站点的 PDF</a>
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/发行说明.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            发行说明
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/入门.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            入门
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/配置监视列表.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            配置监视列表
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/分析健康属性.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            分析健康属性
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/分析存储系统的可持续性.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            分析存储系统的可持续性
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/生成升级计划.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            生成升级计划
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/查看系统详细信息.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            查看系统详细信息
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/主动确定系统要求.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            主动确定系统要求
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/确定配置差异.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            确定配置差异
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/提高存储系统的效率和性能.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            提高存储系统的效率和性能
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/分析存储系统的运行状况.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            分析存储系统的运行状况
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/升级以优化您的客户群.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            升级以优化您的客户群
+          </a>
+          
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/使用_Ansible_攻略手册更新_AFF_和_FAS_固件.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            使用 Ansible 攻略手册更新 AFF 和 FAS 固件
+          </a>
+          
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/安装并执行_AFF_和_FAS_固件_Ansible_Automation_软件包_入门级_.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（入门级）
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/使用_API_集成数据.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            使用 API 集成数据
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-cn/active-iq/pdfs/sidebar/生成自定义报告.pdf" 
+            
+          >
+            <img src="/zh-cn/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            生成自定义报告
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+</li></ul>
+            <div class="zip-pdf-link-container" style="display: none;">   
+                <a href="#" id="zipPdf">
+                <img src="/zh-cn/active-iq/images/pdf-zip.png" alt="" width="16" height="16"/>
+                <pre>单独 PDF 文档的收集<span class="zip-size"></span></pre>
+                </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+        </div>
+    </div>        
+<script>
+$("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+$("#toggleButtonPdf").on('click', function(e){ 
+    e.stopPropagation();
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+});
+
+//hide is by clicking outside pdfcontainer
+$(document).on('click', function (e) {
+    if ($('#toggleContainerPdf').is(':visible') && !$('.n-pdf-body-container').is(e.target) && !$('.n-pdf-body-container').has(e.target).length)  {
+        
+        $("#toggleContainerPdf").toggle('display');
+        $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+        $("#toggleButtonPdf").removeClass("active");
+    }
+});
+</script>
+<script>
+    function getPdfLocation() {
+        const pdfLocation = window.scrollX + document.querySelector('#pdf-control-container').getBoundingClientRect().left
+        if (pdfLocation < 450) {
+            $(".n-pdf-body-container").addClass("block")
+        } else {
+            $(".n-pdf-body-container").removeClass("block")
+        }
+    
+    }
+    $( window ).on( "resize", function() {
+        getPdfLocation()
+} );
+</script>
+<script>
+    const pdfButtonWidth =  $(".n-pdf-header").width();
+    const pdfMenuWidth = $(".n-pdf-body-container").width();
+    $(".n-pdf-body-container").css('margin-left', `calc(${pdfButtonWidth - pdfMenuWidth}px)`);
+</script>
+</div>
+
+    
+
+</div>
+
+
+
+
+<div class="content-to-index">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>以下问题解答了您经常询问的有关Digital Advisor的问题。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="非技术案例">非技术案例</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>什么是非技术案例？</strong></p>
+</div>
+<div class="paragraph">
+<p>无法查看清单中的系统、合同期限日期不正确等非技术问题均归类为非技术问题。</p>
+</div>
+<div class="paragraph">
+<p><strong>何时需要创建非技术案例？</strong></p>
+</div>
+<div class="paragraph">
+<p>应针对以下情况创建非技术案例：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>无法访问某些功能</p>
+</li>
+<li>
+<p>清单中缺少系统</p>
+</li>
+<li>
+<p>从安装库停用系统</p>
+</li>
+<li>
+<p>合同期限日期不正确或缺失</p>
+</li>
+<li>
+<p>支持服务不正确</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>如何创建非技术案例？</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>单击 <a href="https://mysupport.netapp.com/site/help" target="_blank" rel="noopener">"此处"</a> 在 NetApp 支持站点上打开“非技术反馈工具”。</p>
+</li>
+<li>
+<p>从 * 反馈类别 * 下拉列表中选择相应的类别。</p>
+</li>
+<li>
+<p>输入所需的详细信息并在 " 注释 " 框中提供追加信息。</p>
+</li>
+<li>
+<p>单击 * 提交 * 。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>此时将创建一个案例，并提供一个案例编号供您参考。</p>
+</div>
+<div class="paragraph">
+<p><strong>如何提供反馈或询问与Digital Advisor相关的其他问题？</strong></p>
+</div>
+<div class="paragraph">
+<p>要提供反馈或提出问题，请发送电子邮件至： mailto ： <a href="mailto:ng-activeiq-feedback@netapp.com">ng-activeiq-feedback@netapp.com</a> [.下划线 ]#<a href="mailto:ng-activeiq-feedback@netapp.com">ng-activeiq-feedback@netapp.com</a> #]</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="存储效率">存储效率</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>如何在Digital Advisor中访问存储效率？</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>打开的主页 <a href="https://activeiq.netapp.com/?source=onlinedocs" target="_blank" rel="noopener">"Digital Advisor"</a>。</p>
+</li>
+<li>
+<p>从右上角的搜索框中搜索客户，站点，组，集群或节点，以访问相应的信息板。</p>
+</li>
+<li>
+<p>单击左侧导航栏中的 * 存储效率 * 。</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/active-iq/images/note.svg" alt="备注">
+</td>
+<td class="content">
+使用监视列表创建的信息板不会显示在存储效率小工具中。
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><strong>数字顾问是否显示所有ONTAP 系统的比率？</strong></p>
+</div>
+<div class="paragraph">
+<p>Digital Advisor可显示运行ONTAP 9.1及更高版本的系统的比率。</p>
+</div>
+<div class="paragraph">
+<p><strong>效率信息板上的‘With Snapshot Copies'(使用Snapshot副本)切换是什么？</strong></p>
+</div>
+<div class="paragraph">
+<p>Digital Advisor效率信息板可计算多个级别的数据精简率、包括客户、站点、组、集群、 和节点。如果您打开了*with Snapshot copies*切换，数据精简率计算将包括以下存储效率技术：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>重复数据删除</p>
+</li>
+<li>
+<p>压缩</p>
+</li>
+<li>
+<p>数据缩减</p>
+</li>
+<li>
+<p>克隆</p>
+</li>
+<li>
+<p>快照</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>默认情况下、数据精简率计算不包括Snapshot存储效率技术。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>使用的是物理数据和逻辑数据？ *</p>
+</li>
+<li>
+<p>已用物理块 / 已用物理数据</p>
+<div class="ulist">
+<ul>
+<li>
+<p>当前用于数据的空间量 （而不是保留供将来使用）</p>
+</li>
+<li>
+<p>包括聚合 Snapshot 副本使用的空间</p>
+</li>
+<li>
+<p>客户端实际占用 / 写入的空间</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>已用总逻辑数据</p>
+<div class="ulist">
+<ul>
+<li>
+<p>显示聚合中使用的逻辑大小。</p>
+</li>
+<li>
+<p>这包括聚合中的卷，克隆和快照。</p>
+</li>
+<li>
+<p>逻辑大小是根据物理使用量（实际写入）和聚合中节省的空间计算得出的。</p>
+</li>
+<li>
+<p>不包括为将来使用而预留的空间</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>哪些AutoSupport实例用于计算数据精简率？</strong></p>
+</div>
+<div class="paragraph">
+<p>可以使用最新的每周或用户触发的AutoSupport实例执行计算、这些实例往往包含计算比率所需的大部分部分。</p>
+</div>
+<div class="paragraph">
+<p><strong>数据精简计算不包括哪些卷或聚合？</strong></p>
+</div>
+<div class="paragraph">
+<p>计算数据精简率时不考虑以下对象：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>根聚合</p>
+</li>
+<li>
+<p>使卷脱机</p>
+</li>
+<li>
+<p>SVM 根 / 管理根卷</p>
+</li>
+<li>
+<p>MCC 配置卷</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>如何查看数据精简率的趋势？</strong></p>
+</div>
+<div class="paragraph">
+<p>目前、数据精简率是根据最新的每周或用户触发的AutoSupport实例计算得出的。未来版本可能会考虑这一趋势。</p>
+</div>
+<div class="paragraph">
+<p><strong>如何计算客户级别的比率和数据精简节省量？</strong></p>
+</div>
+<div class="paragraph">
+<p>客户级别的存储效率信息板可为AFF和非AF系统提供数据精简率(无论是否具有Snapshot副本)、并在客户群中对运行ONTAP 9.1及更高版本的系统进行合并。以下计算所需的参数来自 ONTAP AutoSupport ：</p>
+</div>
+<div class="paragraph">
+<p>不使用 Snapshot 副本（按每个聚合先计算）：</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">* 操作 *</th>
+<th class="tableblock halign-left valign-top">* 公式 *</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">不使用 Snapshot 副本的 aggr 逻辑</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">聚合中的卷，克隆， Snapshot 副本使用的逻辑大小— Snapshot 副本使用的逻辑大小</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">在不使用 Snapshot 副本的情况下使用的 aggr 物理磁盘</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">已用总物理空间(Snapshot副本已用物理空间/聚合数据精简率)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">不含 Snapshot 副本的客户效率比率</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sum [Aggr Logical Used without Snapshot Copies for all aggregates and for all nodes of a customer]/ Sum [Aggr physical used without Snapshot copies for all aggregates and for all nodes of a customer] ： 1.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>使用 Snapshot 副本：</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">* 操作 *</th>
+<th class="tableblock halign-left valign-top">* 公式 *</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">具有 Snapshot 副本的客户逻辑大小</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">总和 [ 所有聚合和客户所有节点的卷，克隆， Snapshot 副本使用的逻辑大小 ]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">与 Snapshot 副本结合使用的客户物理大小</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">总和（所有聚合和客户的所有节点使用的总物理大小）</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">使用 Snapshot 副本的客户效率比率</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">包含 Snapshot 副本和克隆的客户逻辑大小 / 与 Snapshot 副本和克隆一起使用的客户物理大小： 1.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>效率功能表计算：</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">* 操作 *</th>
+<th class="tableblock halign-left valign-top">* 公式 *</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">客户已用物理空间</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">聚合为客户的所有聚合和所有节点使用的物理空间之和</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">在不使用 Snapshot 副本的情况下使用的客户逻辑大小</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">卷，克隆， Snapshot 副本使用的逻辑大小之和—客户所有节点的所有聚合的 Snapshot 副本使用的逻辑大小</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Snapshot 副本使用的客户逻辑大小</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">客户所有节点的所有聚合中的卷，克隆， Snapshot 副本使用的逻辑大小之和</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">节省的总空间</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">已用总逻辑空间—已用总物理空间</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">重复数据删除节省的空间</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">通过卷重复数据删除节省的空间总和 + 通过对客户所有节点的每个聚合执行实时零模式检测节省的空间</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">数据压缩节省量</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">客户所有节点的每个聚合的卷压缩节省的空间之和</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">数据缩减节省量（适用于 ONTAP 9.1 ）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">客户所有节点的每个聚合的聚合缩减所节省的空间之和</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">数据缩减节省量（适用于 ONTAP 9.2 及更高版本）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">客户所有节点的每个聚合的聚合数据缩减节省的空间之和</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FlexClone 节省量</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">客户所有节点的每个聚合的总和（ FlexClone 卷使用的逻辑大小 - FlexClone 卷使用的物理大小）</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Snapshot 副本备份节省量</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">客户所有节点的所有聚合的总和（ Snapshot 副本使用的逻辑大小 - Snapshot 副本使用的物理大小）</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p><strong>为什么将所有单个数据精简节省量加起来不等于数据精简节省量？</strong></p>
+</div>
+<div class="paragraph">
+<p>数据精简节省量显示在卷和本地层(聚合)的存储效率信息板中。  您不能添加卷节省量和聚合节省量，因为它们都发生在不同的存储对象上。</p>
+</div>
+<div class="paragraph">
+<p><strong>为什么在升级到ONTAP之前报告数据精简率较高或不正确？</strong></p>
+</div>
+<div class="paragraph">
+<p>如果节点中存在因ONTAP中的错误而导致的数据保护卷、则数据精简率会更高。已在 ONTAP 9.3P11 中修复此问题。如果从 9.3P11 之前的 ONTAP 版本升级以及节点中存在数据保护卷，则存储效率将报告正确或较低的值。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="清单">清单</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>为什么在Digital Advisor中找不到某些系统？</strong><br>
+由于以下原因之一、您可能无法在清单页面中搜索或查看某些系统：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>在SAP中添加或更新新系统后、需要花费一天的时间才能在Digital Advisor中反映出来。</p>
+</li>
+<li>
+<p>系统安全可靠、您无权查看安全系统。</p>
+</li>
+<li>
+<p>您无权查看这些系统。</p>
+</li>
+<li>
+<p>系统在SAP中处于非活动状态、已归档或已停用状态。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>如果您出于任何其他原因无法查看系统、有疑问或希望请求访问、 <a href="https://mysupport.netapp.com/site/help" target="_blank" rel="noopener">"创建非技术案例"</a>。要了解有关非技术案例的更多信息、请单击 <a href="#非技术案例">此处。</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="capacity">Capacity</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>如何在Digital Advisor中计算容量？</strong> Digital Advisor中的容量是为集群和节点计算的、不包括根副本和Snapshot副本</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">* 容量 *</th>
+<th class="tableblock halign-left valign-top">* 通过添加每个聚合… * 计算得出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">原始容量</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">sysconfig -R 的所有物理磁盘（ MB/blks ）</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">可用容量</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">"df -a " 的 KB （已分配）</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">已用容量（含预留）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">使用的是 "df -A "</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">可用容量</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">提供了 "df -a "</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">物理容量（实际）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">"aggr-efficiency.xml" 的总物理使用量</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">逻辑容量（有效）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">"aggr-efficiency.xml" 聚合中的卷，克隆和 Snapshot 副本使用的逻辑大小</p></td>
+</tr>
+</tbody>
+</table>
+<div class="ulist">
+<ul>
+<li>
+<p>对于本地层（包含 Snapshot 副本的聚合） *</p>
+</li>
+</ul>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">* 容量 *</th>
+<th class="tableblock halign-left valign-top">* 使用… * 计算得出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">可用容量</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">"df -a " 的 KB （已分配）</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">已用容量（含预留）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">使用的是 "df -A "</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">可用容量</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">提供了 "df -a "</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">物理容量（实际）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">"aggr-efficiency.xml" 的总物理使用量</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">逻辑容量（有效）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">"aggr-efficiency.xml" 聚合中的卷，克隆和 Snapshot 副本使用的逻辑大小</p></td>
+</tr>
+</tbody>
+</table>
+<div class="ulist">
+<ul>
+<li>
+<p>对于卷（具有 Snapshot 副本的卷） *</p>
+</li>
+</ul>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* 容量 *</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* 使用… * 计算得出</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">卷容量</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">"volume.xml" 的卷大小</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">已用容量（含预留）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">"volume.xml" 的已用大小</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">可用容量</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">"volume.xml" 的可用大小</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">物理容量（实际）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">"VOL status -S " 的总物理使用量</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">逻辑容量（有效）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">"volume.xml" 的逻辑已用大小</p></td>
+</tr>
+</tbody>
+</table>
+<div class="ulist">
+<ul>
+<li>
+<p>物理容量（实际），逻辑容量（有效）和已用容量（预留）是多少？ *</p>
+</li>
+<li>
+<p>已用物理块 / 已用物理容量（实际）</p>
+<div class="ulist">
+<ul>
+<li>
+<p>当前用于数据的空间量 （而不是保留供将来使用）</p>
+</li>
+<li>
+<p>包括聚合 Snapshot 副本使用的空间</p>
+</li>
+<li>
+<p>客户端实际占用或写入的空间</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>已用逻辑容量（有效）逻辑数据</p>
+<div class="ulist">
+<ul>
+<li>
+<p>显示聚合中使用的逻辑大小</p>
+</li>
+<li>
+<p>聚合可包含卷，克隆和 Snapshot 副本。</p>
+</li>
+<li>
+<p>逻辑大小是根据物理使用量（实际写入）和聚合中节省的空间计算得出的。</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/active-iq/images/note.svg" alt="备注">
+</td>
+<td class="content">
+它不包括为将来使用而预留的空间。
+</td>
+</tr>
+</table>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>已用 / 已用总数据容量（含预留）</p>
+<div class="ulist">
+<ul>
+<li>
+<p>聚合中卷，元数据或 Snapshot 副本已用或预留的所有空间之和</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/active-iq/images/note.svg" alt="备注">
+</td>
+<td class="content">
+它包括为文件或卷保证类型的卷预留的空间。除了预留之外，它还包括延迟释放， aggr 博客和元数据。在清除延迟的可用块之前，它会显示为已用空间。清除后，已用空间将减少。
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>" 容量预测 " 是如何计算的？ * 容量预测使用过去一年的已用容量数据来计算系统的平均每周增长率。然后，系统使用量的这一变化率将从当前已用容量中进行推断，以展示未来 6 个月系统利用率的变化情况（假设总可用容量保持不变）。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>为什么每个卷的已添加已用容量与节点级别的已用总容量不匹配？ * 节点级别的已用容量包括卷，元数据和 Snapshot 副本预留的空间。它还包括为卷预留的空间，即文件或卷保证类型。因此，两者可能不匹配。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>*容量显示在Digital Advisor Base 2或Base 10中吗？*在Digital Advisor中显示的所有容量均为Base 2 (除以1024)、并以GiB/TiB表示容量。ONTAP 存储和其他 NetApp 产品还会在 Base 2 中显示容量使用情况。</p>
+</div>
+<div class="paragraph">
+<p>对于 StorageGRID ，容量以基数 10 显示，容量单位以 TB 表示。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="其他">其他</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>为什么左侧导航窗格中存储运行状况下的功能被禁用？</strong><br>
+存储运行状况*下功能的可用性取决于系统类型和级别。例如、集群查看器可用于集群和节点级别的ONTAP和Cloud Volumes ONTAP (CVO)系统。您可以将鼠标悬停在每个功能旁边的*i*图标上，了解适用的系统类型和级别。</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+<div id="ie-right-navbar-collapse" class="close">
+  <img id="navbar-expand" class="ie-searchbox-icon" src="/zh-cn/active-iq/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-right-navbar" class="open">
+  <div id="right-navbar-collapse">
+    <img src="/zh-cn/active-iq/images/double_arrow.svg" alt="" />
+  </div>
+  <div class="page-nav-container">
+    <nav class="page-nav-fixed">
+      <div class="page-nav-title">在本页面中</div>
+      <div class="page-nav-links">
+        <ul class="page-nav-inner" id="page-menu"></ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+<script>
+  resizeContent();
+  function setRightBarHeight() {
+    var h = 0;
+
+    // header 1
+    h += PXinViewport($('.n-footer'));
+    h += PXinViewport($('#ie-new-header'));
+
+    if ($('#ie-right-navbar').length) {
+      $('#ie-right-navbar').css({ height: `calc(100vh - ${h}px)` });
+    }
+    if ($('.page-nav-links').length) {
+      h += 98;
+      $('.page-nav-links').css({ height: `calc(100vh - ${h}px)` });
+    }
+  }
+
+  $(document).ready(function () {
+    // PAGE NAV - Click
+    const MASTHEAD_OFFSET = 65;
+    const SECTIONS = $("main h2, main h3");
+    let calculateActiveSection = false;
+    setTimeout(() => {
+      calculateActiveSection = true;
+    }, 100)
+
+    $(".page-nav__link").click(function (event) {
+      calculateActiveSection = false;
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      var target = $(event.target);
+      target.addClass('page-nav__link--active');
+      location.hash = event.target.hash;
+      setTimeout(() => {
+        calculateActiveSection = true;
+      }, 100)
+
+    });
+
+    // PAGE NAV - Scroll
+    $(window).on('resize scroll', function () {
+      if (calculateActiveSection) {
+        var activeSection = getActiveSection(SECTIONS, MASTHEAD_OFFSET);
+        if (activeSection) {
+          var activeHref = $(activeSection).attr('id');
+          $(".page-nav__link").removeClass('page-nav__link--active');
+          $("#page-menu a[href=#" + activeHref + "]").addClass('page-nav__link--active');
+          if (location.hash != "#" + activeHref) {
+            if (history.replaceState) {
+              history.replaceState(null, null, "#" + activeHref);
+            }
+          }
+        }
+      }
+    });
+
+    $(".n-pdf-button").click(function () {
+      $(this).toggleClass("active");
+    });
+
+    $.fn.isVisibleAndInViewport = function () {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+
+      return elementBottom > viewportTop && elementTop < viewportBottom && $(this).is(":visible");
+    };
+
+
+    $(window).on('resize scroll', function () {
+      setRightBarHeight();
+    });
+
+    $(window).trigger('resize');
+
+
+  });
+
+  $("#right-navbar-collapse").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 350, function () {
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+    });
+    $(".ie-content-pane").animate({ width: (width + rightNavbarWidth) }, 350, function () {
+      resizeContent()
+      setSidebarBottom();
+    })
+
+  });
+  $("#navbar-expand").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 250, function () {
+      $("#ie-right-navbar-collapse").removeClass("open")
+      $("#ie-right-navbar-collapse").addClass("close")
+      $("#ie-right-navbar").removeClass("close")
+      $("#ie-right-navbar").addClass("open")
+      setRightBarHeight();
+      setSidebarBottom();
+    });
+    $(".ie-content-pane").animate({ width: (width - rightNavbarWidth) }, 250, function () {
+      resizeContent()
+    })
+  });
+
+  function navbarResize() {
+    const rightNavbarResized = $("#ie-right-navbar-collapse").hasClass('resized');
+    if (window.innerWidth < 1024) {
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+      $("#ie-right-navbar").removeAttr("style")
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar-collapse").addClass("resized")
+    } else {
+      if (rightNavbarResized) {
+        $('#ie-right-navbar').removeClass('close');
+        $('#ie-right-navbar').addClass('open');
+        $("#ie-right-navbar-collapse").removeClass("resized")
+        $("#ie-right-navbar-collapse").removeClass("open")
+        $("#ie-right-navbar-collapse").addClass("close")
+      }
+    }
+    resizeContent()
+  }
+  navbarResize();
+  $(window).on('resize load', function () {
+    navbarResize()
+  });
+
+  function getActiveSection(sections, offset) {
+    var scrollPosition = $(window).scrollTop() + offset + 5;
+    var activeSection;
+    for (var i = 0; i < sections.length; i++) {
+      var el = $(sections[i]);
+      var activePosition = el.offset().top;
+      if (activePosition > scrollPosition) {
+        break;
+      }
+
+      activeSection = sections[i];
+    }
+
+    return activeSection;
+  }
+
+  $("a[href*=#]:not([href=#])").click(function () {
+    setTimeout(() => {
+      $(window).trigger('scroll');
+    }, 105)
+  })
+
+  const hashOnLoad = location.href.split("#")[1];
+  setTimeout(function () {
+    if (hashOnLoad) {
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      $("#page-menu a[href=#" + hashOnLoad + "]").addClass('page-nav__link--active');
+    }
+  }, 100)
+
+</script>
+
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+        <div class="n-footer__left">
+          <li class="n-footer__copyright-link">
+                    <a href="https://www.netapp.com/company/legal/copyright/">© 2024 NetApp, Inc.</a>
+          </li>
+        </div>
+        <div class="n-footer__center">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">使用条款</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">隐私策略</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">Cookie 政策</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">Cookie 设置</a>
+            </li>
+          </ul>
+       </div>
+        <div class="n-footer__right">
+              <li class="n-footer__copyright-link">
+                <a target="_self" href="javascript:netapp_mailto()">请发送有关此页面的反馈</a>
+              </li>
+        </div>
+     </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/zh-cn/active-iq/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/zh-cn/active-iq/js/prism.js'></script>
+      <script type="text/javascript" src='/zh-cn/active-iq/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/zh-cn/active-iq/js/ie-tabbed-blocks.js'></script>
+    <script src='/zh-cn/active-iq/js/ie-sidebar.js'></script>
+  </body>
+
+</html>
