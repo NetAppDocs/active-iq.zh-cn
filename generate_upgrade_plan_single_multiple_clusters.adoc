@@ -31,12 +31,9 @@ image:ua_widget.png["显示集群数量的屏幕截图。"]
 +
 出现“*Upgrade Advisor－ONTAP”页面。
 
-. 验证是否已启用*增强型Upgrade Advisor切换。
+. 您可以查看符合升级条件和不符合升级条件的集群列表。
 +
 image:r_enhanced_ua_toggle.png["此时将显示一个屏幕截图、其中显示增强的Upgrade Advisor切换。"]
-
-+
-您可以查看符合升级条件和不符合升级条件的集群列表。
 
 . 选择要升级的集群。
 目标操作系统版本*列显示建议的目标操作系统版本。您可以单击 image:edit_icon.png["\"编辑\"按钮的图像"] 图标以选择集群的其他目标操作系统版本。
@@ -88,12 +85,9 @@ image:ua_widget.png["显示集群数量的屏幕截图。"]
 +
 出现“*Upgrade Advisor－ONTAP”页面。
 
-. 验证是否已启用*增强型Upgrade Advisor切换。
+. 您可以查看符合升级条件和不符合升级条件的集群列表。
 +
 image:r_enhanced_ua_toggle.png["此时将显示一个屏幕截图、其中显示增强的Upgrade Advisor切换。"]
-
-+
-您可以查看符合升级条件和不符合升级条件的集群列表。
 
 . 选择要升级的集群。
 目标操作系统版本*列显示建议的目标操作系统版本。您可以单击 image:edit_icon.png["\"编辑\"按钮的图像"] 图标以选择集群的其他目标操作系统版本。

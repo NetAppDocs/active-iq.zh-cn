@@ -81,8 +81,6 @@ sidebar:
       url: "/upgrade_advisor_overview.html"
     - title: 为单个集群和多个集群生成升级计划
       url: "/generate_upgrade_plan_single_multiple_clusters.html"
-    - title: 为节点生成升级计划
-      url: "/task_view_upgrade.html"
   - title: 查看系统详细信息
     entries:
     - title: 查看清单详细信息
