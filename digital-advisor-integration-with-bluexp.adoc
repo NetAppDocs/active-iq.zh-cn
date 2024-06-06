@@ -33,7 +33,7 @@ Digital Advisor (以前称为Active IQ 数字顾问)现已与BlueXP完全集成�
 您可以从BlueXP访问Digital Advisor来管理集群。
 
 .步骤
-. 打开 Web 浏览器并转到 https://cloudmanager.netapp.com/app-redirect/active-iq["BlueXP"^]
+. 打开 Web 浏览器并转到 https://cloudmanager.netapp.com/app-redirect/active-iq["BlueXP"^]。
 . 选择*使用您的NetApp 支持站点 凭据登录*并输入您的凭据。
 +
 如果您之前使用电子邮件和密码创建了BlueXP登录、则需要继续使用该登录选项。
@@ -52,4 +52,4 @@ Digital Advisor (以前称为Active IQ 数字顾问)现已与BlueXP完全集成�
 
 == 了解有关BlueXP的更多信息
 
-https://docs.netapp.com/us-en/cloud-manager-family/concept-overview.html["请访问BlueXP文档了解更多信息"^]
+https://docs.netapp.com/us-en/bluexp-family/index.html["请访问BlueXP文档了解更多信息"^]
