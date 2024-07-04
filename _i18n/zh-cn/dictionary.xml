@@ -972,7 +972,6 @@
   <block id="044be2af3d7a8e5a1f40d130d2438c9f" category="list-text">单击*层数据*以启动*蓝图X*。</block>
   <block id="d47e8f11a965b60f93af502da96f983a" category="list-text">单击*备份到云*以启动*蓝图x*。</block>
   <block id="75bbd62b379d56356d9a8bb6cfdedb8d" category="list-text">单击*复制到云*以启动*蓝图X*。</block>
-  <block id="37d1c7cc9a28ed0051987a7bb5b7d027" category="summary">Digital Advisor (以前称为Active IQ 数字顾问)现已与BlueXP完全集成。现在、您可以通过BlueXP用户界面(UI)管理集群并访问Digital Advisor的所有功能。</block>
   <block id="460143bcf999273db551806a244f984a" category="doc">Digital Advisor与BlueXP集成</block>
   <block id="8c36f4cc3d20ca0b82973d5efc0db5f7" category="paragraph">借助BlueXP、IT专家和云架构师可以集中管理其混合多云基础架构。您只需一个NetApp 支持站点 (NSS)帐户即可访问BlueXP中的数字顾问。</block>
   <block id="ef968e276f61485a7817ba225a8c20b6" category="section-title">集成概述</block>
@@ -1174,17 +1173,13 @@
   <block id="0212b08a947e9079148b138fa48a9e62" category="list-text"><block ref="0212b08a947e9079148b138fa48a9e62" category="inline-link-macro-rx"></block></block>
   <block id="3bb41de04026c13803b9189b287bb05a" category="list-text"><block ref="3bb41de04026c13803b9189b287bb05a" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">Sustainability信息板概述</block>
-  <block id="4c2b4426b7dc09f399ba26ed28948574" category="paragraph">可持续性信息板可通过NetApp建议的措施对您的存储系统进行环境评估、并提供可指导行动的改进见解。</block>
   <block id="ca83c30c00a0e9764753dfe902966c87" category="inline-image-macro">显示Sustainability信息板的UI屏幕截图。</block>
   <block id="3cab16f01bfdfc4bc2969c6d95293181" category="paragraph"><block ref="3cab16f01bfdfc4bc2969c6d95293181" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b4f83b03956523a39e8bbbd0895f0f29" category="inline-link-macro">Cloud Insights</block>
   <block id="b571f57eccbda9dd69031db85e4d4c3c" category="admonition">要从信息板获得最佳结果、必须启用AutoSupport。如果未启用AutoSupport、则数据将基于产品规格。要获取实时电源详细信息、您需要启用Cloud Insights。有关如何启用Cloud Insights的详细信息、请参见 <block ref="0287186bd1777b27f244433b8d45ea17" category="inline-link-macro-rx"></block>。</block>
-  <block id="349d5b603d0e4251a3e164f95f8c02f8" category="paragraph">*环境指标*：显示对电耗、直接碳用量和热量排放的预测，以评估存储系统的环境运行状况。这些预测基于实际功率(如果不可用)的典型功率值。您可以通过从此部分右上角的下拉列表中选择所需选项来查看这些预测、包括每月、每季度或每年。</block>
   <block id="e3667627bec4bfd6e60dea46e855352c" category="inline-image-macro">显示站点的碳缓解百分比以及如何编辑此百分比的屏幕截图。</block>
   <block id="369583cace99a57a955a633843c9e566" category="paragraph"><block ref="369583cace99a57a955a633843c9e566" category="inline-image-macro-rx" type="image"></block></block>
   <block id="beb260be8cea3e84f70f9430a752b705" category="inline-link-macro">提高可持续性得分</block>
-  <block id="fe143bdce72bc5ab4569489181cdd2e4" category="paragraph">*建议操作*：显示可提高存储系统可持续性得分的建议操作列表。可以立即或稍后执行这些操作。
-有关如何提高可持续性得分的详细信息、请参见 <block ref="873cf785eea222f4f03b5ce3115ed1d1" category="inline-link-macro-rx"></block>。</block>
   <block id="8567bc66d7819e8863325a79e4709020" category="paragraph">*工作环境*：在表中显示环境参数、这些参数有助于确定要迁移到更高效存储的集群。在此表中、您可以：</block>
   <block id="62fddd607dc9693b0c872b37a4574243" category="inline-link-macro">提高集群级别的可持续性得分</block>
   <block id="d349bd444ea7cf19afb8883ebd796f29" category="list-text">查看集群级别的可持续性得分，选择要访问*ClusterViewer*的集群名称，并采取具体建议的措施来提高可持续性。有关详细信息，请参见 <block ref="7b74333fc84c714028dfd344685516f9" category="inline-link-macro-rx"></block>。</block>
@@ -1518,10 +1513,20 @@
   <block id="db58d45951c63fe2dd675478f6b9865f" category="list-text">(可选)提供任何注释。</block>
   <block id="1b4b8457b3e396737f084de0f45936c7" category="list-text">单击*Send*将请求发送给NetApp存储团队，以协助为选定系统添加容量。</block>
   <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024年5月15日</block>
-  <block id="0108740b4afbf178bb60484e5406b8b8" category="paragraph">E系列和StorageGRID系统现在支持Sustainability。您可以从这些系统的可持续性信息板中查看建议的操作和环境指标列表、这些操作和指标会显示功率、直接碳用量和热量的预测。要了解更多信息，请参见 <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>。</block>
   <block id="7f7cec1be1735b1983c4a5c393d28f95" category="list-text">打开 Web 浏览器并转到<block ref="728980458233383868b0f55c1d2cfb83" category="inline-link-rx"></block>。</block>
   <block id="75a2fb3e65876cbcfa3205242ff8f481" category="paragraph"><block ref="75a2fb3e65876cbcfa3205242ff8f481" category="inline-link-rx"></block></block>
   <block id="aa5dc235d62725940283cabf93c99f56" category="paragraph">您可以从Sustainability信息板查看Sustainability得分、以及预计的电力、直接碳和热量使用情况。您可以调整特定站点的碳缓解百分比。您还可以查看集群级别的可持续性得分。根据可持续发展得分、您可以评估可持续发展态势并实施NetApp建议的措施来提高得分。要了解有关Sustainability信息板的更多信息、请访问 <block ref="53113380bf04c6731431f3e5ed0db598" category="inline-link-macro-rx"></block>。</block>
   <block id="e5ec30fe5fd65ba8d529a625838c30d8" category="admonition">Cloud Volumes ONTAP、AFF系统(A系列和C系列)、E系列、FAS和StorageGRID系统均支持Sustainability。</block>
   <block id="85146254574b987d9cbb6cab677e0b41" category="list-text">查看可持续性得分以及电耗、直接碳和热量的预计使用量。根据可持续发展得分、评估存储系统的整体效率、并遵循NetApp建议的措施来提高得分。 <block ref="39c6b2486cd9bf17fda30dbe2d930cc2" category="inline-link-macro-rx"></block>。</block>
+  <block id="f78aea7a273ac10c7cb721f1b73054d6" category="paragraph">Sustainability信息板以NetApp建议的操作形式提供存储系统的环境评估以及可指导行动的改进见解。</block>
+  <block id="1894439cce0793aa137fea7a4b35dabb" category="paragraph">*环境指标*：显示对电耗、直接碳使用量和热量排放的预测，以评估存储系统的环境运行状况。这些预测基于实际功率(如果不可用)的典型功率值。您可以通过从此部分右上角的下拉列表中选择所需选项来查看这些预测、包括每月、每季度或每年。</block>
+  <block id="be7240e9b76d1939220e2878a2db9c57" category="paragraph">*建议操作*：显示可提高存储系统可持续性得分的建议操作列表。可以立即或稍后执行这些操作。有关如何提高Sustainability得分的详细信息，请参见 <block ref="873cf785eea222f4f03b5ce3115ed1d1" category="inline-link-macro-rx"></block>。</block>
+  <block id="e24114b3239c82dab2f946aab9cd9d56" category="summary">Digital Advisor现已与BlueXP完全集成。现在、您可以通过BlueXP用户界面(UI)管理集群并访问Digital Advisor的所有功能。</block>
+  <block id="d16ed76d9bbe68a33a560068a6d75b3a" category="section-title">可持续性得分计算</block>
+  <block id="1edb693117135d541a37bbf14f07ec73" category="paragraph">可持续性得分是根据一组与存储系统相关的规则计算得出的、其中每条规则都涉及特定风险并提供建议的规避措施。每个规则都会获得一个分数、以反映其重要性。例如、如果有三条与存储系统相关的规则：保持环境温度、确保理想的容量利用率和使用钛电源、分别得分为30、40和30分。将这些分数加起来所得的总分为100分、即分母。</block>
+  <block id="4d17f9cca03c70725a36605d7c17e756" category="paragraph">如果存储系统完全满足所有标准、则可持续发展得分将达到100%。如果系统性能达到最佳水平的一半、则可能获得50%的分数。总分作为标准值、用于将实际性能与理想性能进行比较。您可以实施建议的操作来提高对这些规则的遵守程度、从而提高可持续性得分。</block>
+  <block id="8e4743bb176d909e65d015847fc93346" category="admonition">可持续性得分最初在集群级别进行计算、然后在其他级别(例如客户或监视列表级别)进行汇总。</block>
+  <block id="a6cba69e97a9115b21cbf35b24b33d83" category="section-title">2024年7月4日</block>
+  <block id="5e63fb298525a46837cedfd7fc3c5002" category="paragraph">通过环境指标深入了解存储系统的环境运行状况、现在可以根据高级预测模型提供更精确的预计用电量、直接碳用量和热量排放值。要了解更多信息，请参阅 <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>。</block>
+  <block id="8352fdd61dbba9f97925bd7797c4eb47" category="paragraph">E系列和StorageGRID系统现在支持Sustainability。您可以从这些系统的可持续性信息板中查看建议的操作和环境指标列表、这些操作和指标会显示功率、直接碳用量和热量的预测。要了解更多信息，请参阅 <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>。</block>
 </blocks>
