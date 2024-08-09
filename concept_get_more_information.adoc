@@ -20,6 +20,6 @@ summary: 提供有关Digital Advisor的详细信息。
 
 * link:https://community.netapp.com/t5/Active-IQ-Digital-Advisor-and-AutoSupport/ct-p/autosupport-and-my-autosupport["NetApp 社区"^]
 * link:https://www.netapp.com/us/documentation/active-iq.aspx["文档资源"^]
-* link:https://www.netapp.com/us/media/tr-4688.pdf["NetApp 遥测数据的安全性和隐私"^]
-* link:https://www.netapp.com/us/media/tr-4444.pdf["ONTAP AutoSupport 和 AutoSupport On Demand"^]
+* link:https://www.netapp.com/pdf.html?item=/media/10439-tr4688pdf.pdf["NetApp 遥测数据的安全性和隐私"^]
+* link:https://www.netapp.com/pdf.html?item=/media/10438-tr-4444pdf.pdf["ONTAP AutoSupport 和 AutoSupport On Demand"^]
 
