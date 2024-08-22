@@ -40,7 +40,7 @@ video::rEPtldosjWM[youtube,width=848,height=480]
 | 续订 | 在所有平台上均受支持 | 在所有平台上均受支持 | 在所有平台上均受支持 
 
 
-| 增加容量 | 仅在 ONTAP 平台上受支持 （在 7- 模式和集群模式 Data ONTAP 下运行的 Data ONTAP ） | 仅在 ONTAP 平台上受支持 （在 7- 模式和集群模式 Data ONTAP 下运行的 Data ONTAP ） | 仅在 ONTAP 平台上受支持 （在 7- 模式和集群模式 Data ONTAP 下运行的 Data ONTAP ） 
+| 增加容量 | 仅在集群模式 Data ONTAP 上受支持 | 仅在集群模式 Data ONTAP 上受支持 | 仅在集群模式 Data ONTAP 上受支持 
 
 
 | 清单 | 在所有平台上均受支持 | 仅在集群模式 Data ONTAP 上受支持 | 仅在集群模式 Data ONTAP 上受支持 

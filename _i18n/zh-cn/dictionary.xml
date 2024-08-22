@@ -588,7 +588,6 @@
   <block id="04eaef0c64f7604067332b0b05e598d3" category="cell">*节点*</block>
   <block id="fe40d8b49a8a95c2a28179b7ef3039d6" category="cell">在所有平台上均受支持</block>
   <block id="28e26766a62bd9ef329986f7963b6357" category="cell">增加容量</block>
-  <block id="b892c2b3bdaaf51bbf65f75ef159ae10" category="cell">仅在 ONTAP 平台上受支持 （在 7- 模式和集群模式 Data ONTAP 下运行的 Data ONTAP ）</block>
   <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">仅在集群模式 Data ONTAP 上受支持</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">升级</block>
   <block id="5d44c7cc6a90a9fcb8dbd1a194e216bf" category="summary">提供用于管理监视列表的信息。</block>
@@ -880,8 +879,6 @@
   <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">提供有关未解决和已确认风险，风险详细信息，更正操作以及受影响系统的信息。</block>
   <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">健康—汇总</block>
   <block id="df67990129d3bd9cbda01755e666bbee" category="cell">提供未解决风险的摘要以及受影响系统的数量。</block>
-  <block id="0c9c13cde9e8b69be84ca36dee87f611" category="cell">7- 模式 Upgrade Advisor 计划</block>
-  <block id="997e7cc095a9554f17d93457daa42a47" category="cell">提供有关 7- 模式系统升级顾问计划的报告。此报告包含有关HA配对节点的信息。</block>
   <block id="f34a643181d75dbba89d10d14f0d8041" category="cell">提供 Ansible 清单文件，其中按区域或站点列出了所有系统清单详细信息。此文件可用于自动化。</block>
   <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
   <block id="7eaee357275d531796b5348076c7abaa" category="cell">提供有关非活动，冷，活动，热，分层， 和不受监控的数据。此报告还包括用于对已禁用聚合启用非活动数据报告的 Ansible 攻略手册。</block>
@@ -1529,4 +1526,8 @@
   <block id="8352fdd61dbba9f97925bd7797c4eb47" category="paragraph">E系列和StorageGRID系统现在支持Sustainability。您可以从这些系统的可持续性信息板中查看建议的操作和环境指标列表、这些操作和指标会显示功率、直接碳用量和热量的预测。要了解更多信息，请参阅 <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>。</block>
   <block id="2a4b13cd943c24cfe2735c05922d1427" category="list-text"><block ref="2a4b13cd943c24cfe2735c05922d1427" category="inline-link-macro-rx"></block></block>
   <block id="7581b2408d4adfb3df4e98d5f1f96473" category="list-text"><block ref="7581b2408d4adfb3df4e98d5f1f96473" category="inline-link-macro-rx"></block></block>
+  <block id="788b77f1903c86b79d6ab3fa3aeac01e" category="section-title">2024 年 8 月 21 日</block>
+  <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">软件版本支持</block>
+  <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">升级在7-模式下运行的Data ONTAP存储系统</block>
+  <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">由于7-模式系统已停止有限支持，因此不再提供*7-Mode Upgrade Advisor Plans (7-模式升级顾问计划)*报告。有关详细信息，请参见 <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>。详细了解 <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>。</block>
 </blocks>
