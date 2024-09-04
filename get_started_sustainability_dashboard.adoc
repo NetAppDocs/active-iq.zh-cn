@@ -4,7 +4,7 @@ permalink: get_started_sustainability_dashboard.html
 keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
 summary: 通过访问BlueXP或Digital Advisor开始使用BlueXP Sustainability信息板。 
 ---
-= 访问Sustainability信息板
+= 开始使用Sustainability信息板
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

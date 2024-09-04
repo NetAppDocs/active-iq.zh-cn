@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="79e6bb72bf3b27322743b85d46e7028f" category="summary">提供有关如何避免停机和可能的数据丢失的信息。</block>
-  <block id="aab3d4ecb2113aebbbf0fc0f4e0bd569" category="doc">避免停机和可能的数据丢失</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
   <block id="a9d1a3c661cd780de1547f8874ba7fa9" category="inline-image-macro">可用性和放大器；保护小工具</block>
   <block id="4b5886406c71d9a6478bc858959901d2" category="list-text">单击 * 可用性和保护 * 小工具中的 * 操作 * 。<block ref="5a8b574aaf1c16ebb902595925228ace" category="inline-image-macro-rx" type="image"></block></block>
@@ -46,7 +45,6 @@
   <block id="3c1579e4105c256057f7f7b8f1c3f947" category="cell">与已记录的最佳实践的偏差</block>
   <block id="6fe43a0bc5267b501dd5c7825c17e1be" category="paragraph">您可以观看以下视频，了解健康属性的重要性：</block>
   <block id="a789bbd5cd15d75a39f05ef8f875cf51" category="summary">提供有关续订存储系统软件和硬件的信息。</block>
-  <block id="20827f5f11724ac7658af2f39f50f964" category="doc">续订存储系统的软件和硬件</block>
   <block id="6134af206850e07eeb1d6838aae2ceb5" category="paragraph">您可以主动识别未来 6 个月内已过期或即将到期的软件和硬件，并发送硬件和软件续订请求。</block>
   <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">单击 * 计划 * 小工具中的 * 续订 * 。</block>
   <block id="0d9283785cad0930c05662c95f72d63d" category="list-text">选择要续订的系统，然后单击 * 续订 * 。</block>
@@ -209,9 +207,7 @@
   <block id="1d644c91a129f4fee67bbeac164d1355" category="list-text">选择报告的开始日期和结束日期。</block>
   <block id="da46c99001fe56b84201c7d1c1bb16f1" category="paragraph">系统将发送一封电子邮件，其中详细说明了选定系统之间的配置差异。</block>
   <block id="9f7c9f58bb8756fe75c88f458c094ff5" category="summary">提供信息以熟悉运行状况检查信息板。</block>
-  <block id="8bd30f76be476058b4d8d425fef989b2" category="doc">了解运行状况检查信息板</block>
   <block id="3cc3a0dbf287ac1f117caad7c4ff3529" category="paragraph">根据运行状况检查得分，您可以根据建议的 NetApp 最佳实践对齐存储系统，以便于进行长期规划。它可帮助您通过集中式用户界面监控在软件和硬件上运行的所有系统。运行状况检查分数可帮助您快速深入了解系统风险。这些主要建议和最佳实践可帮助您采取措施来改善客户群的运行状况。</block>
-  <block id="73b22abb2810760940bcbce346e76523" category="admonition">您只能通过 NetApp SupportEdge Advisor 和 SupportEdge Expert 服务产品访问运行状况检查信息板。</block>
   <block id="cf03e3b283bc7fa70a7713acb40de102" category="doc">订阅健康评估电子邮件</block>
   <block id="21ad3730eb42f0e7e97440864d89b224" category="paragraph">您可以订阅健康状况审核电子邮件，每月接收一封电子邮件，其中总结了健康状况，即将到期续订的系统以及客户群中需要升级 NetApp 产品的系统。您将收到一封健康状况审核电子邮件，以便查看每月摘要并对系统采取措施。此外，您还可以选择查看，编辑，共享和删除订阅。如果您决定不接收电子邮件，也可以随时取消订阅接收电子邮件。</block>
   <block id="74bac88334325995c9ac3011aacb8ce6" category="paragraph">启用订阅后，您应在添加订阅时选择开始日期。每月电子邮件摘要提供了有关未完成的健康，续订，升级和运行状况检查操作的视图。您可以确认电子邮件地址，并将此电子邮件发送到指定的电子邮件地址。您还可以选择删除订阅。</block>
@@ -240,7 +236,6 @@
   <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">您应添加一个模板来比较系统和集群配置，并近乎实时地检测配置差异。配置偏移模板是使用运行 AutoSupport 数据的系统添加的。</block>
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">单击 * 添加模板 * 。</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">提供请求的值。</block>
-  <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">查看NetApp Keystone 订阅的容量利用率</block>
   <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">提供有关此版本中新增功能的信息。</block>
   <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">了解如何操作</block>
@@ -471,7 +466,6 @@
   <block id="e350176e2ca4464b7c8bb3efa4e581fa" category="inline-link-macro">Slack 工作空间</block>
   <block id="e1ceb514961568f187bb88fa116f776f" category="list-text">电子邮件地址： ng-active-iq-feedback@netapp.com</block>
   <block id="989ffda8482c36243642e39d9d8e50ff" category="summary">提供有关如何更新 AFF 和 FAS 固件的信息。</block>
-  <block id="439d63cd3905d44125be50793bdd3ab5" category="doc">下载 AFF 和 FAS 固件 Ansible Automation 软件包</block>
   <block id="6032e7db579fa00df8e3062fcbc04a91" category="paragraph">您应使用 Ansible 更新 AFF 和 FAS 固件，以缓解已识别的风险并使存储系统保持最新。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="section-title">开始之前</block>
   <block id="1564b29b093f31fb45180a4db5577505" category="paragraph">在使用 Ansible 更新 AFF 和 FAS 固件之前，您应：</block>
@@ -546,7 +540,6 @@
   <block id="d757f95a394959d080114b15fde1d52e" category="paragraph">您最多可以在一个类别下添加 15 ， 000 个系统，并在一个序列号下添加 500 个系统。</block>
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">此时将显示监视列表信息板。</block>
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">提供有关信息板，运行状况得分，功能和小工具的信息。</block>
-  <block id="e916508b5fb2cdc772d71fc2a189c67b" category="doc">开始使用运行状况检查信息板</block>
   <block id="0283692678f3caa0a73dcdba11b167a0" category="paragraph">此信息板可通过以下小工具提供已安装客户群的概览：</block>
   <block id="820ed668f5824044ba24b743388d94f8" category="list-text">* AutoSupport 采用率 * ：显示启用了 AutoSupport 的系统的数量和百分比。此外，您还可以查看标记为 " 已 ‘D" 的系统，启用了 * HTTPS * 和 * AutoSupport on Demand * 的系统以及过去 7 天内停止发送 AutoSupport 数据的系统的 * 信号丢失 * 。要查看运行状况检查得分以及有关安装群中系统的信息，请单击 * AutoSupport Adoption * 小工具。</block>
   <block id="5a203b8ad736b84e1741fd3d04b50fd8" category="list-text">* 建议配置 * ：根据 * 建议配置 * 小工具显示合规和不合规的系统。它可以帮助您采取措施，确保您的系统在您的客户群中配置良好。您可以查看信息板上提供的分数，并根据按优先级顺序提供的关键建议采取措施。</block>
@@ -773,7 +766,6 @@
   <block id="e151846aa3b308b87c9d25ba4b1deba4" category="list-text">任何其他升级请求</block>
   <block id="0c152bcc14bc08edd4b0de34a463af86" category="list-text">添加您的任何注释，然后单击 * 发送 * 。购买支持服务升级的请求会发送给 NetApp 续订团队。</block>
   <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">提供有关如何增强防范黑客和勒索软件攻击的信息。</block>
-  <block id="f7e6c88265534036ac8e0f442a755875" category="doc">检测安全漏洞</block>
   <block id="820369c7769d4f36cf2076f618fe371d" category="paragraph">* 涵盖产品： ONTAP 9 （内部和云）， SANtricity 操作系统控制器软件， NetApp SolidFire （ Element 软件）， StorageGRID ， Active IQ Unified Manager ， ONTAP Tools for VMware （ OTV ）</block>
   <block id="9e49d2928b0f9c506afa91618789cc95" category="inline-image-macro">安全漏洞小工具</block>
   <block id="c17e33981c0b062b393672808567a4ab" category="paragraph">对于影响较大的安全风险，请按照建议的操作升级操作系统。</block>
@@ -782,7 +774,6 @@
   <block id="ac7de22f816f2710cfe2e83f6abc78bf" category="inline-image-macro">修复选项卡</block>
   <block id="159d95fb8858b00a76199e1c9300be15" category="paragraph">此风险已在 ONTAP 9.7P8 及更高版本中修复。<block ref="4975e5a0a99336b95db3342c05516170" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f839cdbae8d80bc224d943c9c45a46f0" category="summary">提供信息，用于查看和分析存储系统的运行状况并降低风险。</block>
-  <block id="20ee74a30034c5c1341368bee35c84ff" category="doc">查看风险并手动采取更正操作</block>
   <block id="0e3a68f1f6b2f1d1d9fe331b11c5efa2" category="paragraph">您可以通过查看与存储系统相关的操作和风险来分析其运行状况属性。您应查看关联的更正操作并手动降低风险。</block>
   <block id="9bbf83543e304f4973370a44626c0d09" category="list-text">单击信息板上的 * 健康 * 小工具或单击 * 查看所有操作 * 以查看所有操作和风险的列表。</block>
   <block id="4c1501034b347258e5d755cf7e7fb1a3" category="list-text">单击风险名称可查看有关此风险的信息。</block>
@@ -792,9 +783,6 @@
   <block id="ffa09fb8e8764d736920c50362846ed7" category="doc">使用 NetApp Docker 映像执行 Ansible 攻略手册</block>
   <block id="18e4b799fc66943cb5ca094c22421d14" category="paragraph">在执行 Ansible 攻略手册之前，请确保已提取 * NetApp Ansible _* 。 * zip * 文件，并且包含磁盘或磁盘架固件文件的 Web 服务器已准备就绪。</block>
   <block id="2e539a8b55656611ca1f039b25d5987b" category="paragraph">在使用 NetApp Docker 执行 Ansible 攻略手册之前，您应：</block>
-  <block id="82d6e33ffa2d3e136792c8074ac54f9c" category="list-text"><block ref="82d6e33ffa2d3e136792c8074ac54f9c" category="inline-link-macro-rx"></block></block>
-  <block id="cd52899f1679a9b2e3b756255e5c3676" category="inline-link-macro">使用 Web 服务器托管固件文件</block>
-  <block id="4e934f63fd61cf954bde477d71345e3c" category="list-text"><block ref="4e934f63fd61cf954bde477d71345e3c" category="inline-link-macro-rx"></block></block>
   <block id="6b4dbbb245371383fcc0b1b43ca85958" category="inline-link-macro">使用清单文件</block>
   <block id="27f8f6c7481c543f7ac1c0d9d320816e" category="list-text"><block ref="27f8f6c7481c543f7ac1c0d9d320816e" category="inline-link-macro-rx"></block></block>
   <block id="3570d1e60985f402f1d406b1bb17fabe" category="list-text">确保已安装 NetApp Docker 。</block>
@@ -812,7 +800,6 @@
   <block id="5769cb0edb876ded60913f5ed79c0ed3" category="inline-link-macro">固件安装验证</block>
   <block id="09fb789b79f3191a076b495425e54de6" category="paragraph">执行 Ansible 攻略手册后，请参见 <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> 用于执行后的说明。</block>
   <block id="2ddb7471f4505c6b0aa8e3464634debc" category="summary">提供有关 ClusterViewer 的信息。</block>
-  <block id="6e6b112d636d5497f59ccca67738fac3" category="doc">分析集群和节点的运行状况</block>
   <block id="964f0ca73e7ebb063af3a2240b8483fb" category="paragraph">您可以使用 ClusterViewer 分析集群和节点的运行状况， ClusterViewer 是一个一站式源，可提供有关集群和节点的物理和逻辑配置的信息。</block>
   <block id="6db3885477641d8e5ca59335970bf0b0" category="paragraph">ClusterViewer 可提供节点堆栈图，存储使用情况和效率，硬件容量余量等信息，帮助您做出明智的决策，以提高集群和节点的运行状况。</block>
   <block id="acc7732ef13d215f323b715a75c23913" category="paragraph">您可以查看电缆，堆栈和 RAID 磁盘级别节点物理配置的可视化视图或图形表示形式。您还可以下载 SVG 格式的可视化对象。</block>
@@ -820,7 +807,6 @@
   <block id="05f9cea794823bcfe9edd186fcb424a3" category="list-text">在集群或节点级别，单击 * 配置 * 小工具旁边的 * 集群查看器 * 。</block>
   <block id="6551f219e2490db3bc60a0ba2bac261d" category="list-text">单击 * 可视化 * 选项卡以查看集群的图形表示形式。</block>
   <block id="bd006ceeb17633ee0556ac28eaf949f6" category="summary">提供有关 API 目录中可用 API 的信息。</block>
-  <block id="99690ba41792c97440fb7507094c827d" category="doc">使用 API 目录执行 API</block>
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">通过 API 目录，您可以浏览各个类别以及其中每个类别中的可用 API 。</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">使用有效的访问令牌以及对所需字段的正确输入，您可以对 API 进行测试调用。</block>
   <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">* 浏览 *</block>
@@ -928,31 +914,16 @@
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">快速入门</block>
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">配置监视列表</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概述</block>
-  <block id="a847a249ea34e3557fd4b0faa9b1a58c" category="sidebar">查看可使用 Active IQ Unified Manager 或 Ansible 攻略手册自动缓解的风险</block>
-  <block id="e5c576a815351e15ac0b32011a7cd066" category="sidebar">续订软件和硬件</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="sidebar">查看系统详细信息</block>
-  <block id="46edca0ff6e552183e1d49c7d4a3ff08" category="sidebar">与Cloud Insights 集成以查看虚拟机详细信息</block>
-  <block id="6721d14778dfec7598747969baedc497" category="sidebar">查看Keystone订阅容量利用率</block>
   <block id="2cedeaac2dc61820b8d8fc6586834073" category="sidebar">主动确定系统要求</block>
-  <block id="b3f73dc804d731e2fd50580bfb4bd2bb" category="sidebar">确定配置差异</block>
-  <block id="2239c723cc5ca3dc6ba1585521896ba0" category="sidebar">生成偏移时间线报告</block>
   <block id="0cc0b1a131ca25b1ae5d22ddb1c11865" category="sidebar">提高存储系统的效率和性能</block>
-  <block id="6029b29ba0bf4fa906d9b33aeb4affea" category="sidebar">分析容量和效率节省情况</block>
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">分析存储性能</block>
   <block id="b0f4d50e3b0a80acae4cdfe5ec415bf2" category="sidebar">分析存储系统的运行状况</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">升级以优化您的客户群</block>
   <block id="bcbe3404f4519b7a276724fb02a336ec" category="sidebar">使用 Ansible 攻略手册更新 AFF 和 FAS 固件</block>
-  <block id="cac43af1157491380365a3fbc40ffd0e" category="sidebar">安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（有经验的用户）</block>
-  <block id="296c50bb7122e36d72b344edcdd0c679" category="sidebar">安装并执行 AFF 和 FAS 固件 Ansible Automation 软件包（入门级）</block>
-  <block id="d9daa9f2104f9630f56fba5a79e00e16" category="sidebar">使用 Web 服务器托管固件文件</block>
-  <block id="1ecec82935ab6d53ed561471cf78dfed" category="sidebar">使用清单文件</block>
   <block id="09a5a45f88e6f466acff860555335df6" category="sidebar">使用 NetApp Docker 映像执行 Ansible 攻略手册</block>
-  <block id="72d8c17b82a8128c57dce58c29f29979" category="sidebar">在不使用 Docker 的情况下执行 Ansible 攻略手册</block>
-  <block id="624bf3c50fda6cdcdab599281e893dee" category="sidebar">故障排除，反馈和支持</block>
   <block id="94248bdab6eca12666593501ea5684f7" category="sidebar">使用 API 集成数据</block>
-  <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">生成令牌以访问 API</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">生成自定义报告</block>
-  <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">常见问题解答</block>
   <block id="2eec6525cedefe6316db600adeaf337c" category="section-title">多跃点升级</block>
   <block id="01b9a3f3b3303730f5c2525f136ad86b" category="paragraph">对于某些自动无中断升级(ANDU)到非相邻版本、您可以安装中间版本和目标版本的软件映像。自动升级过程使用后台的中间映像完成目标版本的更新。例如，如果集群运行的是 9.3 ，而您要升级到 9.7 ，则应加载 9.5 和 9.7 的 ONTAP 安装包，然后启动 andu 到 9.7 。然后， ONTAP 会先自动将集群升级到 9.5 ，然后再自动升级到 9.7 。在此过程中，您应该会执行多个接管 / 交还操作以及相关的重新启动。</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">Upgrade Advisor</block>
@@ -1043,7 +1014,6 @@
   <block id="de1371cd93c5974f25486b1d0496e7ff" category="paragraph">编辑监视列表不会立即更新Digital Advisor中的信息。这些更改可能需要长达60分钟才能在Digital Advisor中反映出来。</block>
   <block id="d46650e342e5c88508541b7bf48a859f" category="section-title">已确认和未确认的风险可能需要60分钟才能反映在Digital Advisor中</block>
   <block id="de031b37ae88787ef3cdc870e9177445" category="paragraph">已确认和未确认的风险状态不会立即反映在Digital Advisor中。这些变更可能需要长达60分钟才能反映在Digital Advisor和健康报告中。</block>
-  <block id="194c61820d9b82b7329e3153ac5cd674" category="paragraph">通过Digital Advisor运行状况检查信息板、您可以对整个环境进行时间点审核。</block>
   <block id="39c8987e43727590806ec031b3dd0a86" category="summary">提供有关Digital Advisor中使用的关键术语的信息。</block>
   <block id="9d20c3f0e792e5776281264573b1c017" category="paragraph">在开始使用Digital Advisor时、请务必了解您可能会在整个Digital Advisor中看到的一些基本术语。</block>
   <block id="d3ad3d0846f828c5868eb4c6ab09e928" category="list-text">*监视列表：*可让您灵活地访问已选择的Digital Advisor中的系统。您可以使用监视列表从一个或多个客户添加系统。</block>
@@ -1355,7 +1325,6 @@
   <block id="4a33ef12db92e241992049db5250349e" category="paragraph">Sustainability信息板提供了建议的操作、您可以实施这些操作来提高整体Sustainability得分和集群级别的Sustainability得分。</block>
   <block id="5e5fa64fce688126dbdf2ee76a2a88dc" category="paragraph">您可以观看以下视频来了解Sustainability信息板：</block>
   <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">要准确计算可持续性得分、应启用AutoSupport。</block>
-  <block id="f1a07ac2a47e6ae773882ceb0f2e9570" category="doc">访问Sustainability信息板</block>
   <block id="4a94cc80e3bef643a461eac57bc8c9ef" category="paragraph">Sustainability信息板可提供支持AIIOPS的报告和评分、并提供可指导行动的洞察力、以改善您的可持续性状况。您可以通过NetApp BlueXP或数字顾问访问Sustainability信息板。</block>
   <block id="24fbd138c7dc295cdff7b25fb0003595" category="list-text">在信息板上，单击*Upgrade Advisor小工具中的群集数。</block>
   <block id="bcc117d8c868654bdcb5b2de44d7fbf2" category="inline-image-macro">显示集群数量的屏幕截图。</block>
@@ -1530,4 +1499,29 @@
   <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">软件版本支持</block>
   <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">升级在7-模式下运行的Data ONTAP存储系统</block>
   <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">由于7-模式系统已停止有限支持，因此不再提供*7-Mode Upgrade Advisor Plans (7-模式升级顾问计划)*报告。有关详细信息，请参见 <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>。详细了解 <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>。</block>
+  <block id="f316bc2d9abc434547fa8fee1b52c8ca" category="doc">开始使用运行状况检查信息板</block>
+  <block id="67b672f77d14898a21dd7c6d39e4fa6a" category="doc">了解运行状况检查信息板</block>
+  <block id="1fca6cd27ed3729b316e545f40560430" category="paragraph">Digital Advisor运行状况检查信息板可提供对整体环境的时间点检查。</block>
+  <block id="85de05b2e998b63934fdb41cb0ae1267" category="admonition">您只能通过NetApp SupportEdge Advisor和SupportEdge Expert服务产品访问运行状况检查信息板。</block>
+  <block id="65d0a6b734949784b0887407ba3ca70d" category="doc">开始使用Sustainability信息板</block>
+  <block id="bf8be6c11a39d44324275419a51aa06d" category="doc">分析集群和节点的运行状况</block>
+  <block id="3a9edb9763f2d4f0983c1ba1d9c37307" category="doc">避免停机和可能的数据丢失</block>
+  <block id="2ffe9e86d8e5979dbd4b981f50f1aa43" category="inline-link-macro">下载AFF和FAS固件的"Ans还是 自动化"软件包</block>
+  <block id="16fa1266171f008ddc9bdf0c3a3101de" category="list-text"><block ref="16fa1266171f008ddc9bdf0c3a3101de" category="inline-link-macro-rx"></block></block>
+  <block id="5d66e54e3beb67d22f4fce6eed9083ee" category="inline-link-macro">使用Web服务器托管固件文件</block>
+  <block id="fe767912a8dc4f32a2931397397e89a4" category="list-text"><block ref="fe767912a8dc4f32a2931397397e89a4" category="inline-link-macro-rx"></block></block>
+  <block id="c2abfe15bc2ca33fe842167128892ed3" category="doc">检测安全漏洞</block>
+  <block id="88ee9568f7a3ba0f64aee190914804a5" category="doc">续订存储系统的软件和硬件</block>
+  <block id="87d10a1ebc7440bb06c109388cf143ad" category="doc">使用API目录执行API</block>
+  <block id="a1b35cc8af8f9016bf417e1cb56f58c4" category="doc">查看风险并手动采取更正操作</block>
+  <block id="c65128dfcbb07719f3725e4d63112c78" category="doc">通过NetApp Keystone订阅查看容量利用率</block>
+  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">常见问题解答</block>
+  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">分析存储系统的可持续性</block>
+  <block id="f79801f4d29b490bbe3ea28f5605af09" category="sidebar">确定配置差异</block>
+  <block id="952f02280592bc013c384a90a7d80069" category="sidebar">安装和执行AFF和FAS固件的Ans负责 自动化软件包(经验丰富的用户)</block>
+  <block id="52337cbca028caf9e3f5a7f4d46f0bf5" category="sidebar">安装和执行AFF和FAS固件的Ans可 自动化软件包(初学者)</block>
+  <block id="bb56f3fc7f81eda7cac1534c7986e8f5" category="sidebar">在不使用NetApp Docker映像的情况下执行Ans得 可操作手册</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="sidebar">注册以获得支持</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="sidebar">获取帮助</block>
 </blocks>

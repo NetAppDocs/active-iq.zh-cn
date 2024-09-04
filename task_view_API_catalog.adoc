@@ -4,7 +4,7 @@ permalink: task_view_API_catalog.html
 keywords: API Catalog, APIs, integrate data, view catalog 
 summary: 提供有关 API 目录中可用 API 的信息。 
 ---
-= 使用 API 目录执行 API
+= 使用API目录执行API
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
