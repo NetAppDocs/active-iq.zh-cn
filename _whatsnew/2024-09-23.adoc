@@ -1,0 +1,9 @@
+= 支持服务
+:allow-uri-read: 
+
+
+
+
+=== 支持服务
+
+现在、NetApp SupportEdge Basic服务产品包括SupportEdge Advisor和SupportEdge Expert中提供的所有数字顾问功能、但完整堆栈拓扑(Full-Stack Topology、VMware)除外、即使启用了该功能、也无法显示VMware完整堆栈监控。

@@ -46,7 +46,7 @@ Digital Advisor引入了以下功能和增强功能：
 
 === Sustainability信息板
 
-通过环境指标深入了解存储系统的环境运行状况、现在可以根据高级预测模型提供更精确的预计用电量、直接碳用量和热量排放值。要了解更多信息，请参阅 link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Sustainability信息板概述"^]。
+通过环境指标深入了解存储系统的环境运行状况、现在可以根据高级预测模型提供更精确的预计用电量、直接碳用量和热量排放值。要了解更多信息，请参阅 link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Sustainability信息板概述"]。
 
 
 
@@ -736,6 +736,10 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["Digital Advisor移动
 
 
 == 2021 年 4 月 29 日
+
+
+
+=== 防范黑客和攻击
 
 * 下面介绍了如何保护您的系统免受黑客和勒索软件攻击。 link:https://docs.netapp.com/us-en/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html["了解如何操作"]。
 * 您可以避免停机和可能的数据丢失。 link:https://docs.netapp.com/us-en/active-iq/task_avoid_the_downtime_and_possible_data_loss.html["了解如何操作"]。

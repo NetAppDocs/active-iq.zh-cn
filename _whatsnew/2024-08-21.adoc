@@ -1,0 +1,9 @@
+= 报告
+:allow-uri-read: 
+
+
+
+
+=== 报告
+
+由于7-模式系统已停止有限支持，因此不再提供*7-Mode Upgrade Advisor Plans (7-模式升级顾问计划)*报告。有关详细信息，请参见 link:https://mysupport.netapp.com/site/info/version-support["软件版本支持"^]。详细了解 link:https://docs.netapp.com/a/ontap/7-mode/8.2.1/Upgrade-And-Revert-Or-Downgrade-Guide-For-7-Mode.pdf["升级在7-模式下运行的Data ONTAP存储系统"^]。
