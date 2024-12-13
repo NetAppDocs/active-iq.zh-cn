@@ -22,8 +22,7 @@ summary: 简要介绍可简化ONTAP升级规划的Upgrade Advisor。
 
 [NOTE]
 ====
-* 对于MetroCluster配置中的每个集群、为完整的升级说明生成单独的升级计划。
-
+对于MetroCluster配置中的每个集群、为完整的升级说明生成单独的升级计划。
 
 ====
 在生成升级计划之前、您应准备好ONTAP升级。正确的准备有助于在开始升级过程之前确定和缓解潜在的升级风险或阻止因素。要了解更多信息，请参见 link:https://docs.netapp.com/us-en/ontap/upgrade/prepare.html["准备ONTAP升级"^]。
