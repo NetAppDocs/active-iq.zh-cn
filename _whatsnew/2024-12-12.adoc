@@ -1,0 +1,9 @@
+= Upgrade Advisor
+:allow-uri-read: 
+
+
+
+
+=== Upgrade Advisor
+
+现在、您可以查看建议进行更新的存储固件、ARP/固 件和自动软件包(Autonomous SP Package、BMC)。link:https://docs.netapp.com/us-en/active-iq/view-firmware-update-recommendations.html["了解如何查看固件更新建议"](英文)

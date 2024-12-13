@@ -8,7 +8,7 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
-  langs: zh-cn,us-en,ja-jp,ko-kr,zh-tw,de-de,es-es,fr-fr,it-it
+  langs: zh-cn,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-tw
 sidebar:
   entries:
   - title: Digital Advisor文档
@@ -85,6 +85,8 @@ sidebar:
         url: "/upgrade_advisor_overview.html"
       - title: 为单个集群和多个集群生成升级计划
         url: "/generate_upgrade_plan_single_multiple_clusters.html"
+      - title: 查看固件更新建议
+        url: "/view-firmware-update-recommendations.html"
     - title: 查看系统详细信息
       entries:
       - title: 查看清单详细信息

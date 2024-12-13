@@ -1441,7 +1441,6 @@
   <block id="4d7b0b036dd7f28233ff7e59c3c1dbf5" category="list-text">清除*安全漏洞*复选框。</block>
   <block id="8ab2cb8f529884d0aa70d068b846421e" category="admonition">只有运行ONTAP 9.2及更高版本的系统才支持节点延迟、本地层(聚合)和卷性能图。</block>
   <block id="fbf668c351539b8a0b137fcc8beb4b5e" category="paragraph">您可以为单个集群和多个集群生成自动化无中断升级计划。您可以查看单个集群的升级建议、其中包括与集群相关的风险列表、包含升级阻止程序和警告列表的升级前检查报告以及有关新功能和增强功能的信息。这些升级建议不适用于多个集群。要了解更多信息，请参见 <block ref="41932a416de65dadbc9f715244a32fe5" category="inline-link-macro-rx"></block>。</block>
-  <block id="cd65827c11cd37b34e44b3a7ab206c41" category="list-text">对于运行ONTAP 9.6或更早版本的集群、您可以在升级建议中查看有关新增功能和增强功能的信息。升级前检查报告和风险摘要不可用、您可以生成旧格式的升级计划。</block>
   <block id="83c0915932deaf70b0873b6eb47c3a28" category="section-title">2024年3月28日</block>
   <block id="888059a12fa3532d54872d17517e780c" category="inline-link-macro">了解如何查看升级建议和生成升级计划。</block>
   <block id="9d10674ae163e749f65c1eeb852cdf2b" category="paragraph">旧版本的Upgrade Advisor现已弃用。您可以使用增强版的Upgrade Advisor为单个集群和多个集群生成升级计划。 <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
@@ -1528,4 +1527,15 @@
   <block id="38d80ed5e3a33df19ee71c05059b6258" category="paragraph">通过环境指标深入了解存储系统的环境运行状况、现在可以根据高级预测模型提供更精确的预计用电量、直接碳用量和热量排放值。要了解更多信息，请参阅 <block ref="093aadbd7a28ff730cdbe5efbf5b8c02" category="inline-link-macro-rx"></block>。</block>
   <block id="cd0b2a52b53e1925d55439a6132bad52" category="doc">支持服务</block>
   <block id="6a64512211dad24384990fce8b83ddf8" category="section-title">防范黑客和攻击</block>
+  <block id="39ca8580b0e6a065fa25faac2a2acc86" category="inline-link-macro">了解如何查看固件更新建议</block>
+  <block id="af79dd5dc56c84e383198dba47e6f6fe" category="paragraph">现在、您可以查看建议进行更新的存储固件、ARP/固 件和自动软件包(Autonomous SP Package、BMC)。<block ref="bb189956f648b21665d5198deffedcc8" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="e3f867c1e04dce86520c139a0ae60b18" category="section-title">2024年12月12日</block>
+  <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">查看存储固件、SP或BMC固件、系统文件和安全文件的更新建议。</block>
+  <block id="432405c0f2c1d2289f6d8e3b11ebfd8b" category="doc">查看固件更新建议</block>
+  <block id="789b0be6ddd32dcc2218519990c16b5c" category="paragraph">现在、客户可以通过允许控制塔自动将其系统更新为最新的固件版本来节省时间和精力、从而无需手动干预或计划。此更新可降低因固件版本过时或不兼容而遇到问题的风险、从而确保最佳系统性能、稳定性和安全性。</block>
+  <block id="715a43f582d65ce08f118788f9800f7d" category="paragraph">客户将及时收到有关固件更新状态的通知和警报、以及用于启用AutoSupport和自动更新设置的选项。</block>
+  <block id="fe47ca91d8c9f313f60692015dd2b72c" category="list-text">在信息板页面上，单击*Upgrade Advisor小工具中的*Other Recommendation*。</block>
+  <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">单击*查看建议*以查看建议列表。</block>
+  <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">在*更新状态*列中，单击*查看进度*以查看符合更新条件的集群。</block>
+  <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">如果出现任何问题、请单击相应的链接以查看缓解问题的步骤。</block>
 </blocks>
