@@ -46,3 +46,21 @@ summary: 提供有关此版本中限制的信息。
 == 已确认和未确认的风险可能需要60分钟才能反映在Digital Advisor中
 
 已确认和未确认的风险状态不会立即反映在Digital Advisor中。这些变更可能需要长达60分钟才能反映在Digital Advisor和健康报告中。
+
+
+
+== AutoSupport小工具不适用于集群和序列号
+
+AutoSupport小工具不会为集群和序列号搜索提供警报。
+
+
+
+== AutoSupport小工具无法深入查看串行级别AutoSupport详细信息
+
+在AutoSupport报告页面上、单击任何状态、最近停止发送的系统或已关闭AutoSupport的系统不会导航到运行状况检查屏幕。
+
+
+
+== "库存"小工具中不提供筛选和排序功能
+
+您不能在清单小工具中筛选和排序数据。如果在"筛选依据"下拉列表中选择ONTAP AFF、ONTAP ASA、ONTAP Edge或ONTAP Select、则不会显示任何数据。

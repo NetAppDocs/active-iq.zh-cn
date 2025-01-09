@@ -1538,4 +1538,13 @@
   <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">单击*查看建议*以查看建议列表。</block>
   <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">在*更新状态*列中，单击*查看进度*以查看符合更新条件的集群。</block>
   <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">如果出现任何问题、请单击相应的链接以查看缓解问题的步骤。</block>
+  <block id="998e01ff2383d2b9e06b55738a27346b" category="doc">AutoSupport小工具</block>
+  <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">AutoSupport小工具已添加到主信息板屏幕中、用于提醒客户与AutoSupport状态相关的问题。</block>
+  <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">AutoSupport小工具不适用于集群和序列号</block>
+  <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">AutoSupport小工具不会为集群和序列号搜索提供警报。</block>
+  <block id="c0ac6b1bce52487f5b5af28ecef07c1f" category="section-title">AutoSupport小工具无法深入查看串行级别AutoSupport详细信息</block>
+  <block id="84262a27dab2047f1176d0c336762208" category="paragraph">在AutoSupport报告页面上、单击任何状态、最近停止发送的系统或已关闭AutoSupport的系统不会导航到运行状况检查屏幕。</block>
+  <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">"库存"小工具中不提供筛选和排序功能</block>
+  <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">您不能在清单小工具中筛选和排序数据。如果在"筛选依据"下拉列表中选择ONTAP AFF、ONTAP ASA、ONTAP Edge或ONTAP Select、则不会显示任何数据。</block>
+  <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">2024年12月4日</block>
 </blocks>

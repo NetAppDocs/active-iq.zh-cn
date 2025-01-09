@@ -1,0 +1,9 @@
+= AutoSupport小工具
+:allow-uri-read: 
+
+
+
+
+=== AutoSupport小工具
+
+AutoSupport小工具已添加到主信息板屏幕中、用于提醒客户与AutoSupport状态相关的问题。

@@ -30,6 +30,16 @@ Digital Advisor引入了以下功能和增强功能：
 
 
 
+== 2024年12月4日
+
+
+
+=== AutoSupport小工具
+
+AutoSupport小工具已添加到主信息板屏幕中、用于提醒客户与AutoSupport状态相关的问题。
+
+
+
 == 2024年9月23日
 
 
