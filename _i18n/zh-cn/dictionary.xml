@@ -863,26 +863,17 @@
   <block id="fb988f484e2c15b2a450e5b4c6255e46" category="cell">报告名称</block>
   <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Description</block>
   <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">提供有关未解决和已确认风险，风险详细信息，更正操作以及受影响系统的信息。</block>
-  <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">健康—汇总</block>
-  <block id="df67990129d3bd9cbda01755e666bbee" category="cell">提供未解决风险的摘要以及受影响系统的数量。</block>
   <block id="f34a643181d75dbba89d10d14f0d8041" category="cell">提供 Ansible 清单文件，其中按区域或站点列出了所有系统清单详细信息。此文件可用于自动化。</block>
-  <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
-  <block id="7eaee357275d531796b5348076c7abaa" category="cell">提供有关非活动，冷，活动，热，分层， 和不受监控的数据。此报告还包括用于对已禁用聚合启用非活动数据报告的 Ansible 攻略手册。</block>
   <block id="2a414d2cb2f384ea04369dd0623dab64" category="cell">提供有关选定监视列表，客户，站点，组级别的安装基础的信息。此报告可以直接从 " 清单 " 详细信息页面下载，也可以从 " 报告 " 页面生成。</block>
-  <block id="945bdabc5825ce732fb5d22e7dd80610" category="cell">提供有关已达到支持终止(EOS)的控制器、磁盘架和磁盘列表的信息。</block>
   <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">建议配置</block>
-  <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">提供有关远程管理配置，备用磁盘和驱动器， HA 对和 SVM 运行状况的各种建议配置差距的信息。</block>
   <block id="fca571dd1b59c732f4bccd0d20435b5d" category="cell">技术案例详细信息</block>
   <block id="d6cb167525a6b69100791b38c109bfe9" category="cell">提供有关所有技术案例及其状态的年度报告。</block>
   <block id="5cbae6debb1f76f9bf4bec9196da5dc6" category="cell">升级建议（软件和固件）</block>
   <block id="9932f2379db681a01520e32c482a3ddb" category="cell">有关搜索条件中每个控制器或串行的软件和固件货币以及建议版本的多选项卡报告。</block>
-  <block id="7ba03c87de2b2098f95107674c8477ff" category="cell">ClusterViewer 报告</block>
   <block id="acaaa059ccc549a29b26a0c1ad515bba" category="cell">提供有关客户和监视列表级别的单个或多个集群的信息。您只能为最多包含 100 个节点的监视列表生成此报告。</block>
   <block id="2d99f2b259d1d48f91090cd494f911f9" category="cell">容量和效率</block>
   <block id="5da3b92de536337b0597bb58ef5868ac" category="cell">提供有关集群，客户，站点，组，监视列表和节点级别的容量和效率详细信息。</block>
-  <block id="7780a058aaed86fab91b6e7629c71e93" category="cell">卷性能报告</block>
   <block id="2bc63cd07b97ee266354dc14df194285" category="cell">提供有关集群级别卷的性能详细信息的信息。</block>
-  <block id="f7ced170f0a650cade73ee4d9d2d75de" category="cell">性能报告</block>
   <block id="a26bfd54d2d0360c1432f1b51ff336ad" category="cell">在监视列表级别提供有关集群、节点、本地层(聚合)和卷性能的信息。您只能为最多包含 100 个节点的监视列表生成此报告。</block>
   <block id="23ed0325a3e4b1fb0cb88618017f6637" category="doc">在不使用 NetApp Docker 映像的情况下执行 Ansible 攻略手册</block>
   <block id="a7f5f35426b927411fc9231b56382173" category="inline-link-macro">Python</block>
@@ -1547,4 +1538,22 @@
   <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">"库存"小工具中不提供筛选和排序功能</block>
   <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">您不能在清单小工具中筛选和排序数据。如果在"筛选依据"下拉列表中选择ONTAP AFF、ONTAP ASA、ONTAP Edge或ONTAP Select、则不会显示任何数据。</block>
   <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">2024年12月4日</block>
+  <block id="1ae1cd0b4937cfa4a52d9dd9c59a7bff" category="cell">可在ONTAP中使用</block>
+  <block id="eda9493cdedf376a22ce96af673b5ce1" category="cell">在E系列中提供</block>
+  <block id="ae816a91a9239284b014c29def79b1a9" category="cell">可在StorageGRID中使用</block>
+  <block id="93cba07454f06a4a960172bbd6e2a435" category="cell">是</block>
+  <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="cell">否</block>
+  <block id="9c575f87ce93324cdc7902925f6337cc" category="cell">提供有关优化云资源的见解和建议。其中包括有关灾难恢复、备份、分层和迁移的详细信息。</block>
+  <block id="710106984647f0730faca0e1eaeeee6d" category="cell">允许用户为系统配置建立"黄金基线"、并在出现与该基线的偏差时向用户发出警报。它有助于识别和解决可能影响系统性能或安全性的配置更改。</block>
+  <block id="cb8da66b45b686427a31e5d56a8122db" category="cell">交付物流</block>
+  <block id="d0606acb5c07dedf89ff7c2b06144f81" category="cell">提供有关交付产品和服务的物流信息。</block>
+  <block id="fbd781a535485932684e2fdb756c3913" category="cell">运行状况评估内容提要</block>
+  <block id="0cb0fa6009199e89058c343d1d127fda" category="cell">以PowerPoint (PPT)格式提供有关各种Active IQ KPI的信息、并在不同幻灯片中介绍不同的KPI。</block>
+  <block id="83009b6eb15f65a7b4a558c0e23269c3" category="cell">定期摘要</block>
+  <block id="f4786124ed46b14b49d37f9f8c042ce4" category="cell">定期总结关键指标和见解。其中包括有关系统性能、容量和效率的数据。</block>
+  <block id="17b58822f294ceb27e2330591b9224e4" category="cell">提供有关远程管理配置、备件和驱动器、HA对、SVM运行状况、电池状态和Recovery Guru建议的各种配置差异的信息。</block>
+  <block id="67049dbeb0547988bdd3bb265ef87afc" category="cell">提供有关合同详细信息以及已达到支持到期(EOS)的控制器、磁盘架和磁盘列表的信息。</block>
+  <block id="9622c46ac664d07f743905654edd5f26" category="cell">升级计划</block>
+  <block id="1a9aef730533c89cbf56cb32b9856a4a" category="cell">提供软件和固件升级建议。其中包括有关最新建议版本、潜在问题以及执行升级步骤的详细信息。</block>
+  <block id="a86c1de3e38559902af8a77c138a08f4" category="cell">卷性能</block>
 </blocks>
