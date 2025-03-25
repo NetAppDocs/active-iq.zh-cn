@@ -1556,4 +1556,7 @@
   <block id="9622c46ac664d07f743905654edd5f26" category="cell">升级计划</block>
   <block id="1a9aef730533c89cbf56cb32b9856a4a" category="cell">提供软件和固件升级建议。其中包括有关最新建议版本、潜在问题以及执行升级步骤的详细信息。</block>
   <block id="a86c1de3e38559902af8a77c138a08f4" category="cell">卷性能</block>
+  <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">现在、您可以使用磁盘认证包(DQP)根据预定义的运行状况和性能标准自动更新磁盘控制器和存储设备固件。这样可以减少潜在故障并提高整体系统可靠性。</block>
+  <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">引入了时区数据库(DB)、用于自动保持系统与最新时区定义保持一致。这样可以确保即使时区规则发生更改、依赖时间的操作也能顺利进行。</block>
+  <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">2025年3月5日</block>
 </blocks>
