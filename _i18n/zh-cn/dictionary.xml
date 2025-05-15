@@ -1529,7 +1529,6 @@
   <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">单击*查看建议*以查看建议列表。</block>
   <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">在*更新状态*列中，单击*查看进度*以查看符合更新条件的集群。</block>
   <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">如果出现任何问题、请单击相应的链接以查看缓解问题的步骤。</block>
-  <block id="998e01ff2383d2b9e06b55738a27346b" category="doc">AutoSupport小工具</block>
   <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">AutoSupport小工具已添加到主信息板屏幕中、用于提醒客户与AutoSupport状态相关的问题。</block>
   <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">AutoSupport小工具不适用于集群和序列号</block>
   <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">AutoSupport小工具不会为集群和序列号搜索提供警报。</block>
@@ -1559,4 +1558,10 @@
   <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">现在、您可以使用磁盘认证包(DQP)根据预定义的运行状况和性能标准自动更新磁盘控制器和存储设备固件。这样可以减少潜在故障并提高整体系统可靠性。</block>
   <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">引入了时区数据库(DB)、用于自动保持系统与最新时区定义保持一致。这样可以确保即使时区规则发生更改、依赖时间的操作也能顺利进行。</block>
   <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">2025年3月5日</block>
+  <block id="4503a1a889a3b7c3dc4f3af490b089c6" category="doc">AutoSupport小工具</block>
+  <block id="41e1c349288a8b454c83244a4a28b8f7" category="paragraph">AutoSupport小工具已进行了增强、其中包含一个弹出窗口、可提供有关已停止发送AutoSupport数据的系统的详细信息。启用AutoSupport可降低停机风险、并支持主动式系统运行状况管理。</block>
+  <block id="dc82c5b795e4118bc2472e86475bf5da" category="section-title">支持合同报告</block>
+  <block id="6877ece75d4d613c107eed29f14b3975" category="paragraph">支持合同报告已得到增强、可包括新的asp/LSG标志字段。使用此字段可以筛选和标识授权支持合作伙伴(也称为生命周期服务认证)所涵盖的系统。</block>
+  <block id="80604874cd369ef578265c67a223d997" category="paragraph">现在、您可以使用Sustainability演示文稿中的链接启动Sustainability信息板。</block>
+  <block id="9b6594622a22e82296250ca296e7a0b3" category="section-title">2025年5月8日</block>
 </blocks>

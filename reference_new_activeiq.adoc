@@ -20,6 +20,28 @@ Digital Advisor引入了以下功能和增强功能：
 
 
 
+== 2025年5月8日
+
+
+
+=== AutoSupport小工具
+
+AutoSupport小工具已进行了增强、其中包含一个弹出窗口、可提供有关已停止发送AutoSupport数据的系统的详细信息。启用AutoSupport可降低停机风险、并支持主动式系统运行状况管理。
+
+
+
+=== 支持合同报告
+
+支持合同报告已得到增强、可包括新的asp/LSG标志字段。使用此字段可以筛选和标识授权支持合作伙伴(也称为生命周期服务认证)所涵盖的系统。
+
+
+
+=== Sustainability信息板
+
+现在、您可以使用Sustainability演示文稿中的链接启动Sustainability信息板。
+
+
+
 == 2025年3月5日
 
 
