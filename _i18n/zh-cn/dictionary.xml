@@ -1564,4 +1564,10 @@
   <block id="6877ece75d4d613c107eed29f14b3975" category="paragraph">支持合同报告已得到增强、可包括新的asp/LSG标志字段。使用此字段可以筛选和标识授权支持合作伙伴(也称为生命周期服务认证)所涵盖的系统。</block>
   <block id="80604874cd369ef578265c67a223d997" category="paragraph">现在、您可以使用Sustainability演示文稿中的链接启动Sustainability信息板。</block>
   <block id="9b6594622a22e82296250ca296e7a0b3" category="section-title">2025年5月8日</block>
+  <block id="e0feed907f4bf22cc0b1ffa18048f926" category="list-text">升级顾问计划新增了多格式下载选项，以简化ONTAP升级规划并解决潜在的阻碍或警告。现在，您可以下载 Excel、PDF 和 JSON 格式的升级顾问计划。</block>
+  <block id="e78e85c2863b9ed09c47dacdcfda2a1d" category="list-text">在升级顾问计划的 Excel 格式中，进行了以下增强：</block>
+  <block id="24a524d6161aca2fe5398b80dd9fa10c" category="list-text">您可以查看在集群上执行的预检查，并使用“通过”、“失败”或“跳过”等指示标记结果。这可确保集群处于最佳状态，以完成ONTAP升级。</block>
+  <block id="081533dbbdd673ebb2632d92a90a4a77" category="list-text">您可以查看适用于集群的推荐最新固件更新，以及ONTAP目标版本附带的版本。</block>
+  <block id="6276222a738837860023343f423eb60c" category="list-text">新增了一个选项卡，用于检查 SAN 集群的互操作性。该选项卡可显示所选目标ONTAP版本支持的主机操作系统版本。</block>
+  <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">2025年7月9日</block>
 </blocks>
