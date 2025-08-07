@@ -20,6 +20,34 @@ Digital Advisor引入了以下功能和增强功能：
 
 
 
+== 2025年8月6日
+
+
+
+=== 支持授权开关
+
+您现在可以查看有关有权获得支持的Brocade光纤通道 SAN 交换机的信息。这包括有关交换机型号、序列号和支持状态的详细信息。link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["了解如何查看支持授权开关"] 。
+
+
+
+=== RSS AutoSupport数据的阈值
+
+AutoSupport小部件中的“最近停止发送 (RSS)”限制已从 48 小时（2 天）延长至 216 小时（9 天），之后系统才会被标记为 RSS。这样做是为了适应仅发送每周AutoSupport数据的StorageGRID等平台。
+
+
+
+=== Digital Advisor API 目录中已弃用的 API 部分
+
+Digital Advisor API 目录中提供了一个新的弃用 API 部分。它列出了计划弃用的 API，以及弃用时间表和替代 API。
+
+
+
+=== 容量预测 V2 和支持结束 API 模块弃用
+
+容量预测 V2 和支持终止 API 模块计划弃用。要访问已弃用的 API 或了解弃用时间表和替代 API，请导航至 *API 服务 -> 浏览 -> 已弃用的 API*。
+
+
+
 == 2025年7月9日
 
 

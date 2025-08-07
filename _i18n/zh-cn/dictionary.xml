@@ -811,7 +811,6 @@
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">使用有效的访问令牌以及对所需字段的正确输入，您可以对 API 进行测试调用。</block>
   <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">* 浏览 *</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">此时将显示 API 目录。</block>
-  <block id="82ee712943040cce957254912d97aba0" category="list-text">选择任何 API</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">在页面顶部，滑动切换至 " 试验 " 。</block>
   <block id="835a43b0478137c574edbef583d126a1" category="list-text">从左侧导航栏展开类别并选择任何 API 以查看详细信息。</block>
   <block id="fcf9335996c4ed1473286f8644d4b479" category="list-text">展开 API 。</block>
@@ -918,7 +917,6 @@
   <block id="2eec6525cedefe6316db600adeaf337c" category="section-title">多跃点升级</block>
   <block id="01b9a3f3b3303730f5c2525f136ad86b" category="paragraph">对于某些自动无中断升级(ANDU)到非相邻版本、您可以安装中间版本和目标版本的软件映像。自动升级过程使用后台的中间映像完成目标版本的更新。例如，如果集群运行的是 9.3 ，而您要升级到 9.7 ，则应加载 9.5 和 9.7 的 ONTAP 安装包，然后启动 andu 到 9.7 。然后， ONTAP 会先自动将集群升级到 9.5 ，然后再自动升级到 9.7 。在此过程中，您应该会执行多个接管 / 交还操作以及相关的重新启动。</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">Upgrade Advisor</block>
-  <block id="241d0a5c7d11b08c4b6742aafec7ad3e" category="paragraph">通过 * 清单 * 小工具，您可以汇总自己的系统总数。这包括支持和未支持Digital Advisor的产品。</block>
   <block id="e58b12802a7d54b8bca5c0033174b2d8" category="summary">提供登录到Digital Advisor的信息。</block>
   <block id="5a68b284b7bcd8f7a66fdc39f1dcbcd7" category="doc">登录到Digital Advisor</block>
   <block id="45b708abb9ee2f917c7896e31ae4c7b6" category="paragraph">Digital Advisor会显示具有有效支持合同的系统。如果合同到期，则会提供 90 天的宽限期，在此宽限期内，系统仍然可见。此后、系统将无法在Digital Advisor中搜索或显示。</block>
@@ -1570,4 +1568,29 @@
   <block id="081533dbbdd673ebb2632d92a90a4a77" category="list-text">您可以查看适用于集群的推荐最新固件更新，以及ONTAP目标版本附带的版本。</block>
   <block id="6276222a738837860023343f423eb60c" category="list-text">新增了一个选项卡，用于检查 SAN 集群的互操作性。该选项卡可显示所选目标ONTAP版本支持的主机操作系统版本。</block>
   <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">2025年7月9日</block>
+  <block id="a30ce25654f610d7e9e47c6277028c38" category="doc">支持授权开关</block>
+  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">了解如何查看支持授权开关</block>
+  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">您现在可以查看有关有权获得支持的Brocade光纤通道 SAN 交换机的信息。这包括有关交换机型号、序列号和支持状态的详细信息。<block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> 。</block>
+  <block id="adc76ac62c705df3456206213de66002" category="section-title">RSS AutoSupport数据的阈值</block>
+  <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">AutoSupport小部件中的“最近停止发送 (RSS)”限制已从 48 小时（2 天）延长至 216 小时（9 天），之后系统才会被标记为 RSS。这样做是为了适应仅发送每周AutoSupport数据的StorageGRID等平台。</block>
+  <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Digital Advisor API 目录中已弃用的 API 部分</block>
+  <block id="4632607b0b76f87d36568a2df2c3a267" category="paragraph">Digital Advisor API 目录中提供了一个新的弃用 API 部分。它列出了计划弃用的 API，以及弃用时间表和替代 API。</block>
+  <block id="9eadf268f4ef55df53b7403a020082b1" category="section-title">容量预测 V2 和支持结束 API 模块弃用</block>
+  <block id="bd2055e6fb5a6ca7ecc6d9d52f394548" category="paragraph">容量预测 V2 和支持终止 API 模块计划弃用。要访问已弃用的 API 或了解弃用时间表和替代 API，请导航至 *API 服务 -&gt; 浏览 -&gt; 已弃用的 API*。</block>
+  <block id="6e04d6bd41fa83c137f7b99364e843c9" category="admonition">NetApp Digital Advisor正在从 REST API 过渡到 GraphQL 作为其主要 API 平台，以提高性能、灵活性和可扩展性。过渡将分阶段进行，REST API 和 GraphQL API 之间会有一段时间重叠。对于每个弃用的 REST API，都会在Digital Advisor API 目录中发布弃用通知，并且您有 6 个月的时间将该特定端点迁移到 GraphQL。要查看计划弃用的 API 列表，请导航至 *API 服务 -&gt; 浏览 -&gt; 已弃用的 API*</block>
+  <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">2025年8月6日</block>
+  <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">访问 GraphQL API</block>
+  <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">单击 *GraphQL* 并查看文档。</block>
+  <block id="9d4615fe1d2320cc19b894b5d333d7c1" category="inline-link-macro">GraphQL API 端点和审查架构</block>
+  <block id="b546d5412fcbcd954e28c950fb2a6ca4" category="list-text">使用权<block ref="89a08dcaa38ea8d40daf6964132bb7ee" category="inline-link-macro-rx"></block></block>
+  <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital AdvisorGraphQL Studio</block>
+  <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">使用可立即运行的示例查询来试用 GraphQL API<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> 。</block>
+  <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">通过选择 API 请求标头中的授权字段来提供用户令牌</block>
+  <block id="85608152841a7f2e1feb0fe64d6e0ea6" category="list-text">提供所需的变量</block>
+  <block id="f957bd87c6ca02f7e8d3b7e94c1b1992" category="list-text">运行查询并查看输出</block>
+  <block id="56221c5b2b531b839a3cd5c7e9c9cd9f" category="section-title">访问 REST API</block>
+  <block id="35c99013ee51309b261a35e68d7b57ba" category="list-text">单击“ActiveIQ-Public”并选择任意 API</block>
+  <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">*库存* 小部件为您提供了您拥有的整个系统和有权支持的交换机的汇总。这包括启用Digital Advisor和未启用 Digital Advisor 的产品。</block>
+  <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">查看支持授权切换详细信息</block>
+  <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">在“*库存*”小部件中，单击“*支持授权开关*”以查看有关所有支持授权开关的信息。</block>
 </blocks>

@@ -20,13 +20,35 @@ summary: 提供有关 API 目录中可用 API 的信息。
 
 使用有效的访问令牌以及对所需字段的正确输入，您可以对 API 进行测试调用。
 
+
+
+== 访问 GraphQL API
+
 .步骤
 . 从 * 快速链接 * 菜单中，单击 * API 服务 * 。
 . 单击 link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["* 浏览 *"^] 在 * API Catalog* 图标下。
 +
 此时将显示 API 目录。
 
-. 选择任何 API
+. 单击 *GraphQL* 并查看文档。
+. 使用权link:https://gql.aiq.netapp.com/["GraphQL API 端点和审查架构"^]
+. 使用可立即运行的示例查询来试用 GraphQL APIlink:https://studio.apollographql.com/public/ActiveIQ-Graph-Prd-API/variant/current/explorer?collectionId=251c50ce-797e-4549-bb9c-f6557ef5a176OPERATION_COLLECTIONfocusCollectionId=251c50ce-797e-4549-bb9c-f6557ef5a176["Digital AdvisorGraphQL Studio"^] 。
+. 通过选择 API 请求标头中的授权字段来提供用户令牌
+. 提供所需的变量
+. 运行查询并查看输出
+
+
+
+
+== 访问 REST API
+
+.步骤
+. 从 * 快速链接 * 菜单中，单击 * API 服务 * 。
+. 单击 link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["* 浏览 *"^] 在 * API Catalog* 图标下。
++
+此时将显示 API 目录。
+
+. 单击“ActiveIQ-Public”并选择任意 API
 . 在页面顶部，滑动切换至 " 试验 " 。
 . 从左侧导航栏展开类别并选择任何 API 以查看详细信息。
 . 展开 API 。
