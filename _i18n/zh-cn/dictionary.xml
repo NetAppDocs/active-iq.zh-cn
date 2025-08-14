@@ -809,7 +809,6 @@
   <block id="bd006ceeb17633ee0556ac28eaf949f6" category="summary">提供有关 API 目录中可用 API 的信息。</block>
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">通过 API 目录，您可以浏览各个类别以及其中每个类别中的可用 API 。</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">使用有效的访问令牌以及对所需字段的正确输入，您可以对 API 进行测试调用。</block>
-  <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">* 浏览 *</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">此时将显示 API 目录。</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">在页面顶部，滑动切换至 " 试验 " 。</block>
   <block id="835a43b0478137c574edbef583d126a1" category="list-text">从左侧导航栏展开类别并选择任何 API 以查看详细信息。</block>
@@ -1112,7 +1111,6 @@
   <block id="ae60d74a912ddc26168a3645463cc941" category="list-text"><block ref="ae60d74a912ddc26168a3645463cc941" category="inline-link-macro-rx"></block></block>
   <block id="801b554762e480a183c2424cbe8c2fb6" category="list-text"><block ref="801b554762e480a183c2424cbe8c2fb6" category="inline-link-macro-rx"></block></block>
   <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">可以通过多种方式设置 Web 服务器。有关使用 Python 设置简单 Web 服务器的说明，请参见 <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>。</block>
-  <block id="713451159dacf58d1a99e356169dfb3f" category="list-text">单击 <block ref="9b2adf8ad12dd16d4d2b3750ca65e5de" category="inline-link-macro-rx"></block> 在 * API Catalog* 图标下。</block>
   <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">转至 <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> 登录页面。</block>
   <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">对于 ONTAP 系统，在首次配置存储系统时，默认情况下会启用 AutoSupport 。您应该 <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> 在 ONTAP 系统上，用于控制如何将 AutoSupport 信息发送给技术支持和您的内部支持组织。</block>
   <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
@@ -1579,8 +1577,6 @@
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">2025年8月6日</block>
   <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">访问 GraphQL API</block>
   <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">单击 *GraphQL* 并查看文档。</block>
-  <block id="9d4615fe1d2320cc19b894b5d333d7c1" category="inline-link-macro">GraphQL API 端点和审查架构</block>
-  <block id="b546d5412fcbcd954e28c950fb2a6ca4" category="list-text">使用权<block ref="89a08dcaa38ea8d40daf6964132bb7ee" category="inline-link-macro-rx"></block></block>
   <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital AdvisorGraphQL Studio</block>
   <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">使用可立即运行的示例查询来试用 GraphQL API<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> 。</block>
   <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">通过选择 API 请求标头中的授权字段来提供用户令牌</block>
@@ -1593,4 +1589,6 @@
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">在“*库存*”小部件中，单击“*支持授权开关*”以查看有关所有支持授权开关的信息。</block>
   <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">了解如何查看支持授权开关</block>
   <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">您现在可以查看有关有权获得支持的Brocade光纤通道 SAN 交换机的信息。这包括有关交换机型号、序列号和支持状态的详细信息。<block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> 。</block>
+  <block id="1b9abf135ccb7ed2f2cd9c155137c351" category="inline-link-macro">浏览</block>
+  <block id="2981195e7f0b7a603227ab0ab32a8349" category="list-text">点击<block ref="3dddd0be9b2e921fda9092125563366a" category="inline-link-macro-rx"></block>在 *API 目录* 图标下。</block>
 </blocks>
