@@ -19,6 +19,6 @@ summary: 提供用于评估技术支持合同或硬件技术更新的信息
 如果您要确定建议对您的技术支持合同还是硬件进行技术更新、可以使用技术更新选项。
 
 
-NOTE: 您可以通过BlueXP经济效率(*监管>经济效率>技术更新*)或NetApp数字顾问(*信息板>规划小工具>技术更新*)访问此功能。
+NOTE: 您可以通过生命周期规划（*存储* > *生命周期规划*）或通过Digital Advisor（*仪表板 > 规划小部件 > 技术更新*）访问此功能。
 
-有关此功能的详细信息、请参见 link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["评估技术更新"] BlueXP文档中的。
+有关此功能的更多信息，请参阅link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["评估技术更新"]在控制台文档中。

@@ -20,6 +20,18 @@ Digital Advisor引入了以下功能和增强功能：
 
 
 
+== 2025年10月6日
+
+
+
+=== BlueXP现在是NetApp控制台
+
+NetApp控制台建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp数据服务，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台发行说明"]。
+
+
+
 == 2025年8月6日
 
 
@@ -146,7 +158,7 @@ AutoSupport小工具已添加到主信息板屏幕中、用于提醒客户与Aut
 
 === Sustainability信息板
 
-通过环境指标深入了解存储系统的环境运行状况、现在可以根据高级预测模型提供更精确的预计用电量、直接碳用量和热量排放值。要了解更多信息，请参阅 link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Sustainability信息板概述"]。
+环境指标可以深入了解您的存储系统的环境健康状况，现在可以根据先进的预测模型为预计的电力使用量、直接碳使用量和热量排放提供更精确的值。要了解更多信息，请参阅link:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["Sustainability信息板概述"]。
 
 
 
@@ -156,7 +168,7 @@ AutoSupport小工具已添加到主信息板屏幕中、用于提醒客户与Aut
 
 === Sustainability信息板
 
-E系列和StorageGRID系统现在支持Sustainability。您可以从这些系统的可持续性信息板中查看建议的操作和环境指标列表、这些操作和指标会显示功率、直接碳用量和热量的预测。要了解更多信息，请参阅 link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Sustainability信息板概述"^]。
+E 系列和StorageGRID系统现在支持可持续性。您可以从这些系统的可持续性仪表板查看建议操作和环境指标的列表，其中显示了电力、直接碳使用量和热量的预测。要了解更多信息，请参阅link:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["Sustainability信息板概述"^]。
 
 
 
@@ -176,7 +188,7 @@ E系列和StorageGRID系统现在支持Sustainability。您可以从这些系统
 
 === 健康
 
-* 健康度工作流现在包括Sustainability小工具、可提供客户、监视列表、站点和组级别的建议操作计数。您可以在Sustainability信息板上单击操作数以查看这些建议操作的详细视图。要了解更多信息、请参见 link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["分析存储系统的可持续性"]。
+* 健康工作流程现在包括可持续性小部件，它提供客户、监视列表、站点和组级别的建议操作的数量。您可以单击操作数量，以在可持续性仪表板上详细查看这些建议的操作。要了解更多信息，请参阅link:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["分析存储系统的可持续性"]。
 * 健康工作流中的"安全漏洞"和"防兰索防"小工具组合到一个小工具中、该小工具现在称为"安全和防兰索防"。
 
 
@@ -283,7 +295,7 @@ Upgrade Advisor经过增强、可为单个集群和多个集群提供自动化�
 
 === Sustainability信息板
 
-Sustainability信息板可提供有关存储系统环境可持续性的宝贵见解。您可以查看诸如可持续性得分、碳缓解百分比、预计电力使用量、直接碳和热量等信息。您可以调整特定站点的碳缓解百分比。您还可以查看集群级别的可持续性得分。根据可持续发展得分、您可以评估存储系统的整体效率、并将其与NetApp为增强可持续性而建议的操作保持一致。 link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["了解更多信息。"]。
+可持续性仪表板为您的存储系统的环境可持续性提供了宝贵的见解。您可以查看可持续性得分、碳减排百分比、预计电力使用量、直接碳排放和热量等信息。您可以调整特定站点的碳减排百分比。您还可以在集群级别查看可持续性分数。根据可持续性评分，您可以评估存储系统的整体效率，并使其与 NetApp 建议的措施保持一致，以提高可持续性。link:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["了解更多信息。"] 。
 
 
 
@@ -319,7 +331,7 @@ SAN和NAS存储效率可在节点级别提供给ONTAP 系统、包括AFF A系列
 
 === Digital Advisor与BlueXP集成
 
-Active IQ 数字顾问将改为Digital Advisor、现已集成到NetApp面向混合多云环境的统一管理控制台BlueXP中。 link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["了解更多信息。"]。
+Active IQ Digital Advisor正在更改为Digital Advisor ，并且现在已集成到BlueXP（NetApp 用于混合多云环境的统一管理控制台）中。link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html["了解更多信息。"] 。
 
 
 

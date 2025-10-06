@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: improve_sustainability_score.html 
-keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp, sustainability core, cluster level 
+keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp, sustainability core, cluster level, NetApp Console 
 summary: 提供通过建议的操作提高可持续性得分的步骤。 
 ---
 = 提高可持续性得分
@@ -19,7 +19,7 @@ summary: 提供通过建议的操作提高可持续性得分的步骤。
 Sustainability信息板提供了建议的操作、您可以实施这些操作来提高整体Sustainability得分和集群级别的Sustainability得分。
 
 
-NOTE: 要从信息板获得最佳结果、必须启用AutoSupport。如果未启用AutoSupport、则数据将基于产品规格。要获取实时电源详细信息、您需要启用Cloud Insights。有关如何启用Cloud Insights的详细信息、请参见 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]。
+NOTE: 为了从仪表板获得最佳结果，您必须启用AutoSupport。如果未启用AutoSupport ，数据将基于产品规格。要获取实时电力详细信息，您需要启用Data Infrastructure Insights。有关如何启用Data Infrastructure Insights的更多信息，请参阅link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html["Data Infrastructure Insights"^]。
 
 
 
@@ -40,9 +40,9 @@ NOTE: 可持续性得分最初在集群级别进行计算、然后在其他级�
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.NetApp控制台
 --
-. 从BlueXP左侧导航栏中的*监管*类别转到*可持续性*。
+. 从控制台左侧导航中的“*健康*”类别转到“*可持续性*”。
 . 转到*建议操作*选项卡。
 +
 ** 您可以选择*Fix*立即执行这些操作，或选择*later*稍后处理这些操作。
@@ -101,10 +101,10 @@ image:actions_for_later.png["屏幕截图、显示带有\"考虑\"选项的建�
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.NetApp控制台
 --
-. 从BlueXP左侧导航栏中的*监管*类别转到*可持续性*。
-. 转到*工作环境*表。
+. 从控制台左侧导航中的“*健康*”类别转到“*可持续性*”。
+. 转到*系统*表。
 . 单击目标集群的*建议操作*列中的操作数。
 +
 image:recommended_actions_cluster.png["显示操作数的屏幕截图。"]
@@ -121,14 +121,14 @@ image:recommended_actions_list.png["屏幕截图、提供了建议操作的详�
 
 
 
-TIP: 您可以使用在*工作环境*表中添加或删除环境参数 image:add_icon.png["用于添加或删除参数的加号图标"] 图标、并可以使用以逗号分隔值(.csv)格式导出此表 image:download_icon.png["用于导出参数的下载符号"] 图标。
+TIP: 您可以使用image:add_icon.png["用于添加或删除参数的加号图标"]图标，并可以使用image:download_icon.png["用于导出参数的下载符号"]图标。
 
 --
 .Digital Advisor
 --
-. 从Digital Advisor信息板左侧导航栏中的*存储运行状况*类别转到*可持续性*。
+. 转到Digital Advisor仪表板左侧导航中的“可持续性”。
 . 转到*建议操作*选项卡。
-. 转到*工作环境*表。
+. 转到*系统*表。
 . 单击目标集群的*建议操作*列中的操作数。
 +
 image:recommended_actions_cluster.png["显示操作数的屏幕截图。"]
@@ -145,7 +145,7 @@ image:recommended_actions_list.png["屏幕截图、提供了建议操作的详�
 
 
 
-TIP: 您可以使用在*工作环境*表中添加或删除环境参数 image:add_icon.png["用于添加或删除参数的加号图标"] 图标、并可以使用以逗号分隔值(.csv)格式导出此表 image:download_icon.png["用于导出参数的下载符号"] 图标。
+TIP: 您可以使用image:add_icon.png["用于添加或删除参数的加号图标"]图标，并可以使用image:download_icon.png["用于导出参数的下载符号"]图标。
 
 --
 ====

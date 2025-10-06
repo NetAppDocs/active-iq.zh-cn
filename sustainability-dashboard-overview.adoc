@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
-permalink: BlueXP_sustainability_dashboard_overview.html 
-keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, working environments, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives 
-summary: 提供有关信息板、可持续发展得分、工作环境和建议措施的信息。 
+permalink: sustainability-dashboard-overview.html 
+keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, systems, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives, NetApp Console 
+summary: 提供有关仪表板、可持续性分数、系统和建议操作的信息。 
 ---
 = Sustainability信息板概述
 :hardbreaks:
@@ -18,7 +18,7 @@ summary: 提供有关信息板、可持续发展得分、工作环境和建议�
 [role="lead"]
 Sustainability信息板以NetApp建议的操作形式提供存储系统的环境评估以及可指导行动的改进见解。
 
-image:get_started_sustainability_dashboard.png["显示Sustainability信息板的UI屏幕截图。"]
+image:sustainability_dashboard_console.png["用户界面屏幕截图，概述了控制台中的可持续性仪表板。"]
 
 
 NOTE: 要准确计算可持续性得分、应启用AutoSupport。
@@ -43,11 +43,11 @@ image:carbon_mitigation_percentage.png["显示站点的碳缓解百分比以及�
 
 *建议操作*：显示可提高存储系统可持续性得分的建议操作列表。可以立即或稍后执行这些操作。有关如何提高Sustainability得分的详细信息，请参见 link:improve_sustainability_score.html["提高可持续性得分"]。
 
-*工作环境*：在表中显示环境参数、这些参数有助于确定要迁移到更高效存储的集群。在此表中、您可以：
+*系统*：在表中显示环境参数，有助于识别集群以迁移到更高效的存储。通过此表，您可以：
 
 * 查看集群级别的可持续性得分，选择要访问*ClusterViewer*的集群名称，并采取具体建议的措施来提高可持续性。有关详细信息，请参见 link:improve_sustainability_score.html["提高集群级别的可持续性得分"]。
 +
-image:working_environments.png["显示各种环境参数的UI屏幕截图"]
+image:systems.png["显示各种环境参数的UI屏幕截图"]
 
-* 从*实时电源*列启用监控以查看集群级别的实时电源详细信息。有关详细信息，请参见 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]。
+* 从*实时功率*列启用监控，以查看集群级别的实时功率详细信息。有关更多信息，请参阅link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html["Data Infrastructure Insights"^] 。
 

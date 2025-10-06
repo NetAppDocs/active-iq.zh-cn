@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: learn-about-sustainability.html 
+keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP, NetApp Console 
+summary: 提供有关可持续性的信息、帮助您降低能耗、并努力实现环境目标。 
+---
+= 了解可持续性
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+可持续性使您能够减少能源消耗并使您能够努力实现环境目标。这使您能够使您的存储系统与环保实践保持一致并实现可持续发展目标。
+
+您可以从可持续性仪表板查看可持续性得分以及电力、直接碳和热量的预计使用情况。您可以调整特定站点的碳减排百分比。您还可以在集群级别查看可持续性分数。根据可持续性评分，您可以评估可持续性态势并实施 NetApp 建议的措施来提高评分。要了解有关可持续性仪表板的更多信息，请访问link:sustainability-dashboard-overview.html["Sustainability信息板概述"]。
+
+
+NOTE: Cloud Volumes ONTAP、AFF系统(A系列和C系列)、E系列、FAS和StorageGRID系统均支持Sustainability。
+
+您可以观看以下视频来了解Sustainability信息板：
+
+video::yNRHeOvbGX8[youtube,width=848,height=480]
+
+
+== 可持续性的优势
+
+可持续性具有以下优势：
+
+* 通过减少存储相同数据量的存储设备数量来提高性能。
+* 通过优化存储系统利用率降低存储成本。
+* 通过在数据中心使用可再生能源减少碳足迹。
+* 通过执行节能政策提高能效。
+

@@ -34,7 +34,7 @@ indexpage:
   - title: 使用Digital Advisor进行分析
     links:
     - title: 查看 ONTAP 升级建议
-      url: task_view_upgrade.html
+      url: upgrade_advisor_overview.html
     - title: 根据云建议做出明智的决策
       url: task-informed-decisions-based-on-cloud-recommendations.html
     - title: 通过NetApp Keystone订阅查看容量利用率

@@ -24,8 +24,8 @@ sidebar:
       url: "/concept_getting_started_2.html"
     - title: 了解Digital Advisor的功能
       url: "/concept_understand_activeiq_features.html"
-    - title: Digital Advisor与BlueXP集成
-      url: "/digital-advisor-integration-with-bluexp.html"
+    - title: Digital Advisor与NetApp Console 集成
+      url: "/digital-advisor-integration-with-console.html"
     - title: 关键概念
       url: "/concept_key_terms.html"
     - title: 什么是 AutoSupport
@@ -71,11 +71,11 @@ sidebar:
     - title: 分析存储系统的可持续性
       entries:
       - title: 了解可持续性
-        url: "/learn_BlueXP_sustainability.html"
+        url: "/learn-about-sustainability.html"
       - title: 开始使用Sustainability信息板
         url: "/get_started_sustainability_dashboard.html"
       - title: Sustainability信息板概述
-        url: "/BlueXP_sustainability_dashboard_overview.html"
+        url: "/sustainability-dashboard-overview.html"
       - title: 提高可持续性得分
         url: "/improve_sustainability_score.html"
     - title: 生成升级计划
@@ -90,7 +90,7 @@ sidebar:
       entries:
       - title: 查看清单详细信息
         url: "/task_view_inventory_details.html"
-      - title: 与Cloud Insights 集成以查看虚拟机详细信息
+      - title: 与Data Infrastructure Insights集成以查看虚拟机详细信息
         url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
       - title: 查看有价值的见解
         url: "/task_view_valuable_insight_widget.html"
@@ -181,5 +181,5 @@ sidebar:
   - title: 法律声明
     url: "/legal-notices.html"
 product-family:
-  name: BlueXP
-  repo: cloud-manager-family
+  name: Netapp Console
+  repo: console-family

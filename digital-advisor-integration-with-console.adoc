@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: digital-advisor-integration-with-console.html 
+keywords: digital advisor, integration, bluexp, NetApp Console 
+summary: 'Digital Advisor现已与NetApp Console 完全集成。您现在可以从NetApp控制台用户界面 (UI) 管理您的集群并访问Digital Advisor的所有功能。' 
+---
+= Digital Advisor与NetApp Console 集成
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Digital Advisor现已与NetApp Console 完全集成。您现在可以从控制台用户界面 (UI) 管理您的集群并访问Digital Advisor的所有功能。
+
+使用控制台，IT 专家和云架构师可以集中管理他们的混合多云基础设施。您只需要一个NetApp支持站点 (NSS) 帐户即可访问控制台中的Digital Advisor 。
+
+
+
+== NetApp控制台
+
+可通过NetApp控制台访问Digital Advisor 。
+
+NetApp控制台提供企业级跨本地和云环境的NetApp存储和数据服务的集中管理。需要控制台才能访问和使用NetApp数据服务。作为管理界面，它使您能够从一个界面管理许多存储资源。控制台管理员可以控制企业内所有系统的存储和服务的访问。
+
+您不需要许可证或订阅即可开始使用NetApp控制台，并且只有当您需要在云中部署控制台代理以确保与存储系统或NetApp数据服务的连接时才需要付费。但是，一些可从控制台访问的NetApp数据服务是需要许可或基于订阅的。
+
+详细了解 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp控制台"]。
+
+
+
+== 在NetApp控制台中访问Digital Advisor
+
+您可以从控制台访问Digital Advisor来管理您的集群。
+
+.步骤
+. 打开 Web 浏览器并转到link:https://console.netapp.com/["控制台"^]。
+. 选择*使用您的NetApp 支持站点 凭据登录*并输入您的凭据。
++
+如果您之前使用电子邮件和密码创建了控制台登录，则需要继续使用该登录选项。
+
+. 出现提示时、使用NetApp 支持站点 凭据登录。
++
+此次登录与步骤2中完成的登录不同。在步骤 2 中，您登录到控制台。现在您正在登录Digital Advisor。
+
+
+
+* 结果 *
+
+此时将显示所有现有监视列表和配置、您现在可以像通常那样使用Digital Advisor。
