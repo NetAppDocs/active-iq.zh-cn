@@ -822,7 +822,6 @@
   <block id="9d094e845c465f9cb6c298c2cfa8c71d" category="summary">提供可根据其做出明智决策的建议。</block>
   <block id="19f59b74448f6a27519db281a44e4b12" category="section-title">migration</block>
   <block id="4fc6b52f3180163cea93aa7c8da0e7dd" category="paragraph">提供有关存储系统中可用的不同工作负载类型的信息、并确定云就绪的工作负载。将工作负载迁移到云可节省成本并提供云灾难恢复。</block>
-  <block id="46c5977f0ec6a34283e38ed39033952e" category="paragraph">建议将符合以下条件的卷迁移到Cloud Volumes ONTAP (CVO)和Cloud Volumes Service (CVS)：</block>
   <block id="4f18efd74627acd1e83311ad6a450b7c" category="list-text">卷应使用NFS、SMB、CIFS、FCP或iSCSI协议</block>
   <block id="3c765c5584278c5b7d2bb8a2e48bbea0" category="list-text">不包括根卷</block>
   <block id="eee58b17a5b1a316e3d557e27113c69e" category="list-text">卷中的工作负载标记为Oracle、SAP、SAP HANA、MSSQL、MySQL、 SharePoint、文件共享、虚拟化和Trident</block>
@@ -1561,4 +1560,5 @@
   <block id="5e76877e0dc9fe309e6133171cf4f2c7" category="paragraph">Digital Advisor现已与Data Infrastructure Insights Basic 版本集成，为客户提供全栈库存和互操作性检查。</block>
   <block id="685bbd026f2ca02a1ba1e629c16611de" category="list-text">在“*库存*”小部件中，单击“*虚拟机*”以查看“Data Infrastructure Insights”中可用的数据。</block>
   <block id="d4ec3e135a12bb96c4afe463cfa6cb07" category="list-text">单击 *ESX 名称* 导航到Data Infrastructure Insights以查看更多信息。</block>
+  <block id="45c1e1a0501d6b75b99c21659e420c55" category="paragraph">建议将符合以下条件的卷迁移到Cloud Volumes ONTAP (CVO)：</block>
 </blocks>

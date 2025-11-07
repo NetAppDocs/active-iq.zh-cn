@@ -27,7 +27,7 @@ NOTE: Digital Advisor会引导您进入NetApp Console 来实施建议。
 
 提供有关存储系统中可用的不同工作负载类型的信息、并确定云就绪的工作负载。将工作负载迁移到云可节省成本并提供云灾难恢复。
 
-建议将符合以下条件的卷迁移到Cloud Volumes ONTAP (CVO)和Cloud Volumes Service (CVS)：
+建议将符合以下条件的卷迁移到Cloud Volumes ONTAP (CVO)：
 
 * 卷应使用NFS、SMB、CIFS、FCP或iSCSI协议
 * 不包括根卷
