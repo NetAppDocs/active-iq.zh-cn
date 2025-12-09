@@ -18,6 +18,17 @@ summary: 提供为单个集群和多个集群成功完成ONTAP升级或还原生
 [role="lead"]
 您可以使用Upgrade Advisor查看符合升级条件或不符合升级条件的集群列表。您可以查看符合条件的集群的升级建议并生成升级计划。您可以修复不符合条件的集群的问题、使其符合升级条件。
 
+
+
+== 开始之前
+
+在制定升级计划之前，您应该：
+
+* 确保已启用并正确配置AutoSupport（ASUP），并且包含所有必需的部分。有关详细信息，请参阅 link:hhttps://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/ONTAP_AutoSupport_Resolution_Guide["ONTAPAutoSupport解决方案指南"]。
+* 验证 AutoSupport 集群成员与 SAP 集群配置是否匹配。更多信息，link:https://kb.netapp.com/Support/NSS/Support_Site/How_to_open_a_non-technical_case["提交一个非技术性案例"] 。
+
+
+.步骤
 您可以按照以下步骤为单个集群和多个集群生成升级计划：
 
 [role="tabbed-block"]

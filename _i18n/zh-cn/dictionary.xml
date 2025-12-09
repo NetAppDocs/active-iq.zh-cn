@@ -1561,4 +1561,9 @@
   <block id="685bbd026f2ca02a1ba1e629c16611de" category="list-text">在“*库存*”小部件中，单击“*虚拟机*”以查看“Data Infrastructure Insights”中可用的数据。</block>
   <block id="d4ec3e135a12bb96c4afe463cfa6cb07" category="list-text">单击 *ESX 名称* 导航到Data Infrastructure Insights以查看更多信息。</block>
   <block id="45c1e1a0501d6b75b99c21659e420c55" category="paragraph">建议将符合以下条件的卷迁移到Cloud Volumes ONTAP (CVO)：</block>
+  <block id="f53ebb0d19beec32f25d5bd12221adf7" category="paragraph">在制定升级计划之前，您应该：</block>
+  <block id="9c8a06503c0fcff82a72b9a47d15fdd8" category="inline-link-macro">ONTAPAutoSupport解决方案指南</block>
+  <block id="c04b16bfcb0ae04e942f5b8f40f89958" category="list-text">确保已启用并正确配置AutoSupport（ASUP），并且包含所有必需的部分。有关详细信息，请参阅 <block ref="d9fca8defeb9ffc51d54bc8014960f3d" category="inline-link-macro-rx"></block>。</block>
+  <block id="5c2f83424a92d9f87bfe784acf51ef8f" category="inline-link-macro">提交一个非技术性案例</block>
+  <block id="ece2db758a882f00813e14d082e4552c" category="list-text">验证 AutoSupport 集群成员与 SAP 集群配置是否匹配。更多信息，<block ref="eb6134c35f89e9a6ed78736959d7ff7d" category="inline-link-macro-rx"></block> 。</block>
 </blocks>
