@@ -4,7 +4,7 @@ permalink: concept_overview_planning.html
 keywords: overview, planning, increate capacity, renew, software, hardware, expiry, expired 
 summary: 提供信息以确定即将过期的系统容量以及软件和硬件。 
 ---
-= 了解规划
+= 使用Digital Advisor中的规划小部件管理您的存储系统容量需求
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

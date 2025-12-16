@@ -4,7 +4,7 @@ permalink: task_analyze_storage_efficiency.html
 keywords: renew, hardware, software 
 summary: 提供有关续订存储系统软件和硬件的信息。 
 ---
-= 分析容量和存储效率节省情况
+= 在Digital Advisor中查看容量和存储效率节省情况
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

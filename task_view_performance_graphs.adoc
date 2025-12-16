@@ -4,7 +4,7 @@ permalink: task_view_performance_graphs.html
 keywords: performance, performance graph, graphs, digital advisor, performance charts, day, week, 1 month, 2 months, calendar, chart data, performance on node level, graph, node level 
 summary: 提供有关性能的信息。 
 ---
-= 分析性能图
+= 在Digital Advisor中查看存储系统性能图表
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: task_add_config_drift_template.html
 keywords: config deviation, drift, configuration, add template 
 summary: 提供有关添加配置偏移模板的信息。 
 ---
-= 添加配置偏移模板
+= 在Digital Advisor中为您的存储系统添加配置漂移模板
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

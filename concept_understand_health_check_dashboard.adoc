@@ -4,7 +4,7 @@ permalink: concept_understand_health_check_dashboard.html
 keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
 summary: 提供信息以熟悉运行状况检查信息板。 
 ---
-= 了解运行状况检查信息板
+= 了解Digital Advisor中的健康检查仪表板
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

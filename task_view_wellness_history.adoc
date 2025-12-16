@@ -4,7 +4,7 @@ permalink: task_view_wellness_history.html
 keywords: wellness history, risks, wellness, view all actions, risk history, 
 summary: 提供有关系统风险以及如何查看健康历史记录的信息。 
 ---
-= 查看健康历史记录
+= 在Digital Advisor中查看您的存储系统风险历史记录
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,7 +16,7 @@ summary: 提供有关系统风险以及如何查看健康历史记录的信息�
 
 
 [role="lead"]
-您可以查看过去三个月发生的系统风险，以便了解这些风险是如何加班的。
+您可以查看过去三个月内发生的存储系统风险，以便了解这些风险随时间推移的发展情况。
 
 这些风险分为四类： * 未解决 * ， * 新增 * ， * 已解决 * 和 * 已确认 * 。它们以不同的颜色表示。这些风险的摘要通过 * 风险历史记录 * 图来表示。
 

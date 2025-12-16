@@ -22,157 +22,157 @@ sidebar:
       url: "/reference_limitations_activeiq.html"
   - title: 入门
     entries:
-    - title: 快速入门
+    - title: Digital Advisor快速入门
       url: "/concept_getting_started_2.html"
     - title: 了解Digital Advisor的功能
       url: "/concept_understand_activeiq_features.html"
-    - title: Digital Advisor与NetApp Console 集成
+    - title: 在NetApp控制台中访问Digital Advisor
       url: "/digital-advisor-integration-with-console.html"
-    - title: 关键概念
+    - title: 了解Digital Advisor
       url: "/concept_key_terms.html"
-    - title: 什么是 AutoSupport
+    - title: 了解AutoSupport
       url: "/concept_autosupport.html"
     - title: 登录到Digital Advisor
       url: "/task_login_activeiq.html"
     - title: 配置监视列表
       entries:
-      - title: 概述
+      - title: 了解监视名单
         url: "/concept_overview_dashboard.html"
       - title: 创建监视列表
         url: "/task_add_watchlist.html"
       - title: 管理监视列表
         url: "/task_manage_watchlists.html"
-    - title: 常见问题解答
+    - title: Digital Advisor常见问题解答
       url: reference_aiq_faq.html
   - title: 使用Digital Advisor
     entries:
     - title: 分析健康属性
       entries:
-      - title: 概述
+      - title: 了解健康小部件
         url: "/concept_overview_wellness.html"
-      - title: 查看风险并手动采取更正操作
+      - title: 查看存储系统风险并采取纠正措施
         url: "/task_view_risk_and_take_action.html"
-      - title: 检测安全漏洞
+      - title: 检测安全风险并采取纠正措施
         url: "/task_increase_protection_against_hackers_and_Ransomware_attacks.html"
-      - title: 保护系统免受勒索软件风险的影响
+      - title: 保护存储系统免受勒索软件风险侵害
         url: "/task_protect_systems_against_ransomware_risks.html"
-      - title: 查看并确认风险
+      - title: 分析健康属性并认识到风险
         url: "/task_view_and_acknowledge_risks.html"
-      - title: 查看健康历史记录
+      - title: 查看存储系统风险历史记录
         url: "/task_view_wellness_history.html"
-      - title: 查看可使用 Unified Manager 自动缓解的风险 或 Ansible 攻略手册
+      - title: 使用统一管理器或 Ansible Playbook 查看风险并降低风险
         url: "/task_view_risks_remediated_unified_manager.html"
-      - title: 避免停机和可能的数据丢失
+      - title: 使用Digital Advisor来解决已识别的关键风险
         url: "/task_avoid_the_downtime_and_possible_data_loss.html"
-      - title: 订阅健康评估电子邮件
+      - title: 订阅存储系统健康状况通知
         url: "/task_subscribe_to_wellness_review_email.html"
-      - title: 续订存储系统的软件和硬件
+      - title: 确定存储系统的软件和硬件更新需求
         url: "/task_renew_software_and_hardware.html"
-      - title: 分析集群和节点的运行状况
+      - title: 使用 ClusterViewer 小部件查看集群和节点的运行状况
         url: "/task_analyze_wellness_clusters_and_nodes.html"
-    - title: 分析存储系统的可持续性
+    - title: 分析储能系统的可持续性
       entries:
       - title: 了解可持续性
         url: "/learn-about-sustainability.html"
-      - title: 开始使用Sustainability信息板
+      - title: 访问可持续发展仪表盘
         url: "/get_started_sustainability_dashboard.html"
-      - title: Sustainability信息板概述
+      - title: 了解可持续发展仪表盘功能
         url: "/sustainability-dashboard-overview.html"
-      - title: 提高可持续性得分
+      - title: 提高存储系统可持续性评分
         url: "/improve_sustainability_score.html"
     - title: 生成升级计划
       entries:
-      - title: 概述
+      - title: 了解如何生成ONTAP升级计划
         url: "/upgrade_advisor_overview.html"
-      - title: 为单个集群和多个集群生成升级计划
+      - title: 为单个和多个集群生成ONTAP升级计划
         url: "/generate_upgrade_plan_single_multiple_clusters.html"
       - title: 查看固件更新建议
         url: "/view-firmware-update-recommendations.html"
     - title: 查看系统详细信息
       entries:
-      - title: 查看清单详细信息
+      - title: 查看存储系统库存详情
         url: "/task_view_inventory_details.html"
-      - title: 与Data Infrastructure Insights集成以查看虚拟机详细信息
+      - title: 在Data Infrastructure Insights中查看可用的虚拟机数据
         url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
-      - title: 查看有价值的见解
+      - title: 使用“实用信息”小部件查看支持案例和存储系统详情
         url: "/task_view_valuable_insight_widget.html"
       - title: 通过NetApp Keystone订阅查看容量利用率
         url: "/view_keystone_capacity_utilization.html"
     - title: 主动确定系统要求
       entries:
-      - title: 概述
+      - title: 使用规划小部件管理存储系统容量需求
         url: "/concept_overview_planning.html"
-      - title: 确定达到容量限制的系统
+      - title: 识别接近容量极限的存储系统
         url: "/task_identify_capacity_system.html"
-      - title: 避免卷填满以防止中断
+      - title: 管理卷存储容量阈值
         url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
-      - title: 评估技术更新
+      - title: 确定是否建议对存储系统进行技术更新。
         url: "/evaluate-tech-refresh.html"
-      - title: 续订存储系统的软件和硬件
+      - title: 更新存储系统的软件和硬件
         url: "/task_renew_software_and_hardware.html"
-    - title: 根据云建议做出明智的决策
+    - title: 利用云建议分析存储系统健康状况
       url: "/task-informed-decisions-based-on-cloud-recommendations.html"
     - title: 确定配置差异
       entries:
-      - title: 概述
+      - title: 检测存储系统的配置偏差
         url: "/concept_overview_config_drift.html"
-      - title: 添加配置偏移模板
+      - title: 为存储系统添加配置漂移模板
         url: "/task_add_config_drift_template.html"
-      - title: 比较配置偏差模板
+      - title: 比较配置漂移模板
         url: "/task_compare_config_drift_template.html"
-      - title: 生成偏移时间线报告
+      - title: 生成配置漂移时间线报告
         url: "/task_generate_drift_timeline_report.html"
-      - title: 管理模板
+      - title: 管理配置漂移模板
         url: "/task_manage_template.html"
     - title: 提高存储系统的效率和性能
       entries:
-      - title: 分析容量和存储效率节省情况
+      - title: 查看容量和存储效率节省情况
         url: "/task_analyze_storage_efficiency.html"
-      - title: 分析性能图
+      - title: 查看存储系统性能图表
         url: "/task_view_performance_graphs.html"
-    - title: 分析存储系统的运行状况
+    - title: 分析存储系统的健康状况
       entries:
-      - title: 概述
+      - title: 了解健康检查仪表板
         url: "/concept_understand_health_check_dashboard.html"
       - title: 开始使用运行状况检查信息板
         url: "/concept_get_started_with_health_check_dashboard.html"
-      - title: 续订支持合同
+      - title: 续签支持合同
         url: "/task_renew_support_contracts_for_your_systems.html"
     - title: 升级以优化您的客户群
       entries:
       - title: 升级支持服务
         url: "/task_upgrade_support_offering.html"
-      - title: 使用 Ansible 攻略手册更新 AFF 和 FAS 固件
+      - title: 使用 Ansible Playbook 更新AFF和FAS固件
         entries:
-        - title: 下载AFF和FAS固件的"Ans还是 自动化"软件包
+        - title: 下载AFF和FAS固件 Ansible 包
           url: "/task_update_AFF_FAS_firmware.html"
-        - title: 安装和执行AFF和FAS固件的Ans负责 自动化软件包(经验丰富的用户)
+        - title: 使用 Ansible 软件包更新AFF和FAS固件（适合有经验的用户）
           url: "/task_install_execute_firmware_update_exp_user.html"
         - title: 安装和执行AFF和FAS固件的Ans可 自动化软件包(初学者)
           entries:
-          - title: 使用 Web 服务器托管固件文件
+          - title: 在 Web 服务器上托管AFF和FAS固件文件
             url: "/task_hosting_firmware_files_using_web_server.html"
-          - title: 使用清单文件
+          - title: 更新AFF和FAS固件更新的库存文件
             url: "/concept_working_with_inventory_file.html"
-          - title: 使用 NetApp Docker 映像执行 Ansible 攻略手册
+          - title: 使用NetApp Docker 镜像运行 Ansible playbook
             url: "/task_execute_ansible_playbook_using_docker.html"
-          - title: 在不使用NetApp Docker映像的情况下执行Ans得 可操作手册
+          - title: 运行 Ansible playbook 时不使用NetApp Docker 镜像
             url: "/task_execute_ansible_playbook_without_docker.html"
-          - title: 验证固件安装
+          - title: 验证存储系统上AFF和FAS固件的安装情况
             url: "/task_validate_firmware_installation.html"
     - title: 使用 API 集成数据
       entries:
-      - title: 概述
+      - title: 了解Digital AdvisorAPI 服务
         url: "/concept_overview_API_service.html"
-      - title: 生成令牌以使用 API
+      - title: 生成用于使用Digital AdvisorAPI 服务的令牌
         url: "/task_generate_tokens_API_services.html"
-      - title: 使用API目录执行API
+      - title: 使用Digital AdvisorAPI 目录来执行 API。
         url: "/task_view_API_catalog.html"
     - title: 生成自定义报告
       entries:
-      - title: 报告类型
+      - title: 了解Digital Advisor报告
         url: "/concept_report_types.html"
-      - title: 生成报告
+      - title: 生成或安排报告
         url: "/task_generate_reports.html"
   - title: 知识和支持
     entries:

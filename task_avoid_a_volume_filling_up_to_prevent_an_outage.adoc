@@ -4,7 +4,7 @@ permalink: task_avoid_a_volume_filling_up_to_prevent_an_outage.html
 keywords: volume filling up, prevent an outage 
 summary: 提供有关如何避免卷填满以防止中断的信息。 
 ---
-= 避免卷填满以防止中断
+= 在Digital Advisor中管理卷存储容量阈值
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: task_view_risk_and_take_action.html
 keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, mitigate, rectify 
 summary: 提供信息，用于查看和分析存储系统的运行状况并降低风险。 
 ---
-= 查看风险并手动采取更正操作
+= 在Digital Advisor中查看存储系统风险并采取纠正措施
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

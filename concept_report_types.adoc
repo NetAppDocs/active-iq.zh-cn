@@ -4,7 +4,7 @@ permalink: concept_report_types.html
 keywords: reports, report types, reporting, performance reports 
 summary: 提供有关可供用户使用的不同类型报告的信息。 
 ---
-= 报告类型
+= 了解Digital Advisor报告
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

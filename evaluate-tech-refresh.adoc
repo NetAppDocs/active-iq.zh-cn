@@ -4,7 +4,7 @@ permalink: evaluate-tech-refresh.html
 keywords: tech refresh, tech support contract, hardware 
 summary: 提供用于评估技术支持合同或硬件技术更新的信息 
 ---
-= 评估技术更新
+= 在Digital Advisor中确定是否建议对您的存储系统进行技术更新。
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -18,7 +18,6 @@ summary: 提供用于评估技术支持合同或硬件技术更新的信息
 [role="lead"]
 如果您要确定建议对您的技术支持合同还是硬件进行技术更新、可以使用技术更新选项。
 
-
-NOTE: 您可以通过生命周期规划（*存储* > *生命周期规划*）或通过Digital Advisor（*仪表板 > 规划小部件 > 技术更新*）访问此功能。
+您可以通过生命周期规划（*存储* > *生命周期规划*）或通过Digital Advisor（*仪表板 > 规划小部件 > 技术更新*）访问此功能。
 
 有关此功能的更多信息，请参阅link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["评估技术更新"]在控制台文档中。

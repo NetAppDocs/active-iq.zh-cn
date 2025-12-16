@@ -4,7 +4,7 @@ permalink: task_generate_reports.html
 keywords: reports, generate reports 
 summary: 提供生成报告的信息。 
 ---
-= 生成报告
+= 在Digital Advisor中生成或安排报告
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

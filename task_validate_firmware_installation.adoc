@@ -4,7 +4,7 @@ permalink: task_validate_firmware_installation.html
 keywords: validate, firmware, firmware installation 
 summary: 提供有关如何验证固件安装的信息。 
 ---
-= 验证固件安装
+= 验证存储系统上AFF和FAS固件的安装情况。
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

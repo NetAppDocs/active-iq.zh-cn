@@ -4,7 +4,7 @@ permalink: digital-advisor-integration-with-console.html
 keywords: digital advisor, integration, bluexp, NetApp Console 
 summary: 'Digital Advisor现已与NetApp Console 完全集成。您现在可以从NetApp控制台用户界面 (UI) 管理您的集群并访问Digital Advisor的所有功能。' 
 ---
-= Digital Advisor与NetApp Console 集成
+= 在NetApp控制台中访问Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -31,10 +31,6 @@ NetApp控制台提供企业级跨本地和云环境的NetApp存储和数据服�
 您不需要许可证或订阅即可开始使用NetApp控制台，并且只有当您需要在云中部署控制台代理以确保与存储系统或NetApp数据服务的连接时才需要付费。但是，一些可从控制台访问的NetApp数据服务是需要许可或基于订阅的。
 
 详细了解 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp控制台"]。
-
-
-
-== 在NetApp控制台中访问Digital Advisor
 
 您可以从控制台访问Digital Advisor来管理您的集群。
 

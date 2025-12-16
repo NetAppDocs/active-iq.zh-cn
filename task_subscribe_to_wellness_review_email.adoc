@@ -4,7 +4,7 @@ permalink: task_subscribe_to_wellness_review_email.html
 keywords: wellness, wellness review subscription, unsubscribe, supportedge expert, supportedge advisor 
 summary:  
 ---
-= 订阅健康评估电子邮件
+= 订阅Digital Advisor的存储系统健康状况通知
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,7 +16,7 @@ summary:
 
 
 [role="lead"]
-您可以订阅健康状况审核电子邮件，每月接收一封电子邮件，其中总结了健康状况，即将到期续订的系统以及客户群中需要升级 NetApp 产品的系统。您将收到一封健康状况审核电子邮件，以便查看每月摘要并对系统采取措施。此外，您还可以选择查看，编辑，共享和删除订阅。如果您决定不接收电子邮件，也可以随时取消订阅接收电子邮件。
+您可以订阅健康状况审查电子邮件，每月收到一封电子邮件，其中总结了健康状况、即将到期的存储系统、需要升级的存储系统以及您已安装的NetApp产品。您将收到一封健康状况回顾邮件，以便您可以查看每月总结并采取措施改善您的存储系统。您还可以查看、编辑、分享和删除您的订阅。如果您决定不再接收电子邮件，您可以随时取消订阅。
 
 启用订阅后，您应在添加订阅时选择开始日期。每月电子邮件摘要提供了有关未完成的健康，续订，升级和运行状况检查操作的视图。您可以确认电子邮件地址，并将此电子邮件发送到指定的电子邮件地址。您还可以选择删除订阅。
 

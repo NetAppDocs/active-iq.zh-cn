@@ -4,7 +4,7 @@ permalink: concept_key_terms.html
 keywords: overview, inventory, wellness, widgets, actions 
 summary: 提供有关Digital Advisor中使用的关键术语的信息。 
 ---
-= 关键概念
+= 了解Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

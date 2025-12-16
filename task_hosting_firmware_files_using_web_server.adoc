@@ -4,7 +4,7 @@ permalink: task_hosting_firmware_files_using_web_server.html
 keywords: firmware, web server, hosting 
 summary: 提供有关使用 Web 服务器托管固件文件的信息。 
 ---
-= 使用 Web 服务器托管固件文件
+= 在 Web 服务器上托管AFF和FAS固件文件
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

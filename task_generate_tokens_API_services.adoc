@@ -4,7 +4,7 @@ permalink: task_generate_tokens_API_services.html
 keywords: generate token, access token, refresh token, API services 
 summary: 提供有关如何生成令牌以访问 API 的信息。 
 ---
-= 生成令牌以使用 API
+= 生成用于使用Digital AdvisorAPI 服务的令牌
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

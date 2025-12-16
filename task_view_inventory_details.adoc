@@ -4,7 +4,7 @@ permalink: task_view_inventory_details.html
 keywords: inventory, platforms, systems, clusters, sites 
 summary: 提供有关您拥有的整体清单的信息。 
 ---
-= 查看清单详细信息
+= 在Digital Advisor中查看您的存储系统库存详情
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

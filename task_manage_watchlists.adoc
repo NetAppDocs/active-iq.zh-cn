@@ -4,7 +4,7 @@ permalink: task_manage_watchlists.html
 keywords: dashboard, watchlist, add watchlist 
 summary: 提供用于管理监视列表的信息。 
 ---
-= 管理监视列表
+= 在Digital Advisor中管理关注列表
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

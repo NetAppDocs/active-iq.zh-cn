@@ -4,7 +4,7 @@ permalink: task_compare_config_drift_template.html
 keywords: config deviation, drift, configuration, compare template 
 summary: 提供用于比较配置偏移模板的信息。 
 ---
-= 比较配置偏差模板
+= 在Digital Advisor中比较配置漂移模板
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

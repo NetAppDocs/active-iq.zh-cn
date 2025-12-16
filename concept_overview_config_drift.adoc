@@ -4,7 +4,7 @@ permalink: concept_overview_config_drift.html
 keywords: config drift, configuration deviation, add template, compare template 
 summary: 简要介绍了配置偏差功能 
 ---
-= 了解配置偏差
+= 使用Digital Advisor检测存储系统的配置偏差
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

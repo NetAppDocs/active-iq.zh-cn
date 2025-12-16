@@ -4,7 +4,7 @@ permalink: task_update_AFF_FAS_firmware.html
 keywords: update, AFF, FAS firmware, firmware 
 summary: 提供有关如何更新 AFF 和 FAS 固件的信息。 
 ---
-= 下载AFF和FAS固件的"Ans还是 自动化"软件包
+= 从Digital Advisor下载AFF和FAS固件 Ansible 软件包
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
