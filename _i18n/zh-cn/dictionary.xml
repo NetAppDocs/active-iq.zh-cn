@@ -1615,4 +1615,12 @@
   <block id="aae53b31f1046bfeb5ca553426f2d07e" category="sidebar">下载AFF和FAS固件 Ansible 包</block>
   <block id="b3b883fb818b35e0c1f7289c9e15f2a7" category="sidebar">验证存储系统上AFF和FAS固件的安装情况</block>
   <block id="737d0abe4f71a75181ee9d78766bb60f" category="sidebar">生成或安排报告</block>
+  <block id="a0d3399097b7cbf32ef14a3abf47c295" category="doc">用于全面安全监督的新安全报告</block>
+  <block id="9747281be2bd1fc01288f1691f51d2f4" category="paragraph">Digital Advisor 现在包括一个安全报告，可提供整个存储环境的 ONTAP 安全风险的统一视图。此报告可更快地检测群集、SVM 和卷之间的错误配置、合规性差距和安全问题，帮助您维护安全的存储基础架构。</block>
+  <block id="fb4692a2354d5e0222d888a1c02dabeb" category="section-title">增强对混合补丁级别的 Upgrade Advisor 支持</block>
+  <block id="8e292f1433a531a16782fe2593062c78" category="paragraph">Upgrade Advisor 现在为节点在同一 ONTAP 主要版本中运行不同修补程序级别的集群生成升级报告。此增强功能可确保客户可以无缝进行升级，只要集群不跨主要版本混合，从而为升级规划提供更大的灵活性。</block>
+  <block id="07fc7b1ed8439edcf0a98beca0a29711" category="section-title">对终止受限支持的 ONTAP 版本的扩展支持</block>
+  <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor 现在支持为已达到有限支持结束的 ONTAP 版本生成升级计划，宽限期为 9 个月。此功能通过在过渡期间提供明确的指导，帮助客户及时采取行动并避免升级中断。</block>
+  <block id="b16c048e2cbb1f91610daa0a614ff050" category="cell">提供跨集群、SVM 和卷的 ONTAP 存储安全风险和合规性差距的全面、可导出概述。</block>
+  <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">2026 年 2 月 04 日</block>
 </blocks>
