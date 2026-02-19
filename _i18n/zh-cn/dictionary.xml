@@ -897,7 +897,6 @@
   <block id="d7a018b0994fcd8c73438187d3cd257d" category="paragraph">*容量显示在Digital Advisor Base 2或Base 10中吗？*在Digital Advisor中显示的所有容量均为Base 2 (除以1024)、并以GiB/TiB表示容量。ONTAP 存储和其他 NetApp 产品还会在 Base 2 中显示容量使用情况。</block>
   <block id="a6f53b7c2d98e66115a149a04939e113" category="list-text">在SAP中添加或更新新系统后、需要花费一天的时间才能在Digital Advisor中反映出来。</block>
   <block id="7b8ca3eb07a8240bd90e77dc0b6b4b64" category="list-text">您不能在Digital Advisor中编辑报告。您应删除现有报告并创建新报告。</block>
-  <block id="b38cbc17f5d9a4695d51db9473e7dffd" category="admonition">此报告将保存在Digital Advisor中3天。</block>
   <block id="ba5f7135032775c8c999ecabfd7ec65b" category="summary">提供有关Digital Advisor的详细信息。</block>
   <block id="e3f44fedccc2711587690bd9581827ed" category="paragraph">Digital Advisor利用遥测数据和已发布的产品安全建议来检测所涵盖*和授权支持的产品的安全问题。产品遥测数据必须通过AutoSupport 传输到NetApp、以便Digital Advisor检测风险。</block>
   <block id="6c0397360aa8b37bbbe1fa3a38744674" category="list-text">登录到Digital Advisor。</block>
@@ -1623,4 +1622,5 @@
   <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor 现在支持为已达到有限支持结束的 ONTAP 版本生成升级计划，宽限期为 9 个月。此功能通过在过渡期间提供明确的指导，帮助客户及时采取行动并避免升级中断。</block>
   <block id="b16c048e2cbb1f91610daa0a614ff050" category="cell">提供跨集群、SVM 和卷的 ONTAP 存储安全风险和合规性差距的全面、可导出概述。</block>
   <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">2026 年 2 月 04 日</block>
+  <block id="3741bac3a7c9d89c366100cd1cba5405" category="admonition">该报告在 Digital Advisor 中保存 3 个月。</block>
 </blocks>

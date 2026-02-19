@@ -43,7 +43,7 @@ summary: 提供生成报告的信息。
 
 
 
-NOTE: 此报告将保存在Digital Advisor中3天。
+NOTE: 该报告在 Digital Advisor 中保存 3 个月。
  a| 
 . 单击 * 计划报告 * 选项卡。
 . 选择报告类型并为报告提供所请求的值。
