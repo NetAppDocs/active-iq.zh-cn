@@ -43,6 +43,8 @@ indexpage:
     links:
     - title: Digital Advisor Web门户
       url: https://mysupport.netapp.com/myautosupport/home.html
+    - title: NetApp Digital Advisor API 文档
+      url: https://docs.netapp.com/us-en/digital-advisor-automation/
     - title: Digital Advisor视频
       url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7kWBxqwLYBchpMW4k9Z6Vum
     - title: NetApp社区—Digital Advisor
