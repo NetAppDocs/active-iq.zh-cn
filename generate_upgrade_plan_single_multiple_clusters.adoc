@@ -24,7 +24,7 @@ summary: 提供为单个集群和多个集群成功完成ONTAP升级或还原生
 
 在制定升级计划之前，您应该：
 
-* 确保已启用并正确配置AutoSupport（ASUP），并且包含所有必需的部分。有关详细信息，请参阅 link:hhttps://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/ONTAP_AutoSupport_Resolution_Guide["ONTAPAutoSupport解决方案指南"]。
+* 确保已启用并正确配置 AutoSupport (ASUP)，并包含所有必需部分。有关详细信息，请参见 link:https://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/ONTAP_AutoSupport_Resolution_Guide["ONTAPAutoSupport解决方案指南"]。
 * 验证 AutoSupport 集群成员与 SAP 集群配置是否匹配。更多信息，link:https://kb.netapp.com/Support/NSS/Support_Site/How_to_open_a_non-technical_case["提交一个非技术性案例"] 。
 
 

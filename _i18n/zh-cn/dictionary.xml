@@ -1471,7 +1471,6 @@
   <block id="45c1e1a0501d6b75b99c21659e420c55" category="paragraph">建议将符合以下条件的卷迁移到Cloud Volumes ONTAP (CVO)：</block>
   <block id="f53ebb0d19beec32f25d5bd12221adf7" category="paragraph">在制定升级计划之前，您应该：</block>
   <block id="9c8a06503c0fcff82a72b9a47d15fdd8" category="inline-link-macro">ONTAPAutoSupport解决方案指南</block>
-  <block id="c04b16bfcb0ae04e942f5b8f40f89958" category="list-text">确保已启用并正确配置AutoSupport（ASUP），并且包含所有必需的部分。有关详细信息，请参阅 <block ref="d9fca8defeb9ffc51d54bc8014960f3d" category="inline-link-macro-rx"></block>。</block>
   <block id="5c2f83424a92d9f87bfe784acf51ef8f" category="inline-link-macro">提交一个非技术性案例</block>
   <block id="ece2db758a882f00813e14d082e4552c" category="list-text">验证 AutoSupport 集群成员与 SAP 集群配置是否匹配。更多信息，<block ref="eb6134c35f89e9a6ed78736959d7ff7d" category="inline-link-macro-rx"></block> 。</block>
   <block id="b0898535e25a9a49559570e490a63c7d" category="doc">了解Digital Advisor中的AutoSupport</block>
@@ -1591,4 +1590,5 @@
   <block id="3741bac3a7c9d89c366100cd1cba5405" category="admonition">该报告在 Digital Advisor 中保存 3 个月。</block>
   <block id="acdb887b3053b4cb61257e8d616a27a9" category="inline-link-macro">NetApp Digital Advisor API 文档</block>
   <block id="ba16647c06b4add5fc0093f31f94dd0d" category="paragraph">有关如何访问和使用 Digital Advisor API 的信息，请参见 <block ref="268007c749dcd53dd83a4024c6f56680" category="inline-link-macro-rx"></block>。</block>
+  <block id="ed124d5bdf3fe0a1c3c145d0a44b1707" category="list-text">确保已启用并正确配置 AutoSupport (ASUP)，并包含所有必需部分。有关详细信息，请参见 <block ref="40cef9e2460f87a6d015a209e1716d2b" category="inline-link-macro-rx"></block>。</block>
 </blocks>
