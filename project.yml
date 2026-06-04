@@ -106,7 +106,7 @@ sidebar:
         url: "/task_identify_capacity_system.html"
       - title: 管理卷存储容量阈值
         url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
-      - title: 确定是否建议对存储系统进行技术更新。
+      - title: 确定是否建议对存储系统进行系统刷新
         url: "/evaluate-tech-refresh.html"
       - title: 更新存储系统的软件和硬件
         url: "/task_renew_software_and_hardware.html"

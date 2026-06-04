@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_identify_capacity_system.html 
-keywords: capacity, space, increase, ONTAP systems, StorageGRID 
+keywords: capacity, space, increase, ONTAP systems, StorageGRID, storage expansion 
 summary: 提供有关增加系统容量的信息。 
 ---
 = 在Digital Advisor中识别接近容量极限的存储系统
@@ -21,7 +21,7 @@ summary: 提供有关增加系统容量的信息。
 对于ONTAP、您可以查看在1、3和6个月内容量已超过90%或容量将超过90%的系统。对于StorageGRID、您可以查看在1、3和6个月内容量已超过70%或容量将超过70%的系统。
 
 .步骤
-. 在*Planning *小工具中，单击*Capacity Adding*。
+. 在 *Planning* 小部件中，单击 *Storage Expansion*。
 +
 默认情况下、将显示容量已超过90%或容量接近90%的ONTAP系统。
 
@@ -30,5 +30,5 @@ summary: 提供有关增加系统容量的信息。
 . 单击*查看容量预测*可查看未来6个月的容量预测。
 . 单击*请求添加容量*。
 . (可选)提供任何注释。
-. 单击*Send*将请求发送给NetApp存储团队，以协助为选定系统添加容量。
+. 单击 *发送* 将请求发送给 NetApp 存储团队，以协助扩展选定系统的存储。
 

@@ -20,6 +20,21 @@ Digital Advisor引入了以下功能和增强功能：
 
 
 
+== 2026 年 6 月 3 日
+
+
+
+=== Digital Advisor 小部件名称更新
+
+以下 Digital Advisor 功能的名称已更改：
+
+* 技术刷新功能现在称为系统刷新。了解如何 link:https://docs.netapp.com/us-en/active-iq/evaluate-tech-refresh.html["评估系统刷新"]。
+* "容量添加"功能现在称为"存储扩展"。了解有关 link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisor 小工具"] 的信息。
+* 续订功能现在称为 Support Renewals。了解 link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisor 小工具"]。
+
+
+
+
 == 2026 年 5 月 18 日
 
 
@@ -939,7 +954,7 @@ StorageGRID 信息板可使用下一代 API 框架启用。
 * * 健康小工具： * 查看所有风险和操作，包括与 StorageGRID 相关的风险和操作（如果这些风险和操作根据可用系统的现有 ARS 规则适用）。
 * * 规划小工具： *
 +
-** * 容量增加： * 对于超过现有容量 70% 阈值的任何网格站点，您将收到通知。如果容量阈值可能超过 70% ，您可以选择在未来 1 ， 3 和 6 个月为站点中的 StorageGRID 添加容量。
+** *容量增加：* 对于任何超过现有容量 70% 阈值的 GRID 站点，您将收到通知。如果容量阈值可能超过 70%，您可以选择在接下来的 1、3 和 6 个月内为站点中的 StorageGRID 添加容量。
 ** * 续订： * 对于许可证合同已过期或在未来 6 个月即将到期的任何 StorageGRID 系统，您将收到通知。您可以选择一个或多个系统向 NetApp 支持团队提出续订请求。
 
 
