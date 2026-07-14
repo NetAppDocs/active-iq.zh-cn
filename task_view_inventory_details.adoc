@@ -23,6 +23,7 @@ summary: 提供有关您拥有的整体清单的信息。
 video::ttbpbT5uTBI[youtube,width=848,height=480]
 
 
+[[view-system-details]]
 == 查看系统详细信息
 
 .步骤
@@ -37,6 +38,7 @@ Ansible 清单文件可与自定义的 Ansible 攻略手册文件结合使用，
 
 
 
+[[view-support-entitled-switch-details]]
 == 查看支持授权切换详细信息
 
 .步骤

@@ -20,6 +20,7 @@ summary: 提供有关如何验证固件安装的信息。
 
 
 
+[[validate-disk-firmware-installation]]
 == 验证磁盘固件安装
 
 .步骤
@@ -52,6 +53,7 @@ disk     firmware-revision model
 
 
 
+[[validate-shelf-firmware-installation]]
 == 验证磁盘架固件安装
 
 .步骤
@@ -103,6 +105,7 @@ Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
 
 
 
+[[validating-spbmc-firmware-installation]]
 == 正在验证 SP/BMC 固件安装
 
 服务处理器 /BMC 固件更新的 Ansible 攻略手册已启用，并提供了一个选项，用于验证控制器上是否安装了最新的 SP/BMC 固件。验证完成后（更新最长可能需要两小时）， Ansible 攻略手册将通过连接到 SP/BMC 控制台来应用内部交换机固件更新。

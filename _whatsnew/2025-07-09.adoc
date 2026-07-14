@@ -4,6 +4,7 @@
 
 
 
+[[upgrade-advisor]]
 === Upgrade Advisor
 
 * 升级顾问计划新增了多格式下载选项，以简化ONTAP升级规划并解决潜在的阻碍或警告。现在，您可以下载 Excel、PDF 和 JSON 格式的升级顾问计划。

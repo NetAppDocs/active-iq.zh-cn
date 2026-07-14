@@ -31,36 +31,42 @@ summary: 提供有关此版本中限制的信息。
 
 
 
+[[editing-a-watchlist-may-take-60-minutes-to-reflect-in-digital-advisor]]
 == 编辑监视列表可能需要60分钟才能反映在Digital Advisor中
 
 编辑监视列表不会立即更新Digital Advisor中的信息。这些更改可能需要长达60分钟才能在Digital Advisor中反映出来。
 
 
 
+[[a-blank-report-is-displayed-while-scheduling-reports]]
 == 计划报告时，系统会显示一个空白报告
 
 只有 SupportEdge Advisor 或 SupportEdge Expert 支持合同才提供计划的报告。如果您的系统不受 SupportEdge Advisor 或 SupportEdge Expert 支持合同的约束，则在计划报告时可能会收到空白报告。
 
 
 
+[[acknowledged-and-unacknowledged-risks-may-take-60-minutes-to-reflect-in-digital-advisor]]
 == 已确认和未确认的风险可能需要60分钟才能反映在Digital Advisor中
 
 已确认和未确认的风险状态不会立即反映在Digital Advisor中。这些变更可能需要长达60分钟才能反映在Digital Advisor和健康报告中。
 
 
 
+[[autosupport-widget-not-available-for-cluster-and-serial-numbers]]
 == AutoSupport小工具不适用于集群和序列号
 
 AutoSupport小工具不会为集群和序列号搜索提供警报。
 
 
 
+[[autosupport-widget-not-able-to-drill-down-to-serial-level-autosupport-details]]
 == AutoSupport小工具无法深入查看串行级别AutoSupport详细信息
 
 在AutoSupport报告页面上、单击任何状态、最近停止发送的系统或已关闭AutoSupport的系统不会导航到运行状况检查屏幕。
 
 
 
+[[filtering-and-sorting-are-not-available-in-the-inventory-widget]]
 == "库存"小工具中不提供筛选和排序功能
 
 您不能在清单小工具中筛选和排序数据。如果在"筛选依据"下拉列表中选择ONTAP AFF、ONTAP ASA、ONTAP Edge或ONTAP Select、则不会显示任何数据。

@@ -23,6 +23,7 @@ NOTE: Digital Advisor会引导您进入NetApp Console 来实施建议。
 
 
 
+[[migration]]
 == migration
 
 提供有关存储系统中可用的不同工作负载类型的信息、并确定云就绪的工作负载。将工作负载迁移到云可节省成本并提供云灾难恢复。
@@ -44,6 +45,7 @@ NOTE: Digital Advisor会引导您进入NetApp Console 来实施建议。
 
 
 
+[[tiering]]
 == 分层
 
 提供有关非活动本地层(聚合)数据、非活动卷数据、分层数据和不受监控数据的信息。您可以通过监控冷数据或非活动数据并将其分层到低成本的对象存储层来减少存储占用空间和相关成本。
@@ -69,6 +71,7 @@ NOTE: 您可以启用非活动数据报告（ IDR ）以使用 Ansible 攻略手
 
 
 
+[[backup-archive]]
 == 备份和归档
 
 提供有关应备份到云的系统的信息。您可以使用NetApp Cloud Backup保护系统安全、并在需要时将其还原。
@@ -87,6 +90,7 @@ NOTE: 您可以启用非活动数据报告（ IDR ）以使用 Ansible 攻略手
 
 
 
+[[replication]]
 == Replication
 
 提供有关应复制到云中的数据的信息、以便在发生灾难时提供帮助。

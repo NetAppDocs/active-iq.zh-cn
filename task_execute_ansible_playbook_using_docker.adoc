@@ -20,6 +20,7 @@ summary: 提供有关如何使用 Docker 映像执行 Ansible 攻略手册的信
 
 
 
+[[before-you-begin]]
 == 开始之前
 
 在使用 NetApp Docker 执行 Ansible 攻略手册之前，您应：

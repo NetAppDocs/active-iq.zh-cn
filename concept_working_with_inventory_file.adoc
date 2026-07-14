@@ -22,6 +22,7 @@ summary: 提供有关使用清单文件的信息。
 
 
 
+[[inventory-file-format]]
 == 清单文件格式
 
 以下是一个清单文件格式示例，其中包含磁盘和磁盘架固件更新：
@@ -51,6 +52,7 @@ clusters:
 
 
 
+[[delete-a-cluster-from-the-inventory-file]]
 == 从清单文件中删除集群
 
 如果您不想在特定集群上应用固件更新，可以从清单文件中删除此集群。

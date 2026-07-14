@@ -28,6 +28,7 @@ NOTE: Cloud Volumes ONTAP、AFF系统(A系列和C系列)、E系列、FAS和Stora
 video::yNRHeOvbGX8[youtube,width=848,height=480]
 
 
+[[benefits-of-sustainability]]
 == 可持续性的优势
 
 可持续性具有以下优势：
