@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_renew_support_contracts_for_your_systems.html 
-keywords: renew, renewals, support contracts, support & entitlements, active support contracts, 
+keywords: renew, renewals, support contracts, support and entitlements, active support contracts, 
 summary: 提供有关如何续订系统支持合同的信息。 
 ---
 = 在Digital Advisor中续签您的支持合同

@@ -1331,7 +1331,6 @@
   <block id="39ca8580b0e6a065fa25faac2a2acc86" category="inline-link-macro">了解如何查看固件更新建议</block>
   <block id="af79dd5dc56c84e383198dba47e6f6fe" category="paragraph">现在、您可以查看建议进行更新的存储固件、ARP/固 件和自动软件包(Autonomous SP Package、BMC)。<block ref="bb189956f648b21665d5198deffedcc8" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="e3f867c1e04dce86520c139a0ae60b18" category="section-title">2024年12月12日</block>
-  <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">查看存储固件、SP或BMC固件、系统文件和安全文件的更新建议。</block>
   <block id="432405c0f2c1d2289f6d8e3b11ebfd8b" category="doc">查看固件更新建议</block>
   <block id="789b0be6ddd32dcc2218519990c16b5c" category="paragraph">现在、客户可以通过允许控制塔自动将其系统更新为最新的固件版本来节省时间和精力、从而无需手动干预或计划。此更新可降低因固件版本过时或不兼容而遇到问题的风险、从而确保最佳系统性能、稳定性和安全性。</block>
   <block id="715a43f582d65ce08f118788f9800f7d" category="paragraph">客户将及时收到有关固件更新状态的通知和警报、以及用于启用AutoSupport和自动更新设置的选项。</block>
@@ -1501,7 +1500,6 @@
   <block id="72b48ce9fe92eb0c8e3daa730f3b40d4" category="list-text">选择要续订的存储系统，然后单击“续订”。</block>
   <block id="af8b8a799d4d3f00f43e2a15c03d0b3e" category="doc">在Digital Advisor中续签您的支持合同</block>
   <block id="fec0069eb53aaf302edb450eb9a816d9" category="doc">订阅Digital Advisor的存储系统健康状况通知</block>
-  <block id="f7f16f63ab4db119d5fadbab01ead079" category="paragraph">您可以订阅健康状况审查电子邮件，每月收到一封电子邮件，其中总结了健康状况、即将到期的存储系统、需要升级的存储系统以及您已安装的NetApp产品。您将收到一封健康状况回顾邮件，以便您可以查看每月总结并采取措施改善您的存储系统。您还可以查看、编辑、分享和删除您的订阅。如果您决定不再接收电子邮件，您可以随时取消订阅。</block>
   <block id="35aedce653ee05a4fca3b7e9369bfd70" category="doc">从Digital Advisor下载AFF和FAS固件 Ansible 软件包</block>
   <block id="36d1684f85846e6901819bfb095f4fc7" category="doc">升级您在Digital Advisor中的支持服务</block>
   <block id="6c96fdceac3302fe4a465f308ef622a1" category="doc">验证存储系统上AFF和FAS固件的安装情况。</block>
@@ -1616,4 +1614,11 @@
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026 年 6 月 29 日</block>
   <block id="78c07c506154e08621f506935129d56b" category="list-text"><block ref="78c07c506154e08621f506935129d56b" category="inline-link-macro-rx"></block></block>
   <block id="47f181ab6ea1bbd9a2696556081c4ba8" category="list-text"><block ref="47f181ab6ea1bbd9a2696556081c4ba8" category="inline-link-macro-rx"></block></block>
+  <block id="3cf43920c00fe2ea8865c490f81428d4" category="doc">Wellness Review 的弃用通知</block>
+  <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">Wellness Review 功能已被弃用，自 2026 年 7 月起不再在 Digital Advisor 中提供。</block>
+  <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">如有问题或需要分享反馈，请发送邮件至：ng-activeiq-feedback@netapp.com[联系 Active IQ 团队]。</block>
+  <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">2026年7月15日</block>
+  <block id="0e1f11a16da786670316988e6939f0dc" category="paragraph">您可以订阅健康检查电子邮件，以每月收到一封电子邮件，其中总结了健康状况、接近续订日期的存储系统以及需要升级现有 NetApp 产品的存储系统。您将收到一封健康检查电子邮件，以便查看每月摘要并针对您的存储系统采取相应措施。</block>
+  <block id="5dc75508ba4ef965dd5e67e824749acf" category="paragraph">您还可以选择查看、编辑、共享和删除订阅。如果您决定不接收电子邮件，也可以随时取消订阅。</block>
+  <block id="9700c329d00878c280440dc2e026802a" category="summary">查看存储固件、SP 和 BMC 固件、系统文件和安全文件的更新建议。</block>
 </blocks>

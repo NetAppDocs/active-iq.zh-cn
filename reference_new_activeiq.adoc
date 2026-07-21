@@ -20,6 +20,20 @@ Digital Advisor引入了以下功能和增强功能：
 
 
 
+[[15-july-2026]]
+== 2026年7月15日
+
+
+
+[[deprecation-notice-for-wellness-review]]
+=== Wellness Review 的弃用通知
+
+Wellness Review 功能已被弃用，自 2026 年 7 月起不再在 Digital Advisor 中提供。
+
+如有问题或需要分享反馈，请发送邮件至：ng-activeiq-feedback@netapp.com[联系 Active IQ 团队]。
+
+
+
 [[29-june-2026]]
 == 2026 年 6 月 29 日
 
