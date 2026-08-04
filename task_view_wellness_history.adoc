@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_view_wellness_history.html 
-keywords: wellness history, risks, wellness, view all actions, risk history, 
+keywords: wellness history, risks, wellness, view all actions, risk history 
 summary: 提供有关系统风险以及如何查看健康历史记录的信息。 
 ---
 = 在Digital Advisor中查看您的存储系统风险历史记录

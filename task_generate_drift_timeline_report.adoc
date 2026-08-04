@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_generate_drift_timeline_report.html 
-keywords: reports, generate reports, drift timeline, drift timeline report, AutoSupport data 
+keywords: reports, generate reports, drift timeline, drift timeline report, autosupport data 
 summary: 提供生成偏移时间线报告的信息。 
 ---
 = 在Digital Advisor中生成配置漂移时间线报告

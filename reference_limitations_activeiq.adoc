@@ -18,17 +18,6 @@ summary: 提供有关此版本中限制的信息。
 [role="lead"]
 已知限制确定了本产品版本不支持的平台、设备或功能、或者这些平台、设备或功能无法与产品正确交互操作。仔细审查这些限制。
 
-存在以下限制：
-
-* 仅适用于在 7- 模式下运行的 Data ONTAP 存储系统 （在 7- 模式下运行的 Data ONTAP 存储系统即将结束 支持生命周期）
-+
-** 性能图表
-** 存储效率
-
-
-* Upgrade Advisor 不支持 9.0 之前的集群模式 ONTAP 的升级计划。
-
-
 
 
 [[editing-a-watchlist-may-take-60-minutes-to-reflect-in-digital-advisor]]

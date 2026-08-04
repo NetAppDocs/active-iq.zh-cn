@@ -20,4 +20,4 @@ summary: 提供信息以评估您的 Tech Support 合同或硬件的系统更新
 
 您可以通过生命周期规划（*存储* > *生命周期规划*）或通过 Digital Advisor（*仪表板* > *规划小部件* > *系统刷新*）访问此功能。
 
-有关此功能的详细信息，请参见 Console 文档中的link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["评估系统刷新"]。
+有关此功能的详细信息，请参见 Console 文档中的link:https://docs.netapp.com/us-en/console-lifecycle-planning/use/tech-refresh.html["评估系统刷新"]。

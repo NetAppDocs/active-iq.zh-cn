@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_update_AFF_FAS_firmware.html 
-keywords: update, AFF, FAS firmware, firmware 
+keywords: update, aff, fas firmware, firmware 
 summary: 提供有关如何更新 AFF 和 FAS 固件的信息。 
 ---
 = 从Digital Advisor下载AFF和FAS固件 Ansible 软件包
@@ -27,7 +27,6 @@ summary: 提供有关如何更新 AFF 和 FAS 固件的信息。
 
 * link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["在存储系统上安装和设置 Ansible"^]
 * link:https://netapp.io/2019/09/17/coming-together-nicely/["在存储系统上安装带有集合的 Ansible 2.9"^]
-* 将存储系统升级到 ONTAP 9.1 或更高版本
 * 使用管理员角色配置您的帐户
 
 

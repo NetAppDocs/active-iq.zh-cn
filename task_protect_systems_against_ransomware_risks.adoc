@@ -18,7 +18,7 @@ summary:
 [role="lead"]
 登录到Digital Advisor后，您可以查看*安全和防兰索防*小工具上突出显示的*操作*，其中显示了风险计数。
 
-您可以查看 Snapshot 创建，保留和 ONTAP FPolicy 风险，然后采取措施修复这些风险。
+您可以查看快照创建、保留和 ONTAP FPolicy 风险，然后采取措施修复这些问题。
 
 .步骤
 . 登录到Digital Advisor。

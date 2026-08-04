@@ -134,12 +134,12 @@ Upgrade Advisor 现在支持为已达到有限支持结束的 ONTAP 版本生成
 
 
 
-[[bluexp-is-now-netapp-console]]
-=== BlueXP现在是NetApp控制台
+[[netapp-console-previously-known-as-bluexp]]
+=== NetApp Console（以前称为 BlueXP）
 
-NetApp控制台建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp数据服务，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+该 NetApp Console 建立在增强和重组的 NetApp Console 基础之上，可在企业级跨本地和云环境提供 NetApp 存储和 NetApp Data Services 的集中管理，提供实时洞察、更快的工作流程和简化的管理，高度安全且合规。
 
-有关更改的详细信息，请参阅 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台发行说明"]。
+有关更改的详细信息，请参见 https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp控制台发行说明"]。
 
 
 
@@ -441,7 +441,7 @@ Upgrade Advisor经过增强、可为单个集群和多个集群提供自动化�
 
 * 显示效率比率的标签*存储效率*已重命名为*数据精简*。
 * 标签*存储效率节省的数据*已重命名为*数据精简节省*。
-* 切换*不使用Snapshot备份时节省空间*将重命名为*使用Snapshot副本*并对其功能进行了更改。 link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency["了解更多信息。"]。
+* 切换开关*无快照备份的节省*已重命名为*使用快照副本*，并更改了其功能。link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency["了解更多信息。"]。
 
 
 
@@ -473,7 +473,7 @@ Upgrade Advisor经过增强、可为单个集群和多个集群提供自动化�
 [[storage-efficiency]]
 === 存储效率
 
-SAN和NAS存储效率可在节点级别提供给ONTAP 系统、包括AFF A系列、AFF C190、全SAN阵列和运行ONTAP 9.10及更高版本的FAS500。
+SAN 和 NAS 存储效率在节点级别适用于 ONTAP 系统，包括 AFF A-Series、AFF C190、All SAN Array 和 FAS500。
 
 
 
@@ -494,10 +494,10 @@ SAN和NAS存储效率可在节点级别提供给ONTAP 系统、包括AFF A系列
 
 
 
-[[digital-advisor-integrating-with-bluexp]]
-=== Digital Advisor与BlueXP集成
+[[digital-advisor-integrating-with-netapp-console]]
+=== Digital Advisor 与 NetApp Console 集成
 
-Active IQ Digital Advisor正在更改为Digital Advisor ，并且现在已集成到BlueXP（NetApp 用于混合多云环境的统一管理控制台）中。link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html["了解更多信息。"] 。
+Active IQ Digital Advisor 正在更改为 Digital Advisor，现已集成到 NetApp Console 中，NetApp Console 是用于混合多云环境的统一管理控制台。link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html["了解更多信息。"].
 
 
 
@@ -681,10 +681,10 @@ StorageGRID 容量和容量报告中包含其他容量指标。
 
 
 
-[[bluexp]]
-=== BlueXP
+[[netapp-console]]
+=== NetApp控制台
 
-BlueXP用户现在可以在适用的情况下在新选项卡中打开Digital Advisor链接、类似于Digital Advisor中的现有功能。
+NetApp Console 用户现在可以在适用的情况下在新选项卡中打开 Digital Advisor 链接，与 Digital Advisor 中的现有功能类似。
 
 
 
@@ -880,7 +880,7 @@ ClusterViewer 堆栈可视化模块已进行了增强，包括放大 / 缩小和
 === 健康
 
 * 现在，勒索软件防护小工具属于健康工作流，而不是独立小工具。
-* 在健康审查电子邮件中，您将找到有关勒索软件防护而非续订的信息。
+* 在健康评估电子邮件中，您可以找到有关勒索软件防御的信息，而不是续订。
 
 
 
@@ -973,7 +973,7 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["Digital Advisor移动
 [[recommended-configuration-storage-virtual-machine-svm-health-volume-level-summary]]
 === 建议的配置 / Storage Virtual Machine （ SVM ）运行状况：卷级别摘要
 
-单击 SVM 表中的蓝色 ‘Volume Summary ' 框后，将显示一个弹出窗口，其中显示了有关托管或附加到特定序列号或物理节点的卷的详细信息。
+单击 SVM 表中的蓝色"Volume Summary"框后，"弹出窗口"将显示有关托管的卷或已连接到特定序列号或物理节点的卷的详细信息。
 
 
 
@@ -1168,7 +1168,7 @@ StorageGRID 信息板可使用下一代 API 框架启用。
 * * 规划小工具： *
 +
 ** *容量增加：* 对于任何超过现有容量 70% 阈值的 GRID 站点，您将收到通知。如果容量阈值可能超过 70%，您可以选择在接下来的 1、3 和 6 个月内为站点中的 StorageGRID 添加容量。
-** * 续订： * 对于许可证合同已过期或在未来 6 个月即将到期的任何 StorageGRID 系统，您将收到通知。您可以选择一个或多个系统向 NetApp 支持团队提出续订请求。
+** *续订：*对于许可证合同已过期或即将在未来 6 个月内过期的任何 StorageGRID 系统，您将收到通知。您可以选择一个或多个系统，向 NetApp 支持团队提出续订申请。
 
 
 * * 网格信息板： * 网格信息板提供选定网格的运行状况，规划和配置详细信息。
@@ -1184,7 +1184,7 @@ StorageGRID 信息板可使用下一代 API 框架启用。
 [[fabricpool-advisor]]
 === FabricPool 顾问
 
-"层数据"按钮已添加到FabricPool 信息板中、可用于使用NetApp BlueXP将数据分层到低成本对象存储层。
+Tier Data 按钮已添加到 FabricPool 控制面板，您可以使用 NetApp Console 将数据分层到低成本的对象存储层。
 
 
 
@@ -1219,7 +1219,7 @@ StorageGRID 信息板可使用下一代 API 框架启用。
 [[integrating-data-using-apis]]
 === 使用 API 集成数据
 
-您可以使用Digital Advisor API提取感兴趣的数据并将其直接集成到公司的工作流中。 link:https://docs.netapp.com/us-en/active-iq/concept_overview_API_service.html["了解更多信息。"]。
+您可以使用 Digital Advisor API 提取感兴趣的数据，并将其直接集成到公司的工作流程中。link:https://docs.netapp.com/us-en/active-iq/concept_overview_API_service.html["了解更多信息。"]。
 
 
 
@@ -1419,7 +1419,7 @@ AFF 和 FAS 固件屏幕已进行了增强，可提供更好的用户体验。
 [[storage-efficiency]]
 === 存储效率
 
-无论是否为AFF 系统、非AFF系统或这两者提供Snapshot副本、您都可以查看存储系统的存储效率比率和节省量。您可以在节点级别查看存储效率信息。 link:https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["了解如何操作"]。
+您可以查看 AFF 系统、非 AFF 系统或两者的存储效率比率和节省量（包含和不含快照副本）。您可以在节点级别查看存储效率信息。link:https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["了解如何操作"]。
 
 
 

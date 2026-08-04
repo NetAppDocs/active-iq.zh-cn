@@ -40,11 +40,13 @@ video::rEPtldosjWM[youtube,width=848,height=480]
 | 支持续订 | 在所有平台上均受支持 | 在所有平台上均受支持 | 在所有平台上均受支持 
 
 
-| 存储扩展 | 仅在集群模式 Data ONTAP 上受支持 | 仅在集群模式 Data ONTAP 上受支持 | 仅在集群模式 Data ONTAP 上受支持 
+| 存储扩展 | 仅在 ONTAP 上受支持 | 仅在 ONTAP 上受支持 | 仅在 ONTAP 上受支持 
 
 
-| 清单 | 在所有平台上均受支持 | 仅在集群模式 Data ONTAP 上受支持 | 仅在集群模式 Data ONTAP 上受支持 
+| 清单 | 在所有平台上均受支持 | 仅在 ONTAP 上受支持 | 仅在 ONTAP 上受支持 
 
 
-| 升级 | 仅在集群模式 Data ONTAP 上受支持 | 仅在集群模式 Data ONTAP 上受支持 | 仅在集群模式 Data ONTAP 上受支持 
+| 升级 | 仅在 ONTAP 上受支持 | 仅在 ONTAP 上受支持 | 仅在 ONTAP 上受支持 
 |===
+
+NOTE: 所有平台均指 ONTAP、E-Series、StorageGRID、ONTAP Select 和 Cloud Volumes ONTAP。

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_install_execute_firmware_update_exp_user.html 
-keywords: install, execute, firmware update, Ansible Playbook, ansible, playbook, docker, experienced user 
+keywords: install, execute, firmware update, ansible playbook, ansible, playbook, docker, experienced user 
 summary: 提供有关如何使用 Ansible 攻略手册安装和执行固件更新的信息。 
 ---
 = 使用 Ansible 软件包更新AFF和FAS固件（适合有经验的用户）

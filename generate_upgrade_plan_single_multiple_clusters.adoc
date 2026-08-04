@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: generate_upgrade_plan_single_multiple_clusters.html 
-keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters 
+keywords: upgrade advisor, upgrade plan, ontap, upgrade recommendation, clusters 
 summary: 提供为单个集群和多个集群成功完成ONTAP升级或还原生成升级计划的步骤。 
 ---
 = 在Digital Advisor中为单个和多个集群生成ONTAP升级计划
