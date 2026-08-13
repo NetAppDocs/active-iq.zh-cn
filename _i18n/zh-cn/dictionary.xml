@@ -196,7 +196,6 @@
   <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">您应添加一个模板来比较系统和集群配置，并近乎实时地检测配置差异。配置偏移模板是使用运行 AutoSupport 数据的系统添加的。</block>
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">单击 * 添加模板 * 。</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">提供请求的值。</block>
-  <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">提供有关此版本中新增功能的信息。</block>
   <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">了解如何操作</block>
   <block id="0e1335531f896df953b41fb40e52c70e" category="section-title">2022年7月14日</block>
@@ -979,7 +978,6 @@
   <block id="85da219929dec7990a12ce28aff47903" category="paragraph">有关 * 安全攻略手册 * 命令的详细信息，请参见 <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> 要在检查模式（试运行）下执行 Ansible 攻略手册，请参见 <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>。</block>
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
-  <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">Sustainability信息板概述</block>
   <block id="e3667627bec4bfd6e60dea46e855352c" category="inline-image-macro">显示站点的碳缓解百分比以及如何编辑此百分比的屏幕截图。</block>
   <block id="369583cace99a57a955a633843c9e566" category="paragraph"><block ref="369583cace99a57a955a633843c9e566" category="inline-image-macro-rx" type="image"></block></block>
@@ -1617,4 +1615,9 @@
   <block id="7c1309f4b0731ed18fb594c6d632c067" category="paragraph">存储效率仪表板显示数据缩减率、已用逻辑空间、已用物理空间以及节省的总数据量。对于 AFF 系统、非 AFF 系统或两者，无论有无快照副本，均可查看数据缩减率和节省量。可按效率功能（如卷重复数据删除、卷压缩、数据压缩、FlexClone 卷和快照副本）查看整个客户存储的总数据节省情况。您可以查看效率比率最高的前 5 个存储系统。您还可以在节点级别查看 ONTAP 系统（包括 AFF A-Series、AFF C190、All SAN Array 和 FAS500）在无快照副本情况下的 SAN 和 NAS 效率。</block>
   <block id="6bb86861540256654ad78af590cbca2e" category="paragraph">您可以查看快照创建、保留和 ONTAP FPolicy 风险，然后采取措施修复这些问题。</block>
   <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">查看存储固件、SP/BMC 固件、系统文件和安全文件的更新建议。</block>
+  <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift 的弃用通知</block>
+  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Config Drift 功能将于 2026 年 9 月在 Digital Advisor 中弃用。</block>
+  <block id="1cf5700bf190dbae716a593be587283a" category="list-text"><block ref="1cf5700bf190dbae716a593be587283a" category="inline-link-macro-rx"></block></block>
+  <block id="d71ef8f8c3bc3420442db2005d522d56" category="summary">了解 Digital Advisor 的新功能和增强功能。</block>
+  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">2026年8月12日</block>
 </blocks>
