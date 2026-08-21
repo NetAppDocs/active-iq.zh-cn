@@ -58,9 +58,7 @@ image:recommended_actions.png["显示展开视图中的操作列表的屏幕截�
 ** 如果计划稍后处理这些操作，请选择*later*。
 +
 *** 如果选择*later*，则会将选定的建议操作移至*Actionsfor Later*选项卡。选定操作将推迟30天。30天后，此操作将移至*建议操作*选项卡。
-*** 您也可以随时查看推迟的操作，并单击*悸*将其移至*Recommended Actions*选项卡。
- +
-image:actions_for_later.png["屏幕截图、显示带有\"考虑\"选项的建议操作。"]
+*** 您也可以随时查看推迟的操作，并选择*Consider*将其移至*Recommended actions*选项卡。+ image:actions_for_later.png["屏幕截图、显示带有\"考虑\"选项的建议操作。"]
 
 
 
@@ -84,9 +82,7 @@ image:recommended_actions.png["显示展开视图中的操作列表的屏幕截�
 ** 如果计划稍后处理这些操作，请选择*later*。
 +
 *** 如果选择*later*，则会将选定的建议操作移至*Actionsfor Later*选项卡。选定操作将推迟30天。30天后，此操作将移至*建议操作*选项卡。
-*** 您也可以随时查看推迟的操作，并单击*悸*将其移至*Recommended Actions*选项卡。
- +
-image:actions_for_later.png["屏幕截图、显示带有\"考虑\"选项的建议操作。"]
+*** 您也可以随时查看推迟的操作，并选择*Consider*将其移至*Recommended actions*选项卡。+ image:actions_for_later.png["屏幕截图、显示带有\"考虑\"选项的建议操作。"]
 
 
 
@@ -108,7 +104,7 @@ image:actions_for_later.png["屏幕截图、显示带有\"考虑\"选项的建�
 --
 . 从控制台左侧导航中的“*健康*”类别转到“*可持续性*”。
 . 转到*系统*表。
-. 单击目标集群的*建议操作*列中的操作数。
+. 从目标集群的*推荐操作*列中选择操作数。
 +
 image:recommended_actions_cluster.png["显示操作数的屏幕截图。"]
 
@@ -118,7 +114,7 @@ image:recommended_actions_cluster.png["显示操作数的屏幕截图。"]
 image:recommended_actions_list.png["屏幕截图、提供了建议操作的详细信息以及修复及更高版本选项。"]
 
 ** 如果选择*later*，则会将选定的建议操作移至*Actionsfor Later*选项卡。选定操作将推迟30天。30天后，此操作将移至*建议操作*选项卡。
-** 您也可以随时查看推迟的操作，并单击*悸*将其移至*Recommended Actions*选项卡。
+** 您也可以随时查看推迟的操作，并选择*Consider*将其移至*Recommended actions*选项卡。
 
 
 
@@ -132,7 +128,7 @@ TIP: 您可以使用image:add_icon.png["用于添加或删除参数的加号图�
 . 转到Digital Advisor仪表板左侧导航中的“可持续性”。
 . 转到*建议操作*选项卡。
 . 转到*系统*表。
-. 单击目标集群的*建议操作*列中的操作数。
+. 从目标集群的*推荐操作*列中选择操作数。
 +
 image:recommended_actions_cluster.png["显示操作数的屏幕截图。"]
 
@@ -142,7 +138,7 @@ image:recommended_actions_cluster.png["显示操作数的屏幕截图。"]
 image:recommended_actions_list.png["屏幕截图、提供了建议操作的详细信息以及修复及更高版本选项。"]
 
 ** 如果选择*later*，则会将选定的建议操作移至*Actionsfor Later*选项卡。选定操作将推迟30天。30天后，此操作将移至*建议操作*选项卡。
-** 您也可以随时查看推迟的操作，并单击*悸*将其移至*Recommended Actions*选项卡。
+** 您也可以随时查看推迟的操作，并选择*Consider*将其移至*Recommended actions*选项卡。
 
 
 

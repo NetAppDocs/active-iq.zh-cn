@@ -38,9 +38,9 @@ NOTE: Digital Advisor会引导您进入NetApp Console 来实施建议。
 
 
 .步骤
-. 从左窗格中、单击*云建议*。
-. 单击*迁移*窗格中的任一链接。
-. 单击“迁移到云”以启动“控制台”。
+. 在左侧窗格中，选择 *Cloud Recommendations*。
+. 在*迁移*窗格中选择任何一个链接。
+. 选择*迁移到云*以启动*控制台*。
 
 
 
@@ -62,9 +62,9 @@ NOTE: 您可以启用非活动数据报告（ IDR ）以使用 Ansible 攻略手
 
 
 .步骤
-. 从左窗格中、单击*云建议*。
-. 单击*分层*窗格中的任一链接。
-. 单击“*Tier Data*”以启动“*Console*”。
+. 在左侧窗格中，选择 *Cloud Recommendations*。
+. 在*分级*窗格中选择任意一个链接。
+. 选择 *Tier Data* 以启动 *Console*。
 
 
 要了解有关 FabricPool 的更多信息，请参见 link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["FabricPool 最佳实践"^]。
@@ -83,9 +83,9 @@ NOTE: 您可以启用非活动数据报告（ IDR ）以使用 Ansible 攻略手
 
 
 .步骤
-. 从左窗格中、单击*云建议*。
-. 单击*备份和归档*窗格中的任一链接。
-. 单击“备份到云”以启动“控制台”。
+. 在左侧窗格中，选择 *Cloud Recommendations*。
+. 在*备份和存档*窗格中选择任意一个链接。
+. 选择*备份到云*以启动*控制台*。
 
 
 
@@ -103,7 +103,7 @@ NOTE: 您可以启用非活动数据报告（ IDR ）以使用 Ansible 攻略手
 
 
 .步骤
-. 从左窗格中、单击*云建议*。
-. 单击*灾难恢复*窗格中的任一链接。
-. 单击“*复制到云*”以启动“控制台*”。
+. 在左侧窗格中，选择 *Cloud Recommendations*。
+. 在*灾难恢复*窗格中选择任何一个链接。
+. 选择*Replicate to Cloud*以启动*Console*。
 

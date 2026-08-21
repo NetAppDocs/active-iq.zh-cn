@@ -27,13 +27,13 @@ summary: 提供用于管理模板的信息。
 
 
 .步骤
-. 从左窗格中，单击 * 配置驱动器 * 。
-. 单击 image:clone_icon.png["clone"] 以创建模板的副本。
-. 单击 image:share_icon.png["共享"] 并输入要与其共享模板的用户名。
+. 从左侧窗格中，选择 *Config Drift*。
+. 选择 image:clone_icon.png["clone"] 以复制模板。
+. 选择image:share_icon.png["共享"]并输入要与之共享模板的用户名。
 +
 
 NOTE: 如果输入用户的电子邮件地址而不是用户名，则不会共享此模板。
 
-. 单击 image:edit_icon.png["编辑"] 更新模板的详细信息。
-. 单击 image:delete_icon.png["删除"] 删除模板。
+. 选择 image:edit_icon.png["编辑"] 以更新模板的详细信息。
+. 选择 image:delete_icon.png["删除"] 以删除模板。
 

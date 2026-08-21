@@ -51,7 +51,7 @@ AutoSupport小工具不会为集群和序列号搜索提供警报。
 [[autosupport-widget-not-able-to-drill-down-to-serial-level-autosupport-details]]
 == AutoSupport小工具无法深入查看串行级别AutoSupport详细信息
 
-在AutoSupport报告页面上、单击任何状态、最近停止发送的系统或已关闭AutoSupport的系统不会导航到运行状况检查屏幕。
+在 AutoSupport 报告页面上，选择任何状态、最近停止发送的系统或已关闭 AutoSupport 的系统，不会导航到运行状况检查屏幕。
 
 
 

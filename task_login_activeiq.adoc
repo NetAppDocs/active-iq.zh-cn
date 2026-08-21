@@ -27,5 +27,5 @@ link:https://kb.netapp.com/Support/General_Support/How_to_register_for_a_NetApp_
 +
 Digital Advisor会显示具有有效支持合同的系统。如果合同到期，则会提供 90 天的宽限期，在此宽限期内，系统仍然可见。此后、系统将无法在Digital Advisor中搜索或显示。
 
-. 请提供您的用户名和密码，然后单击 * 登录 * 。
+. 请提供您的用户名和密码，然后选择*登录*。
 

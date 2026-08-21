@@ -29,8 +29,8 @@ Digital Advisor现已与Data Infrastructure Insights Basic 版本集成，为客
 NOTE: 此功能仅适用于SupportEdge Advisor 、SupportEdge Expert 和Digital Advisor升级合同。
 
 .步骤
-. 在“*库存*”小部件中，单击“*虚拟机*”以查看“Data Infrastructure Insights”中可用的数据。
-. 单击*虚拟机概述*选项卡。
-. 单击* ESX主机数*可查看有关主机的信息。
-. 单击 *ESX 名称* 导航到Data Infrastructure Insights以查看更多信息。
+. 在*库存*小部件中，选择*虚拟机*以查看 Data Infrastructure Insights 中的可用数据。
+. 选择 *Virtual Machine Overview* 选项卡。
+. 选择 *Count of ESX Hosts* 以查看有关主机的信息。
+. 选择 *ESX Name* 以导航到 Data Infrastructure Insights 以查看更多信息。
 

@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: concept_value_insights.html 
+keywords: value insights, health, savings, stability, security, ontap systems 
+summary: 提供有关 ONTAP 系统的整体运行状况、节省、稳定性和安全指标的信息。 
+---
+= 在 Digital Advisor 中发现价值洞察
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Value Insights 功能整合了 ONTAP 系统的整体运行状况、节省、稳定性和安全信息。您可以通过 ONTAP 环境的持续数据驱动视图，利用此信息改善系统运行状况和性能。
+
+
+NOTE: Value Insights 仅适用于 ONTAP 系统。
+
+Value Insights 提供以下信息：
+
+* ONTAP 系统的整体健康状况是一个健康评分指标，由九个关键绩效指标组成。每个部分都有详细的关键绩效指标和分数细目。
+* 节约和稳定性分数表明如何通过有效利用资源来实现容量和存储节约。访问有关存储正常运行时间和计划外停机的趋势信息，包括下载 EMS 文件的功能。
+* 安全和未来规划详细说明了避免的风险和防止的问题。成本节约是根据存储效率计算的。
+* 最大化基础设施价值推荐额外功能，以进一步提高基础设施性能，实现最高效率。
+
+
+.下一步
+link:task_view_value_insights_dashboard.html["查看 Value Insights 控制面板"]

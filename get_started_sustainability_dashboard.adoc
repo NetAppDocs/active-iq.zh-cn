@@ -40,7 +40,7 @@ NOTE: 如果未设置Sustainability信息板、则会显示选项*添加NSS帐�
 
 .步骤
 . 打开Web浏览器、然后转到 link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^] 登录页面。
-. 请提供您的用户名和密码，然后单击 * 登录 * 。
+. 请提供您的用户名和密码，然后选择*登录*。
 . 从左侧导航中选择*可持续性*。
 +
 image:sustainability_dashboard.png["显示Sustainability信息板概述的UI屏幕截图。"]

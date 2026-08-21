@@ -1,0 +1,125 @@
+---
+sidebar: sidebar 
+permalink: task_view_value_insights_dashboard.html 
+keywords: value insights, health, savings, stability, security, ontap systems 
+summary: 查看 Value Insights 控制面板，以访问 ONTAP 系统的运行状况、节省、稳定性和安全信息。 
+---
+= 查看 Value Insights 控制面板
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+查看 Value Insights 控制面板，以访问 ONTAP 系统的运行状况、节省、稳定性和安全信息。
+
+.步骤
+. 选择 *Customer Success > Value Insights*。
+. 在*整体健康状况以及 NetApp 如何提供帮助*区域中，您可以以百分比形式查看 ONTAP 系统的整体健康评分。此分数基于 KPI。
++
+** 选择*更多建议*以查看所有 KPI：
++
+[cols="2*"]
+|===
+| KPI | Description 
+
+
+| 提供可持续运营建议 | 为可持续系统运营提供建议。 
+
+
+| 解决集群的安全强化风险 | 评估与每个系统相关的安全风险。 
+
+
+| 计划固件和系统文件更新 | 检查系统是否正在运行最新固件并建议更新。这包括计划固件更新的详细视图。 
+
+
+| 查看技术更新选项(EOL) | 评估技术更新的需求。 
+
+
+| 在您的集群上启用 AutoSupport (ASUP) | 监控集群上 AutoSupport (ASUP) 的状态。 
+
+
+| 计划升级到最新推荐的 ONTAP 版本 | 评估系统的软件版本并建议更新。 
+
+
+| 评估存储扩展选项 | 评估当前的存储效率和扩展需求。提供对未来容量需求的预测。 
+
+
+| 合同续约 | 评估支持合同的状态并提供续订建议。 
+
+
+| 主动监控以防止计划外集群停机 | 提供跨集群的计划外停机次数。 
+|===
+** 选择 *How is this calculated?* 以查看特定的 KPI 计算方式。向下滚动以查看系统详细信息，包括：满分、部分分数和零分。
+
+
+. 选择*NetApp 交付的节省和稳定性*可查看投资回报率 (ROI) 的详细信息。
++
+[cols="2*"]
+|===
+| 功能 | Description 
+
+
+| image:edit_icon.png["\"编辑\"按钮的图像"] | 选择以编辑每 TiB 的成本或支出。 
+
+
+| 存储效率值 | 选择以打开 ROI 仪表板。 
+
+
+| 存储正常运行时间值 | 查看值并选择系统编号值以了解更多详细信息。 
+
+
+| ASUP ID | 如果适用，请选择以查看导致停机或中断的问题或事件。 
+
+
+| 检测和预防的风险 | 选择以查看最近 3 个月的相关数据。 
+
+
+| 查看健康历史记录 | 选择以查看摘要视图。 
+
+
+| 风险值 | 选择每个风险值以访问过去 3 个月的相关数据。 
+|===
+. 选择*安全与未来规划*区域以查看有关安全的信息。
++
+[cols="2*"]
+|===
+| 功能 | Description 
+
+
+| 已消除安全威胁 | 选择以查看安全详细信息。 
+
+
+| 已解决的安全问题 | 选择以打开"健康历史记录"页面。 
+
+
+| 自动固件更新 | 选择以打开固件类型和升级详细信息。 
+
+
+| 自主勒索软件防护AI/ML模型 | 选择以打开有关模型的详细信息。 
+
+
+| 预计通过提高效率实现的节省  a| 
+** 选择 Forecasted storage efficiency savings 旁边的 image:edit_icon.png["\"编辑\"按钮的图像"] 图标以编辑每 PiB 的成本。
+** 选择存储容量净空百分比以打开容量和效率页面。
+** 选择*Lifecycle planning*。
+** 选择工具值以打开相应的 ONTAP 详细信息页面：系统刷新、存储扩展和支持续订。
++
+
+NOTE: 此功能仅适用于 ONTAP 系统，不适用于 Cloud Volumes ONTAP、ONTAP Select、StorageGRID 或 E-Series 等平台。
+
+
+
+|===
+. 选择*如何最大化基础设施价值*以查看有关活动功能和可用优化的信息。
++
+** 选择*Active capabilities*以查看系统详细信息。
+** 选择*可用优化机会*以查看建议。
+
+
+
