@@ -20,6 +20,20 @@ Digital Advisor引入了以下功能和增强功能：
 
 
 
+[[14-september-2026]]
+== 2026年9月14日
+
+
+
+[[deprecation-notice-for-virtual-machine]]
+=== 虚拟机弃用通知
+
+虚拟机功能将于 2026 年 10 月在 Digital Advisor 中弃用。
+
+如有问题或需要分享反馈，请发送邮件至：ng-activeiq-feedback@netapp.com[联系 Active IQ 团队]。
+
+
+
 [[20-august-2026]]
 == 2026年8月20日
 
