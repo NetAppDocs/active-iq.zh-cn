@@ -1691,6 +1691,6 @@
   <block id="9331d73e3c99004c7679e085ea303447" category="sidebar">查看 Data Infrastructure Insights 中可用的虚拟机数据</block>
   <block id="608a46677d36b132542feed4a0445c56" category="sidebar">使用 Ansible 软件包为经验丰富的用户更新 AFF 和 FAS 固件</block>
   <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">虚拟机弃用通知</block>
-  <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">虚拟机功能将于 2026 年 10 月在 Digital Advisor 中弃用。</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">2026年9月14日</block>
+  <block id="947172fbf1812b374d2eb98557cca1c0" category="paragraph">虚拟机功能将于 2026 年 10 月在 Digital Advisor 中弃用。</block>
 </blocks>
