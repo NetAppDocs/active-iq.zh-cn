@@ -880,7 +880,6 @@
   <block id="155b92b0d3df6f08f7a22ee41987478d" category="paragraph">要了解有关 FabricPool 的更多信息，请参见 <block ref="95721715db0d24514cff915b8dac95f3" category="inline-link-macro-rx"></block>。</block>
   <block id="c9a7e25beb9575351b078da21d059517" category="list-text">* 技术案例 * ：按案例类型以及打开或关闭状态，在可选时间范围内为您提供详细的技术案例历史记录视图。  您可以通过深入了解案例组并查看案例详细信息 <block ref="4052dc01853e78687038691ab3fc5cc0" category="inline-link-macro-rx"></block> 或其他案例门户。</block>
   <block id="0abfb28c0c42381f5bdaaa9ae0da77db" category="list-text">安装 <block ref="245307cfb046e79d0ebccdf0bb3e7396" category="inline-link-macro-rx"></block> 和 <block ref="b37d22802e31da3263bb8117bdd516f1" category="inline-link-macro-rx"></block>。</block>
-  <block id="4bdc49aacf883a14a18411273872ee96" category="paragraph">有关 Ansible galxy 命令的详细信息，请参见 <block ref="037b694376946e6e330c847bc4e48449" category="inline-link-macro-rx"></block> 有关 NetApp Ansible 资料集的详细信息，请参见 <block ref="d786fc4574d9c68470d2f8b53d708c65" category="inline-link-macro-rx"></block>。</block>
   <block id="85da219929dec7990a12ce28aff47903" category="paragraph">有关 * 安全攻略手册 * 命令的详细信息，请参见 <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> 要在检查模式（试运行）下执行 Ansible 攻略手册，请参见 <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>。</block>
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
@@ -1693,4 +1692,11 @@
   <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">虚拟机弃用通知</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">2026年9月14日</block>
   <block id="947172fbf1812b374d2eb98557cca1c0" category="paragraph">虚拟机功能将于 2026 年 10 月在 Digital Advisor 中弃用。</block>
+  <block id="e90e4fbb2da212df4de8cd0dedc1291b" category="doc">Value Insights Dashboard 的内容更新</block>
+  <block id="02f407c4fd4eafd0dfba7d3e2f1c9a87" category="paragraph">已发布价值洞察仪表板文档的更新。</block>
+  <block id="c641b822e0ee57a43b3bdf613042b7de" category="inline-link-macro">如何在 Digital Advisor 中使用 Value Insights Dashboard</block>
+  <block id="69c2d83fc66932c35f2cb577e262462c" category="paragraph">详细了解<block ref="07588b487aa2f96e10a737d8aa32c275" category="inline-link-macro-rx"></block>。</block>
+  <block id="e42ab0e8d9793691952fb221a6554811" category="paragraph">Config Drift 功能已被弃用，自 2026 年 9 月起不再在 Digital Advisor 中提供。</block>
+  <block id="29ab9f8e858bfc9db154cff0f6b76d83" category="section-title">2026年9月25日</block>
+  <block id="1d2715b65bd9e5fca57122f543d61e60" category="paragraph">有关 ansible-galaxy 命令的更多信息，请参阅 <block ref="a42b19d985084b52ec12dfca2fc50aad" category="inline-link-macro-rx"></block>；有关 NetApp Ansible Collection 的更多信息，请参阅 <block ref="d786fc4574d9c68470d2f8b53d708c65" category="inline-link-macro-rx"></block>。</block>
 </blocks>

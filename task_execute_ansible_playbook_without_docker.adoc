@@ -40,7 +40,7 @@ $ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collectio
 $ chmod -R +rw /usr/share/ansible/collections
 ----
 +
-有关 Ansible galxy 命令的详细信息，请参见 link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Ansible GALAXY 文档"^] 有关 NetApp Ansible 资料集的详细信息，请参见 link:https://galaxy.ansible.com/netapp/ontap["NetApp Ansible Collection 页面"^]。
+有关 ansible-galaxy 命令的更多信息，请参阅 link:https://docs.ansible.com/projects/ansible/latest/cli/ansible-galaxy.html["Ansible GALAXY 文档"^]；有关 NetApp Ansible Collection 的更多信息，请参阅 link:https://galaxy.ansible.com/netapp/ontap["NetApp Ansible Collection 页面"^]。
 
 . 使用 * Ansible 攻略手册 * 命令执行 Ansible 攻略手册：
 +
