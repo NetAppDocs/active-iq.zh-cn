@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_view_value_insights_dashboard.html 
-keywords: value insights, health, savings, stability, security, ontap systems 
+keywords: value insights, health, savings, stability, security, ontap, e-series, storagegrid 
 summary: 查看 Value Insights 控制面板，以访问 ONTAP 系统的运行状况、节省、稳定性和安全信息。 
 ---
 = 查看 Value Insights 控制面板
@@ -16,11 +16,11 @@ summary: 查看 Value Insights 控制面板，以访问 ONTAP 系统的运行状
 
 
 [role="lead"]
-查看 Value Insights 控制面板，以访问 ONTAP 系统的运行状况、节省、稳定性和安全信息。
+查看 Value Insights 控制面板，以访问您的 E-Series、ONTAP 和 StorageGRID 系统的健康评分、节省、稳定性和安全信息。
 
 .步骤
 . 选择 *Customer Success > Value Insights*。
-. 在*整体健康状况以及 NetApp 如何提供帮助*区域中，您可以以百分比形式查看 ONTAP 系统的整体健康评分。此分数基于 KPI。
+. 在 *整体运行状况以及 NetApp 如何提供帮助* 区域中，您可以以百分比形式查看 E-Series、ONTAP 和 StorageGRID 系统的整体运行状况分数。此分数基于 KPI。
 +
 ** 选择*更多建议*以查看所有 KPI：
 +

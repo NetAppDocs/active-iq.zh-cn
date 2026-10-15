@@ -1472,9 +1472,7 @@
   <block id="6c972d629a4b8ce6dde8752e4413ad48" category="list-text"><block ref="b444585736ac78c423532d41fccd5521" category="inline-link-macro-rx"></block>，为您的 ONTAP 系统提供整体运行状况、节省、稳定性和安全信息。</block>
   <block id="bca0dd4752d962832123c179d6f29ae3" category="summary">提供有关 ONTAP 系统的整体运行状况、节省、稳定性和安全指标的信息。</block>
   <block id="17b21ea825fede0731081b59fb813a26" category="doc">在 Digital Advisor 中发现价值洞察</block>
-  <block id="e810df921218b2ae3c2ae8c157e80003" category="paragraph">Value Insights 功能整合了 ONTAP 系统的整体运行状况、节省、稳定性和安全信息。您可以通过 ONTAP 环境的持续数据驱动视图，利用此信息改善系统运行状况和性能。</block>
   <block id="3970e17ab0355896a02ce146a4b6a41b" category="paragraph">Value Insights 提供以下信息：</block>
-  <block id="fb3197cd95658195a5685c80f2cf096f" category="list-text">ONTAP 系统的整体健康状况是一个健康评分指标，由九个关键绩效指标组成。每个部分都有详细的关键绩效指标和分数细目。</block>
   <block id="071a5902c78d3712cf6ca92b6e3ffed7" category="list-text">节约和稳定性分数表明如何通过有效利用资源来实现容量和存储节约。访问有关存储正常运行时间和计划外停机的趋势信息，包括下载 EMS 文件的功能。</block>
   <block id="f23694bbe7451573bb87ca1b5c04b7d0" category="list-text">安全和未来规划详细说明了避免的风险和防止的问题。成本节约是根据存储效率计算的。</block>
   <block id="4d059f5635fea2016015f6e1469efea7" category="list-text">最大化基础设施价值推荐额外功能，以进一步提高基础设施性能，实现最高效率。</block>
@@ -1615,7 +1613,6 @@
   <block id="1f51cfdc5fa1daf48bec5fe331ef373d" category="list-text">选择*下载*以下载 AFF 和 FAS 固件 Ansible Automation 软件包。</block>
   <block id="bbd590fe13d8dd24702f484b96583127" category="summary">查看 Value Insights 控制面板，以访问 ONTAP 系统的运行状况、节省、稳定性和安全信息。</block>
   <block id="f650563cfd75874602716b4ff731fff3" category="list-text">选择 *Customer Success &gt; Value Insights*。</block>
-  <block id="127eba23a5c4e6b42ae1b92d1960b6b7" category="list-text">在*整体健康状况以及 NetApp 如何提供帮助*区域中，您可以以百分比形式查看 ONTAP 系统的整体健康评分。此分数基于 KPI。</block>
   <block id="431d370ffae7b3191357c28b56dcd569" category="list-text">选择*更多建议*以查看所有 KPI：</block>
   <block id="f2ba2dce0328465674c26a76d33915f0" category="cell">KPI</block>
   <block id="40fd61ecb915e6889c685487160de14e" category="cell">提供可持续运营建议</block>
@@ -1699,4 +1696,13 @@
   <block id="e42ab0e8d9793691952fb221a6554811" category="paragraph">Config Drift 功能已被弃用，自 2026 年 9 月起不再在 Digital Advisor 中提供。</block>
   <block id="29ab9f8e858bfc9db154cff0f6b76d83" category="section-title">2026年9月25日</block>
   <block id="1d2715b65bd9e5fca57122f543d61e60" category="paragraph">有关 ansible-galaxy 命令的更多信息，请参阅 <block ref="a42b19d985084b52ec12dfca2fc50aad" category="inline-link-macro-rx"></block>；有关 NetApp Ansible Collection 的更多信息，请参阅 <block ref="d786fc4574d9c68470d2f8b53d708c65" category="inline-link-macro-rx"></block>。</block>
+  <block id="d6705c5666d00557618ae9bce3d12c37" category="doc">Value Insights 中的 E-Series 和 StorageGRID 支持</block>
+  <block id="f7074f3c85b7a79fbc50870db7f09881" category="paragraph">Value Insights 现在包括 ONTAP、E-Series 和 StorageGRID 系统的健康、风险、安全风险和生命周期总计。您可以按平台筛选控制面板，以查看特定于平台的详细信息。交付和预计节省的费用仅适用于 ONTAP 系统。</block>
+  <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>。</block>
+  <block id="5e8c477e3e0719f7edf2927c1d933b6c" category="paragraph">Value Insights 功能整合了您的 E-Series、ONTAP 和 StorageGRID 系统的整体运行状况评分、节省量、稳定性和安全信息。您可以使用此信息，通过对 E-Series、ONTAP 和 StorageGRID 环境的持续、数据驱动的视图来提高系统运行状况评分和性能。</block>
+  <block id="c5f6b0719211ae09e8aba87dc0d9cb6f" category="admonition">Value Insights 适用于 E-Series、ONTAP 和 StorageGRID 系统。</block>
+  <block id="85b2022a323e43c4ae8c4065c865e789" category="list-text">您的系统总体健康状况是一个健康评分指标，由九个关键绩效指标组成。每个部分都有详细的 KPI 和分数细目。</block>
+  <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">2026年10月15日</block>
+  <block id="f2829ff704f24f01c25064041d022f39" category="paragraph">查看 Value Insights 控制面板，以访问您的 E-Series、ONTAP 和 StorageGRID 系统的健康评分、节省、稳定性和安全信息。</block>
+  <block id="291aee6b8ad3956987850224f2960ac6" category="list-text">在 *整体运行状况以及 NetApp 如何提供帮助* 区域中，您可以以百分比形式查看 E-Series、ONTAP 和 StorageGRID 系统的整体运行状况分数。此分数基于 KPI。</block>
 </blocks>
