@@ -75,6 +75,6 @@ NOTE: 如果有一组集群使用不同的登录凭据，则必须在每个集�
 
 
 
-有关 * 安全攻略手册 * 命令的详细信息，请参见 link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible 攻略手册文档"^] 要在检查模式（试运行）下执行 Ansible 攻略手册，请参见 link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible ：检查模式"^]。
+有关 *ansible-playbook* 命令的详细信息，请参阅 link:https://docs.ansible.com/projects/ansible/latest/cli/ansible-playbook.html["Ansible 攻略手册文档"^]；若要在检查模式（试运行）下执行 Ansible playbook，请参阅 link:https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_checkmode.html["Ansible ：检查模式"^]。
 
 执行 Ansible 攻略手册后，请参见 link:task_validate_firmware_installation.html["固件安装验证"] 用于执行后的说明。

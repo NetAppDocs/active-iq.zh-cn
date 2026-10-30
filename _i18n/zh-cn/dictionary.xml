@@ -870,7 +870,6 @@
   <block id="ba117b364c26b06c871a54fc6945f641" category="list-text"><block ref="3eaf8bde6ca57cae1e0245ca6f31a246" category="inline-link-macro-rx"></block>。</block>
   <block id="472c223fae3612be8aadf50d73eb0809" category="paragraph">有关 Docker Pull 命令的详细信息，请参见 <block ref="4b16511182941b47e25fae103f9d15b4" category="inline-link-macro-rx"></block>。</block>
   <block id="793420e8298f81919bf32aff38b47ae2" category="paragraph">此时，此容器将启动，控制台将位于此容器的 bash shell 中。有关 Docker Run 命令的详细信息，请参见 <block ref="2e999d289da5bafdf839ad8763a0ba40" category="inline-link-macro-rx"></block>。</block>
-  <block id="2a0dd6c3bcb96a2f49ec6fd9a82e2f4a" category="paragraph">有关 * 安全攻略手册 * 命令的详细信息，请参见 <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> 要在检查模式（试运行）下执行 Ansible 攻略手册，请参见 <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>。</block>
   <block id="ae60d74a912ddc26168a3645463cc941" category="list-text"><block ref="ae60d74a912ddc26168a3645463cc941" category="inline-link-macro-rx"></block></block>
   <block id="801b554762e480a183c2424cbe8c2fb6" category="list-text"><block ref="801b554762e480a183c2424cbe8c2fb6" category="inline-link-macro-rx"></block></block>
   <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">可以通过多种方式设置 Web 服务器。有关使用 Python 设置简单 Web 服务器的说明，请参见 <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>。</block>
@@ -879,7 +878,6 @@
   <block id="58789b5243f3cbb2a8a30f59de135896" category="list-text"><block ref="58789b5243f3cbb2a8a30f59de135896" category="inline-link-macro-rx"></block></block>
   <block id="155b92b0d3df6f08f7a22ee41987478d" category="paragraph">要了解有关 FabricPool 的更多信息，请参见 <block ref="95721715db0d24514cff915b8dac95f3" category="inline-link-macro-rx"></block>。</block>
   <block id="c9a7e25beb9575351b078da21d059517" category="list-text">* 技术案例 * ：按案例类型以及打开或关闭状态，在可选时间范围内为您提供详细的技术案例历史记录视图。  您可以通过深入了解案例组并查看案例详细信息 <block ref="4052dc01853e78687038691ab3fc5cc0" category="inline-link-macro-rx"></block> 或其他案例门户。</block>
-  <block id="85da219929dec7990a12ce28aff47903" category="paragraph">有关 * 安全攻略手册 * 命令的详细信息，请参见 <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> 要在检查模式（试运行）下执行 Ansible 攻略手册，请参见 <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>。</block>
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">Sustainability信息板概述</block>
@@ -1705,4 +1703,6 @@
   <block id="f2829ff704f24f01c25064041d022f39" category="paragraph">查看 Value Insights 控制面板，以访问您的 E-Series、ONTAP 和 StorageGRID 系统的健康评分、节省、稳定性和安全信息。</block>
   <block id="291aee6b8ad3956987850224f2960ac6" category="list-text">在 *整体运行状况以及 NetApp 如何提供帮助* 区域中，您可以以百分比形式查看 E-Series、ONTAP 和 StorageGRID 系统的整体运行状况分数。此分数基于 KPI。</block>
   <block id="e44972e0feb4e8ce723a5b8e319c7632" category="list-text">安装<block ref="245307cfb046e79d0ebccdf0bb3e7396" category="inline-link-macro-rx"></block>和<block ref="335afa7963b775a01549fa6757d9b16e" category="inline-link-macro-rx"></block>。</block>
+  <block id="39cfe90c31baec382584c29b304120ee" category="paragraph">有关 *ansible-playbook* 命令的详细信息，请参阅 <block ref="3d297fe59aeab4f52033a16e4cb1092d" category="inline-link-macro-rx"></block>；若要在检查模式（试运行）下执行 Ansible playbook，请参阅 <block ref="65608cec1d866267bc1786752d36cf72" category="inline-link-macro-rx"></block>。</block>
+  <block id="d285978e658e21733e1a83f07dcbabbb" category="paragraph">有关 *ansible-playbook* 命令的详细信息，请参阅 <block ref="3d297fe59aeab4f52033a16e4cb1092d" category="inline-link-macro-rx"></block>，要在检查模式（试运行）下执行 Ansible Playbook，请参阅 <block ref="65608cec1d866267bc1786752d36cf72" category="inline-link-macro-rx"></block>。</block>
 </blocks>
